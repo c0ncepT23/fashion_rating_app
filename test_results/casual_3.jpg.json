@@ -1,0 +1,306 @@
+{
+  "score": 82,
+  "labels": {
+    "fit": "loose_flowy",
+    "pants_type": "wide_leg_trousers",
+    "top_type": "long sleeve outwear",
+    "color_palette": [
+      "rich_black",
+      "dark_gray",
+      "gray",
+      "taupe",
+      "lavender"
+    ],
+    "footwear_type": "footwear_not_visible",
+    "accessories": [],
+    "style": "fashion_week_off_duty"
+  },
+  "score_breakdown": {
+    "fit": 19,
+    "color": 12,
+    "footwear": 15,
+    "accessories": 14,
+    "style": 15
+  },
+  "feedback": {
+    "fit": "The top works well with the trousers. The proportions are good, with the silhouette shows good understanding of shape and balance.",
+    "color": "Consider revisiting the color scheme. The rich_black elements focusing on a more harmonious color scheme.",
+    "footwear": "Consider adding appropriate footwear to complete the look.",
+    "accessories": "The outfit is missing accessories. simple jewelry to add a personal touch would enhance it.",
+    "style": "Successfully combines elements for a cohesive fashion week off duty look. demonstrates insider fashion knowledge through thoughtful, unexpected styling choices."
+  },
+  "clothing_items": [
+    {
+      "type": "trousers",
+      "category": "bottom",
+      "confidence": 0.8513557314872742,
+      "box": [
+        197,
+        424,
+        736,
+        1307
+      ],
+      "position": {
+        "center_x": 0.6338315217391305,
+        "center_y": 0.661697247706422,
+        "width": 0.7323369565217391,
+        "height": 0.6750764525993884,
+        "area": 0.49438343471612817
+      },
+      "fit": "wide_leg",
+      "dominant_color": "rich_black",
+      "colors": [
+        {
+          "name": "rich_black",
+          "rgb": [
+            26,
+            15,
+            8
+          ],
+          "hex": "#080f1a",
+          "harmony_type": "complementary",
+          "harmony_score": 85,
+          "seasonal_palette": "summer"
+        },
+        {
+          "name": "light_gray",
+          "rgb": [
+            204,
+            209,
+            206
+          ],
+          "hex": "#ced1cc"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            121,
+            127,
+            128
+          ],
+          "hex": "#807f79"
+        }
+      ]
+    },
+    {
+      "type": "long sleeve outwear",
+      "category": "outerwear",
+      "confidence": 0.7474343776702881,
+      "box": [
+        173,
+        1,
+        736,
+        563
+      ],
+      "position": {
+        "center_x": 0.6175271739130435,
+        "center_y": 0.21559633027522937,
+        "width": 0.7649456521739131,
+        "height": 0.42966360856269115,
+        "area": 0.32866930926738464
+      },
+      "fit": "structured",
+      "dominant_color": "dark_gray",
+      "colors": [
+        {
+          "name": "dark_gray",
+          "rgb": [
+            97,
+            102,
+            111
+          ],
+          "hex": "#6f6661"
+        },
+        {
+          "name": "dark_charcoal",
+          "rgb": [
+            39,
+            37,
+            39
+          ],
+          "hex": "#272527"
+        },
+        {
+          "name": "silver",
+          "rgb": [
+            198,
+            205,
+            216
+          ],
+          "hex": "#d8cdc6"
+        }
+      ]
+    }
+  ],
+  "color_analysis": {
+    "color_palette": [
+      {
+        "name": "rich_black",
+        "rgb": [
+          26,
+          15,
+          8
+        ],
+        "hex": "#080f1a",
+        "harmony_type": "complementary",
+        "harmony_score": 85,
+        "seasonal_palette": "summer"
+      },
+      {
+        "name": "dark_gray",
+        "rgb": [
+          97,
+          102,
+          111
+        ],
+        "hex": "#6f6661"
+      },
+      {
+        "name": "gray",
+        "rgb": [
+          158,
+          159,
+          152
+        ],
+        "hex": "#9e9f98"
+      },
+      {
+        "name": "taupe",
+        "rgb": [
+          61,
+          55,
+          54
+        ],
+        "hex": "#3d3736"
+      },
+      {
+        "name": "lavender",
+        "rgb": [
+          233,
+          238,
+          234
+        ],
+        "hex": "#e9eeea"
+      },
+      {
+        "name": "silver",
+        "rgb": [
+          186,
+          187,
+          181
+        ],
+        "hex": "#babbb5"
+      },
+      {
+        "name": "light_gray",
+        "rgb": [
+          216,
+          211,
+          202
+        ],
+        "hex": "#d8d3ca"
+      }
+    ],
+    "harmony": {
+      "type": "complementary",
+      "score": 85
+    },
+    "seasonal_palette": "summer",
+    "item_colors": {
+      "0": [
+        {
+          "name": "rich_black",
+          "rgb": [
+            26,
+            15,
+            8
+          ],
+          "hex": "#080f1a",
+          "harmony_type": "complementary",
+          "harmony_score": 85,
+          "seasonal_palette": "summer"
+        },
+        {
+          "name": "light_gray",
+          "rgb": [
+            204,
+            209,
+            206
+          ],
+          "hex": "#ced1cc"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            121,
+            127,
+            128
+          ],
+          "hex": "#807f79"
+        }
+      ],
+      "1": [
+        {
+          "name": "dark_gray",
+          "rgb": [
+            97,
+            102,
+            111
+          ],
+          "hex": "#6f6661"
+        },
+        {
+          "name": "dark_charcoal",
+          "rgb": [
+            39,
+            37,
+            39
+          ],
+          "hex": "#272527"
+        },
+        {
+          "name": "silver",
+          "rgb": [
+            198,
+            205,
+            216
+          ],
+          "hex": "#d8cdc6"
+        }
+      ]
+    }
+  },
+  "style_result": {
+    "style": "fashion_week_off_duty",
+    "confidence": 0.24193548387096772,
+    "coherence": 0.24193548387096772,
+    "description": "Effortless yet deliberate styling seen on fashion industry insiders",
+    "top_styles": [
+      [
+        "fashion_week_off_duty",
+        0.24193548387096772
+      ],
+      [
+        "edgy_chic",
+        0.19354838709677416
+      ],
+      [
+        "formal",
+        0.16129032258064516
+      ]
+    ],
+    "all_probabilities": {
+      "casual": 0.1075268817204301,
+      "formal": 0.16129032258064516,
+      "streetwear": 0.0,
+      "bohemian": 0.0,
+      "minimalist": 0.1075268817204301,
+      "edgy_chic": 0.19354838709677416,
+      "preppy": 0.1075268817204301,
+      "sporty": 0.08064516129032258,
+      "vintage": 0.0,
+      "fashion_week_off_duty": 0.24193548387096772
+    },
+    "method": "rule_based"
+  }
+}

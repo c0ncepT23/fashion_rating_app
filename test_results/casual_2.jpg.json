@@ -1,0 +1,393 @@
+{
+  "score": 85,
+  "labels": {
+    "fit": "loose_flowy",
+    "pants_type": "wide_leg_trousers",
+    "top_type": "long sleeve outwear",
+    "color_palette": [
+      "off_black",
+      "rich_black",
+      "off_white",
+      "gray",
+      "dark_charcoal"
+    ],
+    "footwear_type": "footwear_not_visible",
+    "accessories": [],
+    "style": "fashion_week_off_duty"
+  },
+  "score_breakdown": {
+    "fit": 20,
+    "color": 16,
+    "footwear": 17,
+    "accessories": 13,
+    "style": 15
+  },
+  "feedback": {
+    "fit": "The top and trousers create a harmonious proportion. the silhouette shows good understanding of shape and balance.",
+    "color": "Acceptable color pairing of off_black and rich_black. Consider reducing the number of competing colors.",
+    "footwear": "Consider adding appropriate footwear to complete the look.",
+    "accessories": "The outfit is missing accessories. a statement necklace or earrings to add visual interest would enhance it.",
+    "style": "Excellent execution of fashion week off duty style. demonstrates insider fashion knowledge through thoughtful, unexpected styling choices."
+  },
+  "clothing_items": [
+    {
+      "type": "trousers",
+      "category": "bottom",
+      "confidence": 0.5711818337440491,
+      "box": [
+        0,
+        359,
+        244,
+        799
+      ],
+      "position": {
+        "center_x": 0.2717149220489978,
+        "center_y": 0.72375,
+        "width": 0.5434298440979956,
+        "height": 0.55,
+        "area": 0.29888641425389756
+      },
+      "fit": "wide_leg",
+      "dominant_color": "gray",
+      "colors": [
+        {
+          "name": "gray",
+          "rgb": [
+            107,
+            109,
+            108
+          ],
+          "hex": "#6c6d6b"
+        },
+        {
+          "name": "light_gray",
+          "rgb": [
+            211,
+            212,
+            214
+          ],
+          "hex": "#d6d4d3"
+        },
+        {
+          "name": "off_black",
+          "rgb": [
+            23,
+            20,
+            20
+          ],
+          "hex": "#141417"
+        }
+      ]
+    },
+    {
+      "type": "long sleeve outwear",
+      "category": "outerwear",
+      "confidence": 0.3663935959339142,
+      "box": [
+        0,
+        197,
+        256,
+        637
+      ],
+      "position": {
+        "center_x": 0.28507795100222716,
+        "center_y": 0.52125,
+        "width": 0.5701559020044543,
+        "height": 0.55,
+        "area": 0.3135857461024499
+      },
+      "fit": "structured",
+      "dominant_color": "off_black",
+      "colors": [
+        {
+          "name": "off_black",
+          "rgb": [
+            19,
+            18,
+            18
+          ],
+          "hex": "#121213",
+          "harmony_type": "neutral",
+          "harmony_score": 70,
+          "seasonal_palette": "winter"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            108,
+            113,
+            117
+          ],
+          "hex": "#75716c"
+        },
+        {
+          "name": "light_gray",
+          "rgb": [
+            205,
+            207,
+            210
+          ],
+          "hex": "#d2cfcd"
+        }
+      ]
+    },
+    {
+      "type": "trousers",
+      "category": "bottom",
+      "confidence": 0.3125852942466736,
+      "box": [
+        75,
+        359,
+        299,
+        799
+      ],
+      "position": {
+        "center_x": 0.41648106904231624,
+        "center_y": 0.72375,
+        "width": 0.49888641425389757,
+        "height": 0.55,
+        "area": 0.27438752783964365
+      },
+      "fit": "wide_leg",
+      "dominant_color": "gray",
+      "colors": [
+        {
+          "name": "gray",
+          "rgb": [
+            105,
+            107,
+            107
+          ],
+          "hex": "#6b6b69"
+        },
+        {
+          "name": "silver",
+          "rgb": [
+            204,
+            206,
+            208
+          ],
+          "hex": "#d0cecc"
+        },
+        {
+          "name": "off_black",
+          "rgb": [
+            25,
+            25,
+            25
+          ],
+          "hex": "#191919"
+        }
+      ]
+    }
+  ],
+  "color_analysis": {
+    "color_palette": [
+      {
+        "name": "off_black",
+        "rgb": [
+          19,
+          18,
+          18
+        ],
+        "hex": "#121213",
+        "harmony_type": "neutral",
+        "harmony_score": 70,
+        "seasonal_palette": "winter"
+      },
+      {
+        "name": "rich_black",
+        "rgb": [
+          15,
+          14,
+          13
+        ],
+        "hex": "#0f0e0d"
+      },
+      {
+        "name": "off_white",
+        "rgb": [
+          250,
+          250,
+          250
+        ],
+        "hex": "#fafafa"
+      },
+      {
+        "name": "gray",
+        "rgb": [
+          107,
+          109,
+          108
+        ],
+        "hex": "#6c6d6b"
+      },
+      {
+        "name": "dark_charcoal",
+        "rgb": [
+          47,
+          45,
+          40
+        ],
+        "hex": "#2f2d28"
+      },
+      {
+        "name": "light_gray",
+        "rgb": [
+          208,
+          206,
+          205
+        ],
+        "hex": "#d0cecd"
+      },
+      {
+        "name": "dark_gray",
+        "rgb": [
+          79,
+          76,
+          70
+        ],
+        "hex": "#4f4c46"
+      },
+      {
+        "name": "slate",
+        "rgb": [
+          171,
+          162,
+          146
+        ],
+        "hex": "#aba292"
+      }
+    ],
+    "harmony": {
+      "type": "neutral",
+      "score": 70
+    },
+    "seasonal_palette": "winter",
+    "item_colors": {
+      "0": [
+        {
+          "name": "gray",
+          "rgb": [
+            107,
+            109,
+            108
+          ],
+          "hex": "#6c6d6b"
+        },
+        {
+          "name": "light_gray",
+          "rgb": [
+            211,
+            212,
+            214
+          ],
+          "hex": "#d6d4d3"
+        },
+        {
+          "name": "off_black",
+          "rgb": [
+            23,
+            20,
+            20
+          ],
+          "hex": "#141417"
+        }
+      ],
+      "1": [
+        {
+          "name": "off_black",
+          "rgb": [
+            19,
+            18,
+            18
+          ],
+          "hex": "#121213",
+          "harmony_type": "neutral",
+          "harmony_score": 70,
+          "seasonal_palette": "winter"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            108,
+            113,
+            117
+          ],
+          "hex": "#75716c"
+        },
+        {
+          "name": "light_gray",
+          "rgb": [
+            205,
+            207,
+            210
+          ],
+          "hex": "#d2cfcd"
+        }
+      ],
+      "2": [
+        {
+          "name": "gray",
+          "rgb": [
+            105,
+            107,
+            107
+          ],
+          "hex": "#6b6b69"
+        },
+        {
+          "name": "silver",
+          "rgb": [
+            204,
+            206,
+            208
+          ],
+          "hex": "#d0cecc"
+        },
+        {
+          "name": "off_black",
+          "rgb": [
+            25,
+            25,
+            25
+          ],
+          "hex": "#191919"
+        }
+      ]
+    }
+  },
+  "style_result": {
+    "style": "fashion_week_off_duty",
+    "confidence": 0.22875816993464054,
+    "coherence": 0.22875816993464054,
+    "description": "Effortless yet deliberate styling seen on fashion industry insiders",
+    "top_styles": [
+      [
+        "fashion_week_off_duty",
+        0.22875816993464054
+      ],
+      [
+        "edgy_chic",
+        0.18300653594771243
+      ],
+      [
+        "formal",
+        0.15250544662309368
+      ]
+    ],
+    "all_probabilities": {
+      "casual": 0.10893246187363835,
+      "formal": 0.15250544662309368,
+      "streetwear": 0.02178649237472767,
+      "bohemian": 0.0,
+      "minimalist": 0.10893246187363835,
+      "edgy_chic": 0.18300653594771243,
+      "preppy": 0.10893246187363835,
+      "sporty": 0.08714596949891068,
+      "vintage": 0.0,
+      "fashion_week_off_duty": 0.22875816993464054
+    },
+    "method": "rule_based"
+  }
+}

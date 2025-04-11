@@ -1,0 +1,50 @@
+{
+  "score": 77,
+  "labels": {
+    "fit": "loose_flowy",
+    "pants_type": "wide_leg_trousers",
+    "top_type": "short sleeve top",
+    "color_palette": [
+      "periwinkle",
+      "taupe",
+      "pastel_blue",
+      "slate",
+      "black"
+    ],
+    "footwear_type": "footwear_not_visible",
+    "accessories": [],
+    "style": "casual"
+  },
+  "score_breakdown": {
+    "fit": 19,
+    "color": 18,
+    "footwear": 15,
+    "accessories": 14,
+    "style": 15
+  },
+  "feedback": {
+    "fit": "Nice pairing of short sleeve top with trousers. The silhouette is flattering with the proportions work well for your frame.",
+    "color": "The periwinkle elements pairs nicely with the taupe elements. showing good understanding of coordinating colors.",
+    "footwear": "Consider adding appropriate footwear to complete the look.",
+    "accessories": "This outfit could benefit from some accessories. Consider adding a scarf or hat to add dimension and personality.",
+    "style": "Excellent execution of casual style. there's thoughtful coordination without appearing too studied."
+  },
+  "clothing_items": [
+    {
+      "type": "trousers",
+      "category": "bottom",
+      "confidence": 0.7638641595840454,
+      "box": [
+        244,
+        558,
+        689,
+        1199
+      ],
+      "position": {
+        "center_x": 0.6770682148040639,
+        "center_y": 0.7320833333333333,
+        "width": 0.6458635703918723,
+        "height": 0.5341666666666667,
+        "area": 0.3449987905176584
+      },
+      "crop": 

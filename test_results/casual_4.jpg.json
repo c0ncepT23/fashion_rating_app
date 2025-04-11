@@ -1,0 +1,309 @@
+{
+  "score": 84,
+  "labels": {
+    "fit": "relaxed_casual",
+    "pants_type": "unknown_bottom",
+    "top_type": "unknown_top",
+    "color_palette": [
+      "pastel_blue",
+      "dark_gray",
+      "slate",
+      "dark_charcoal",
+      "plum"
+    ],
+    "footwear_type": "footwear_not_visible",
+    "accessories": [],
+    "style": "casual"
+  },
+  "score_breakdown": {
+    "fit": 22,
+    "color": 4,
+    "footwear": 15,
+    "accessories": 15,
+    "style": 15
+  },
+  "feedback": {
+    "fit": "Perfect balance between top and bottom. The creating a balanced silhouette with strong shoulders and a leggy look creates a flattering silhouette.",
+    "color": "Consider revisiting the color scheme. The pastel_blue elements considering color temperature and how colors interact.",
+    "footwear": "Consider adding appropriate footwear to complete the look.",
+    "accessories": "Try adding some accessories like a statement necklace or earrings to add visual interest to complete the look.",
+    "style": "Excellent execution of casual style. the relaxed elements blend with put-together pieces for an effortless look."
+  },
+  "clothing_items": [
+    {
+      "type": "short sleeve dress",
+      "category": "dress",
+      "confidence": 0.5995191335678101,
+      "box": [
+        46,
+        148,
+        210,
+        438
+      ],
+      "position": {
+        "center_x": 0.5423728813559322,
+        "center_y": 0.6674259681093394,
+        "width": 0.6949152542372882,
+        "height": 0.6605922551252847,
+        "area": 0.45905563491757073
+      },
+      "fit": "casual",
+      "dominant_color": "pastel_blue",
+      "colors": [
+        {
+          "name": "pastel_blue",
+          "rgb": [
+            170,
+            186,
+            209
+          ],
+          "hex": "#d1baaa"
+        },
+        {
+          "name": "indigo",
+          "rgb": [
+            51,
+            33,
+            120
+          ],
+          "hex": "#782133"
+        },
+        {
+          "name": "slate",
+          "rgb": [
+            112,
+            115,
+            153
+          ],
+          "hex": "#997370"
+        }
+      ]
+    },
+    {
+      "type": "short sleeve dress",
+      "category": "dress",
+      "confidence": 0.32115745544433594,
+      "box": [
+        0,
+        148,
+        157,
+        438
+      ],
+      "position": {
+        "center_x": 0.3326271186440678,
+        "center_y": 0.6674259681093394,
+        "width": 0.6652542372881356,
+        "height": 0.6605922551252847,
+        "area": 0.4394617968418208
+      },
+      "fit": "casual",
+      "dominant_color": "charcoal",
+      "colors": [
+        {
+          "name": "charcoal",
+          "rgb": [
+            55,
+            40,
+            120
+          ],
+          "hex": "#782837"
+        },
+        {
+          "name": "pastel_blue",
+          "rgb": [
+            168,
+            182,
+            204
+          ],
+          "hex": "#ccb6a8"
+        },
+        {
+          "name": "slate",
+          "rgb": [
+            113,
+            119,
+            146
+          ],
+          "hex": "#927771"
+        }
+      ]
+    }
+  ],
+  "color_analysis": {
+    "color_palette": [
+      {
+        "name": "pastel_blue",
+        "rgb": [
+          218,
+          195,
+          176
+        ],
+        "hex": "#dac3b0",
+        "harmony_type": "balanced",
+        "harmony_score": 70,
+        "seasonal_palette": "summer"
+      },
+      {
+        "name": "dark_gray",
+        "rgb": [
+          101,
+          85,
+          76
+        ],
+        "hex": "#65554c"
+      },
+      {
+        "name": "slate",
+        "rgb": [
+          165,
+          146,
+          129
+        ],
+        "hex": "#a59281"
+      },
+      {
+        "name": "dark_charcoal",
+        "rgb": [
+          59,
+          18,
+          20
+        ],
+        "hex": "#3b1214"
+      },
+      {
+        "name": "plum",
+        "rgb": [
+          201,
+          52,
+          91
+        ],
+        "hex": "#c9345b"
+      },
+      {
+        "name": "pastel_blue",
+        "rgb": [
+          195,
+          171,
+          151
+        ],
+        "hex": "#c3ab97"
+      },
+      {
+        "name": "indigo",
+        "rgb": [
+          136,
+          20,
+          49
+        ],
+        "hex": "#881431"
+      },
+      {
+        "name": "slate",
+        "rgb": [
+          139,
+          122,
+          107
+        ],
+        "hex": "#8b7a6b"
+      }
+    ],
+    "harmony": {
+      "type": "balanced",
+      "score": 70
+    },
+    "seasonal_palette": "summer",
+    "item_colors": {
+      "0": [
+        {
+          "name": "pastel_blue",
+          "rgb": [
+            170,
+            186,
+            209
+          ],
+          "hex": "#d1baaa"
+        },
+        {
+          "name": "indigo",
+          "rgb": [
+            51,
+            33,
+            120
+          ],
+          "hex": "#782133"
+        },
+        {
+          "name": "slate",
+          "rgb": [
+            112,
+            115,
+            153
+          ],
+          "hex": "#997370"
+        }
+      ],
+      "1": [
+        {
+          "name": "charcoal",
+          "rgb": [
+            55,
+            40,
+            120
+          ],
+          "hex": "#782837"
+        },
+        {
+          "name": "pastel_blue",
+          "rgb": [
+            168,
+            182,
+            204
+          ],
+          "hex": "#ccb6a8"
+        },
+        {
+          "name": "slate",
+          "rgb": [
+            113,
+            119,
+            146
+          ],
+          "hex": "#927771"
+        }
+      ]
+    }
+  },
+  "style_result": {
+    "style": "casual",
+    "confidence": 0.2061855670103093,
+    "coherence": 0.2061855670103093,
+    "description": "Relaxed, everyday wear focused on comfort",
+    "top_styles": [
+      [
+        "casual",
+        0.2061855670103093
+      ],
+      [
+        "sporty",
+        0.2061855670103093
+      ],
+      [
+        "fashion_week_off_duty",
+        0.15463917525773196
+      ]
+    ],
+    "all_probabilities": {
+      "casual": 0.2061855670103093,
+      "formal": 0.10309278350515465,
+      "streetwear": 0.0,
+      "bohemian": 0.0,
+      "minimalist": 0.10309278350515465,
+      "edgy_chic": 0.12371134020618557,
+      "preppy": 0.0,
+      "sporty": 0.2061855670103093,
+      "vintage": 0.10309278350515465,
+      "fashion_week_off_duty": 0.15463917525773196
+    },
+    "method": "rule_based"
+  }
+}

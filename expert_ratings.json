@@ -1,0 +1,3356 @@
+[
+    {
+        "image_path": "casual_1.jpg",
+        "score": 90,
+        "labels": {
+            "fit": "relaxed",
+            "pants_type": "wide_leg_trousers",
+            "color_palette": ["black", "beige"],
+            "footwear_type": "black_loafers",
+            "accessories": ["cap"],
+            "style": "minimal"
+        },
+        "score_breakdown": {
+            "fit": 23,
+            "color": 20,
+            "footwear": 17,
+            "accessories": 13,
+            "style": 17
+        },
+        "feedback": {
+            "fit": "Great balance between relaxed and fitted. The wide-leg trousers are trending and the tee fits clean. Minor deductions for pant length.",
+            "color": "Black + beige is a classic combo with modern flair.",
+            "footwear": "Sleek black loafers. Could use more shine to pop.",
+            "accessories": "The cap is casual. Could add a chain or watch.",
+            "style": "Confident, minimal, and wearable."
+        }
+    },
+    {
+        "image_path": "casual_2.jpg",
+        "score": 92,
+        "labels": {
+            "fit": "relaxed",
+            "pants_type": "wide_leg_trousers",
+            "color_palette": ["black", "off_white"],
+            "footwear_type": "black_loafers_gold_detailing",
+            "accessories": ["sunglasses", "chain"],
+            "style": "fashion_week_off_duty"
+        },
+        "score_breakdown": {
+            "fit": 24,
+            "color": 20,
+            "footwear": 18,
+            "accessories": 13,
+            "style": 17
+        },
+        "feedback": {
+            "fit": "The relaxed drape of the shirt and wide-leg cream trousers are beautifully balanced. He’s nailed that flowy silhouette without looking sloppy.",
+            "color": "Black and off-white = high contrast, high elegance. Can’t go wrong.",
+            "footwear": "Black loafers with visible gold horsebit detailing. Adds a touch of luxury and contrast.",
+            "accessories": "Slim black sunglasses and open shirt with chain give laid-back confidence. Could benefit from a bracelet or ring.",
+            "style": "Effortless and stylish, feels like fashion week off-duty. Slightly too relaxed for structured occasions."
+        }
+    },
+    {
+        "image_path": "casual_3.jpg",
+        "score": 85,
+        "labels": {
+            "fit": "oversized",
+            "pants_type": "wide_leg_jeans",
+            "color_palette": ["brown", "navy", "white"],
+            "footwear_type": "white_air_force_1_worn",
+            "accessories": ["beaded_necklace", "rings"],
+            "style": "rugged_streetwear"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 18,
+            "footwear": 16,
+            "accessories": 12,
+            "style": 18
+        },
+        "feedback": {
+            "fit": "Oversized fits dominate—from wide-leg jeans to the roomy hoodie. Slight taper could clean up the bottom.",
+            "color": "Earthy brown, navy, and white balance nicely. The white sneakers pop against the grounded tones.",
+            "footwear": "Classic white Air Forces work but are worn. Cleaner kicks would elevate this.",
+            "accessories": "Beaded necklace and subtle rings add personality without being loud.",
+            "style": "Authentic streetwear meets blue-collar chic. Carhartt jacket adds rugged energy, feels natural and unforced."
+        }
+    },
+    {
+    "image_path": "casual_4.jpg",
+    "score": 82,
+    "labels": {
+        "fit": "feminine_casual",
+        "dress_type": "puff_sleeve_mini",
+        "color_palette": ["red", "white"],
+        "footwear_type": "white_high_top_sneakers",
+        "accessories": ["wristwatch"],
+        "style": "casual_feminine"
+    },
+    "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 15,
+        "accessories": 12,
+        "style": 17
+    },
+    "feedback": {
+        "fit": "The puff-sleeve mini dress has a great silhouette with a fitted bodice and flared skirt. The tiered hem adds movement and dimension.",
+        "color": "The vibrant red with white polka dots creates a fresh, youthful look with high visual impact.",
+        "footwear": "White high-top sneakers add a casual contrast to the feminine dress. Clean but could use more intentional styling.",
+        "accessories": "Minimal with just a wristwatch visible. Could benefit from additional accessories like a small bag or delicate jewelry.",
+        "style": "Successfully blends feminine and casual elements. The contrast between the girly dress and sporty sneakers feels current without trying too hard."
+    }
+    },
+    {
+    "image_path": "casual_5.jpg",
+    "score": 84,
+    "labels": {
+        "fit": "layered_casual",
+        "pants_type": "wide_leg_white_pants",
+        "color_palette": ["white", "mint_green", "cream"],
+        "footwear_type": "not_visible",
+        "accessories": ["phone_case", "necklace"],
+        "style": "soft_minimal"
+    },
+    "score_breakdown": {
+        "fit": 21,
+        "color": 19,
+        "footwear": 0,
+        "accessories": 14,
+        "style": 20
+    },
+    "feedback": {
+        "fit": "Well-balanced layering with the cropped white top and mint green button-up. The wide-leg white pants add volume in the right places. Proportions work well together.",
+        "color": "The soft mint green and white/cream palette creates a fresh, airy aesthetic that feels curated yet effortless.",
+        "footwear": "Not visible in the image.",
+        "accessories": "The minimal accessories (simple necklace, phone case) maintain the clean aesthetic without overwhelming the outfit.",
+        "style": "Successfully captures the current soft minimalism trend. The outfit has a relaxed elegance that feels contemporary without being trend-dependent."
+    }
+    },
+    {
+   "image_path": "casual_6.jpg",
+   "score": 94,
+   "labels": {
+       "fit": "elegant_casual",
+       "pants_type": "high_waisted_wide_leg_pleated",
+       "color_palette": ["white", "beige", "brown"],
+       "footwear_type": "nude_sandals",
+       "accessories": ["oversized_sunglasses", "gold_hoop_earrings", "pendant_necklace", "white_shoulder_bag", "belt", "bracelet"],
+       "style": "minimalist_luxury"
+   },
+   "score_breakdown": {
+       "fit": 24,
+       "color": 22,
+       "footwear": 18,
+       "accessories": 19,
+       "style": 21
+   },
+   "feedback": {
+       "fit": "Exceptional balance between the fitted ribbed tank and dramatic wide-leg pants. The high-waisted silhouette with pleating creates a flattering elongated line. Proportions are perfect.",
+       "color": "The neutral palette of white and beige has timeless elegance. The brown belt adds the right touch of contrast while maintaining cohesion.",
+       "footwear": "Nude sandals complement the outfit perfectly by extending the leg line. They're appropriately dressy while remaining practical.",
+       "accessories": "Thoughtfully curated accessories elevate the look: oversized sunglasses, statement gold hoops, delicate necklace, structured white bag, and subtle bracelet all work in harmony.",
+       "style": "Achieves effortless sophistication. The outfit works for multiple settings from upscale casual to business lunch. Demonstrates how minimalism and luxury can coexist perfectly."
+   }
+   },
+   {
+   "image_path": "casual_7.jpg",
+   "score": 89,
+   "labels": {
+       "fit": "feminine_cottagecore",
+       "dress_type": "square_neck_puff_sleeve_maxi",
+       "color_palette": ["pale_yellow"],
+       "footwear_type": "not_visible",
+       "accessories": ["shell_pendant_necklace", "rings"],
+       "style": "romantic_ethereal"
+   },
+   "score_breakdown": {
+       "fit": 23,
+       "color": 20,
+       "footwear": 0,
+       "accessories": 17,
+       "style": 21
+   },
+   "feedback": {
+       "fit": "The dress silhouette perfectly embodies the romantic trend with its square neckline, puff sleeves, and gathered bodice. The corseted waist and flowing skirt create a flattering feminine shape.",
+       "color": "The pale yellow is beautifully executed - soft and romantic without being overly saccharine. The color works well with the wearer's complexion and captures a summery, nostalgic mood.",
+       "footwear": "Not visible in the image.",
+       "accessories": "The shell pendant necklace adds a perfect beachy, organic element that complements the romantic style. The subtle rings add refinement without competing with the dress's statement.",
+       "style": "Captures the intersection of cottagecore and modern romanticism that's been influential on runways. The look feels both timeless and current, working well in the garden setting."
+   }
+   },
+   {
+   "image_path": "casual_8.jpg",
+   "score": 80,
+   "labels": {
+       "fit": "casual_summer",
+       "pants_type": "high_waisted_denim_shorts",
+       "color_palette": ["yellow", "light_blue", "black"],
+       "footwear_type": "black_wedge_sandals",
+       "accessories": ["wide_brim_black_hat", "statement_necklace", "tattoo"],
+       "style": "bohemian_edge"
+   },
+   "score_breakdown": {
+       "fit": 19,
+       "color": 17,
+       "footwear": 16,
+       "accessories": 18,
+       "style": 20
+   },
+   "feedback": {
+       "fit": "The loose yellow blouse tucked into high-waisted acid-wash shorts creates a balanced silhouette. The proportions work well for a casual summer look, though the shorts could be slightly better fitted.",
+       "color": "The bold yellow top creates visual interest against the classic acid wash denim. The black accessories create cohesion, though the overall palette feels somewhat expected.",
+       "footwear": "The black wedge sandals add height while maintaining the casual vibe. They coordinate with the hat but could be more current in style.",
+       "accessories": "The wide-brim black hat makes a strong bohemian statement and the chunky necklace adds an artisanal touch. The visible tattoo complements the slightly edgy aesthetic.",
+       "style": "Successfully captures a bohemian summer vibe with personal edge. The outfit balances trendy elements with timeless pieces and shows personality through thoughtful accessorizing."
+   }
+   },
+   {
+   "image_path": "casual_9.jpg",
+   "score": 83,
+   "labels": {
+       "fit": "feminine_color_block",
+       "skirt_type": "hot_pink_pleated_mini",
+       "top_type": "orange_halter_blouse",
+       "color_palette": ["orange", "hot_pink", "gold"],
+       "footwear_type": "nude_strappy_sandals",
+       "accessories": ["oversized_glasses", "gold_bangles", "bicycle"],
+       "style": "urban_chic"
+   },
+   "score_breakdown": {
+       "fit": 20,
+       "color": 21,
+       "footwear": 16,
+       "accessories": 17,
+       "style": 19
+   },
+   "feedback": {
+       "fit": "The silhouette pairs a flowing halter top with a structured pleated mini skirt for a balanced feminine look. The tucked-in blouse defines the waist nicely.",
+       "color": "Bold color blocking with complementary orange and hot pink creates striking visual interest. The unexpected color combination shows confidence and fashion-forward thinking.",
+       "footwear": "The nude strappy sandals elongate the leg line without competing with the statement colors. A more distinctive shoe could have added another dimension.",
+       "accessories": "The oversized glasses and stacked gold bangles add sophistication to the playful color palette. The bicycle adds an urban, lifestyle element to the overall aesthetic.",
+       "style": "Successfully captures an urban, fashion-conscious vibe with the color courage of a style blogger. The look balances trendy elements with a timeless pleated skirt silhouette."
+   }
+   },
+   {
+   "image_path": "casual_10.jpg",
+   "score": 79,
+   "labels": {
+       "fit": "youthful_casual",
+       "dress_type": "black_sleeveless_skater",
+       "color_palette": ["black", "white", "red"],
+       "footwear_type": "black_ankle_boots_with_white_socks",
+       "accessories": ["red_belt", "pendant_necklace", "bracelet"],
+       "style": "indie_girly"
+   },
+   "score_breakdown": {
+       "fit": 19,
+       "color": 17,
+       "footwear": 15,
+       "accessories": 14,
+       "style": 18
+   },
+   "feedback": {
+       "fit": "The simple black skater dress creates a youthful silhouette. The layered white top underneath adds dimension without compromising the clean lines.",
+       "color": "Classic black and white base with a pop of red at the waist creates visual interest. The color palette is simple but effective.",
+       "footwear": "The black ankle boots with white ankle socks create a slightly edgy, schoolgirl-inspired look. The proportions work with the dress length.",
+       "accessories": "The red belt helps define the waist and adds a focal point. The delicate pendant and bracelet add subtle personal touches without overwhelming.",
+       "style": "Captures an indie, slightly vintage-inspired aesthetic that feels authentic rather than contrived. The garden setting complements the youthful, romantic elements of the look."
+   }
+   },
+   {
+   "image_path": "casual_11.jpg",
+   "score": 81,
+   "labels": {
+       "fit": "asymmetric_layered",
+       "pants_type": "light_wash_skinny_jeans",
+       "top_type": "coral_sleeveless_asymmetric_tunic",
+       "color_palette": ["coral", "light_blue", "black"],
+       "footwear_type": "black_ankle_booties",
+       "accessories": ["thin_black_belt"],
+       "style": "contemporary_casual"
+   },
+   "score_breakdown": {
+       "fit": 20,
+       "color": 19,
+       "footwear": 16,
+       "accessories": 12,
+       "style": 18
+   },
+   "feedback": {
+       "fit": "The asymmetric coral tunic creates visual interest with its flowing silhouette. The skinny jeans balance the volume up top, and the belted waist adds definition to prevent the look from appearing shapeless.",
+       "color": "The vibrant coral pops beautifully against the light wash jeans. The high contrast creates a fresh, modern aesthetic that's eye-catching without being overwhelming.",
+       "footwear": "The black ankle boots ground the look and provide a solid base. They work well with the belt to create cohesion, though a more distinctive shoe could elevate the outfit further.",
+       "accessories": "The minimal approach with just a thin black belt keeps focus on the interesting silhouette. Additional thoughtfully chosen accessories could add more personality.",
+       "style": "Achieves a balanced contemporary casual look that's wearable yet distinctive. The asymmetric hemline adds fashion-forward appeal to an otherwise accessible outfit."
+   }
+   },
+   {
+   "image_path": "casual_12.jpg",
+   "score": 87,
+   "labels": {
+       "fit": "relaxed_elegant",
+       "pants_type": "black_cropped_trousers",
+       "top_type": "bright_orange_peasant_blouse",
+       "color_palette": ["bright_orange", "black"],
+       "footwear_type": "black_pointed_pumps",
+       "accessories": ["sunglasses", "wristwatch", "patterned_clutch"],
+       "style": "elevated_casual"
+   },
+   "score_breakdown": {
+       "fit": 21,
+       "color": 22,
+       "footwear": 18,
+       "accessories": 16,
+       "style": 20
+   },
+   "feedback": {
+       "fit": "The voluminous orange blouse balanced with slim cropped trousers creates an elegant silhouette. The slight tuck maintains shape while keeping the relaxed vibe.",
+       "color": "The bold orange and black combo is striking and confident. The high contrast creates visual impact that's both modern and classic.",
+       "footwear": "The pointed black pumps add sophistication and polish, elevating the more casual elements. They create a clean line that complements the cropped pants.",
+       "accessories": "The oversized sunglasses and geometric clutch add personality without overwhelming. The wristwatch adds a refined touch.",
+       "style": "Successfully bridges casual and dressy elements for a versatile, elevated look. The outfit demonstrates how color blocking with the right proportions creates effortless impact."
+   }
+   },
+   {
+   "image_path": "casual_13.jpg",
+   "score": 82,
+   "labels": {
+       "fit": "flowy_relaxed",
+       "dress_type": "blue_high_low_tank_maxi",
+       "color_palette": ["cobalt_blue", "brown", "black"],
+       "footwear_type": "brown_leather_sandals",
+       "accessories": ["oversized_sunglasses", "pendant_necklace", "large_tote_bag"],
+       "style": "effortless_summer"
+   },
+   "score_breakdown": {
+       "fit": 20,
+       "color": 21,
+       "footwear": 16,
+       "accessories": 15,
+       "style": 19
+   },
+   "feedback": {
+       "fit": "The flowing high-low maxi dress creates an effortless silhouette that moves well. The tank style keeps it casual while the asymmetric hem adds visual interest.",
+       "color": "The vibrant cobalt blue is striking and flattering, creating a bold statement piece that stands out beautifully against neutral accessories.",
+       "footwear": "The brown leather sandals complement the relaxed vibe while providing practicality. They work well with the casual nature of the dress.",
+       "accessories": "The combination of oversized sunglasses, minimal jewelry, and practical tote creates a balanced, functional accessory story without overwhelming the look.",
+       "style": "Successfully captures an effortless summer aesthetic that's both comfortable and put-together. The look transitions well between casual daytime activities and more social settings."
+   }
+   },
+   {
+   "image_path": "casual_14.jpg",
+   "score": 85,
+   "labels": {
+       "fit": "vintage_inspired",
+       "skirt_type": "mint_polka_dot_midi",
+       "top_type": "cream_lace_top",
+       "color_palette": ["cream", "mint_green", "tan"],
+       "footwear_type": "nude_peep_toe_pumps",
+       "accessories": ["wide_brown_belt", "gold_cuff_bracelet", "tan_leather_tote"],
+       "style": "feminine_retro"
+   },
+   "score_breakdown": {
+       "fit": 21,
+       "color": 20,
+       "footwear": 17,
+       "accessories": 18,
+       "style": 20
+   },
+   "feedback": {
+       "fit": "The combination of a structured lace top with a flowing polka dot midi skirt creates a balanced feminine silhouette. The belt nicely defines the waist for a flattering hourglass shape.",
+       "color": "The soft mint green and cream palette feels fresh and romantic. The tan leather accessories add warmth and ground the pastel colors effectively.",
+       "footwear": "The nude peep-toe pumps elongate the leg line and complement the vintage aesthetic. They're appropriately dressy without competing with the outfit.",
+       "accessories": "The wide belt makes a statement while defining the silhouette. The gold cuff adds a touch of elegance, and the structured tote brings practicality without sacrificing style.",
+       "style": "Successfully captures a modern take on retro femininity. The outfit has a timeless quality while incorporating contemporary elements. The short bob haircut complements the vintage-inspired look."
+   }
+   },
+   {
+   "image_path": "casual_15.jpg",
+   "score": 83,
+   "labels": {
+       "fit": "cropped_top_maxi_bottom",
+       "pants_type": "royal_blue_flowing_maxi_skirt",
+       "top_type": "white_lace_crop_top",
+       "color_palette": ["white", "royal_blue", "coral"],
+       "footwear_type": "coral_sandals",
+       "accessories": ["coral_crossbody_bag", "headband"],
+       "style": "boho_feminine"
+   },
+   "score_breakdown": {
+       "fit": 21,
+       "color": 20,
+       "footwear": 15,
+       "accessories": 17,
+       "style": 19
+   },
+   "feedback": {
+       "fit": "The contrast between the structured lace crop top and flowing maxi skirt creates an appealing silhouette. The high-waisted silhouette elongates the legs while the scalloped hem of the top adds visual interest.",
+       "color": "The crisp white and vibrant royal blue create a striking, summery contrast. The coral accessories add a thoughtful pop of complementary color.",
+       "footwear": "The coral sandals coordinate nicely with the bag and add a warm accent to the cool-toned outfit. More distinctive footwear could elevate the look further.",
+       "accessories": "The matching coral crossbody and subtle headband show attention to detail. The accessories are cohesive without being matchy-matchy.",
+       "style": "Successfully captures a bohemian summer aesthetic with feminine touches. The outfit works perfectly with the natural outdoor setting, creating a harmonious overall impression."
+   }
+   },
+   {
+   "image_path": "casual_16.jpg",
+   "score": 86,
+   "labels": {
+       "fit": "minimal_edgy",
+       "pants_type": "black_leather_leggings",
+       "top_type": "white_loose_tank",
+       "color_palette": ["white", "black"],
+       "footwear_type": "black_platform_pumps",
+       "accessories": ["fur_clutch", "delicate_bracelet"],
+       "style": "contemporary_monochrome"
+   },
+   "score_breakdown": {
+       "fit": 22,
+       "color": 18,
+       "footwear": 19,
+       "accessories": 13,
+       "style": 21
+   },
+   "feedback": {
+       "fit": "Perfect balance between the loose, flowing white tank and sleek leather leggings. The contrast in textures creates visual interest while maintaining a clean silhouette.",
+       "color": "Classic black and white monochrome creates a timeless, high-contrast look. Simple but effective.",
+       "footwear": "The substantial black platform pumps ground the outfit and add edge. They create a strong vertical line with the leggings for a lengthening effect.",
+       "accessories": "Minimal but purposeful - the textured fur clutch adds an unexpected element, while the delicate bracelet adds subtle refinement.",
+       "style": "Successfully captures contemporary minimalism with an edge. The outfit demonstrates how proportion and texture can create impact without complexity."
+   }
+   },
+   {
+   "image_path": "casual_17.jpg",
+   "score": 81,
+   "labels": {
+       "fit": "vintage_inspired_contrast",
+       "skirt_type": "beige_pleated_maxi",
+       "top_type": "charcoal_fitted_long_sleeve",
+       "color_palette": ["charcoal_grey", "beige", "magenta", "brown"],
+       "footwear_type": "magenta_lace_up_ankle_boots",
+       "accessories": ["thin_brown_belt", "leopard_print_scarf", "black_crossbody_bag"],
+       "style": "eclectic_feminine"
+   },
+   "score_breakdown": {
+       "fit": 20,
+       "color": 17,
+       "footwear": 16,
+       "accessories": 18,
+       "style": 19
+   },
+   "feedback": {
+       "fit": "The fitted top paired with the flowing pleated maxi creates an elegant silhouette. The belt defines the waist nicely, creating proportion and structure.",
+       "color": "The neutral base of charcoal and beige creates a sophisticated foundation. The unexpected magenta boots add a surprising pop of color that enlivens the look.",
+       "footwear": "The bright magenta boots create a bold statement against the neutral outfit. The unexpected color adds personality, though the chunky style creates a slight disconnect with the feminine skirt.",
+       "accessories": "Thoughtful layering with the leopard print scarf adds texture and visual interest. The belt and small bag complement the vintage-inspired aesthetic.",
+       "style": "Successfully blends vintage elements with unexpected modern touches. The outfit demonstrates personal style through the juxtaposition of feminine and edgy elements."
+   }
+   },
+   {
+   "image_path": "casual_18.jpg",
+   "score": 88,
+   "labels": {
+       "fit": "retro_collegiate",
+       "pants_type": "cream_corduroy_straight_leg",
+       "top_type": "oversized_green_collegiate_sweatshirt",
+       "color_palette": ["forest_green", "yellow", "cream", "white"],
+       "footwear_type": "vintage_inspired_green_white_sneakers",
+       "accessories": ["thin_chain_necklace"],
+       "style": "vintage_athleisure"
+   },
+   "score_breakdown": {
+       "fit": 23,
+       "color": 21,
+       "footwear": 19,
+       "accessories": 8,
+       "style": 22
+   },
+   "feedback": {
+       "fit": "The oversized sweatshirt paired with straight-leg cords creates a relaxed yet intentional silhouette. The proportions are spot-on for the current trend cycle that's embracing looser fits.",
+       "color": "The forest green and cream color combination feels sophisticated and cohesive. The yellow collegiate lettering adds a focal point that ties everything together.",
+       "footwear": "The green and white sneakers complement the sweatshirt perfectly without being too matchy. They add to the vintage collegiate vibe while maintaining contemporary appeal.",
+       "accessories": "Minimal with just a subtle chain necklace visible. The restraint works with the laid-back aesthetic, though more intentional accessorizing could add character.",
+       "style": "Perfectly captures the current vintage collegiate trend that's dominating menswear. The outfit balances nostalgia with modern proportions for an authentic look that feels both timeless and current."
+   }
+   },
+   {
+    "image_path": "casual_19.jpg",
+    "score": 85,
+    "labels": {
+        "fit": "monochromatic_athleisure",
+        "pants_type": "light_grey_tailored_trousers",
+        "top_type": "white_tee_with_light_grey_quilted_jacket",
+        "color_palette": ["light_grey", "white"],
+        "footwear_type": "white_sneakers",
+        "accessories": ["wristwatch"],
+        "style": "minimal_luxury"
+    },
+    "score_breakdown": {
+        "fit": 22,
+        "color": 19,
+        "footwear": 18,
+        "accessories": 8,
+        "style": 21
+    },
+    "feedback": {
+        "fit": "The monochromatic ensemble with tailored trousers and quilted jacket creates a polished yet relaxed silhouette. The slim fit throughout maintains a clean line.",
+        "color": "The tonal grey and white palette is sophisticated and elevated. The subtle variations in shade add depth without breaking cohesion.",
+        "footwear": "The white sneakers complement the minimalist aesthetic perfectly. Their clean design maintains the outfit's refined quality.",
+        "accessories": "Minimal with just a wristwatch visible. The restraint works with the clean aesthetic but additional subtle accessories could enhance the look.",
+        "style": "Successfully captures the luxury athleisure trend with its balance of comfort and sophistication. The monochromatic approach feels intentional and current."
+    }
+    },
+    {
+    "image_path": "casual_20.jpg",
+    "score": 78,
+    "labels": {
+        "fit": "casual_summer",
+        "pants_type": "relaxed_blue_jeans",
+        "top_type": "patterned_short_sleeve_button_up",
+        "color_palette": ["light_green", "white", "blue"],
+        "footwear_type": "white_green_sneakers",
+        "accessories": ["bracelet"],
+        "style": "relaxed_everyday"
+    },
+    "score_breakdown": {
+        "fit": 19,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 9,
+        "style": 18
+    },
+    "feedback": {
+        "fit": "The relaxed shirt and straight-leg jeans create a balanced casual silhouette. The untucked shirt maintains the laid-back vibe.",
+        "color": "The subtle palm print on light background pairs well with the medium wash jeans. The color coordination with the shoes shows attention to detail.",
+        "footwear": "The white and green sneakers complement the shirt's color palette. They're appropriate for the casual look though could be more distinctive.",
+        "accessories": "Minimal with just a bracelet visible. More intentional accessorizing could elevate the otherwise straightforward outfit.",
+        "style": "Captures an easy, approachable everyday style. The outfit is cohesive and practical without making a strong fashion statement."
+    }
+    },
+    {
+    "image_path": "casual_21.jpg",
+    "score": 82,
+    "labels": {
+        "fit": "crop_top_wide_leg",
+        "pants_type": "geometric_print_wide_leg_pants",
+        "top_type": "black_fitted_crop_top",
+        "color_palette": ["black", "white", "beige"],
+        "footwear_type": "beige_platform_sandals",
+        "accessories": ["wristwatch", "white_jacket_carried"],
+        "style": "balanced_contrast"
+    },
+    "score_breakdown": {
+        "fit": 21,
+        "color": 19,
+        "footwear": 16,
+        "accessories": 13,
+        "style": 19
+    },
+    "feedback": {
+        "fit": "The fitted crop top paired with high-waisted wide-leg pants creates a balanced silhouette. The proportions are well-considered, elongating the legs.",
+        "color": "The black and white geometric print creates visual interest while remaining versatile. The neutral palette is cohesive and wearable.",
+        "footwear": "The beige platform sandals complement the pants and add height without competing with the bold print. They're practical yet stylish.",
+        "accessories": "The minimalist approach with just a watch and carried jacket keeps the focus on the statement pants. The editing of the face maintains privacy while allowing outfit assessment.",
+        "style": "Successfully balances statement print with clean lines. The outfit has an elevated casual feel that's appropriate for various settings."
+    }
+    },
+    {
+    "image_path": "casual_22.jpg",
+    "score": 91,
+    "labels": {
+        "fit": "romantic_feminine",
+        "dress_type": "emerald_green_puff_sleeve_mini",
+        "color_palette": ["emerald_green"],
+        "footwear_type": "black_ballet_flats",
+        "accessories": ["none_visible"],
+        "style": "modern_cottagecore"
+    },
+    "score_breakdown": {
+        "fit": 24,
+        "color": 23,
+        "footwear": 17,
+        "accessories": 8,
+        "style": 21
+    },
+    "feedback": {
+        "fit": "The emerald green dress with square neckline, smocked bodice, and tiered skirt creates a perfect feminine silhouette. The puff sleeves and mini length balance tradition with modernity.",
+        "color": "The rich emerald green is striking and flattering. The single-color approach allows the texture and silhouette to be the focus.",
+        "footwear": "The simple black ballet flats complement the dress without competing. They maintain the youthful, feminine aesthetic.",
+        "accessories": "No accessories visible in the image. The dress makes enough of a statement that minimal accessories would be appropriate.",
+        "style": "Perfectly captures the modern romantic trend. The dress embodies the cottagecore aesthetic that continues to influence fashion while keeping it contemporary with the mini length."
+    }
+    },
+    {
+    "image_path": "casual_23.jpg",
+    "score": 75,
+    "labels": {
+        "fit": "casual_relaxed",
+        "pants_type": "light_blue_jeans",
+        "top_type": "navy_blue_polo",
+        "color_palette": ["navy_blue", "light_blue", "black"],
+        "footwear_type": "black_slides",
+        "accessories": ["none_visible"],
+        "style": "simple_everyday"
+    },
+    "score_breakdown": {
+        "fit": 15,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 8,
+        "style": 16
+    },
+    "feedback": {
+        "fit": "The navy polo is somewhat oversized and could benefit from better proportioning. The jeans are a standard fit that provides comfort.",
+        "color": "The navy and light blue create a safe, cohesive color story. The monochromatic blue approach is straightforward but lacks distinctive elements.",
+        "footwear": "The black slides are practical and comfortable. A more intentional footwear choice could elevate the overall look.",
+        "accessories": "No visible accessories. Adding simple accessories could add personality to the basic outfit.",
+        "style": "A functional everyday look focused on comfort. The outfit prioritizes practicality over fashion-forward elements, which is appropriate for casual settings."
+    }
+    },
+    {
+    "image_path": "casual_24.jpg",
+    "score": 90,
+    "labels": {
+        "fit": "tailored_professional",
+        "suit_type": "grey_pinstripe",
+        "color_palette": ["grey", "white", "burgundy", "black"],
+        "footwear_type": "black_dress_shoes",
+        "accessories": ["burgundy_turban", "black_tie", "black_belt"],
+        "style": "formal_business"
+    },
+    "score_breakdown": {
+        "fit": 23,
+        "color": 21,
+        "footwear": 18,
+        "accessories": 20,
+        "style": 22
+    },
+    "feedback": {
+        "fit": "The grey pinstripe suit is impeccably tailored, with the jacket and trousers creating a clean, professional silhouette. The proportions are balanced throughout.",
+        "color": "The classic grey suit with white shirt creates a timeless base. The burgundy turban and dark tie add sophistication and personal identity to the professional palette.",
+        "footwear": "The polished black dress shoes complete the formal look appropriately. They maintain the professional standard without drawing attention.",
+        "accessories": "The burgundy turban is both a cultural element and a distinctive style statement that elevates the classic suit. The coordinated tie and belt maintain formality.",
+        "style": "Successfully balances professional business attire with personal and cultural identity. The overall look is confident, polished, and distinctive."
+    }
+    },
+    {
+    "image_path": "casual_25.jpg",
+    "score": 84,
+    "labels": {
+        "fit": "high_contrast_casual",
+        "pants_type": "red_high_waisted_shorts",
+        "top_type": "white_sheer_blouse",
+        "color_palette": ["white", "red", "black", "leopard_print"],
+        "footwear_type": "leopard_print_platform_boots",
+        "accessories": ["black_beanie"],
+        "style": "edgy_feminine"
+    },
+    "score_breakdown": {
+        "fit": 21,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 19
+    },
+    "feedback": {
+        "fit": "The loose white blouse tucked into high-waisted red shorts creates a balanced silhouette. The proportions work well for showcasing legs while maintaining a touch of modesty up top.",
+        "color": "The stark white and vibrant red create a bold contrast that's eye-catching and confident. The leopard print adds another dimension without overwhelming.",
+        "footwear": "The leopard print platform boots make a statement and elevate the look from simple to distinctive. They add height and edge to the otherwise feminine outfit.",
+        "accessories": "The black beanie adds an unexpected casual element that contrasts with the more polished elements. Additional accessories could enhance the look further.",
+        "style": "Successfully balances feminine and edgy elements. The outfit shows personality and fashion confidence through unexpected combinations."
+    }
+    },
+    {
+    "image_path": "casual_26.jpg",
+    "score": 87,
+    "labels": {
+        "fit": "layered_autumnal",
+        "pants_type": "rust_orange_shorts",
+        "top_type": "heather_grey_sweater",
+        "color_palette": ["rust_orange", "grey", "black", "burgundy"],
+        "footwear_type": "black_leather_ankle_boots",
+        "accessories": ["oversized_orange_scarf", "black_tights", "burgundy_socks", "black_sunglasses"],
+        "style": "seasonal_layering"
+    },
+    "score_breakdown": {
+        "fit": 21,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 22,
+        "style": 20
+    },
+    "feedback": {
+        "fit": "The balanced layering creates visual interest while maintaining a flattering silhouette. The shorts over tights combination lengthens the leg line.",
+        "color": "The autumnal color palette is perfectly executed with complementary rust orange and neutral grey. The burgundy sock peek adds depth to the color story.",
+        "footwear": "The black ankle boots ground the look and provide seasonal appropriateness. The boots' proportions work well with the layered leg elements.",
+        "accessories": "Exceptional layering with the oversized scarf, coordinating tights, and peek of burgundy socks. The sunglasses complete the polished street style look.",
+        "style": "Masterful example of transitional weather dressing. The outfit successfully bridges seasons with thoughtful layering and a cohesive color story."
+    }
+    },
+    {
+    "image_path": "casual_27.jpg",
+    "score": 85,
+    "labels": {
+        "fit": "textural_contrast",
+        "skirt_type": "mustard_yellow_pencil",
+        "top_type": "blue_floral_print_blouse",
+        "color_palette": ["mustard_yellow", "blue", "cream", "tan"],
+        "footwear_type": "nude_pumps",
+        "accessories": ["cream_fur_vest", "floral_tote_bag", "statement_necklace"],
+        "style": "eclectic_feminine"
+    },
+    "score_breakdown": {
+        "fit": 20,
+        "color": 19,
+        "footwear": 16,
+        "accessories": 22,
+        "style": 20
+    },
+    "feedback": {
+        "fit": "The fitted pencil skirt paired with a soft blouse creates a feminine silhouette. The fur vest adds volume and texture without overwhelming the proportions.",
+        "color": "The bold mustard skirt is complemented by the softer blue floral print. The color combination is unexpected but harmonious.",
+        "footwear": "The nude pumps elongate the leg line and allow the statement pieces to shine. More distinctive footwear could add another dimension.",
+        "accessories": "Excellent layering with the statement fur vest and coordinating printed bag. The necklace adds a finishing touch that ties the elements together.",
+        "style": "Successfully combines multiple statement pieces with personal flair. The outfit demonstrates confidence in mixing textures, prints, and bold colors."
+    }
+    },
+    {
+    "image_path": "casual_28.jpg",
+    "score": 84,
+    "labels": {
+        "fit": "vintage_inspired",
+        "dress_type": "pink_coat_dress_with_floral_sleeves",
+        "color_palette": ["dusty_pink", "floral_print", "black"],
+        "footwear_type": "black_oxford_shoes",
+        "accessories": ["black_thigh_high_socks", "hair_bow"],
+        "style": "doll_like_feminine"
+    },
+    "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 17,
+        "style": 21
+    },
+    "feedback": {
+        "fit": "The structured A-line coat dress creates a doll-like feminine silhouette. The fitted bodice and flared skirt enhance the vintage-inspired look.",
+        "color": "The dusty pink with floral sleeves creates a romantic, feminine palette. The black accessories provide necessary contrast to ground the look.",
+        "footwear": "The black oxfords add an unexpected masculine element that balances the ultra-feminine dress. They work well with the black socks to create a cohesive leg line.",
+        "accessories": "The thigh-high socks add a contemporary edge to the vintage silhouette. The subtle hair bow completes the doll-like aesthetic.",
+        "style": "Successfully captures a distinctive personal aesthetic that blends vintage femininity with contemporary styling. The look is memorable and cohesive."
+    }
+    },
+    {
+    "image_path": "casual_29.jpg",
+    "score": 82,
+    "labels": {
+        "fit": "layered_casual",
+        "skirt_type": "navy_skater_skirt",
+        "top_type": "cream_oversized_sweater",
+        "color_palette": ["cream", "navy", "burgundy", "grey"],
+        "footwear_type": "brown_leather_oxfords",
+        "accessories": ["burgundy_patterned_scarf", "grey_knee_socks", "gold_belt"],
+        "style": "preppy_feminine"
+    },
+    "score_breakdown": {
+        "fit": 20,
+        "color": 19,
+        "footwear": 16,
+        "accessories": 20,
+        "style": 19
+    },
+    "feedback": {
+        "fit": "The oversized sweater paired with the flared mini skirt creates a balanced silhouette. The thin belt defines the waist without disrupting the relaxed vibe.",
+        "color": "The neutral cream and navy base is enhanced with burgundy accents. The palette is cohesive while maintaining visual interest.",
+        "footwear": "The brown oxfords complement the preppy aesthetic. They're practical while maintaining style consistency.",
+        "accessories": "Thoughtful layering with the patterned scarf and knee socks. The thin gold belt adds definition and elevates the casual pieces.",
+        "style": "Successfully captures a preppy yet relaxed aesthetic. The outfit balances comfort with intentional styling for a put-together casual look."
+    }
+    },
+    {
+    "image_path": "casual_30.jpg",
+    "score": 84,
+    "labels": {
+        "fit": "power_chic",
+        "pants_type": "black_high_waisted_shorts",
+        "top_type": "black_top",
+        "color_palette": ["red", "black", "taupe"],
+        "footwear_type": "red_bow_heels",
+        "accessories": ["gold_layered_necklace", "taupe_bag"],
+        "style": "bold_fashion_forward"
+    },
+    "score_breakdown": {
+        "fit": 22,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 13,
+        "style": 15
+    },
+    "feedback": {
+        "fit": "The tailored blazer with short shorts creates a strong high-low contrast that works for a power-chic look. The proportions are flattering and elongating.",
+        "color": "Red and black is always a fierce combo. The addition of the taupe bag softens it slightly, though it's a bit of an odd third color—it doesn't clash, but it doesn't fully connect either.",
+        "footwear": "The red heels are dramatic and tie into the blazer—but the oversized bows are very bold. They work for a statement, but may not be everyone's taste. Still, they match the energy of the outfit.",
+        "accessories": "The layered gold necklace adds glam and pulls attention upward, balancing the red blazer. Good call there. A sleeker bag or red-accented clutch might have enhanced the coherence.",
+        "style": "It's confident, fashionable, and expressive—definitely not playing it safe. It gives fashion-week-street-style vibes, but a few tweaks (like coordinating the bag or dialing back the shoes slightly) could polish it further."
+    }
+    },
+    {
+        "image_path": "casual_31.jpg",
+        "score": 86,
+        "labels": {
+            "fit": "edgy_urban",
+            "pants_type": "grey_skinny_jeans",
+            "top_type": "coral_tank_with_black_leather_jacket",
+            "color_palette": ["black", "coral", "grey"],
+            "footwear_type": "black_lace_up_peep_toe_booties",
+            "accessories": ["black_studded_bag", "bracelets"],
+            "style": "rock_chic"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 20,
+            "footwear": 18,
+            "accessories": 14,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The fitted leather jacket and skinny jeans create a sleek silhouette. The proportions are well-balanced with the looser tank providing subtle contrast.",
+            "color": "The pop of coral against the black leather and grey denim creates effective visual interest. The high contrast elements work together harmoniously.",
+            "footwear": "The edgy peep-toe booties complement the leather jacket perfectly. They add height while maintaining the outfit's urban edge.",
+            "accessories": "The studded black bag reinforces the rock aesthetic. More statement accessories could further elevate the look.",
+            "style": "Successfully captures a rock-chic vibe that balances femininity with edge. The outfit feels intentional and cohesive."
+        }
+    },
+    {
+        "image_path": "casual_32.jpg",
+        "score": 84,
+        "labels": {
+            "fit": "soft_relaxed",
+            "pants_type": "light_grey_skinny_jeans",
+            "top_type": "peach_graphic_tee_with_coral_blazer",
+            "color_palette": ["coral", "peach", "light_grey", "brown"],
+            "footwear_type": "cream_platform_sneakers",
+            "accessories": ["brown_leather_bag", "bracelets", "sunglasses"],
+            "style": "casual_feminine"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 22,
+            "footwear": 17,
+            "accessories": 13,
+            "style": 18
+        },
+        "feedback": {
+            "fit": "The relaxed blazer paired with skinny jeans creates a balanced silhouette. The untucked tee maintains the casual vibe while the blazer adds structure.",
+            "color": "The coral and peach palette is beautifully executed. The soft tones complement each other while the complementary brown accessories ground the look.",
+            "footwear": "The platform sneakers add height while keeping the outfit casual and comfortable. They coordinate well with the overall color story.",
+            "accessories": "The brown leather bag adds a warm natural element. The sunglasses and layered bracelets enhance the relaxed, bohemian feel.",
+            "style": "Successfully blends casual and polished elements with a feminine touch. The outfit transitions well between different casual settings."
+        }
+    },
+    {
+        "image_path": "casual_33.jpg",
+        "score": 83,
+        "labels": {
+            "fit": "boho_feminine",
+            "skirt_type": "pink_floral_mini",
+            "top_type": "white_flowy_peasant_blouse",
+            "color_palette": ["white", "pink", "brown", "black"],
+            "footwear_type": "black_combat_boots",
+            "accessories": ["brown_leather_belt", "grey_crossbody_bag", "bracelets"],
+            "style": "soft_edgy_mix"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 18,
+            "footwear": 17,
+            "accessories": 16,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The flowy blouse paired with the short floral skirt creates a feminine silhouette with bohemian elements. The belt defines the waist nicely.",
+            "color": "The white and pink combination creates a soft, feminine foundation. The brown leather elements add warmth and dimension.",
+            "footwear": "The black combat boots add an unexpected edge that contrasts with the feminine outfit. They create an interesting tension in the look.",
+            "accessories": "The brown belt, crossbody bag, and stacked bracelets enhance the bohemian vibe while adding practicality.",
+            "style": "Successfully juxtaposes soft feminine elements with edgier pieces. The outfit has personality and demonstrates thoughtful contrast."
+        }
+    },
+    {
+        "image_path": "casual_34.jpg",
+        "score": 89,
+        "labels": {
+            "fit": "bold_color_block",
+            "pants_type": "green_skinny_trousers",
+            "top_type": "oversized_orange_sweater",
+            "color_palette": ["bright_orange", "emerald_green", "black", "white"],
+            "footwear_type": "nude_pointy_pumps",
+            "accessories": ["patterned_headscarf", "black_crossbody_bag", "oversized_sunglasses"],
+            "style": "retro_modern_fusion"
+        },
+        "score_breakdown": {
+            "fit": 22,
+            "color": 23,
+            "footwear": 18,
+            "accessories": 16,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The oversized sweater paired with slim trousers creates a perfect silhouette balance. The proportions are contemporary while referencing retro silhouettes.",
+            "color": "The bold orange and green color combination is striking and fashion-forward. The complementary colors create a vibrant look that demonstrates color confidence.",
+            "footwear": "The nude pumps elongate the leg line while allowing the bold colored pieces to remain the focus. They add sophistication to the playful color palette.",
+            "accessories": "The geometric headscarf and oversized sunglasses add a retro touch that complements the bold color choices. The crossbody bag adds practicality.",
+            "style": "Successfully showcases color confidence with a modern take on retro influences. The outfit makes a statement while remaining wearable."
+        }
+    },
+    {
+        "image_path": "casual_35.jpg",
+        "score": 87,
+        "labels": {
+            "fit": "fitted_playful",
+            "dress_type": "pink_strapless_bow_mini",
+            "color_palette": ["hot_pink", "turquoise", "yellow"],
+            "footwear_type": "yellow_pumps",
+            "accessories": ["turquoise_clutch", "statement_necklace"],
+            "style": "feminine_glam"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 23,
+            "footwear": 19,
+            "accessories": 15,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The structured strapless mini dress with bow detail creates a classic feminine silhouette. The fitted bodice and slight A-line shape flatter the figure.",
+            "color": "The bold pink dress with contrasting turquoise clutch and yellow shoes creates a confident color story. The complementary bright colors work together for maximum impact.",
+            "footwear": "The yellow pumps create a perfect color contrast with the pink dress. They add height and coordinate beautifully with the overall color story.",
+            "accessories": "The turquoise clutch provides a striking color contrast. The statement necklace adds glamour and draws attention to the décolletage.",
+            "style": "Successfully embodies playful femininity with a glamorous edge. The outfit demonstrates confidence in color combinations and silhouette."
+        }
+    },
+    {
+        "image_path": "casual_36.jpg",
+        "score": 90,
+        "labels": {
+            "fit": "layered_ethereal",
+            "skirt_type": "coral_pink_maxi",
+            "top_type": "lilac_cardigan_white_lace_camisole",
+            "color_palette": ["coral_pink", "lilac", "white", "yellow", "teal"],
+            "footwear_type": "nude_pumps",
+            "accessories": ["teal_statement_necklace", "yellow_clutch", "mirrored_sunglasses"],
+            "style": "romantic_color_play"
+        },
+        "score_breakdown": {
+            "fit": 22,
+            "color": 24,
+            "footwear": 17,
+            "accessories": 19,
+            "style": 22
+        },
+        "feedback": {
+            "fit": "The flowing maxi skirt paired with a fitted lace top and light cardigan creates a balanced, ethereal silhouette. The proportions are elegant and flattering.",
+            "color": "Exceptional color pairing with complementary coral pink and lilac, anchored by white. The teal necklace and yellow clutch add perfect accent colors.",
+            "footwear": "The nude pumps elongate the leg line and allow the colorful elements to remain the focus. They provide an appropriate foundation for the outfit.",
+            "accessories": "The teal statement necklace creates a focal point, while the yellow clutch and mirrored sunglasses add modern touches to the romantic palette.",
+            "style": "Masterfully combines romantic elements with contemporary color play. The outfit demonstrates sophisticated understanding of color theory and proportion."
+        }
+    },
+    {
+        "image_path": "casual_37.jpg",
+        "score": 81,
+        "labels": {
+            "fit": "mod_inspired",
+            "dress_type": "black_floral_mini_with_embroidery",
+            "color_palette": ["black", "pink", "white", "red"],
+            "footwear_type": "black_lace_up_combat_boots",
+            "accessories": ["black_shoulder_bag", "red_knee_high_socks"],
+            "style": "alternative_feminine"
+        },
+        "score_breakdown": {
+            "fit": 19,
+            "color": 18,
+            "footwear": 17,
+            "accessories": 14,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The straight silhouette of the mini dress creates a mod-inspired shape. The proportions work well with the knee-high socks and combat boots.",
+            "color": "The black base with pink floral accents creates a feminine foundation with edge. The red socks add a bold pop of color.",
+            "footwear": "The black combat boots create an interesting contrast with the feminine dress. They add a rebellious element that balances the sweetness of the floral pattern.",
+            "accessories": "The red knee-high socks make a bold statement. The black shoulder bag coordinates with the boots for cohesion.",
+            "style": "Successfully combines feminine and alternative elements. The outfit has personality and demonstrates a willingness to mix traditionally contrasting styles."
+        }
+    },
+    {
+        "image_path": "casual_38.jpg",
+        "score": 85,
+        "labels": {
+            "fit": "color_blocked_statement",
+            "skirt_type": "mint_green_asymmetric_maxi",
+            "top_type": "white_basic_tee_with_hot_pink_blazer",
+            "color_palette": ["hot_pink", "mint_green", "white", "brown"],
+            "footwear_type": "brown_leather_combat_boots",
+            "accessories": ["none_visible"],
+            "style": "contemporary_contrast"
+        },
+        "score_breakdown": {
+            "fit": 22,
+            "color": 23,
+            "footwear": 15,
+            "accessories": 9,
+            "style": 21
+        },
+        "feedback": {
+            "fit": "The structured blazer paired with the flowing asymmetric skirt creates an interesting silhouette with balanced proportions. The simple white tee grounds the statement pieces.",
+            "color": "The bold combination of hot pink and mint green creates a striking visual impact. The white tee provides necessary negative space between the colors.",
+            "footwear": "The brown combat boots add an unexpected grounding element to the feminine colors. They could be better coordinated with the color story.",
+            "accessories": "Minimal accessories allow the bold colors to remain the focus, though some subtle jewelry could enhance the look.",
+            "style": "Successfully plays with unexpected color combinations and mixed proportions. The outfit shows confidence and a contemporary approach to color-blocking."
+        }
+    },
+    {
+        "image_path": "casual_39.jpg",
+        "score": 82,
+        "labels": {
+            "fit": "winter_casual",
+            "dress_type": "black_bird_print_mini",
+            "color_palette": ["black", "white", "beige", "tan"],
+            "footwear_type": "tan_oxford_lace_ups",
+            "accessories": ["infinity_knit_scarf", "pendant_necklace"],
+            "style": "sweet_minimal"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 18,
+            "footwear": 17,
+            "accessories": 16,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The straight mini dress creates a simple, youthful silhouette. The long sleeves and chunky scarf add cold-weather appropriateness.",
+            "color": "The black and white bird print creates visual interest against a neutral background. The tan accessories add warmth to the palette.",
+            "footwear": "The tan oxford shoes add a preppy touch that works well with the bird print dress. They're practical while maintaining style coherence.",
+            "accessories": "The chunky infinity scarf adds texture and warmth. The pendant necklace adds a subtle personal touch.",
+            "style": "Successfully balances cute pattern with practical winter elements. The outfit is youthful and sweet without being overly precious."
+        }
+    },
+    {
+        "image_path": "casual_40.jpg",
+        "score": 83,
+        "labels": {
+            "fit": "volume_play",
+            "pants_type": "black_harem_pants",
+            "top_type": "yellow_ribbed_crop_top",
+            "color_palette": ["yellow", "black", "tan", "red"],
+            "footwear_type": "red_patent_oxfords",
+            "accessories": ["black_belt", "tan_structured_bag", "sunglasses", "watch"],
+            "style": "urban_contemporary"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 20,
+            "footwear": 18,
+            "accessories": 13,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The voluminous harem pants contrast effectively with the fitted crop top. The belt defines the waist creating structure within the relaxed silhouette.",
+            "color": "The bold yellow top against black pants creates strong visual impact. The red shoes add an unexpected pop that complements the primary yellow.",
+            "footwear": "The red patent oxfords add a distinctive touch that elevates the outfit. They're unexpected but work harmoniously with the color palette.",
+            "accessories": "The structured bag and belt add polish to the relaxed silhouette. The sunglasses and watch complete the urban feel.",
+            "style": "Successfully balances volume with structure for a contemporary urban look. The outfit demonstrates confidence in silhouette and color choices."
+        }
+    },
+    {
+        "image_path": "casual_41.jpg",
+        "score": 84,
+        "labels": {
+            "fit": "preppy_feminine",
+            "skirt_type": "lime_green_pencil",
+            "top_type": "polka_dot_tank_with_cream_cardigan",
+            "color_palette": ["lime_green", "cream", "blush_pink"],
+            "footwear_type": "nude_ballet_flats",
+            "accessories": ["none_visible"],
+            "style": "sweet_sophisticated"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 22,
+            "footwear": 16,
+            "accessories": 9,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The fitted pencil skirt paired with a slightly looser top and light cardigan creates a balanced feminine silhouette. The proportions are flattering and well-executed.",
+            "color": "The bright lime green skirt makes a confident statement while the soft cream cardigan and blush polka dots complement it beautifully. The color combination is unexpected but harmonious.",
+            "footwear": "The nude ballet flats are practical and don't compete with the statement skirt. More distinctive footwear could elevate the look further.",
+            "accessories": "Minimal accessories keep the focus on the color play. Some delicate jewelry could add refinement to the preppy look.",
+            "style": "Successfully balances sweet feminine elements with sophisticated silhouettes. The outfit is approachable yet polished."
+        }
+    },
+    {
+        "image_path": "casual_42.jpg",
+        "score": 82,
+        "labels": {
+            "fit": "relaxed_bohemian",
+            "pants_type": "zebra_print_maxi_harem",
+            "top_type": "turquoise_flowy_tank",
+            "color_palette": ["turquoise", "black", "white", "beige"],
+            "footwear_type": "tan_suede_ankle_boots",
+            "accessories": ["lavender_clutch", "gold_bracelet"],
+            "style": "eclectic_casual"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 19,
+            "footwear": 16,
+            "accessories": 14,
+            "style": 18
+        },
+        "feedback": {
+            "fit": "The loose, flowing silhouette of both the tank and printed pants creates a bohemian aesthetic. The proportions maintain a feminine shape despite the relaxed fit.",
+            "color": "The vibrant turquoise top contrasts beautifully with the black and white print. The neutral accessories balance the bold elements.",
+            "footwear": "The tan ankle boots complement the bohemian vibe. They ground the outfit while maintaining the relaxed aesthetic.",
+            "accessories": "The lavender clutch adds an unexpected color accent. The gold bracelet enhances the bohemian feel without overwhelming.",
+            "style": "Successfully captures a relaxed bohemian aesthetic with personality. The outfit balances statement print with complementary solid colors."
+        }
+    },
+    {
+        "image_path": "casual_43.jpg",
+        "score": 87,
+        "labels": {
+            "fit": "casual_chic",
+            "pants_type": "distressed_boyfriend_jeans",
+            "top_type": "camel_button_up",
+            "color_palette": ["camel", "denim_blue", "red"],
+            "footwear_type": "red_pointed_stilettos",
+            "accessories": ["red_clutch", "gold_watch", "red_lipstick"],
+            "style": "high_low_mix"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 22,
+            "footwear": 20,
+            "accessories": 15,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The relaxed button-up and boyfriend jeans create a casual foundation, while the rolled cuffs add intentional styling. The untucked shirt maintains the effortless vibe.",
+            "color": "The neutral camel pairs perfectly with classic denim. The bold red accessories create impactful pops of color that elevate the casual base.",
+            "footwear": "The red stilettos transform the casual outfit with unexpected glamour. They're the perfect statement piece that demonstrates personal style.",
+            "accessories": "The coordinating red clutch and lipstick create cohesion. The gold watch adds a subtle touch of refinement.",
+            "style": "Masterfully executes the high-low mix trend. The outfit balances casual and dressy elements for a look that's both approachable and fashion-forward."
+        }
+    },
+    {
+        "image_path": "casual_44.jpg",
+        "score": 79,
+        "labels": {
+            "fit": "avant_garde_playful",
+            "dress_type": "royal_blue_mini_with_neon_trim",
+            "color_palette": ["royal_blue", "neon_green", "neon_orange", "pink"],
+            "footwear_type": "brown_lace_up_boots",
+            "accessories": ["ombre_tights", "pink_hair"],
+            "style": "bold_eclectic"
+        },
+        "score_breakdown": {
+            "fit": 18,
+            "color": 20,
+            "footwear": 14,
+            "accessories": 16,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The structured mini dress creates a mod-inspired silhouette. The proportions work for a playful look but could be more refined.",
+            "color": "The striking royal blue with neon accents creates bold visual impact. The gradient tights add another dimension to the color story.",
+            "footwear": "The brown boots add an unexpected casual element but don't fully integrate with the bold color palette of the rest of the outfit.",
+            "accessories": "The ombre tights are a creative statement piece. The pink hair complements the playful aesthetic.",
+            "style": "Embraces a bold, experimental approach to fashion. The outfit demonstrates creativity and willingness to play with unexpected combinations."
+        }
+    },
+    {
+        "image_path": "casual_45.jpg",
+        "score": 86,
+        "labels": {
+            "fit": "preppy_colorful",
+            "pants_type": "bright_blue_shorts",
+            "top_type": "white_blouse_with_hot_pink_blazer",
+            "color_palette": ["hot_pink", "bright_blue", "white", "light_blue"],
+            "footwear_type": "white_western_boots",
+            "accessories": ["light_blue_fedora", "spotted_mini_bag"],
+            "style": "playful_sophisticated"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 23,
+            "footwear": 16,
+            "accessories": 19,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The tailored blazer paired with shorts creates a playful yet polished silhouette. The proportions balance the structured top with the casual bottom.",
+            "color": "The bold combination of hot pink and bright blue creates vibrant visual impact. The white elements provide necessary negative space within the colorful palette.",
+            "footwear": "The white western boots add an unexpected element. They're distinctive though slightly disconnected from the preppy vibe of the rest of the outfit.",
+            "accessories": "The light blue fedora coordinates beautifully with the shorts while adding visual interest. The spotted bag adds another playful dimension.",
+            "style": "Successfully combines playful elements with sophisticated pieces. The outfit demonstrates confidence in color combination and personal style."
+        }
+    },
+    {
+        "image_path": "casual_46.jpg",
+        "score": 82,
+        "labels": {
+            "fit": "draped_oversized",
+            "pants_type": "black_skinny_jeans",
+            "top_type": "white_butterfly_tee_with_pink_kimono",
+            "color_palette": ["pink", "black", "white", "turquoise"],
+            "footwear_type": "black_platform_booties",
+            "accessories": ["straw_hat", "oversized_sunglasses", "turquoise_crossbody"],
+            "style": "bohemian_trendy"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 19,
+            "footwear": 16,
+            "accessories": 19,
+            "style": 18
+        },
+        "feedback": {
+            "fit": "The flowing kimono over fitted basics creates an interesting silhouette with dimension. The contrast between fitted and flowing elements adds visual interest.",
+            "color": "The soft pink kimono pairs well with the black and white base. The turquoise bag adds a complementary pop of color.",
+            "footwear": "The black platform booties ground the outfit. They provide height while maintaining the casual aesthetic.",
+            "accessories": "The straw hat and oversized sunglasses add bohemian flair. The turquoise bag creates a focal point that ties the look together.",
+            "style": "Successfully combines trendy elements with bohemian touches. The outfit balances current fashion with timeless casual pieces."
+        }
+    },
+    {
+        "image_path": "casual_47.jpg",
+        "score": 80,
+        "labels": {
+            "fit": "relaxed_bohemian",
+            "pants_type": "denim_cutoff_shorts",
+            "top_type": "white_crochet_sweater",
+            "color_palette": ["white", "denim_blue", "brown"],
+            "footwear_type": "brown_lace_up_ankle_boots",
+            "accessories": ["black_sunglasses", "pendant_necklace", "brown_crossbody_bag", "belt"],
+            "style": "boho_casual"
+        },
+        "score_breakdown": {
+            "fit": 19,
+            "color": 17,
+            "footwear": 17,
+            "accessories": 16,
+            "style": 18
+        },
+        "feedback": {
+            "fit": "The loose-knit sweater paired with cutoff shorts creates a casual silhouette with textural interest. The proportions work for a relaxed look.",
+            "color": "The white and blue palette is classic and understated. The brown leather accessories add warmth but the overall color story is somewhat expected.",
+            "footwear": "The brown lace-up boots complement the bohemian aesthetic. They add a vintage-inspired touch that works with the outfit's casual nature.",
+            "accessories": "The layered accessories enhance the bohemian vibe. The belt, bag, necklace, and sunglasses create a cohesive styling story.",
+            "style": "Successfully captures a bohemian casual aesthetic. The outfit feels authentic and wearable for everyday settings."
+        }
+    },
+    {
+        "image_path": "casual_48.jpg",
+        "score": 85,
+        "labels": {
+            "fit": "feminine_edgy",
+            "pants_type": "mint_green_skinny_jeans",
+            "top_type": "blush_pink_blouse_with_black_leather_jacket",
+            "color_palette": ["black", "mint_green", "blush_pink"],
+            "footwear_type": "black_cage_heels",
+            "accessories": ["black_clutch", "layered_necklaces", "sunglasses"],
+            "style": "soft_rock"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 22,
+            "footwear": 19,
+            "accessories": 14,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The structured leather jacket paired with fitted jeans creates a sleek silhouette. The softer blouse balances the edgier elements with femininity.",
+            "color": "The unexpected combination of mint green and soft pink creates a fresh palette. The black leather elements add edge that contrasts beautifully with the pastels.",
+            "footwear": "The black cage heels add edgy sophistication. They coordinate with the jacket while adding visual interest.",
+            "accessories": "The black clutch and sunglasses reinforce the edgy elements. The layered necklaces add a touch of refinement.",
+            "style": "Successfully juxtaposes soft feminine elements with edgier pieces. The outfit demonstrates thoughtful balance between contrasting aesthetics."
+        }
+    },
+    {
+        "image_path": "casual_49.jpg",
+        "score": 81,
+        "labels": {
+            "fit": "casual_feminine",
+            "pants_type": "hot_pink_shorts",
+            "top_type": "white_printed_tie_front_blouse",
+            "color_palette": ["white", "hot_pink", "brown"],
+            "footwear_type": "black_converse_sneakers",
+            "accessories": ["brown_leather_bag", "rings", "bracelets"],
+            "style": "youthful_practical"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 19,
+            "footwear": 15,
+            "accessories": 14,
+            "style": 18
+        },
+        "feedback": {
+            "fit": "The loose tie-front blouse paired with tailored shorts creates a balanced casual silhouette. The proportions are flattering without being overly fitted.",
+            "color": "The vibrant pink shorts make a statement against the subtle white patterned top. The color combination is youthful and summery.",
+            "footwear": "The black sneakers add practicality but don't fully connect with the more feminine elements. More coordinated footwear could elevate the look.",
+            "accessories": "The brown leather bag adds a warm neutral element. The subtle jewelry enhances the casual vibe without overwhelming.",
+            "style": "Successfully captures a practical yet feminine aesthetic. The outfit balances comfort with style in a wearable way."
+        }
+    },
+    {
+        "image_path": "casual_50.jpg",
+        "score": 83,
+        "labels": {
+            "fit": "minimalist_layered",
+            "pants_type": "leopard_print_shorts",
+            "top_type": "white_tee_with_long_white_cardigan",
+            "color_palette": ["white", "black", "tan", "gold"],
+            "footwear_type": "black_platform_sandals",
+            "accessories": ["gold_necklace", "black_beanie", "aviator_sunglasses"],
+            "style": "urban_cool"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 19,
+            "footwear": 17,
+            "accessories": 15,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The long cardigan over a simple tee and shorts creates an interesting silhouette with clean lines. The length proportions add visual interest to a simple base.",
+            "color": "The neutral palette of white, tan, and black creates a cohesive foundation. The leopard print adds visual interest while staying within the neutral family.",
+            "footwear": "The black platform sandals add height while maintaining the urban aesthetic. They complement the monochromatic elements of the outfit.",
+            "accessories": "The black beanie and aviator sunglasses add cool-girl edge. The gold necklace adds a subtle hint of refinement.",
+            "style": "Successfully captures an effortless urban cool aesthetic. The outfit balances statement print with minimalist elements for a balanced look."
+        }
+    },
+    {
+        "image_path": "casual_51.jpg",
+        "score": 87,
+        "labels": {
+            "fit": "soft_contrasting",
+            "skirt_type": "peach_tulle_midi",
+            "top_type": "cropped_black_top_with_denim_jacket",
+            "color_palette": ["peach", "denim_blue", "black", "nude"],
+            "footwear_type": "nude_ballet_flats",
+            "accessories": ["beige_structured_bag"],
+            "style": "feminine_casual"
+        },
+        "score_breakdown": {
+            "fit": 22,
+            "color": 21,
+            "footwear": 17,
+            "accessories": 13,
+            "style": 21
+        },
+        "feedback": {
+            "fit": "The structured denim jacket balances beautifully with the flowing tulle skirt. The cropped top creates definition at the waist for a flattering silhouette.",
+            "color": "The soft peach tulle creates a romantic base that contrasts effectively with the casual denim and black top. The neutral accessories complement without competing.",
+            "footwear": "The nude ballet flats extend the leg line and maintain the feminine aesthetic. They're practical while remaining cohesive with the outfit's softness.",
+            "accessories": "The structured bag adds a polished element. More thoughtful accessorizing could further elevate the look.",
+            "style": "Successfully juxtaposes casual denim with romantic tulle for a balanced feminine look. The outfit demonstrates how to incorporate dreamy elements into everyday wear."
+        }
+    },
+    {
+        "image_path": "casual_52.jpg",
+        "score": 88,
+        "labels": {
+            "fit": "urban_elegant",
+            "skirt_type": "navy_pleated_maxi",
+            "top_type": "light_blue_tank",
+            "color_palette": ["navy", "light_blue", "tan", "brown"],
+            "footwear_type": "brown_platform_heels",
+            "accessories": ["wide_brim_hat", "brown_leather_satchel", "brown_belt", "bracelet"],
+            "style": "sophisticated_bohemian"
+        },
+        "score_breakdown": {
+            "fit": 22,
+            "color": 21,
+            "footwear": 19,
+            "accessories": 17,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The simple tank paired with the flowing pleated maxi creates a balanced silhouette with movement. The belt defines the waist nicely for shape amidst the volume.",
+            "color": "The tonal blue palette is sophisticated and cohesive. The brown leather accessories add warmth and depth to the cool blues.",
+            "footwear": "The substantial platform heels add height while maintaining an urban edge. They coordinate perfectly with the other brown leather elements.",
+            "accessories": "The wide-brim hat adds dramatic sophistication. The coordinated belt, bag and bracelet create a thoughtful, cohesive accessory story.",
+            "style": "Successfully blends urban elegance with bohemian elements. The outfit demonstrates a refined approach to casual dressing with statement proportions."
+        }
+    },
+    {
+        "image_path": "casual_53.jpg",
+        "score": 84,
+        "labels": {
+            "fit": "relaxed_feminine",
+            "dress_type": "mustard_yellow_shift_mini",
+            "color_palette": ["mustard_yellow", "turquoise", "nude"],
+            "footwear_type": "nude_platform_heels",
+            "accessories": ["turquoise_belt", "turquoise_crossbody", "turquoise_statement_necklace", "gold_bracelet"],
+            "style": "colorful_chic"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 22,
+            "footwear": 17,
+            "accessories": 19,
+            "style": 18
+        },
+        "feedback": {
+            "fit": "The simple shift dress silhouette is enhanced by the belt that defines the waist. The flutter sleeves add feminine movement to the otherwise straightforward shape.",
+            "color": "The bold mustard yellow paired with turquoise creates a striking complementary color combination. The neutral footwear balances the vibrant palette.",
+            "footwear": "The nude platform heels elongate the leg line and don't compete with the colorful elements. They provide height while remaining understated.",
+            "accessories": "The coordinated turquoise accessories create a cohesive color story. The belt, bag, and statement necklace work together to add dimension to the simple dress.",
+            "style": "Successfully uses color and accessories to elevate a simple silhouette. The outfit demonstrates how strategic color pairing can create visual impact."
+        }
+    },
+    {
+        "image_path": "casual_54.jpg",
+        "score": 83,
+        "labels": {
+            "fit": "vintage_inspired",
+            "skirt_type": "black_pleated_midi",
+            "top_type": "pink_blouse_with_fur_collar",
+            "color_palette": ["dusky_pink", "black", "brown"],
+            "footwear_type": "floral_print_flats",
+            "accessories": ["fur_collar"],
+            "style": "retro_feminine"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 19,
+            "footwear": 16,
+            "accessories": 15,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The pleated midi skirt paired with a tucked blouse creates a classic vintage silhouette. The cinched waist and full skirt flatter the figure.",
+            "color": "The dusky pink and black create a soft vintage-inspired palette. The brown fur adds warmth and luxury to the otherwise simple color scheme.",
+            "footwear": "The floral print flats add an unexpected detail. They coordinate with the vintage aesthetic though could be more cohesive with the rest of the outfit.",
+            "accessories": "The fur collar creates a luxurious focal point. Additional vintage-inspired accessories could enhance the retro aesthetic.",
+            "style": "Successfully captures a nostalgic, feminine aesthetic with modern touches. The outfit demonstrates an understanding of vintage proportions."
+        }
+    },
+    {
+        "image_path": "casual_55.jpg",
+        "score": 85,
+        "labels": {
+            "fit": "monochromatic_layered",
+            "dress_type": "lavender_midi",
+            "top_type": "deep_purple_cropped_cardigan",
+            "color_palette": ["lavender", "deep_purple", "white"],
+            "footwear_type": "black_ballet_flats",
+            "accessories": ["white_woven_tote"],
+            "style": "feminine_minimal"
+        },
+        "score_breakdown": {
+            "fit": 22,
+            "color": 21,
+            "footwear": 15,
+            "accessories": 14,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The cropped cardigan creates a defined waistline above the flowing midi dress. The proportions are elegant and create a flattering feminine silhouette.",
+            "color": "The tonal purple palette creates a sophisticated monochromatic look. The varying shades add depth while maintaining harmony.",
+            "footwear": "The simple black flats are practical but somewhat disconnected from the purple palette. Footwear in a complementary color could enhance the look.",
+            "accessories": "The white tote adds a clean contrast to the purple palette. The minimalist approach keeps focus on the color play in the outfit.",
+            "style": "Successfully executes a refined monochromatic look with subtle details. The outfit demonstrates how varying shades of one color can create a complete look."
+        }
+    },
+    {
+        "image_path": "casual_56.jpg",
+        "score": 86,
+        "labels": {
+            "fit": "edgy_feminine",
+            "skirt_type": "bright_green_skater",
+            "top_type": "white_tee_with_black_leather_jacket",
+            "color_palette": ["green", "white", "black", "red"],
+            "footwear_type": "red_pumps",
+            "accessories": ["heart_pendant_necklace", "sunglasses"],
+            "style": "playful_contrast"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 22,
+            "footwear": 19,
+            "accessories": 13,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The structured leather jacket balances nicely with the feminine flared skirt. The simple white tee creates a clean foundation for the statement pieces.",
+            "color": "The bright green skirt creates a bold focal point, while the black and white elements provide structure. The red pumps add a perfect coordinating pop of color.",
+            "footwear": "The red pumps add sophistication and create a compelling color contrast with the green skirt. The pointed toe elongates the leg line.",
+            "accessories": "The heart pendant adds a sweet feminine touch that balances the edgy jacket. The sunglasses enhance the cool-girl vibe.",
+            "style": "Successfully juxtaposes edgy and feminine elements for a playful yet balanced look. The outfit demonstrates how contrasting styles can work harmoniously."
+        }
+    },
+    {
+        "image_path": "casual_57.jpg",
+        "score": 88,
+        "labels": {
+            "fit": "polished_casual",
+            "pants_type": "dark_navy_jeans",
+            "top_type": "white_tee_with_coral_blazer",
+            "color_palette": ["coral", "white", "navy", "coral_red"],
+            "footwear_type": "coral_heeled_pumps",
+            "accessories": ["thin_belt", "black_quilted_crossbody", "gold_bracelet"],
+            "style": "elevated_basics"
+        },
+        "score_breakdown": {
+            "fit": 22,
+            "color": 23,
+            "footwear": 19,
+            "accessories": 15,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The tailored blazer paired with slim jeans creates a balanced, flattering silhouette. The simple white tee provides a clean foundation for the statement blazer.",
+            "color": "The vibrant coral blazer adds energy to the classic white and navy base. The matching coral shoes create perfect cohesion in the color story.",
+            "footwear": "The coral pumps coordinate beautifully with the blazer for a polished, intentional look. The heel adds sophistication to the otherwise casual elements.",
+            "accessories": "The thin belt adds definition, while the black bag provides contrast. The gold bracelet adds a touch of refinement.",
+            "style": "Successfully elevates classic basics with strategic color and tailoring. The outfit demonstrates how a statement blazer can transform simple pieces."
+        }
+    },
+    {
+        "image_path": "casual_58.jpg",
+        "score": 84,
+        "labels": {
+            "fit": "relaxed_beachy",
+            "pants_type": "distressed_denim_shorts",
+            "top_type": "white_button_down",
+            "color_palette": ["white", "blue_denim", "royal_blue", "tan"],
+            "footwear_type": "tan_platform_wedges",
+            "accessories": ["royal_blue_satchel", "aviator_sunglasses", "silver_bracelet"],
+            "style": "casual_polished"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 20,
+            "footwear": 17,
+            "accessories": 16,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The loose button-down paired with casual shorts creates a relaxed silhouette with a hint of structure. The half-tucked shirt adds intentional styling to the casual pieces.",
+            "color": "The crisp white shirt and blue denim create a classic combination. The royal blue bag adds a vibrant pop of color that elevates the simple palette.",
+            "footwear": "The tan platform wedges add height while maintaining a casual vibe. They're practical for warm weather while adding polish to the casual shorts.",
+            "accessories": "The bright blue bag creates a focal point. The aviator sunglasses and silver bracelet add subtle refinement to the beachy look.",
+            "style": "Successfully balances casual elements with polished touches. The outfit demonstrates how to elevate simple pieces through thoughtful styling and accessories."
+        }
+    },
+    {
+        "image_path": "casual_59.jpg",
+        "score": 82,
+        "labels": {
+            "fit": "color_blocked_modern",
+            "pants_type": "dark_patterned_mini_shorts",
+            "top_type": "bright_orange_sleeveless_blouse",
+            "color_palette": ["bright_orange", "burgundy", "black", "red"],
+            "footwear_type": "red_platform_wedge_boots",
+            "accessories": ["none_visible"],
+            "style": "bold_youthful"
+        },
+        "score_breakdown": {
+            "fit": 19,
+            "color": 21,
+            "footwear": 18,
+            "accessories": 8,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The loose-fitting top paired with fitted shorts creates a balanced casual silhouette. The proportions work well for a youthful, modern look.",
+            "color": "The vibrant orange top creates a bold contrast with the darker patterned shorts. The red footwear adds an additional pop that complements the orange.",
+            "footwear": "The red platform wedge boots make a bold statement and add height. They coordinate with the color story while adding an unexpected element.",
+            "accessories": "Minimal accessories keep focus on the bold color combination. Additional accessories could add more dimension to the look.",
+            "style": "Successfully plays with bold colors and modern proportions. The outfit demonstrates confidence in color combination and contemporary styling."
+        }
+    },
+    {
+        "image_path": "casual_60.jpg",
+        "score": 89,
+        "labels": {
+            "fit": "tailored_edgy",
+            "pants_type": "brown_leather_shorts",
+            "top_type": "bright_orange_tee_with_black_leather_jacket",
+            "color_palette": ["orange", "black", "brown", "tan"],
+            "footwear_type": "tan_platform_loafers",
+            "accessories": ["sunglasses"],
+            "style": "luxe_casual"
+        },
+        "score_breakdown": {
+            "fit": 23,
+            "color": 22,
+            "footwear": 18,
+            "accessories": 8,
+            "style": 21
+        },
+        "feedback": {
+            "fit": "The structured leather jacket paired with tailored leather shorts creates a cohesive, edgy silhouette. The simple tee balances the statement leather pieces.",
+            "color": "The bright orange creates a vibrant focal point against the rich leather tones. The black and brown leather complement each other while the orange adds energy.",
+            "footwear": "The tan platform loafers add height while maintaining a relaxed vibe. They coordinate well with the brown shorts for cohesion.",
+            "accessories": "Minimal accessories keep focus on the statement leather pieces. The sunglasses enhance the cool-girl aesthetic.",
+            "style": "Successfully combines luxurious textures with casual elements. The outfit demonstrates confidence in mixing edgy pieces with bright color."
+        }
+    },
+     {
+        "image_path": "casual_61.jpg",
+        "score": 82,
+        "labels": {
+            "fit": "playful_retro",
+            "skirt_type": "denim_mini",
+            "top_type": "rainbow_striped_button_up",
+            "color_palette": ["multi_colored", "denim_blue", "teal", "cream"],
+            "footwear_type": "teal_socks_with_wooden_platform_oxfords",
+            "accessories": ["cream_straw_hat"],
+            "style": "quirky_colorful"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 21,
+            "footwear": 16,
+            "accessories": 13,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The oversized striped shirt with the fitted denim mini creates a playful silhouette with good proportions. The tucked front adds shape to the looser top.",
+            "color": "The rainbow stripes create a vibrant focal point that's balanced by the simple denim skirt. The teal socks add a coordinated pop that ties to the stripe colors.",
+            "footwear": "The platform oxfords with teal socks add quirky height and an unexpected twist. They contribute to the outfit's playful, vintage-inspired aesthetic.",
+            "accessories": "The cream straw hat adds a summery touch that complements the casual vibe. More accessories could enhance the overall look.",
+            "style": "Successfully captures a colorful, vintage-inspired aesthetic with modern touches. The outfit has personality and demonstrates confidence in color combination."
+        }
+    },
+    {
+        "image_path": "casual_62.jpg",
+        "score": 86,
+        "labels": {
+            "fit": "preppy_casual",
+            "pants_type": "rolled_boyfriend_jeans",
+            "top_type": "striped_tee_with_hot_pink_blazer",
+            "color_palette": ["hot_pink", "navy", "white", "denim_blue", "green"],
+            "footwear_type": "green_loafers",
+            "accessories": ["black_glasses"],
+            "style": "colorful_classic"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 22,
+            "footwear": 18,
+            "accessories": 12,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The tailored blazer paired with relaxed rolled jeans creates a balanced silhouette that's polished yet casual. The striped tee adds a classic foundation.",
+            "color": "The hot pink blazer makes a bold statement against the classic navy and white stripes. The green loafers add an unexpected complementary pop of color.",
+            "footwear": "The bright green loafers add a distinctive touch that coordinates with the overall color story. They're unexpected yet harmonious with the pink blazer.",
+            "accessories": "The black glasses add a scholarly touch that works with the preppy aesthetic. Additional accessories could enhance the look further.",
+            "style": "Successfully balances classic elements with bold color for a contemporary preppy look. The outfit demonstrates confidence in combining timeless pieces with statement colors."
+        }
+    },
+    {
+        "image_path": "casual_63.jpg",
+        "score": 79,
+        "labels": {
+            "fit": "edgy_feminine",
+            "skirt_type": "hot_pink_tulle_mini",
+            "top_type": "white_bandeau",
+            "color_palette": ["white", "hot_pink", "black"],
+            "footwear_type": "pink_polka_dot_platforms_with_white_knee_socks",
+            "accessories": ["wide_black_belt", "statement_necklace", "face_makeup"],
+            "style": "alternative_kawaii"
+        },
+        "score_breakdown": {
+            "fit": 18,
+            "color": 19,
+            "footwear": 15,
+            "accessories": 16,
+            "style": 18
+        },
+        "feedback": {
+            "fit": "The cropped bandeau with high-waisted tulle skirt creates a dramatic silhouette. The wide belt defines the waist but the proportions are somewhat exaggerated.",
+            "color": "The stark contrast of white, hot pink, and black creates a bold, theatrical color story. The color combination is effective for the edgy aesthetic.",
+            "footwear": "The polka dot platforms with knee socks add height and whimsy. The styling is creative though somewhat disconnected from the rest of the outfit.",
+            "accessories": "The wide belt creates definition and adds edge. The statement necklace and dramatic makeup enhance the alternative aesthetic.",
+            "style": "Embraces an experimental, alternative approach with kawaii influences. The outfit demonstrates creativity and willingness to push fashion boundaries."
+        }
+    },
+    {
+        "image_path": "casual_64.jpg",
+        "score": 84,
+        "labels": {
+            "fit": "vintage_feminine",
+            "pants_type": "burnt_orange_high_waisted_shorts",
+            "top_type": "peach_floral_blouse",
+            "color_palette": ["peach", "burnt_orange", "tan", "black"],
+            "footwear_type": "tan_wedge_sandals_with_black_socks",
+            "accessories": ["brown_fedora", "brown_satchel", "bracelets"],
+            "style": "romantic_practical"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 20,
+            "footwear": 16,
+            "accessories": 18,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The loose, feminine blouse tucked into high-waisted shorts creates a flattering vintage-inspired silhouette. The proportions are well-balanced.",
+            "color": "The soft peach paired with earthy burnt orange creates a warm, harmonious palette. The brown accessories add cohesion to the color story.",
+            "footwear": "The wedge sandals with socks add a practical yet quirky touch. The combination is unexpected but works with the vintage aesthetic.",
+            "accessories": "The coordinated brown hat and satchel enhance the vintage vibe. The subtle bracelets add refinement without overwhelming.",
+            "style": "Successfully captures a feminine vintage aesthetic with practical elements. The outfit balances prettiness with wearability for everyday settings."
+        }
+    },
+    {
+        "image_path": "casual_65.jpg",
+        "score": 83,
+        "labels": {
+            "fit": "relaxed_bohemian",
+            "pants_type": "grey_embellished_shorts",
+            "top_type": "white_flowing_top_with_beige_kimono",
+            "color_palette": ["white", "beige", "grey", "brown"],
+            "footwear_type": "brown_lace_up_ankle_boots",
+            "accessories": ["sunglasses", "patterned_clutch"],
+            "style": "festival_ready"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 19,
+            "footwear": 17,
+            "accessories": 14,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The flowing layers create an ethereal silhouette with movement. The loose kimono over a fitted base adds dimension without overwhelming the frame.",
+            "color": "The neutral palette of white, beige, and grey creates a soft, earthy aesthetic. The subtle variations in tone add depth without disrupting cohesion.",
+            "footwear": "The brown ankle boots ground the ethereal elements with practicality. They add a rugged contrast to the softer pieces.",
+            "accessories": "The sunglasses and patterned clutch enhance the bohemian vibe. More statement jewelry could elevate the look further.",
+            "style": "Successfully captures a festival-ready bohemian aesthetic. The outfit balances dreamy elements with practical pieces for a wearable look."
+        }
+    },
+    {
+        "image_path": "casual_66.jpg",
+        "score": 87,
+        "labels": {
+            "fit": "romantic_asymmetric",
+            "skirt_type": "cream_asymmetric_maxi",
+            "top_type": "taupe_bustier",
+            "color_palette": ["taupe", "cream", "gold", "black"],
+            "footwear_type": "black_strappy_heels",
+            "accessories": ["gold_belt", "gold_bracelets"],
+            "style": "modern_feminine"
+        },
+        "score_breakdown": {
+            "fit": 22,
+            "color": 21,
+            "footwear": 17,
+            "accessories": 16,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The fitted bustier paired with the flowing asymmetric skirt creates a striking silhouette with dramatic dimension. The gold belt defines the waist beautifully.",
+            "color": "The soft neutral palette of taupe and cream creates an elegant, sophisticated aesthetic. The gold accents add warmth and luxury.",
+            "footwear": "The black strappy heels add a contemporary edge that contrasts with the romantic skirt. They provide height without competing with the statement silhouette.",
+            "accessories": "The gold belt creates a focal point at the waist. The coordinating gold bracelets add cohesion to the accessory story.",
+            "style": "Successfully captures a modern romantic aesthetic with dramatic elements. The outfit balances softness with structure for a sophisticated look."
+        }
+    },
+    {
+        "image_path": "casual_67.jpg",
+        "score": 82,
+        "labels": {
+            "fit": "menswear_inspired",
+            "pants_type": "rust_orange_tapered",
+            "top_type": "white_button_down",
+            "color_palette": ["white", "rust_orange", "black", "leopard_print"],
+            "footwear_type": "leopard_print_loafers",
+            "accessories": ["black_bowler_hat", "leopard_belt"],
+            "style": "vintage_eclectic"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 19,
+            "footwear": 18,
+            "accessories": 16,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The classic button-down paired with high-waisted tapered pants creates a clean, androgynous silhouette. The tucked shirt defines the waist for feminine contrast.",
+            "color": "The white and rust orange combination creates a warm, autumnal palette. The leopard print accents add visual interest to the otherwise simple color scheme.",
+            "footwear": "The leopard print loafers add a playful twist to the menswear-inspired look. They coordinate with the belt for a cohesive accent story.",
+            "accessories": "The black bowler hat adds vintage charm that enhances the androgynous vibe. The leopard belt defines the waist and ties to the footwear.",
+            "style": "Successfully combines menswear elements with feminine touches. The outfit has personality and demonstrates thoughtful vintage-inspired styling."
+        }
+    },
+    {
+        "image_path": "casual_68.jpg",
+        "score": 85,
+        "labels": {
+            "fit": "bohemian_glam",
+            "dress_type": "patterned_strapless_midi",
+            "color_palette": ["purple", "blue", "red", "brown"],
+            "footwear_type": "blue_strappy_platform_sandals",
+            "accessories": ["brown_leather_crossbody", "bracelet"],
+            "style": "eclectic_feminine"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 22,
+            "footwear": 18,
+            "accessories": 14,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The fitted bodice with a slightly flared skirt creates a flattering silhouette that showcases the pattern. The midi length adds sophistication to the bohemian print.",
+            "color": "The rich, jewel-toned pattern creates visual interest and depth. The mix of purple, blue, and red is bold yet harmonious.",
+            "footwear": "The blue platform sandals coordinate with colors in the dress while adding height. The strappy design adds a contemporary element to the bohemian dress.",
+            "accessories": "The brown leather bag adds a practical, earthy element. More statement jewelry could enhance the bohemian glam aesthetic.",
+            "style": "Successfully balances bohemian elements with more polished pieces. The outfit demonstrates confidence in pattern and color combination."
+        }
+    },
+    {
+        "image_path": "casual_69.jpg",
+        "score": 84,
+        "labels": {
+            "fit": "color_blocked_casual",
+            "pants_type": "neon_green_harem",
+            "top_type": "blush_pink_tee",
+            "color_palette": ["neon_green", "blush_pink", "black"],
+            "footwear_type": "black_wedge_sandals",
+            "accessories": ["black_clutch"],
+            "style": "modern_relaxed"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 22,
+            "footwear": 16,
+            "accessories": 12,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The simple fitted tee paired with relaxed, flowing pants creates a balanced casual silhouette. The contrast between fitted and loose elements adds visual interest.",
+            "color": "The unexpected combination of soft blush pink with vibrant neon green creates striking visual impact. The black accessories ground the bold color pairing.",
+            "footwear": "The black wedge sandals add height while maintaining a casual vibe. They provide a neutral base that allows the bold pants to remain the focus.",
+            "accessories": "The simple black clutch coordinates with the shoes. More thoughtful accessories could enhance the modern aesthetic.",
+            "style": "Successfully plays with bold color in a wearable silhouette. The outfit demonstrates confidence in combining unexpected colors in a balanced way."
+        }
+    },
+    {
+        "image_path": "casual_70.jpg",
+        "score": 78,
+        "labels": {
+            "fit": "playful_quirky",
+            "pants_type": "mint_green_shorts",
+            "top_type": "white_graphic_tee",
+            "color_palette": ["white", "mint_green", "black"],
+            "footwear_type": "black_platform_mary_janes",
+            "accessories": ["patterned_tights"],
+            "style": "kawaii_inspired"
+        },
+        "score_breakdown": {
+            "fit": 18,
+            "color": 19,
+            "footwear": 15,
+            "accessories": 14,
+            "style": 18
+        },
+        "feedback": {
+            "fit": "The boxy tee with simple shorts creates a youthful, casual silhouette. The proportions are somewhat basic but work for the playful aesthetic.",
+            "color": "The mint green and white create a fresh, sweet palette. The black elements add necessary contrast to the pastel foundation.",
+            "footwear": "The platform mary janes with patterned tights add a quirky, doll-like quality. They're distinctive though somewhat disconnected from the casual top half.",
+            "accessories": "The patterned tights make a statement that enhances the quirky vibe. Additional accessories could add more dimension to the look.",
+            "style": "Embraces a youthful, kawaii-inspired aesthetic. The outfit has a playful quality that demonstrates willingness to incorporate unexpected elements."
+        }
+    },
+     {
+        "image_path": "casual_71.jpg",
+        "score": 85,
+        "labels": {
+            "fit": "whimsical_feminine",
+            "skirt_type": "dusty_rose_flared_mini",
+            "top_type": "pale_yellow_tank",
+            "color_palette": ["pale_yellow", "dusty_rose", "pink", "white"],
+            "footwear_type": "pink_striped_socks_with_platform_heels",
+            "accessories": ["pink_belt", "blush_crossbody_bag", "cream_fedora"],
+            "style": "pastel_playful"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 22,
+            "footwear": 17,
+            "accessories": 16,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The fitted tank paired with the slightly flared mini skirt creates a youthful, feminine silhouette. The belted waist defines the figure nicely.",
+            "color": "The soft pastel palette of yellow and dusty rose creates a harmonious, sweet aesthetic. The matching pink accessories add cohesion to the color story.",
+            "footwear": "The playful combination of striped socks with platform heels adds whimsical height. The pink tones connect with the skirt and accessories.",
+            "accessories": "The coordinated pink belt and bag show attention to detail. The cream fedora adds structure and complements the soft palette.",
+            "style": "Successfully captures a playful yet put-together aesthetic. The outfit balances youthful elements with sophisticated color coordination."
+        }
+    },
+    {
+        "image_path": "casual_72.jpg",
+        "score": 82,
+        "labels": {
+            "fit": "layered_bohemian",
+            "pants_type": "blue_denim_shorts",
+            "top_type": "beige_ribbed_sweater",
+            "color_palette": ["beige", "blue_denim", "brown", "red", "gray"],
+            "footwear_type": "brown_combat_boots_with_gray_knee_socks",
+            "accessories": ["red_headscarf", "fringe_crossbody_bag", "belt", "sunglasses", "bracelets"],
+            "style": "eclectic_grunge"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 19,
+            "footwear": 18,
+            "accessories": 21,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The oversized sweater with denim shorts creates a relaxed silhouette with good proportions. The tucked front adds shape to the looser top.",
+            "color": "The neutral beige and blue base allows the red headscarf to stand out. The earth tones create a cohesive bohemian palette.",
+            "footwear": "The brown combat boots with gray knee socks add a grunge element that contrasts with the softer top. They ground the look while adding visual interest.",
+            "accessories": "Excellent layering of accessories—the headscarf, fringe bag, and stacked bracelets create a rich bohemian story. Each piece contributes to the eclectic vibe.",
+            "style": "Successfully blends bohemian and grunge elements. The outfit has personality and demonstrates thoughtful layering of contrasting textures and accessories."
+        }
+    },
+    {
+        "image_path": "casual_73.jpg",
+        "score": 83,
+        "labels": {
+            "fit": "mod_minimal",
+            "skirt_type": "bright_red_mini",
+            "top_type": "white_sleeveless_blouse",
+            "color_palette": ["white", "red", "black"],
+            "footwear_type": "black_platform_wedges",
+            "accessories": ["wide_brim_black_hat", "sunglasses"],
+            "style": "retro_chic"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 22,
+            "footwear": 18,
+            "accessories": 14,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The simple sleeveless blouse paired with the structured mini skirt creates a clean, mod-inspired silhouette. The proportions are classic and flattering.",
+            "color": "The bold contrast of white, red, and black creates a striking, graphic color story. The limited palette has maximum impact with minimal complexity.",
+            "footwear": "The black platform wedges add height and drama while coordinating with the hat. They maintain the retro mood of the outfit.",
+            "accessories": "The wide-brim black hat makes a dramatic statement that enhances the retro aesthetic. The sunglasses complete the mod vibe.",
+            "style": "Successfully captures a timeless mod aesthetic with contemporary touches. The outfit demonstrates confidence in simplicity and strong color contrast."
+        }
+    },
+    {
+        "image_path": "casual_74.jpg",
+        "score": 83,
+        "labels": {
+            "fit": "sporty_casual",
+            "pants_type": "camel_joggers",
+            "top_type": "gray_cropped_tank",
+            "color_palette": ["gray", "camel", "black", "white"],
+            "footwear_type": "white_platform_sneakers",
+            "accessories": ["black_fedora", "black_crossbody_bag", "statement_earrings", "bracelets"],
+            "style": "athleisure_chic"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 18,
+            "footwear": 18,
+            "accessories": 19,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The cropped tank paired with high-waisted joggers creates a flattering sporty silhouette. The relaxed pants balance the more fitted top.",
+            "color": "The neutral palette of gray, camel, and black creates a cohesive foundation. The color story is safe but effective for the athleisure aesthetic.",
+            "footwear": "The white platform sneakers add height while maintaining the sporty vibe. They're practical yet fashion-forward.",
+            "accessories": "The black fedora elevates the casual outfit with an unexpected touch. The bag, earrings, and bracelets add refined elements to the sporty foundation.",
+            "style": "Successfully blends athletic elements with fashion-forward accessories. The outfit demonstrates how to elevate casual pieces for a street-style look."
+        }
+    },
+    {
+        "image_path": "casual_75.jpg",
+        "score": 87,
+        "labels": {
+            "fit": "preppy_polished",
+            "pants_type": "khaki_chinos",
+            "top_type": "hot_pink_v_neck_with_navy_blazer",
+            "color_palette": ["hot_pink", "navy", "khaki"],
+            "footwear_type": "tan_oxford_flats",
+            "accessories": ["thin_belt", "pink_sunglasses"],
+            "style": "casual_professional"
+        },
+        "score_breakdown": {
+            "fit": 22,
+            "color": 23,
+            "footwear": 17,
+            "accessories": 16,
+            "style": 22
+        },
+        "feedback": {
+            "fit": "The structured blazer paired with tailored chinos creates a polished, balanced silhouette. The proportions are classic and flattering for a professional-casual look.",
+            "color": "The bold pink creates vibrant contrast against the classic navy and khaki. The color combination is unexpected yet harmonious, adding personality to professional pieces.",
+            "footwear": "The tan oxfords complement the khaki pants while adding a practical, preppy touch. They're appropriate for the outfit's refined nature.",
+            "accessories": "The coordinating pink sunglasses show attention to detail. The thin belt adds definition and reinforces the polished aesthetic.",
+            "style": "Successfully balances professional structure with bold color for a distinctive take on workwear. The outfit demonstrates confidence in combining classic and contemporary elements."
+        }
+    },
+    {
+        "image_path": "casual_76.jpg",
+        "score": 86,
+        "labels": {
+            "fit": "feminine_layered",
+            "skirt_type": "beige_pleated_midi",
+            "top_type": "gray_crop_top_with_brown_belt",
+            "color_palette": ["gray", "beige", "brown", "burgundy"],
+            "footwear_type": "burgundy_platform_clogs_with_gray_socks",
+            "accessories": ["brown_belt", "white_hair_flower", "tan_clutch"],
+            "style": "vintage_modern_fusion"
+        },
+        "score_breakdown": {
+            "fit": 22,
+            "color": 20,
+            "footwear": 17,
+            "accessories": 18,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The fitted crop top paired with the high-waisted pleated midi creates a flattering hourglass silhouette. The belt defines the waist beautifully.",
+            "color": "The soft neutral palette of gray and beige creates a sophisticated foundation. The brown and burgundy accents add warmth and dimension.",
+            "footwear": "The burgundy clogs with gray socks add a quirky vintage touch. They add height while maintaining a practical, walkable quality.",
+            "accessories": "The brown belt creates definition at the smallest point. The white flower and matching clutch add thoughtful details that enhance the vintage aesthetic.",
+            "style": "Successfully combines vintage silhouettes with modern styling. The outfit demonstrates appreciation for classic proportions with contemporary execution."
+        }
+    },
+    {
+        "image_path": "casual_77.jpg",
+        "score": 84,
+        "labels": {
+            "fit": "colorful_casual",
+            "pants_type": "green_skinny_jeans",
+            "top_type": "neutral_top_with_hot_pink_blazer",
+            "color_palette": ["hot_pink", "emerald_green", "brown", "multi_colored"],
+            "footwear_type": "nude_pumps",
+            "accessories": ["multi_colored_scarf", "gold_watch"],
+            "style": "bold_preppy"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 22,
+            "footwear": 16,
+            "accessories": 15,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The tailored blazer paired with skinny jeans creates a polished yet casual silhouette. The proportions are well-balanced for a flattering look.",
+            "color": "The bold combination of hot pink and emerald green creates striking visual impact. The multi-colored scarf ties the strong colors together effectively.",
+            "footwear": "The nude pumps elongate the leg line and allow the bold colored pieces to remain the focus. More distinctive footwear could add another dimension.",
+            "accessories": "The colorful scarf adds cohesion to the bold color story. The subtle gold watch adds refinement without competing with the statement pieces.",
+            "style": "Successfully plays with bold color in a structured, preppy framework. The outfit demonstrates confidence in combining statement colors with classic silhouettes."
+        }
+    },
+    {
+        "image_path": "casual_78.jpg",
+        "score": 85,
+        "labels": {
+            "fit": "playful_layering",
+            "dress_type": "turquoise_polka_dot",
+            "top_type": "orange_cardigan_with_white_collar",
+            "color_palette": ["turquoise", "orange", "white", "black"],
+            "footwear_type": "black_mary_janes_with_white_socks",
+            "accessories": ["black_belt", "black_crossbody_bag"],
+            "style": "quirky_feminine"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 22,
+            "footwear": 17,
+            "accessories": 14,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The belted dress with layered cardigan creates a playful, feminine silhouette. The defined waist and flared skirt create a flattering shape.",
+            "color": "The bold complementary combination of turquoise and orange creates vibrant visual impact. The black and white accents add definition to the bright colors.",
+            "footwear": "The mary janes with socks add a quirky, youthful touch that works with the playful aesthetic. They ground the look while maintaining its whimsical nature.",
+            "accessories": "The black belt defines the waist and coordinates with the shoes. The small crossbody adds practicality without overwhelming the colorful outfit.",
+            "style": "Successfully captures a quirky, colorful aesthetic with vintage undertones. The outfit demonstrates personality and confidence in color combination."
+        }
+    },
+    {
+        "image_path": "casual_79.jpg",
+        "score": 86,
+        "labels": {
+            "fit": "polished_minimal",
+            "pants_type": "black_skinny_jeans",
+            "top_type": "white_blouse",
+            "color_palette": ["white", "black", "orange"],
+            "footwear_type": "leopard_print_pumps",
+            "accessories": ["orange_structured_tote", "statement_necklace"],
+            "style": "classic_with_edge"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 20,
+            "footwear": 21,
+            "accessories": 16,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The simple white blouse paired with fitted black jeans creates a clean, classic silhouette. The untucked but structured blouse maintains polish while remaining relaxed.",
+            "color": "The crisp black and white foundation is timeless and sophisticated. The orange bag adds a perfect pop of color to the neutral base.",
+            "footwear": "The leopard print pumps add an unexpected edge to the classic outfit. They're perfectly coordinated with the orange bag for a cohesive accent story.",
+            "accessories": "The structured orange tote creates a focal point. The statement necklace adds refinement and frames the face nicely.",
+            "style": "Successfully elevates classic basics with thoughtful accessories. The outfit demonstrates how strategic pops of color and pattern can transform simple pieces."
+        }
+    },
+    {
+        "image_path": "casual_80.jpg",
+        "score": 84,
+        "labels": {
+            "fit": "preppy_casual",
+            "pants_type": "denim_shorts",
+            "top_type": "red_white_striped_tee_with_white_blazer",
+            "color_palette": ["red", "white", "black", "denim_blue", "gray"],
+            "footwear_type": "black_peep_toe_booties",
+            "accessories": ["gray_fedora", "red_clutch"],
+            "style": "nautical_edge"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 20,
+            "footwear": 17,
+            "accessories": 16,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The structured blazer paired with casual shorts creates an interesting high-low contrast. The striped tee adds a classic foundation to the mixed elements.",
+            "color": "The red, white, and blue palette has a classic nautical feel. The black and gray elements add contemporary edge to the traditional color scheme.",
+            "footwear": "The black peep-toe booties add unexpected edge to the preppy elements. They create an interesting contrast with the more casual pieces.",
+            "accessories": "The gray fedora adds a stylish touch that elevates the casual base. The red clutch coordinates with the stripes for cohesion.",
+            "style": "Successfully combines preppy elements with edgier pieces for a balanced casual look. The outfit demonstrates how to mix different style influences effectively."
+        }
+    },
+    {
+        "image_path": "casual_81.jpg",
+        "score": 87,
+        "labels": {
+            "fit": "playful_polished",
+            "pants_type": "hot_pink_cropped_trousers",
+            "top_type": "black_white_polka_dot_blouse",
+            "color_palette": ["black", "white", "hot_pink"],
+            "footwear_type": "black_platform_sandals",
+            "accessories": ["black_quilted_handbag"],
+            "style": "feminine_graphic"
+        },
+        "score_breakdown": {
+            "fit": 22,
+            "color": 23,
+            "footwear": 18,
+            "accessories": 13,
+            "style": 21
+        },
+        "feedback": {
+            "fit": "The loose blouse paired with tailored cropped trousers creates a balanced silhouette that's both comfortable and polished. The proportions work beautifully for a flattering look.",
+            "color": "The classic polka dots with hot pink creates a bold, graphic contrast that's eye-catching yet sophisticated. The limited palette maximizes impact without being overwhelming.",
+            "footwear": "The substantial black platform sandals ground the look and coordinate with the top. They add height while maintaining the outfit's modern, graphic aesthetic.",
+            "accessories": "The structured black handbag complements the polished nature of the outfit. Additional accessories could further elevate the look.",
+            "style": "Successfully combines playful elements (polka dots, pink) with polished pieces for a look that's both fun and sophisticated. The outfit demonstrates confidence and fashion awareness."
+        }
+    },
+    {
+        "image_path": "casual_82.jpg",
+        "score": 86,
+        "labels": {
+            "fit": "relaxed_chic",
+            "pants_type": "distressed_denim_shorts",
+            "top_type": "hot_pink_ribbed_sweater",
+            "color_palette": ["hot_pink", "denim_blue", "black", "floral_print"],
+            "footwear_type": "floral_print_platform_sandals",
+            "accessories": ["gold_statement_necklace", "black_tote", "sunglasses", "brown_belt"],
+            "style": "casual_glam"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 22,
+            "footwear": 18,
+            "accessories": 16,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The oversized sweater balanced with shorts creates a relaxed yet intentional silhouette. The tucked belt adds definition to the looser top.",
+            "color": "The vibrant hot pink creates a bold focal point that's balanced by the casual denim. The floral print shoes add a complementary pattern that ties to the pink.",
+            "footwear": "The floral platform sandals add height and visual interest. They coordinate with the pink top while introducing pattern to the otherwise solid outfit.",
+            "accessories": "The gold statement necklace adds polish, while the practical black tote balances the look. The sunglasses and belt complete the casual-chic styling.",
+            "style": "Successfully elevates casual pieces with strategic color and accessories. The outfit demonstrates how to make basic shorts look fashion-forward."
+        }
+    },
+    {
+        "image_path": "casual_83.jpg",
+        "score": 88,
+        "labels": {
+            "fit": "color_blocked_modern",
+            "skirt_type": "bright_blue_mini",
+            "top_type": "orange_tank_with_white_blazer",
+            "color_palette": ["orange", "blue", "white", "black"],
+            "footwear_type": "black_platform_ankle_boots",
+            "accessories": ["polka_dot_tights"],
+            "style": "bold_contemporary"
+        },
+        "score_breakdown": {
+            "fit": 22,
+            "color": 23,
+            "footwear": 17,
+            "accessories": 16,
+            "style": 21
+        },
+        "feedback": {
+            "fit": "The structured blazer paired with the mini skirt creates a balanced silhouette with great proportions. The orange tank adds a pop of color beneath the clean white layer.",
+            "color": "The bold combination of complementary orange and blue creates dramatic visual impact. The white blazer adds a crisp element that frames the vibrant colors beautifully.",
+            "footwear": "The black platform boots add edge and height. They ground the colorful elements while adding contemporary flair.",
+            "accessories": "The polka dot tights add unexpected texture and pattern. They create subtle visual interest without competing with the bold colors.",
+            "style": "Successfully plays with bold color blocking in a sophisticated way. The outfit demonstrates confidence in combining statement colors with modern silhouettes."
+        }
+    },
+    {
+        "image_path": "casual_84.jpg",
+        "score": 85,
+        "labels": {
+            "fit": "boho_feminine",
+            "pants_type": "coral_high_waisted_shorts",
+            "top_type": "white_lace_bell_sleeve_blouse",
+            "color_palette": ["white", "coral", "brown"],
+            "footwear_type": "brown_platform_wedges",
+            "accessories": ["brown_fringe_bag", "brown_belt"],
+            "style": "vintage_romantic"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 20,
+            "footwear": 18,
+            "accessories": 16,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The flowing bell sleeve blouse tucked into high-waisted shorts creates a feminine silhouette with vintage appeal. The belt defines the waist beautifully.",
+            "color": "The white lace and coral create a soft, summery palette. The brown accessories add warmth and ground the lighter elements.",
+            "footwear": "The substantial brown wedges add height while maintaining a bohemian aesthetic. They coordinate perfectly with the other brown accessories.",
+            "accessories": "The coordinated brown belt and fringe bag enhance the bohemian vibe. The matching accessories create cohesion in the overall look.",
+            "style": "Successfully captures a romantic bohemian aesthetic with vintage touches. The outfit balances delicate elements with more practical pieces."
+        }
+    },
+    {
+        "image_path": "casual_85.jpg",
+        "score": 84,
+        "labels": {
+            "fit": "color_blocked_minimal",
+            "skirt_type": "royal_blue_mini",
+            "top_type": "white_tank_with_neon_yellow_belt",
+            "color_palette": ["white", "royal_blue", "neon_yellow", "black"],
+            "footwear_type": "black_strappy_sandals",
+            "accessories": ["neon_yellow_belt", "green_crossbody", "yellow_sunglasses"],
+            "style": "modern_bold"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 22,
+            "footwear": 16,
+            "accessories": 18,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The simple tank paired with the A-line mini creates a clean silhouette with youthful proportions. The belt creates definition at the waist.",
+            "color": "The bold combination of white, royal blue, and neon yellow creates striking visual impact. The color blocking is modern and confident.",
+            "footwear": "The simple black sandals allow the colorful elements to remain the focus. More distinctive footwear could add another dimension to the look.",
+            "accessories": "The neon belt creates a focal point, while the coordinating sunglasses and contrasting bag add playful elements that enhance the color story.",
+            "style": "Successfully executes color blocking with a modern, minimalist approach. The outfit demonstrates confidence in combining bold colors with simple silhouettes."
+        }
+    },
+    {
+        "image_path": "casual_86.jpg",
+        "score": 86,
+        "labels": {
+            "fit": "color_blocked_structured",
+            "pants_type": "royal_blue_harem",
+            "top_type": "red_halter_with_statement_necklace",
+            "color_palette": ["red", "royal_blue", "lime_green", "black"],
+            "footwear_type": "black_platform_sandals",
+            "accessories": ["silver_statement_necklace", "lime_green_envelope_clutch", "bracelet"],
+            "style": "bold_contemporary"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 22,
+            "footwear": 16,
+            "accessories": 18,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The fitted halter top paired with relaxed harem pants creates a balanced silhouette with great proportions. The defined waist adds structure to the looser pants.",
+            "color": "The bold primary colors of red and blue create dramatic visual impact. The lime green clutch adds an unexpected tertiary accent that enhances the color story.",
+            "footwear": "The black platform sandals ground the colorful outfit. They provide height while allowing the bold clothing to remain the focus.",
+            "accessories": "The statement necklace adds glamour to the halter neckline. The lime clutch and bracelet complete the accessory story with thoughtful coordination.",
+            "style": "Successfully combines bold colors in a sophisticated way. The outfit demonstrates confidence in color combination and silhouette play."
+        }
+    },
+    {
+        "image_path": "casual_87.jpg",
+        "score": 86,
+        "labels": {
+            "fit": "playful_vibrant",
+            "skirt_type": "orange_a_line_midi",
+            "top_type": "hot_pink_boxy_tee",
+            "color_palette": ["hot_pink", "orange", "tan"],
+            "footwear_type": "tan_platform_wedges",
+            "accessories": ["bracelet"],
+            "style": "color_confident"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 23,
+            "footwear": 17,
+            "accessories": 12,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The loose, boxy tee paired with the structured A-line skirt creates a modern silhouette with playful proportions. The high waist creates a flattering line.",
+            "color": "The bold combination of hot pink and orange creates vibrant, energetic impact. The analogous colors work harmoniously together for a confident color story.",
+            "footwear": "The neutral wedges add height without competing with the bold colors. They elongate the leg while providing a practical foundation.",
+            "accessories": "Minimal accessories allow the bold colors to remain the focus. Additional thoughtful accessories could enhance the look further.",
+            "style": "Successfully plays with bold color in a sophisticated way. The outfit demonstrates confidence in combining vibrant hues with modern silhouettes."
+        }
+    },
+    {
+        "image_path": "casual_88.jpg",
+        "score": 82,
+        "labels": {
+            "fit": "preppy_colorful",
+            "skirt_type": "red_a_line_mini",
+            "top_type": "yellow_mesh_sweater",
+            "color_palette": ["yellow", "red", "yellow"],
+            "footwear_type": "yellow_pumps",
+            "accessories": ["white_headband", "sunglasses", "yellow_belt"],
+            "style": "retro_modern"
+        },
+        "score_breakdown": {
+            "fit": 20,
+            "color": 22,
+            "footwear": 17,
+            "accessories": 13,
+            "style": 19
+        },
+        "feedback": {
+            "fit": "The semi-sheer sweater tucked into a high-waisted mini creates a retro-inspired silhouette. The belt defines the waist and creates proportion.",
+            "color": "The bold yellow and red combination creates striking visual impact. The monochromatic yellow elements (top, belt, shoes) create cohesion against the red skirt.",
+            "footwear": "The yellow pumps coordinate perfectly with the top for a matching moment. They add height while maintaining the primary color story.",
+            "accessories": "The white headband adds a retro touch. The yellow belt creates definition and ties to the other yellow elements.",
+            "style": "Successfully captures a modern take on retro prep. The outfit demonstrates confidence in color combination and silhouette play."
+        }
+    },
+    {
+        "image_path": "casual_89.jpg",
+        "score": 84,
+        "labels": {
+            "fit": "minimalist_structured",
+            "pants_type": "white_tailored_shorts",
+            "top_type": "white_button_down",
+            "color_palette": ["white", "brown", "yellow"],
+            "footwear_type": "purple_platform_oxfords",
+            "accessories": ["brown_belt", "yellow_clutch"],
+            "style": "clean_with_edge"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 19,
+            "footwear": 19,
+            "accessories": 15,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The crisp button-down with tailored shorts creates a clean, structured silhouette. The proportions are classic and flattering.",
+            "color": "The monochromatic white creates a clean, minimal foundation. The yellow clutch adds a subtle pop of color to the otherwise neutral palette.",
+            "footwear": "The unexpected purple oxfords add a distinctive twist to the minimal outfit. They're a bold choice that adds personality to the clean aesthetic.",
+            "accessories": "The brown belt adds definition and warmth. The yellow clutch creates a subtle focal point against the white base.",
+            "style": "Successfully balances minimal elements with unexpected accents. The outfit demonstrates how clean basics can be elevated with distinctive accessories."
+        }
+    },
+    {
+        "image_path": "casual_90.jpg",
+        "score": 85,
+        "labels": {
+            "fit": "vintage_feminine",
+            "skirt_type": "red_floral_print_midi",
+            "top_type": "mint_green_bow_blouse",
+            "color_palette": ["mint_green", "red", "white"],
+            "footwear_type": "white_mary_janes",
+            "accessories": ["knit_beanie"],
+            "style": "sweet_nostalgic"
+        },
+        "score_breakdown": {
+            "fit": 21,
+            "color": 22,
+            "footwear": 17,
+            "accessories": 14,
+            "style": 20
+        },
+        "feedback": {
+            "fit": "The bow blouse paired with the A-line midi creates a classic feminine silhouette with vintage appeal. The defined waist and flared skirt are flattering and timeless.",
+            "color": "The mint green and red create a striking complementary color combination. The soft pastel top balances the vibrant patterned skirt for a harmonious contrast.",
+            "footwear": "The white mary janes add a sweet, retro touch that enhances the vintage aesthetic. They coordinate with the white elements in the skirt pattern.",
+            "accessories": "The playful knit beanie adds an unexpected casual touch to the otherwise dressy outfit. It adds personality to the vintage-inspired base.",
+            "style": "Successfully captures a nostalgic, feminine aesthetic with modern touches. The outfit has a sweet, timeless quality with thoughtful color coordination."
+        }
+    },
+    {
+    "image_path": "casual_91.jpg",
+    "score": 88,
+    "labels": {
+      "fit": "feminine_casual",
+      "pants_type": "coral_shorts",
+      "top_type": "light_pink_button_down",
+      "color_palette": ["light_pink", "coral", "gold", "black", "white"],
+      "footwear_type": "black_white_platform_heels",
+      "accessories": ["gold_statement_necklace", "gold_watch", "gold_bracelets", "brown_belt"],
+      "style": "chic_summery"
+    },
+    "score_breakdown": {
+      "fit": 22,
+      "color": 23,
+      "footwear": 18,
+      "accessories": 15,
+      "style": 20
+    },
+    "feedback": {
+      "fit": "The loose-fitting pink blouse balanced with fitted coral shorts creates a flirty, feminine silhouette. The belt adds definition to the waist, creating appealing proportions.",
+      "color": "The complementary tones of light pink and vibrant coral create a beautiful warm-weather palette. These analogous colors work harmoniously while still providing contrast.",
+      "footwear": "The black and white platform heels add height and sophistication, creating a nice contrast to the soft color palette above. They prevent the outfit from feeling too sweet.",
+      "accessories": "The layered gold statement necklace and matching arm jewelry elevate the casual pieces. The brown belt grounds the look and adds necessary structure.",
+      "style": "Successfully combines casual elements with polished accessories for a put-together yet relaxed summer look. Shows confident use of color coordination."
+    }
+  },
+  {
+    "image_path": "casual_92.jpg",
+    "score": 91,
+    "labels": {
+      "fit": "layered_playful",
+      "dress_type": "floral_patterned_mini",
+      "top_type": "bright_yellow_cardigan",
+      "color_palette": ["bright_yellow", "orange", "floral_print", "beige"],
+      "footwear_type": "floral_ankle_boots_with_pink_socks",
+      "accessories": ["orange_hat", "beige_crossbody_bag"],
+      "style": "eclectic_feminine"
+    },
+    "score_breakdown": {
+      "fit": 22,
+      "color": 24,
+      "footwear": 19,
+      "accessories": 16,
+      "style": 22
+    },
+    "feedback": {
+      "fit": "The oversized bright yellow cardigan creates a beautiful frame for the delicate patterned mini dress. The layering adds dimension while maintaining a cohesive silhouette.",
+      "color": "Bold use of complementary colors with the bright yellow cardigan against the subtle print. The orange hat ties the palette together brilliantly, creating a thoughtful color story.",
+      "footwear": "The patterned ankle boots with pink socks add unexpected visual interest. The sock color relates to elements in the outfit while the shoes introduce additional pattern play.",
+      "accessories": "The orange hat is a statement piece that frames the face beautifully. The neutral beige bag balances the bold colors without competing for attention.",
+      "style": "Masterfully combines multiple bold elements (color, pattern, texture) in a cohesive way. Shows advanced fashion sensibility and confidence in mixing unexpected elements."
+    }
+  },
+  {
+    "image_path": "casual_93.jpg",
+    "score": 87,
+    "labels": {
+      "fit": "preppy_tailored",
+      "pants_type": "navy_mini_skirt",
+      "top_type": "white_button_down_with_navy_blazer",
+      "color_palette": ["navy", "white", "tan", "olive"],
+      "footwear_type": "brown_oxford_platforms",
+      "accessories": ["olive_knee_socks", "gold_wrist_watch", "tan_structured_tote"],
+      "style": "academic_chic"
+    },
+    "score_breakdown": {
+      "fit": 22,
+      "color": 20,
+      "footwear": 18,
+      "accessories": 16,
+      "style": 21
+    },
+    "feedback": {
+      "fit": "The structured navy blazer with gold buttons creates a sharp silhouette paired with the mini skirt. The proportions reference classic prep school uniforms with a fashion-forward twist.",
+      "color": "The navy and white create a timeless, classic palette. The tan bag and olive socks add earthier tones that warm up the otherwise cool color scheme.",
+      "footwear": "The substantial brown oxford platforms add height while maintaining the academic aesthetic. They complement the vintage-inspired elements perfectly.",
+      "accessories": "The olive knee socks create unexpected visual interest and add a schoolgirl charm. The structured tan tote adds sophistication and complements the earth tones.",
+      "style": "Successfully reimagines preppy, academic style with modern proportions. The outfit has a nostalgic quality while still feeling contemporary and fashion-forward."
+    }
+  },
+  {
+    "image_path": "casual_94.jpg",
+    "score": 86,
+    "labels": {
+      "fit": "minimal_tailored",
+      "pants_type": "dark_skinny_jeans",
+      "top_type": "white_tee_with_peach_blazer",
+      "color_palette": ["peach", "white", "navy", "black"],
+      "footwear_type": "black_platform_ankle_boots",
+      "accessories": ["statement_necklace", "black_structured_bag"],
+      "style": "polished_casual"
+    },
+    "score_breakdown": {
+      "fit": 21,
+      "color": 22,
+      "footwear": 17,
+      "accessories": 15,
+      "style": 21
+    },
+    "feedback": {
+      "fit": "The structured peach blazer adds polish to the simple white tee and skinny jeans. The rolled sleeves create a more casual, approachable vibe within the tailored silhouette.",
+      "color": "The soft peach blazer creates a beautiful contrast against the dark jeans. The white tee lightens the look and provides a clean foundation for the statement necklace.",
+      "footwear": "The black platform ankle boots ground the outfit and add edge to the otherwise soft palette. They provide height while maintaining a practical, wearable quality.",
+      "accessories": "The statement necklace adds visual interest to the simple neckline. The structured black bag complements the boots and adds polish to the overall look.",
+      "style": "Successfully balances casual and polished elements for a versatile, elevated everyday look. Shows understanding of how to elevate basics with strategic pieces."
+    }
+  },
+  {
+    "image_path": "casual_95.jpg",
+    "score": 83,
+    "labels": {
+      "fit": "relaxed_minimal",
+      "pants_type": "dark_skinny_jeans",
+      "top_type": "gray_loose_tee",
+      "color_palette": ["gray", "navy", "silver", "beige"],
+      "footwear_type": "beige_cutout_sandals",
+      "accessories": ["layered_silver_necklaces", "silver_bracelet"],
+      "style": "effortless_casual"
+    },
+    "score_breakdown": {
+      "fit": 20,
+      "color": 18,
+      "footwear": 19,
+      "accessories": 14,
+      "style": 19
+    },
+    "feedback": {
+      "fit": "The loose, drapey tee creates an effortless silhouette when paired with fitted skinny jeans. The proportions are relaxed yet flattering.",
+      "color": "The monochromatic palette of gray and navy creates a clean, minimal aesthetic. The neutral tones are understated and versatile.",
+      "footwear": "The beige cutout sandals add a refined touch to the casual base. The lighter tone creates a nice contrast against the darker elements.",
+      "accessories": "The layered silver necklaces add subtle shine and interest to the simple neckline. The minimal accessories complement the effortless vibe.",
+      "style": "Successfully embodies the 'effortlessly cool' aesthetic with strategic basics. The outfit demonstrates how simplicity can be stylish when proportions and subtle details are considered."
+    }
+  },
+  {
+    "image_path": "casual_96.jpg",
+    "score": 89,
+    "labels": {
+      "fit": "layered_feminine",
+      "skirt_type": "white_patterned_mini",
+      "top_type": "orange_oversized_sweater",
+      "color_palette": ["orange", "cream", "beige", "pink"],
+      "footwear_type": "pink_platform_sandals_with_socks",
+      "accessories": ["beige_wide_brim_hat", "cream_shoulder_bag"],
+      "style": "boho_romantic"
+    },
+    "score_breakdown": {
+      "fit": 22,
+      "color": 23,
+      "footwear": 18,
+      "accessories": 15,
+      "style": 21
+    },
+    "feedback": {
+      "fit": "The oversized orange sweater creates beautiful contrast when paired with the delicate patterned skirt. The layering adds dimension and interest while maintaining a feminine silhouette.",
+      "color": "The vibrant orange creates a bold statement against the soft cream skirt. The warm color palette is cohesive and flattering, with thoughtful coordination between all elements.",
+      "footwear": "The pink platform sandals with socks add a playful, unexpected element. They tie back to subtle pink tones in the outfit while adding height and visual interest.",
+      "accessories": "The wide-brim beige hat adds sophistication and frames the face beautifully. The cream shoulder bag complements the skirt while providing practical functionality.",
+      "style": "Successfully combines bohemian elements with romantic details for a look that's both whimsical and refined. Shows confidence in color play and textural contrasts."
+    }
+  },
+  {
+    "image_path": "casual_97.jpg",
+    "score": 90,
+    "labels": {
+      "fit": "structured_minimal",
+      "skirt_type": "cobalt_blue_mini",
+      "top_type": "draped_blue_top_with_white_blazer",
+      "color_palette": ["cobalt_blue", "white", "orange", "nude"],
+      "footwear_type": "nude_peep_toe_platforms",
+      "accessories": ["orange_envelope_clutch", "sunglasses"],
+      "style": "polished_contemporary"
+    },
+    "score_breakdown": {
+      "fit": 23,
+      "color": 24,
+      "footwear": 18,
+      "accessories": 15,
+      "style": 22
+    },
+    "feedback": {
+      "fit": "The structured white blazer creates a sharp frame for the draped blue dress beneath. The proportions are perfectly balanced, creating a sleek, contemporary silhouette.",
+      "color": "The vibrant cobalt blue creates a stunning base that's elegantly highlighted by the crisp white blazer. The orange clutch adds a brilliant complementary pop that elevates the entire color story.",
+      "footwear": "The nude platform heels elongate the leg line and provide height without competing with the stronger colors above. They're a practical yet elegant foundation.",
+      "accessories": "The orange envelope clutch is perfectly sized and provides that essential color contrast that makes the outfit memorable. The sunglasses add sophistication and practical style.",
+      "style": "Masterfully balances minimal elements with strategic color play. The outfit demonstrates confident understanding of color theory and proportion, creating impact through thoughtful restraint."
+    }
+  },
+  {
+    "image_path": "casual_98.jpg",
+    "score": 87,
+    "labels": {
+      "fit": "modern_utilitarian",
+      "pants_type": "olive_high_waisted_trousers",
+      "top_type": "white_button_down",
+      "color_palette": ["white", "olive", "teal", "brown"],
+      "footwear_type": "brown_platform_booties",
+      "accessories": ["teal_hat", "brown_shoulder_bag", "gold_brooch"],
+      "style": "refined_casual"
+    },
+    "score_breakdown": {
+      "fit": 22,
+      "color": 21,
+      "footwear": 18,
+      "accessories": 16,
+      "style": 20
+    },
+    "feedback": {
+      "fit": "The crisp white button-down tucked into high-waisted olive trousers creates a clean, structured silhouette. The defined waist and relaxed trouser leg create flattering proportions.",
+      "color": "The classic white and olive palette creates a sophisticated base with military influences. The unexpected teal hat adds a refreshing pop of color that lifts the entire look.",
+      "footwear": "The substantial brown platform booties add height while maintaining the utilitarian aesthetic. They coordinate beautifully with the bag for a cohesive accessories story.",
+      "accessories": "The teal hat is the perfect statement piece that frames the face and adds personality. The brown bag and subtle gold brooch complete the thoughtfully coordinated accessories.",
+      "style": "Successfully modernizes classic elements with unexpected color and proportion play. The outfit balances masculine and feminine influences for a contemporary, confident look."
+    }
+  },
+  {
+    "image_path": "casual_99.jpg",
+    "score": 88,
+    "labels": {
+      "fit": "retro_feminine",
+      "pants_type": "dark_flared_jeans",
+      "top_type": "white_peter_pan_collar_blouse",
+      "color_palette": ["white", "navy", "yellow", "brown"],
+      "footwear_type": "brown_wooden_platform_clogs",
+      "accessories": ["yellow_belt", "delicate_necklace", "burgundy_crossbody"],
+      "style": "vintage_inspired"
+    },
+    "score_breakdown": {
+      "fit": 22,
+      "color": 22,
+      "footwear": 19,
+      "accessories": 14,
+      "style": 21
+    },
+    "feedback": {
+      "fit": "The sweet peter pan collar blouse paired with high-waisted flared jeans creates a beautifully balanced retro silhouette. The proportions reference 70s style with modern refinement.",
+      "color": "The classic navy and white create a timeless foundation. The yellow belt adds a perfect pop of brightness that draws the eye to the defined waist.",
+      "footwear": "The substantial wooden platform clogs are period-perfect and add height while maintaining the vintage aesthetic. They balance the flared jean silhouette beautifully.",
+      "accessories": "The yellow belt creates a focal point at the waist. The delicate necklace adds subtle interest without overpowering the collar detail.",
+      "style": "Successfully captures vintage influences with contemporary execution. The outfit demonstrates understanding of retro proportion play while maintaining a fresh, wearable approach."
+    }
+  },
+  {
+    "image_path": "casual_100.jpg",
+    "score": 92,
+    "labels": {
+      "fit": "colorblocked_feminine",
+      "skirt_type": "hot_pink_pleated_midi",
+      "top_type": "yellow_cardigan_with_white_top",
+      "color_palette": ["hot_pink", "yellow", "white", "brown", "navy"],
+      "footwear_type": "brown_platform_mary_janes",
+      "accessories": ["gray_fedora", "silver_bracelets"],
+      "style": "bold_vintage"
+    },
+    "score_breakdown": {
+      "fit": 23,
+      "color": 24,
+      "footwear": 19,
+      "accessories": 15,
+      "style": 23
+    },
+    "feedback": {
+      "fit": "The fitted yellow cardigan paired with the flowing pleated midi skirt creates a classic feminine silhouette with beautiful movement. The defined waist and flared skirt are universally flattering.",
+      "color": "The bold combination of yellow and hot pink creates vibrant, joyful impact. These complementary colors create dramatic contrast while still feeling harmonious.",
+      "footwear": "The substantial brown mary janes ground the colorful outfit with their vintage-inspired shape. They add height while maintaining a playful, feminine quality.",
+      "accessories": "The gray fedora adds sophisticated contrast and frames the face beautifully. The silver bracelets add subtle sparkle without competing with the bold colors.",
+      "style": "Masterfully combines bold color with vintage-inspired silhouettes. The outfit demonstrates confident understanding of both color theory and proportion, creating a look that's both timeless and statement-making."
+    }
+  },
+  {
+    "image_path": "casual_101.jpg",
+    "score": 88,
+    "labels": {
+      "fit": "structured_contemporary",
+      "pants_type": "neon_yellow_shorts",
+      "top_type": "gray_tee_with_black_blazer",
+      "color_palette": ["black", "gray", "neon_yellow"],
+      "footwear_type": "black_platform_sandals",
+      "accessories": ["oversized_sunglasses", "black_crossbody"],
+      "style": "edgy_chic"
+    },
+    "score_breakdown": {
+      "fit": 22,
+      "color": 23,
+      "footwear": 18,
+      "accessories": 15,
+      "style": 20
+    },
+    "feedback": {
+      "fit": "The structured black blazer creates sharp contrast with the casual shorts. The proportions balance perfectly - fitted blazer with mini shorts creates a leggy silhouette with strong shoulders.",
+      "color": "The bold neon yellow shorts create a striking focal point against the monochromatic black and gray. This strategic color blocking demonstrates confident styling and creates visual impact.",
+      "footwear": "The black platform sandals elongate the leg line and add sophistication. They coordinate with the top half while providing height and balance to the bold shorts.",
+      "accessories": "The oversized sunglasses add celebrity-inspired glamour. The minimal black crossbody is perfectly sized and maintains the clean aesthetic.",
+      "style": "Successfully combines formal and casual elements for a look that's both edgy and feminine. The outfit demonstrates confident understanding of proportion and strategic color use."
+    }
+  },
+  {
+    "image_path": "casual_102.jpg",
+    "score": 90,
+    "labels": {
+      "fit": "colorblocked_structured",
+      "pants_type": "cobalt_blue_shorts",
+      "top_type": "black_top_with_striped_blazer",
+      "color_palette": ["white", "black", "cobalt_blue"],
+      "footwear_type": "black_wedges",
+      "accessories": ["black_clutch", "sunglasses"],
+      "style": "graphic_chic"
+    },
+    "score_breakdown": {
+      "fit": 22,
+      "color": 24,
+      "footwear": 18,
+      "accessories": 15,
+      "style": 21
+    },
+    "feedback": {
+      "fit": "The structured striped blazer paired with the flowy shorts creates perfect proportion play. The defined waist and elongated leg line create a flattering, balanced silhouette.",
+      "color": "The bold combination of black/white stripes with vibrant cobalt blue creates dramatic graphic impact. The color blocking is sophisticated and eye-catching.",
+      "footwear": "The substantial black wedges ground the look and add height. They coordinate with the top half elements while maintaining the graphic aesthetic.",
+      "accessories": "The black clutch maintains the clean, graphic theme. The sunglasses add sophistication and practical style.",
+      "style": "Masterfully executes graphic elements with feminine proportions. The outfit demonstrates confident color blocking and pattern play for maximum visual impact."
+    }
+  },
+  {
+    "image_path": "casual_103.jpg",
+    "score": 89,
+    "labels": {
+      "fit": "layered_eclectic",
+      "pants_type": "black_leggings",
+      "top_type": "yellow_tunic_with_light_denim_jacket",
+      "color_palette": ["light_denim", "yellow", "black", "red"],
+      "footwear_type": "red_ballet_flats",
+      "accessories": ["black_wide_brim_hat", "bracelets"],
+      "style": "boho_colorful"
+    },
+    "score_breakdown": {
+      "fit": 22,
+      "color": 23,
+      "footwear": 18,
+      "accessories": 16,
+      "style": 20
+    },
+    "feedback": {
+      "fit": "The light denim jacket creates structure over the flowy yellow tunic. The layering creates dimension while the leggings balance the volume on top.",
+      "color": "The bright yellow creates a cheerful focal point against the black base. The light denim adds texture while the red shoes introduce a perfect complementary pop.",
+      "footwear": "The vibrant red ballet flats add an unexpected color accent. They provide comfort while introducing a third dimension to the color story.",
+      "accessories": "The dramatic black wide-brim hat adds sophistication and bohemian flair. The bracelets add subtle sparkle and personal style.",
+      "style": "Successfully combines boho elements with thoughtful color play. The outfit balances casual comfort with artistic styling for a distinctive look."
+    }
+  },
+  {
+    "image_path": "casual_104.jpg",
+    "score": 85,
+    "labels": {
+      "fit": "oversized_drapey",
+      "pants_type": "light_denim_shorts",
+      "top_type": "sheer_orange_button_down",
+      "color_palette": ["orange", "light_blue", "black"],
+      "footwear_type": "black_wedge_booties",
+      "accessories": ["black_statement_necklace"],
+      "style": "breezy_edgy"
+    },
+    "score_breakdown": {
+      "fit": 21,
+      "color": 22,
+      "footwear": 18,
+      "accessories": 13,
+      "style": 21
+    },
+    "feedback": {
+      "fit": "The oversized sheer orange shirt creates beautiful movement and flow over the fitted shorts. The proportions play with volume while maintaining a feminine silhouette.",
+      "color": "The vibrant orange creates a bold statement against the light denim. The sheer quality adds texture and depth to the bright color.",
+      "footwear": "The substantial black wedge booties ground the breezy top elements. They add edginess while providing height and stability.",
+      "accessories": "The black statement necklace provides focus at the neckline. Additional accessories could further enhance the styling.",
+      "style": "Successfully combines ethereal elements with edgier pieces. The outfit balances feminine and bold qualities through thoughtful proportion play."
+    }
+  },
+  {
+    "image_path": "casual_105.jpg",
+    "score": 87,
+    "labels": {
+      "fit": "romantic_feminine",
+      "dress_type": "blush_pink_shift",
+      "top_type": "blush_pink_short_sleeve_dress",
+      "color_palette": ["blush_pink", "brown", "silver"],
+      "footwear_type": "brown_lace_up_ankle_boots",
+      "accessories": ["silver_headband", "brown_belt", "patterned_tights", "sunglasses"],
+      "style": "feminine_vintage"
+    },
+    "score_breakdown": {
+      "fit": 21,
+      "color": 21,
+      "footwear": 19,
+      "accessories": 16,
+      "style": 20
+    },
+    "feedback": {
+      "fit": "The simple blush shift dress creates a sweet, feminine silhouette. The brown belt defines the waist, adding structure to the looser dress shape.",
+      "color": "The soft blush tone creates a romantic, feminine base. The brown accessories add warmth and ground the pastel palette.",
+      "footwear": "The substantial brown ankle boots add unexpected edge to the soft dress. They provide a modern contrast that prevents the look from feeling too precious.",
+      "accessories": "The silver headband adds bohemian charm. The patterned tights create subtle texture and visual interest that enhances the vintage quality.",
+      "style": "Successfully combines sweet, feminine elements with edgier accessories. The outfit balances vintage inspiration with contemporary styling."
+    }
+  },
+  {
+    "image_path": "casual_106.jpg",
+    "score": 92,
+    "labels": {
+      "fit": "colorblocked_structured",
+      "skirt_type": "coral_red_mini",
+      "top_type": "sheer_blue_button_down",
+      "color_palette": ["cobalt_blue", "coral_red", "black"],
+      "footwear_type": "black_strappy_sandals",
+      "accessories": ["black_crossbody_with_green_accent"],
+      "style": "bold_contemporary"
+    },
+    "score_breakdown": {
+      "fit": 23,
+      "color": 24,
+      "footwear": 18,
+      "accessories": 15,
+      "style": 22
+    },
+    "feedback": {
+      "fit": "The structured blue button-down tucked into the high-waisted red skirt creates a clean, contemporary silhouette. The proportions are perfectly balanced with great waist definition.",
+      "color": "The bold combination of cobalt blue and coral red creates dramatic color blocking with maximum impact. These complementary colors create vibrant contrast while still feeling harmonious.",
+      "footwear": "The simple black strappy sandals allow the colorful clothing to remain the focus. They provide an elegant foundation without competing with the bold colors above.",
+      "accessories": "The small crossbody with green accent adds subtle contrast. The minimal accessories wisely let the strong color story remain the focal point.",
+      "style": "Masterfully executes color blocking with clean, contemporary lines. The outfit demonstrates confident understanding of color theory and proportion."
+    }
+  },
+  {
+    "image_path": "casual_107.jpg",
+    "score": 84,
+    "labels": {
+      "fit": "casual_layered",
+      "pants_type": "denim_shorts",
+      "top_type": "white_tank_with_blush_cardigan",
+      "color_palette": ["white", "denim_blue", "blush", "tan"],
+      "footwear_type": "brown_sandals",
+      "accessories": ["tan_hat", "crossbody_bag"],
+      "style": "relaxed_minimal"
+    },
+    "score_breakdown": {
+      "fit": 20,
+      "color": 19,
+      "footwear": 17,
+      "accessories": 16,
+      "style": 19
+    },
+    "feedback": {
+      "fit": "The loose cardigan creates soft layering over the simple tank and shorts. The silhouette is relaxed and comfortable while maintaining a put-together quality.",
+      "color": "The neutral palette creates a soft, cohesive look. The blush cardigan adds subtle warmth to the otherwise basic pieces.",
+      "footwear": "The simple brown sandals maintain the casual, practical vibe. They coordinate with the hat for a cohesive accessories story.",
+      "accessories": "The tan hat adds both style and practicality. The crossbody bag provides function while maintaining the minimal aesthetic.",
+      "style": "Successfully elevates casual basics through thoughtful layering and accessories. The outfit demonstrates how neutral pieces can create a cohesive, intentional look."
+    }
+  },
+  {
+    "image_path": "casual_108.jpg",
+    "score": 91,
+    "labels": {
+      "fit": "colorblocked_contemporary",
+      "pants_type": "red_high_waisted_shorts",
+      "top_type": "blue_textured_top_with_blush_blazer",
+      "color_palette": ["cobalt_blue", "red", "blush", "gold"],
+      "footwear_type": "gold_pointed_flats",
+      "accessories": ["silver_belt", "sunglasses"],
+      "style": "bold_polished"
+    },
+    "score_breakdown": {
+      "fit": 23,
+      "color": 24,
+      "footwear": 19,
+      "accessories": 14,
+      "style": 22
+    },
+    "feedback": {
+      "fit": "The structured blush blazer creates a polished frame for the cobalt top and red shorts. The high-waisted shorts with slim-cut blazer create perfect proportions.",
+      "color": "The bold combination of cobalt, red, and blush creates sophisticated color blocking with maximum impact. These colors create vibrant contrast while working harmoniously together.",
+      "footwear": "The metallic gold flats add unexpected glamour. They complement the bold colors above while adding an elegant finishing touch.",
+      "accessories": "The thin silver belt adds definition and shine. The sunglasses add sophistication and practical style.",
+      "style": "Masterfully combines bold colors with polished silhouettes. The outfit demonstrates confident understanding of color theory and proportion play."
+    }
+  },
+  {
+    "image_path": "casual_109.jpg",
+    "score": 87,
+    "labels": {
+      "fit": "feminine_edgy",
+      "skirt_type": "blush_circle_skirt",
+      "top_type": "fitted_tank_with_black_leather_jacket",
+      "color_palette": ["black", "blush", "tan"],
+      "footwear_type": "tan_ankle_boots",
+      "accessories": ["black_crossbody_with_chain", "sunglasses"],
+      "style": "soft_rock"
+    },
+    "score_breakdown": {
+      "fit": 22,
+      "color": 21,
+      "footwear": 19,
+      "accessories": 15,
+      "style": 20
+    },
+    "feedback": {
+      "fit": "The structured leather jacket creates beautiful contrast against the feminine circle skirt. The proportions balance edgy and sweet elements for a flattering silhouette.",
+      "color": "The soft blush skirt creates lovely contrast against the black leather. The color combination balances feminine and edgy elements beautifully.",
+      "footwear": "The tan ankle boots add neutral support that complements both the dark and light elements. They ground the look while adding practical style.",
+      "accessories": "The black crossbody with chain detail adds edge that ties to the jacket. The sunglasses complete the cool-girl vibe.",
+      "style": "Successfully balances feminine and edgy elements for a look that's both pretty and cool. The outfit demonstrates understanding of contrast in both texture and style."
+    }
+  },
+  {
+    "image_path": "casual_110.jpg",
+    "score": 89,
+    "labels": {
+      "fit": "colorblocked_feminine",
+      "skirt_type": "coral_high_waisted_full",
+      "top_type": "white_button_down",
+      "color_palette": ["white", "coral", "yellow", "multi_print", "blue"],
+      "footwear_type": "blue_peep_toe_platforms",
+      "accessories": ["yellow_clutch", "rainbow_print_scarf", "pink_sunglasses"],
+      "style": "playful_sophisticated"
+    },
+    "score_breakdown": {
+      "fit": 22,
+      "color": 23,
+      "footwear": 19,
+      "accessories": 15,
+      "style": 20
+    },
+    "feedback": {
+      "fit": "The crisp white top tucked into the high-waisted full skirt creates a classic feminine silhouette. The defined waist and full skirt are universally flattering.",
+      "color": "The vibrant coral skirt creates a beautiful statement against the clean white top. The accessories introduce playful pops of complementary colors.",
+      "footwear": "The bright blue platforms add unexpected color contrast. They tie to elements in the scarf while adding height and visual interest.",
+      "accessories": "The rainbow print scarf adds joyful pattern play. The yellow clutch and pink sunglasses complete the playful color story.",
+      "style": "Successfully combines classic silhouettes with playful color. The outfit balances sophisticated shapes with bold, cheerful color for a look that's both polished and fun."
+    }
+  },
+   {
+    "image_path": "casual_111.jpg",
+    "score": 86,
+    "labels": {
+      "fit": "slim_modern",
+      "pants_type": "black_leggings",
+      "top_type": "white_tee_with_peach_blazer",
+      "color_palette": ["peach", "white", "black", "taupe"],
+      "footwear_type": "taupe_wedge_booties",
+      "accessories": ["straw_hat", "statement_necklace"],
+      "style": "street_chic"
+    },
+    "score_breakdown": {
+      "fit": 21,
+      "color": 20,
+      "footwear": 17,
+      "accessories": 14,
+      "style": 14
+    },
+    "feedback": {
+      "fit": "The slim black leggings contrast well with the loose blazer and white tee. Very balanced and elongating.",
+      "color": "Peach, white, and black work harmoniously, while the taupe shoes keep the palette soft.",
+      "footwear": "Wedge booties add height and edge, though a sleeker shoe could be more refined.",
+      "accessories": "The hat adds personality and seasonality. Necklace adds polish without overwhelming.",
+      "style": "Perfect urban casual with a light spring vibe. Comfy but still curated."
+    }
+  },
+  {
+    "image_path": "casual_112.jpg",
+    "score": 81,
+    "labels": {
+      "fit": "bold_color_block",
+      "pants_type": "red_skinny_jeans",
+      "top_type": "blue_tshirt_with_white_blazer",
+      "color_palette": ["blue", "red", "white", "cream"],
+      "footwear_type": "blue_platform_heels",
+      "accessories": ["white_crossbody_bag", "pink_earrings"],
+      "style": "bright_casual"
+    },
+    "score_breakdown": {
+      "fit": 19,
+      "color": 22,
+      "footwear": 16,
+      "accessories": 11,
+      "style": 13
+    },
+    "feedback": {
+      "fit": "Fitted pants and relaxed layers create a mix of comfort and shape, though the fit on the blazer feels a bit loose.",
+      "color": "Primary colors dominate, giving this look a bold, punchy vibe. Very lively.",
+      "footwear": "Heels match the top but may feel heavy visually. A sleeker heel could modernize it.",
+      "accessories": "Minimal bag and earrings tie the look together, but it still leans on the bold colors for interest.",
+      "style": "A fun color-forward outfit that leans young and energetic. Great for summer city days."
+    }
+  },
+  {
+    "image_path": "casual_113.jpg",
+    "score": 88,
+    "labels": {
+      "fit": "flowy_and_fitted",
+      "dress_type": "mint_pleated_mini_dress",
+      "color_palette": ["mint", "tan", "brown", "leopard"],
+      "footwear_type": "tan_platform_wedges",
+      "accessories": ["boho_headscarf", "layered_necklace", "leopard_belt"],
+      "style": "boho_resort"
+    },
+    "score_breakdown": {
+      "fit": 22,
+      "color": 20,
+      "footwear": 18,
+      "accessories": 15,
+      "style": 13
+    },
+    "feedback": {
+      "fit": "The belted waist defines the silhouette perfectly. Flowy fabric flatters in motion.",
+      "color": "Fresh mint plays beautifully with neutral tones. The leopard belt adds visual texture.",
+      "footwear": "Wedges suit the summery vibe and enhance the leg line.",
+      "accessories": "All accessories complement the relaxed vacation aesthetic. Headscarf is playful.",
+      "style": "Well-executed boho with beach club energy. Stylish and carefree."
+    }
+  },
+  {
+    "image_path": "casual_114.jpg",
+    "score": 85,
+    "labels": {
+      "fit": "tailored_vintage",
+      "shorts_type": "paperbag_nude_shorts",
+      "top_type": "striped_bow_blouse",
+      "color_palette": ["beige", "brown", "white", "black"],
+      "footwear_type": "taupe_wedges",
+      "accessories": ["straw_hat", "brown_belt", "clutch"],
+      "style": "vintage_playful"
+    },
+    "score_breakdown": {
+      "fit": 21,
+      "color": 19,
+      "footwear": 17,
+      "accessories": 14,
+      "style": 14
+    },
+    "feedback": {
+      "fit": "High-waisted shorts and tucked blouse emphasize the waist beautifully. Proportions feel polished.",
+      "color": "Earthy neutrals make the look feel cohesive, with a classic palette that works all year.",
+      "footwear": "Taupe wedges are a good neutral option for this silhouette. Clean and leg-lengthening.",
+      "accessories": "The hat and belt reinforce the retro styling. Everything fits the vintage vibe.",
+      "style": "Classic with personality. Perfect balance of quirky and sophisticated."
+    }
+  },
+  {
+    "image_path": "casual_115.jpg",
+    "score": 87,
+    "labels": {
+      "fit": "modern_preppy",
+      "pants_type": "blue_slim_fit_pants",
+      "top_type": "white_tee_with_pink_blazer",
+      "color_palette": ["blue", "pink", "white", "yellow"],
+      "footwear_type": "pink_heels",
+      "accessories": ["yellow_clutch", "clear_glasses"],
+      "style": "colorful_chic"
+    },
+    "score_breakdown": {
+      "fit": 21,
+      "color": 22,
+      "footwear": 18,
+      "accessories": 13,
+      "style": 13
+    },
+    "feedback": {
+      "fit": "Slim pants and a structured blazer create a clean, flattering silhouette.",
+      "color": "Bright and fun. The yellow clutch and pink heels bring life to the foundational palette.",
+      "footwear": "Pink pumps match the blazer, tying the whole look together with polish.",
+      "accessories": "Smart use of accessories to add personality without clutter.",
+      "style": "Perfect for brunch or creative meetings. Energetic and optimistic."
+    }
+  },
+  {
+    "image_path": "casual_116.jpg",
+    "score": 84,
+    "labels": {
+      "fit": "grunge_inspired",
+      "skirt_type": "black_bodycon_mini",
+      "top_type": "white_tee_with_plaid_shirt_tied",
+      "color_palette": ["white", "black", "navy"],
+      "footwear_type": "gray_converse",
+      "accessories": ["sunglasses", "cross_necklace"],
+      "style": "urban_grunge"
+    },
+    "score_breakdown": {
+      "fit": 20,
+      "color": 18,
+      "footwear": 15,
+      "accessories": 14,
+      "style": 17
+    },
+    "feedback": {
+      "fit": "Slim skirt contrasts with oversized tee and shirt for a casual layered vibe.",
+      "color": "Dark tones and basics work well for the edgy look. A bit muted but fitting.",
+      "footwear": "Classic Converse grounds the look with casual authenticity.",
+      "accessories": "Minimal, but the cross necklace and sunglasses echo the 90s aesthetic.",
+      "style": "Grunge revival done right—rebellious, cool, and easy to wear."
+    }
+  },
+  {
+    "image_path": "casual_117.jpg",
+    "score": 79,
+    "labels": {
+      "fit": "casual_summer",
+      "shorts_type": "high_waisted_red",
+      "top_type": "blush_v_neck_blouse",
+      "color_palette": ["red", "blush", "black"],
+      "footwear_type": "black_lace_up_booties",
+      "accessories": ["black_crossbody_bag"],
+      "style": "simple_cute"
+    },
+    "score_breakdown": {
+      "fit": 18,
+      "color": 19,
+      "footwear": 15,
+      "accessories": 12,
+      "style": 15
+    },
+    "feedback": {
+      "fit": "Basic silhouette with high-waisted shorts and a tucked blouse. Works well for a breezy day out.",
+      "color": "Soft blush and bold red don’t clash but don’t fully blend either.",
+      "footwear": "The boots give edge but may feel heavy for the rest of the airy look.",
+      "accessories": "Minimal, functional accessories. Slightly underwhelming.",
+      "style": "Everyday approachable. Not a standout, but easygoing and natural."
+    }
+  },
+  {
+    "image_path": "casual_118.jpg",
+    "score": 85,
+    "labels": {
+      "fit": "soft_vintage",
+      "skirt_type": "blue_flared_floral_mini",
+      "top_type": "white_cropped_sweater_with_cardigan",
+      "color_palette": ["white", "blue", "brown"],
+      "footwear_type": "white_platform_heels_with_socks",
+      "accessories": ["brown_satchel", "leather_belt"],
+      "style": "vintage_girly"
+    },
+    "score_breakdown": {
+      "fit": 22,
+      "color": 19,
+      "footwear": 17,
+      "accessories": 14,
+      "style": 13
+    },
+    "feedback": {
+      "fit": "Feminine proportions with soft knits and flared skirt. The belt defines the waist nicely.",
+      "color": "Charming pastels and neutrals. Soft without being washed out.",
+      "footwear": "Socks with platforms add a retro twist. Niche but intentional.",
+      "accessories": "Great use of textures and shapes to reinforce the vintage vibe.",
+      "style": "Sweet and nostalgic. Perfect for photo-friendly moments or vintage events."
+    }
+  },
+  {
+    "image_path": "casual_119.jpg",
+    "score": 84,
+    "labels": {
+      "fit": "sleek_statement",
+      "pants_type": "orange_skinny_jeans",
+      "top_type": "white_blouse",
+      "color_palette": ["white", "orange", "fuchsia", "gold"],
+      "footwear_type": "fuchsia_bow_heels",
+      "accessories": ["sequin_clutch", "leopard_belt"],
+      "style": "high_street_color"
+    },
+    "score_breakdown": {
+      "fit": 21,
+      "color": 20,
+      "footwear": 17,
+      "accessories": 13,
+      "style": 13
+    },
+    "feedback": {
+      "fit": "Skinny jeans and a loose blouse create an effortless model-off-duty silhouette.",
+      "color": "Orange and fuchsia clash in a bold way. Not for the faint of heart, but impactful.",
+      "footwear": "Statement heels add glam and drama, echoing the eccentric style energy.",
+      "accessories": "The embellished clutch and belt create contrast and draw the eye.",
+      "style": "High-energy, trend-forward. Editorial in tone, not everyday casual."
+    }
+  },
+  {
+    "image_path": "casual_120.jpg",
+    "score": 83,
+    "labels": {
+      "fit": "elevated_classic",
+      "pants_type": "red_trousers",
+      "top_type": "white_polka_dot_blouse",
+      "color_palette": ["red", "white", "black"],
+      "footwear_type": "black_strappy_heels",
+      "accessories": ["layered_necklace", "black_purse", "sunglasses"],
+      "style": "city_refined"
+    },
+    "score_breakdown": {
+      "fit": 20,
+      "color": 19,
+      "footwear": 16,
+      "accessories": 14,
+      "style": 14
+    },
+    "feedback": {
+      "fit": "Structured pants and puffed-sleeve blouse offer a flattering, confident silhouette.",
+      "color": "Red and white contrast strongly, with black anchoring the look.",
+      "footwear": "Heels add polish, but a nude shoe might elongate the leg more.",
+      "accessories": "Great use of subtle glam—chains, purse, and shades hit all the right notes.",
+      "style": "Refined and strong. Feels like a power outfit for the everyday woman."
+    }
+  },
+  {
+    "image_path": "casual_121.jpg",
+    "score": 85,
+    "labels": {
+      "fit": "smart_casual",
+      "shorts_type": "khaki_tailored_shorts",
+      "top_type": "navy_button_down",
+      "color_palette": ["navy", "khaki", "brown", "orange"],
+      "footwear_type": "white_sneakers",
+      "accessories": ["brown_belt", "orange_crossbody_bag", "black_sunglasses"],
+      "style": "urban_minimal"
+    },
+    "score_breakdown": {
+      "fit": 21,
+      "color": 19,
+      "footwear": 17,
+      "accessories": 14,
+      "style": 14
+    },
+    "feedback": {
+      "fit": "The structured shirt tucked into tailored shorts gives a clean, put-together silhouette perfect for warm-weather city dressing.",
+      "color": "Classic neutral combo—navy and khaki is always a smart pair. The orange bag adds a refreshing pop.",
+      "footwear": "White sneakers ground the look with comfort and simplicity.",
+      "accessories": "Minimal and practical. The orange crossbody adds interest without being overpowering.",
+      "style": "Polished and wearable—ideal for weekend errands or travel."
+    }
+  },
+  {
+    "image_path": "casual_122.jpg",
+    "score": 82,
+    "labels": {
+      "fit": "vintage_sweet",
+      "dress_type": "brown_polka_dot_mini",
+      "color_palette": ["brown", "white", "mustard"],
+      "footwear_type": "brown_oxfords",
+      "accessories": ["peter_pan_collar", "mustard_tights"],
+      "style": "retro_playful"
+    },
+    "score_breakdown": {
+      "fit": 20,
+      "color": 18,
+      "footwear": 17,
+      "accessories": 14,
+      "style": 13
+    },
+    "feedback": {
+      "fit": "The fitted bodice and flared skirt combo is flattering and classic. The collar adds charm.",
+      "color": "Muted brown paired with bright mustard is bold, but niche. Great for fall or quirky styling.",
+      "footwear": "Brown oxfords are very appropriate here—true to the vintage aesthetic.",
+      "accessories": "Mustard tights are a defining detail that make the look memorable and era-specific.",
+      "style": "Quirky-cute with a strong retro influence. Great for someone who embraces character-driven fashion."
+    }
+  },
+  {
+    "image_path": "casual_123.jpg",
+    "score": 80,
+    "labels": {
+      "fit": "colorful_minimal",
+      "skirt_type": "tiered_red_mini_skirt",
+      "top_type": "yellow_blouse",
+      "color_palette": ["yellow", "red", "white", "black"],
+      "footwear_type": "striped_pumps",
+      "accessories": ["red_belt"],
+      "style": "cheerful_modern"
+    },
+    "score_breakdown": {
+      "fit": 19,
+      "color": 21,
+      "footwear": 15,
+      "accessories": 11,
+      "style": 14
+    },
+    "feedback": {
+      "fit": "The tucked-in blouse and tiered mini skirt create a defined waist but could benefit from a more refined fabric choice for better flow.",
+      "color": "Bold complementary colors (red + yellow) bring energy. Great use of brights.",
+      "footwear": "Striped heels are fun, but compete slightly with the already vibrant palette.",
+      "accessories": "The slim red belt is smart. More accessories could tie the look together.",
+      "style": "Joyful and spirited. Feels like summer editorial or creative daywear."
+    }
+  },
+  {
+    "image_path": "casual_124.jpg",
+    "score": 84,
+    "labels": {
+      "fit": "romantic_statement",
+      "skirt_type": "textured_pink_mini",
+      "top_type": "white_sleeveless_drape_blouse",
+      "color_palette": ["white", "pink", "black"],
+      "footwear_type": "pink_wrap_platform_heels",
+      "accessories": [],
+      "style": "girly_glam"
+    },
+    "score_breakdown": {
+      "fit": 22,
+      "color": 18,
+      "footwear": 17,
+      "accessories": 10,
+      "style": 17
+    },
+    "feedback": {
+      "fit": "Voluminous skirt paired with a clean, tucked drape blouse emphasizes the waist and shows off legs beautifully.",
+      "color": "White and soft pink keep it fresh and sweet. The black waistband helps break the sweetness up.",
+      "footwear": "Satin pink heels echo the skirt’s texture—dramatic but in sync.",
+      "accessories": "Minimal or none visible—could benefit from a dainty bracelet or earrings.",
+      "style": "Soft, girly, and eye-catching—perfect for garden parties or summer brunches."
+    }
+  },
+  {
+    "image_path": "casual_125.jpg",
+    "score": 86,
+    "labels": {
+      "fit": "vintage_elegant",
+      "skirt_type": "red_pleated_midi",
+      "top_type": "white_embroidered_blouse",
+      "color_palette": ["red", "white", "tan"],
+      "footwear_type": "tan_oxford_heels",
+      "accessories": ["tan_crossbody", "brown_belt"],
+      "style": "timeless_feminine"
+    },
+    "score_breakdown": {
+      "fit": 22,
+      "color": 20,
+      "footwear": 16,
+      "accessories": 14,
+      "style": 14
+    },
+    "feedback": {
+      "fit": "High-waisted pleated skirt flatters the waist and flows elegantly. Blouse tucks in perfectly for polish.",
+      "color": "The red + white combo is bright and classic. Tan accessories keep it grounded.",
+      "footwear": "Oxford heels fit the vintage mood but don’t distract—ideal for daytime wear.",
+      "accessories": "Simple and cohesive. The belt and bag are well-matched and functional.",
+      "style": "Charming and poised—a lovely blend of nostalgic and contemporary grace."
+    }
+  }
+]
