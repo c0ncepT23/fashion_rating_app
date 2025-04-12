@@ -75,10 +75,12 @@ def main():
             component_names = {"fit": "Fit", "color": "Color", "footwear": "Footwear", 
                              "accessories": "Accessories", "style": "Style"}
             
-            # Create progress bars for each component
+            # Create progress bars for each component - using a safer approach
             for component, score in demo_scores.items():
                 max_score = 25 if component in ["fit", "color"] else 20 if component == "footwear" else 15
-                percentage = score / max_score
+                # Ensure percentage is between 0 and 1
+                percentage = float(score) / float(max_score)
+                percentage = max(0.0, min(1.0, percentage))  # Clamp between 0 and 1
                 st.write(f"**{component_names.get(component, component.title())}**: {score}/{max_score}")
                 st.progress(percentage)
             
