@@ -42,50 +42,68 @@ class EnhancedColorAnalyzer:
         Load color name dictionary with improved color recognition
         """
         color_dict = {
-            # Basic colors
-            'black': (0, 0, 0),
-            'white': (255, 255, 255),
+           # Reds & Pinks
             'red': (255, 0, 0),
-            'pink': (255, 192, 203),
-            'crimson': (220, 20, 60),
+            'coral': (255, 127, 80),  # Key fashion color
+            'tomato_red': (255, 99, 71),
+            'salmon': (250, 128, 114),
+            'ruby_red': (224, 17, 95),
+            'burgundy': (128, 0, 32),
             'maroon': (128, 0, 0),
-            'brown': (165, 42, 42),
+            'crimson': (220, 20, 60),
+            'pink': (255, 192, 203),
+            'hot_pink': (255, 105, 180),
+            'magenta': (255, 0, 255),
+            'blush_pink': (255, 228, 225),
+            
+            # Oranges
             'orange': (255, 165, 0),
-            'coral': (255, 127, 80),
-            'gold': (255, 215, 0),
+            'peach': (255, 218, 185),
+            'terracotta': (226, 114, 91),
+            
+            # Yellows
             'yellow': (255, 255, 0),
-            'olive': (128, 128, 0),
-            'lime': (0, 255, 0),
-            'green': (0, 128, 0),
-            'aqua': (0, 255, 255),
-            'teal': (0, 128, 128),
+            'gold': (255, 215, 0),
+            'mustard': (255, 219, 88),
+            'cream': (255, 253, 208),
+            
+            # Blues
             'blue': (0, 0, 255),
             'navy': (0, 0, 128),
+            'light_blue': (173, 216, 230),
+            'sky_blue': (135, 206, 235),
+            'royal_blue': (65, 105, 225),
+            'cobalt': (0, 71, 171),
+            'denim_blue': (92, 136, 218),
+            
+            # Greens
+            'green': (0, 128, 0),
+            'mint': (189, 252, 201),
+            'olive': (128, 128, 0),
+            'forest_green': (34, 139, 34),
+            'sage_green': (186, 202, 186),
+            'emerald': (0, 201, 87),
+            
+            # Purples
             'purple': (128, 0, 128),
-            'magenta': (255, 0, 255),
+            'lavender': (230, 230, 250),
+            'plum': (221, 160, 221),
+            'indigo': (75, 0, 130),
+            
+            # Neutral & Earth Tones
+            'black': (0, 0, 0),
+            'white': (255, 255, 255),
             'gray': (128, 128, 128),
             'silver': (192, 192, 192),
-            
-            # Extended fashion colors
             'beige': (245, 245, 220),
-            'burgundy': (128, 0, 32),
-            'lavender': (230, 230, 250),
-            'mint': (189, 252, 201),
-            'salmon': (250, 128, 114),
-            'turquoise': (64, 224, 208),
-            'indigo': (75, 0, 130),
-            'forest_green': (34, 139, 34),
+            'tan': (210, 180, 140),
+            'brown': (165, 42, 42),
             'khaki': (240, 230, 140),
-            'plum': (221, 160, 221),
-            'sky_blue': (135, 206, 235),
-            'pale_yellow': (255, 255, 224),
-            'cream': (255, 253, 208),
-            'ruby_red': (224, 17, 95),
-            'tomato_red': (255, 99, 71),
-            'emerald': (80, 200, 120),
-            'sapphire': (15, 82, 186),
-            'slate': (112, 128, 144),
-            'charcoal': (54, 69, 79)
+            'charcoal': (54, 69, 79),
+            'off_white': (250, 249, 246),
+            'ivory': (255, 255, 240),
+            'taupe': (72, 60, 50),
+            'camel': (193, 154, 107),
         }
         return color_dict
 
@@ -214,9 +232,26 @@ class EnhancedColorAnalyzer:
         return clothing_mask
     
     def _extract_colors_from_mask(self, image: np.ndarray, mask: np.ndarray, n_colors=8) -> List[Tuple[int, int, int]]:
-        """Extract dominant colors from masked region"""
+        """
+        Extract dominant colors from masked region with improved clustering
+        
+        Args:
+            image: Input image (OpenCV format)
+            mask: Binary mask
+            n_colors: Number of colors to extract
+            
+        Returns:
+            list: List of (B, G, R) color tuples
+        """
+        # Ensure mask has the same size as the image
+        if mask.shape[:2] != image.shape[:2]:
+            mask = cv2.resize(mask, (image.shape[1], image.shape[0]), interpolation=cv2.INTER_NEAREST)
+        
+        # Ensure mask is of type uint8
+        mask = mask.astype(np.uint8)
+        
         # Apply mask
-        masked_image = cv2.bitwise_and(image, image, mask=mask.astype(np.uint8))
+        masked_image = cv2.bitwise_and(image, image, mask=mask)
         
         # Get non-zero pixels
         non_zero = masked_image[mask > 0]
@@ -224,22 +259,32 @@ class EnhancedColorAnalyzer:
         if len(non_zero) == 0:
             return []
         
-        # Use K-means to find dominant colors
-        non_zero = non_zero.reshape(-1, 3).astype(np.float32)
+        # Reshape for clustering
+        pixels = non_zero.reshape(-1, 3).astype(np.float32)
         
         # Limit number of colors based on available pixels
-        k = min(n_colors, len(non_zero))
+        k = min(n_colors, len(pixels))
         if k == 0:
             return []
         
-        # Apply K-means
-        criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 10, 1.0)
-        _, labels, centers = cv2.kmeans(non_zero, k, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
+        # Apply K-means with better initialization and more iterations
+        criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 200, 0.1)
+        _, labels, centers = cv2.kmeans(pixels, k, None, criteria, 20, cv2.KMEANS_PP_CENTERS)
         
-        # Count occurrences of each label
+        # Count pixels in each cluster
         counts = np.bincount(labels.flatten())
         
-        # Sort centers by count
+        # Filter out very small clusters (likely noise)
+        valid_indices = [i for i, count in enumerate(counts) if count > len(pixels) * 0.03]
+        
+        if not valid_indices:
+            valid_indices = list(range(min(k, len(counts))))
+        
+        # Extract centers and sort by frequency
+        centers = centers[valid_indices]
+        counts = counts[valid_indices]
+        
+        # Sort by count (most frequent first)
         sorted_indices = np.argsort(counts)[::-1]
         centers = centers[sorted_indices]
         
@@ -249,13 +294,47 @@ class EnhancedColorAnalyzer:
         return colors
     
     def closest_color_name(self, bgr_color: Tuple[int, int, int]) -> str:
-        """Find closest named color"""
+        """
+        Find closest named color with improved accuracy for fashion contexts
+        
+        Args:
+            bgr_color: BGR color tuple
+        
+        Returns:
+            str: Named color
+        """
         # Convert BGR to RGB
         rgb_color = (bgr_color[2], bgr_color[1], bgr_color[0])
         
         min_distance = float('inf')
         closest_name = "unknown"
         
+        # Special case for very dark colors (near black)
+        r, g, b = rgb_color
+        brightness = (r + g + b) / 3
+        
+        if brightness < 30:
+            return "black"
+        
+        # Special case for very light colors (near white)
+        if brightness > 240:
+            return "white"
+        
+        # Special handling for fashion-important colors like coral
+        # Check coral first with special weighting
+        coral_distance = self._color_distance(rgb_color, self.color_names["coral"])
+        if coral_distance < 40:  # Lower threshold for coral detection
+            return "coral"
+        
+        # For light blues (jeans)
+        if 50 < brightness < 200 and b > r and b > g:
+            light_blue_distance = self._color_distance(rgb_color, self.color_names["light_blue"])
+            denim_distance = self._color_distance(rgb_color, self.color_names["denim_blue"])
+            
+            if light_blue_distance < 50 or denim_distance < 50:
+                return "light_blue" if light_blue_distance < denim_distance else "denim_blue"
+        
+        # Standard color matching for everything else
         for name, color in self.color_names.items():
             distance = self._color_distance(rgb_color, color)
             if distance < min_distance:
@@ -265,21 +344,76 @@ class EnhancedColorAnalyzer:
         return closest_name
     
     def _color_distance(self, color1: Tuple[int, int, int], color2: Tuple[int, int, int]) -> float:
-        """Calculate weighted color distance in RGB space"""
-        r1, g1, b1 = color1
-        r2, g2, b2 = color2
+        """
+        Calculate color distance using a more perceptually accurate model (CIE76)
         
-        # Weighted Euclidean distance
-        r_mean = (r1 + r2) / 2
-        r_weight = 2 + r_mean / 256
-        g_weight = 4  # Higher weight for green (human eyes are more sensitive)
-        b_weight = 2
+        Args:
+            color1: First RGB color tuple
+            color2: Second RGB color tuple
+            
+        Returns:
+            float: Perceptual distance between colors
+        """
+        # Convert RGB to Lab color space for more perceptual accuracy
+        lab1 = self._rgb_to_lab(color1)
+        lab2 = self._rgb_to_lab(color2)
         
-        return math.sqrt(
-            r_weight * (r1 - r2)**2 + 
-            g_weight * (g1 - g2)**2 + 
-            b_weight * (b1 - b2)**2
-        )
+        # Calculate Euclidean distance in Lab space
+        delta_l = lab1[0] - lab2[0]
+        delta_a = lab1[1] - lab2[1]
+        delta_b = lab1[2] - lab2[2]
+        
+        return math.sqrt(delta_l**2 + delta_a**2 + delta_b**2)
+
+    def _rgb_to_lab(self, rgb: Tuple[int, int, int]) -> Tuple[float, float, float]:
+        """
+        Convert RGB color to CIE-Lab color space
+        
+        Args:
+            rgb: RGB color tuple
+            
+        Returns:
+            tuple: (L, a, b) in CIE-Lab color space
+        """
+        # Convert RGB to XYZ
+        r, g, b = rgb
+        r = r / 255.0
+        g = g / 255.0
+        b = b / 255.0
+        
+        # Apply gamma correction
+        r = self._gamma_correct(r)
+        g = self._gamma_correct(g)
+        b = self._gamma_correct(b)
+        
+        # Convert to XYZ
+        x = r * 0.4124 + g * 0.3576 + b * 0.1805
+        y = r * 0.2126 + g * 0.7152 + b * 0.0722
+        z = r * 0.0193 + g * 0.1192 + b * 0.9505
+        
+        # Normalize for D65 white point
+        x = x / 0.95047
+        y = y / 1.0
+        z = z / 1.08883
+        
+        # Convert XYZ to Lab
+        x = self._lab_func(x)
+        y = self._lab_func(y)
+        z = self._lab_func(z)
+        
+        L = 116 * y - 16
+        a = 500 * (x - y)
+        b = 200 * (y - z)
+        
+        return (L, a, b)
+
+    def _gamma_correct(self, c: float) -> float:
+        """Apply gamma correction to a color channel"""
+        return ((c > 0.04045) and (((c + 0.055) / 1.055) ** 2.4)) or (c / 12.92)
+
+    def _lab_func(self, t: float) -> float:
+        """Helper function for Lab conversion"""
+        return ((t > 0.008856) and (t ** (1/3))) or ((7.787 * t) + (16/116))
     
     def _analyze_color_harmony(self, colors: List[Tuple[int, int, int]]) -> Dict[str, Any]:
         """Analyze color harmony"""

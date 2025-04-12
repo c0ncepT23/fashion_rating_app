@@ -1,0 +1,465 @@
+{
+  "score": 76,
+  "labels": {
+    "fit": "loose_flowy",
+    "pants_type": "wide_leg_trousers",
+    "top_type": "unknown_top",
+    "color_palette": [
+      "black",
+      "off_white",
+      "coral",
+      "coral",
+      "silver"
+    ],
+    "footwear_type": "footwear_not_visible",
+    "accessories": [],
+    "style": "fashion_week_off_duty"
+  },
+  "score_breakdown": {
+    "fit": 19,
+    "color": 20,
+    "footwear": 12,
+    "accessories": 12,
+    "style": 15
+  },
+  "feedback": {
+    "fit": "Nice pairing of top with trousers. The silhouette is flattering with creating a nice balance between the upper and lower body.",
+    "color": "The black elements pairs nicely with the off_white elements. creating a pleasing visual harmony.",
+    "footwear": "Consider adding appropriate footwear to complete the look.",
+    "accessories": "The outfit is missing accessories. a belt to define the waistline and add structure would enhance it.",
+    "style": "Excellent execution of fashion week off duty style. effortlessly combines high-end pieces with casual elements for that perfect 'off duty' look."
+  },
+  "clothing_items": [
+    {
+      "type": "trousers",
+      "category": "bottom",
+      "confidence": 0.5443114042282104,
+      "box": [
+        144,
+        232,
+        400,
+        599
+      ],
+      "position": {
+        "center_x": 0.68,
+        "center_y": 0.6925,
+        "width": 0.64,
+        "height": 0.6116666666666667,
+        "area": 0.3914666666666667
+      },
+      "fit": "wide_leg",
+      "dominant_color": "silver",
+      "colors": [
+        {
+          "name": "silver",
+          "rgb": [
+            190,
+            210,
+            210
+          ],
+          "hex": "#bed2d2"
+        },
+        {
+          "name": "coral",
+          "rgb": [
+            210,
+            100,
+            83
+          ],
+          "hex": "#d26453"
+        },
+        {
+          "name": "black",
+          "rgb": [
+            23,
+            26,
+            29
+          ],
+          "hex": "#171a1d"
+        }
+      ]
+    },
+    {
+      "type": "trousers",
+      "category": "bottom",
+      "confidence": 0.35941454768180847,
+      "box": [
+        0,
+        232,
+        255,
+        599
+      ],
+      "position": {
+        "center_x": 0.31875,
+        "center_y": 0.6925,
+        "width": 0.6375,
+        "height": 0.6116666666666667,
+        "area": 0.3899375
+      },
+      "fit": "wide_leg",
+      "dominant_color": "silver",
+      "colors": [
+        {
+          "name": "silver",
+          "rgb": [
+            171,
+            192,
+            190
+          ],
+          "hex": "#abc0be"
+        },
+        {
+          "name": "coral",
+          "rgb": [
+            225,
+            92,
+            71
+          ],
+          "hex": "#e15c47"
+        },
+        {
+          "name": "charcoal",
+          "rgb": [
+            37,
+            40,
+            41
+          ],
+          "hex": "#252829"
+        }
+      ]
+    },
+    {
+      "type": "vest dress",
+      "category": "dress",
+      "confidence": 0.3107730746269226,
+      "box": [
+        127,
+        100,
+        389,
+        501
+      ],
+      "position": {
+        "center_x": 0.645,
+        "center_y": 0.5008333333333334,
+        "width": 0.655,
+        "height": 0.6683333333333333,
+        "area": 0.43775833333333336
+      },
+      "fit": "casual",
+      "dominant_color": "coral",
+      "colors": [
+        {
+          "name": "coral",
+          "rgb": [
+            215,
+            92,
+            71
+          ],
+          "hex": "#d75c47"
+        },
+        {
+          "name": "sage_green",
+          "rgb": [
+            191,
+            207,
+            204
+          ],
+          "hex": "#bfcfcc"
+        },
+        {
+          "name": "black",
+          "rgb": [
+            45,
+            22,
+            20
+          ],
+          "hex": "#2d1614"
+        }
+      ]
+    },
+    {
+      "type": "vest dress",
+      "category": "dress",
+      "confidence": 0.2553422152996063,
+      "box": [
+        0,
+        100,
+        259,
+        497
+      ],
+      "position": {
+        "center_x": 0.32375,
+        "center_y": 0.4975,
+        "width": 0.6475,
+        "height": 0.6616666666666666,
+        "area": 0.4284291666666667
+      },
+      "fit": "casual",
+      "dominant_color": "coral",
+      "colors": [
+        {
+          "name": "coral",
+          "rgb": [
+            232,
+            91,
+            71
+          ],
+          "hex": "#e85b47"
+        },
+        {
+          "name": "silver",
+          "rgb": [
+            173,
+            190,
+            187
+          ],
+          "hex": "#adbebb"
+        },
+        {
+          "name": "taupe",
+          "rgb": [
+            50,
+            23,
+            21
+          ],
+          "hex": "#321715"
+        }
+      ]
+    }
+  ],
+  "color_analysis": {
+    "color_palette": [
+      {
+        "name": "black",
+        "rgb": [
+          17,
+          13,
+          14
+        ],
+        "hex": "#110d0e",
+        "harmony_type": "complementary",
+        "harmony_score": 85,
+        "seasonal_palette": "spring"
+      },
+      {
+        "name": "off_white",
+        "rgb": [
+          211,
+          229,
+          225
+        ],
+        "hex": "#d3e5e1"
+      },
+      {
+        "name": "coral",
+        "rgb": [
+          243,
+          89,
+          69
+        ],
+        "hex": "#f35945"
+      },
+      {
+        "name": "coral",
+        "rgb": [
+          245,
+          133,
+          111
+        ],
+        "hex": "#f5856f"
+      },
+      {
+        "name": "silver",
+        "rgb": [
+          149,
+          170,
+          169
+        ],
+        "hex": "#95aaa9"
+      },
+      {
+        "name": "coral",
+        "rgb": [
+          196,
+          40,
+          26
+        ],
+        "hex": "#c4281a"
+      },
+      {
+        "name": "taupe",
+        "rgb": [
+          84,
+          35,
+          25
+        ],
+        "hex": "#542319"
+      },
+      {
+        "name": "camel",
+        "rgb": [
+          135,
+          102,
+          73
+        ],
+        "hex": "#876649"
+      }
+    ],
+    "harmony": {
+      "type": "complementary",
+      "score": 85
+    },
+    "seasonal_palette": "spring",
+    "item_colors": {
+      "0": [
+        {
+          "name": "silver",
+          "rgb": [
+            190,
+            210,
+            210
+          ],
+          "hex": "#bed2d2"
+        },
+        {
+          "name": "coral",
+          "rgb": [
+            210,
+            100,
+            83
+          ],
+          "hex": "#d26453"
+        },
+        {
+          "name": "black",
+          "rgb": [
+            23,
+            26,
+            29
+          ],
+          "hex": "#171a1d"
+        }
+      ],
+      "1": [
+        {
+          "name": "silver",
+          "rgb": [
+            171,
+            192,
+            190
+          ],
+          "hex": "#abc0be"
+        },
+        {
+          "name": "coral",
+          "rgb": [
+            225,
+            92,
+            71
+          ],
+          "hex": "#e15c47"
+        },
+        {
+          "name": "charcoal",
+          "rgb": [
+            37,
+            40,
+            41
+          ],
+          "hex": "#252829"
+        }
+      ],
+      "2": [
+        {
+          "name": "coral",
+          "rgb": [
+            215,
+            92,
+            71
+          ],
+          "hex": "#d75c47"
+        },
+        {
+          "name": "sage_green",
+          "rgb": [
+            191,
+            207,
+            204
+          ],
+          "hex": "#bfcfcc"
+        },
+        {
+          "name": "black",
+          "rgb": [
+            45,
+            22,
+            20
+          ],
+          "hex": "#2d1614"
+        }
+      ],
+      "3": [
+        {
+          "name": "coral",
+          "rgb": [
+            232,
+            91,
+            71
+          ],
+          "hex": "#e85b47"
+        },
+        {
+          "name": "silver",
+          "rgb": [
+            173,
+            190,
+            187
+          ],
+          "hex": "#adbebb"
+        },
+        {
+          "name": "taupe",
+          "rgb": [
+            50,
+            23,
+            21
+          ],
+          "hex": "#321715"
+        }
+      ]
+    }
+  },
+  "style_result": {
+    "style": "fashion_week_off_duty",
+    "confidence": 0.21327014218009477,
+    "coherence": 0.21327014218009477,
+    "description": "Effortless yet deliberate styling seen on fashion industry insiders",
+    "top_styles": [
+      [
+        "fashion_week_off_duty",
+        0.21327014218009477
+      ],
+      [
+        "edgy_chic",
+        0.17061611374407581
+      ],
+      [
+        "casual",
+        0.0947867298578199
+      ]
+    ],
+    "all_probabilities": {
+      "casual": 0.0947867298578199,
+      "formal": 0.0947867298578199,
+      "streetwear": 0.0947867298578199,
+      "bohemian": 0.04739336492890995,
+      "minimalist": 0.0947867298578199,
+      "edgy_chic": 0.17061611374407581,
+      "preppy": 0.07109004739336493,
+      "sporty": 0.07109004739336493,
+      "vintage": 0.04739336492890995,
+      "fashion_week_off_duty": 0.21327014218009477
+    },
+    "method": "rule_based"
+  }
+}

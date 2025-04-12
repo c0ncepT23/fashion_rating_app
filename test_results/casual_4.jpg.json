@@ -1,33 +1,33 @@
 {
-  "score": 84,
+  "score": 85,
   "labels": {
     "fit": "relaxed_casual",
     "pants_type": "unknown_bottom",
     "top_type": "unknown_top",
     "color_palette": [
-      "pastel_blue",
-      "dark_gray",
-      "slate",
-      "dark_charcoal",
-      "plum"
+      "ruby_red",
+      "brown",
+      "burgundy",
+      "pink",
+      "gray"
     ],
     "footwear_type": "footwear_not_visible",
     "accessories": [],
-    "style": "casual"
+    "style": "fashion_week_off_duty"
   },
   "score_breakdown": {
-    "fit": 22,
-    "color": 4,
-    "footwear": 15,
-    "accessories": 15,
+    "fit": 19,
+    "color": 19,
+    "footwear": 14,
+    "accessories": 14,
     "style": 15
   },
   "feedback": {
-    "fit": "Perfect balance between top and bottom. The creating a balanced silhouette with strong shoulders and a leggy look creates a flattering silhouette.",
-    "color": "Consider revisiting the color scheme. The pastel_blue elements considering color temperature and how colors interact.",
+    "fit": "The top and bottom create a harmonious proportion. creating a nice balance between the upper and lower body.",
+    "color": "The ruby_red elements pairs nicely with the brown elements. showing good understanding of coordinating colors.",
     "footwear": "Consider adding appropriate footwear to complete the look.",
-    "accessories": "Try adding some accessories like a statement necklace or earrings to add visual interest to complete the look.",
-    "style": "Excellent execution of casual style. the relaxed elements blend with put-together pieces for an effortless look."
+    "accessories": "Try adding some accessories like simple jewelry to add a personal touch to complete the look.",
+    "style": "This outfit perfectly embodies fashion week off duty aesthetics. demonstrates insider fashion knowledge through thoughtful, unexpected styling choices."
   },
   "clothing_items": [
     {
@@ -48,34 +48,34 @@
         "area": 0.45905563491757073
       },
       "fit": "casual",
-      "dominant_color": "pastel_blue",
+      "dominant_color": "burgundy",
       "colors": [
         {
-          "name": "pastel_blue",
+          "name": "burgundy",
           "rgb": [
-            170,
-            186,
-            209
+            84,
+            14,
+            27
           ],
-          "hex": "#d1baaa"
+          "hex": "#540e1b"
         },
         {
-          "name": "indigo",
+          "name": "brown",
           "rgb": [
-            51,
-            33,
-            120
+            145,
+            57,
+            68
           ],
-          "hex": "#782133"
+          "hex": "#913944"
         },
         {
-          "name": "slate",
+          "name": "salmon",
           "rgb": [
-            112,
-            115,
-            153
+            205,
+            148,
+            122
           ],
-          "hex": "#997370"
+          "hex": "#cd947a"
         }
       ]
     },
@@ -97,34 +97,34 @@
         "area": 0.4394617968418208
       },
       "fit": "casual",
-      "dominant_color": "charcoal",
+      "dominant_color": "burgundy",
       "colors": [
         {
-          "name": "charcoal",
+          "name": "burgundy",
           "rgb": [
-            55,
-            40,
-            120
+            71,
+            11,
+            22
           ],
-          "hex": "#782837"
+          "hex": "#470b16"
         },
         {
-          "name": "pastel_blue",
+          "name": "brown",
+          "rgb": [
+            120,
+            61,
+            61
+          ],
+          "hex": "#783d3d"
+        },
+        {
+          "name": "gray",
           "rgb": [
             168,
-            182,
-            204
+            133,
+            120
           ],
-          "hex": "#ccb6a8"
-        },
-        {
-          "name": "slate",
-          "rgb": [
-            113,
-            119,
-            146
-          ],
-          "hex": "#927771"
+          "hex": "#a88578"
         }
       ]
     }
@@ -132,79 +132,79 @@
   "color_analysis": {
     "color_palette": [
       {
-        "name": "pastel_blue",
+        "name": "ruby_red",
         "rgb": [
-          218,
-          195,
-          176
+          203,
+          52,
+          92
         ],
-        "hex": "#dac3b0",
+        "hex": "#cb345c",
         "harmony_type": "balanced",
         "harmony_score": 70,
         "seasonal_palette": "summer"
       },
       {
-        "name": "dark_gray",
+        "name": "brown",
         "rgb": [
-          101,
-          85,
-          76
-        ],
-        "hex": "#65554c"
-      },
-      {
-        "name": "slate",
-        "rgb": [
-          165,
           146,
-          129
+          22,
+          54
         ],
-        "hex": "#a59281"
+        "hex": "#921636"
       },
       {
-        "name": "dark_charcoal",
+        "name": "burgundy",
         "rgb": [
-          59,
+          88,
           18,
-          20
+          29
         ],
-        "hex": "#3b1214"
+        "hex": "#58121d"
       },
       {
-        "name": "plum",
+        "name": "pink",
         "rgb": [
-          201,
-          52,
-          91
+          234,
+          180,
+          149
         ],
-        "hex": "#c9345b"
+        "hex": "#eab495"
       },
       {
-        "name": "pastel_blue",
+        "name": "gray",
         "rgb": [
-          195,
-          171,
-          151
+          124,
+          87,
+          74
         ],
-        "hex": "#c3ab97"
+        "hex": "#7c574a"
       },
       {
-        "name": "indigo",
+        "name": "gray",
         "rgb": [
-          136,
-          20,
-          49
+          183,
+          138,
+          121
         ],
-        "hex": "#881431"
+        "hex": "#b78a79"
       },
       {
-        "name": "slate",
+        "name": "black",
         "rgb": [
-          139,
-          122,
-          107
+          33,
+          10,
+          7
         ],
-        "hex": "#8b7a6b"
+        "hex": "#210a07"
+      },
+      {
+        "name": "lavender",
+        "rgb": [
+          225,
+          220,
+          229
+        ],
+        "hex": "#e1dce5"
       }
     ],
     "harmony": {
@@ -215,94 +215,94 @@
     "item_colors": {
       "0": [
         {
-          "name": "pastel_blue",
+          "name": "burgundy",
           "rgb": [
-            170,
-            186,
-            209
+            84,
+            14,
+            27
           ],
-          "hex": "#d1baaa"
+          "hex": "#540e1b"
         },
         {
-          "name": "indigo",
+          "name": "brown",
           "rgb": [
-            51,
-            33,
-            120
+            145,
+            57,
+            68
           ],
-          "hex": "#782133"
+          "hex": "#913944"
         },
         {
-          "name": "slate",
+          "name": "salmon",
           "rgb": [
-            112,
-            115,
-            153
+            205,
+            148,
+            122
           ],
-          "hex": "#997370"
+          "hex": "#cd947a"
         }
       ],
       "1": [
         {
-          "name": "charcoal",
+          "name": "burgundy",
           "rgb": [
-            55,
-            40,
-            120
+            71,
+            11,
+            22
           ],
-          "hex": "#782837"
+          "hex": "#470b16"
         },
         {
-          "name": "pastel_blue",
+          "name": "brown",
+          "rgb": [
+            120,
+            61,
+            61
+          ],
+          "hex": "#783d3d"
+        },
+        {
+          "name": "gray",
           "rgb": [
             168,
-            182,
-            204
+            133,
+            120
           ],
-          "hex": "#ccb6a8"
-        },
-        {
-          "name": "slate",
-          "rgb": [
-            113,
-            119,
-            146
-          ],
-          "hex": "#927771"
+          "hex": "#a88578"
         }
       ]
     }
   },
   "style_result": {
-    "style": "casual",
-    "confidence": 0.2061855670103093,
-    "coherence": 0.2061855670103093,
-    "description": "Relaxed, everyday wear focused on comfort",
+    "style": "fashion_week_off_duty",
+    "confidence": 0.1724137931034483,
+    "coherence": 0.1724137931034483,
+    "description": "Effortless yet deliberate styling seen on fashion industry insiders",
     "top_styles": [
       [
-        "casual",
-        0.2061855670103093
-      ],
-      [
-        "sporty",
-        0.2061855670103093
-      ],
-      [
         "fashion_week_off_duty",
-        0.15463917525773196
+        0.1724137931034483
+      ],
+      [
+        "edgy_chic",
+        0.13793103448275862
+      ],
+      [
+        "casual",
+        0.1149425287356322
       ]
     ],
     "all_probabilities": {
-      "casual": 0.2061855670103093,
-      "formal": 0.10309278350515465,
-      "streetwear": 0.0,
+      "casual": 0.1149425287356322,
+      "formal": 0.1149425287356322,
+      "streetwear": 0.1149425287356322,
       "bohemian": 0.0,
-      "minimalist": 0.10309278350515465,
-      "edgy_chic": 0.12371134020618557,
-      "preppy": 0.0,
-      "sporty": 0.2061855670103093,
-      "vintage": 0.10309278350515465,
-      "fashion_week_off_duty": 0.15463917525773196
+      "minimalist": 0.1149425287356322,
+      "edgy_chic": 0.13793103448275862,
+      "preppy": 0.0574712643678161,
+      "sporty": 0.1149425287356322,
+      "vintage": 0.0574712643678161,
+      "fashion_week_off_duty": 0.1724137931034483
     },
     "method": "rule_based"
   }

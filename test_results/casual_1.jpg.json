@@ -1,33 +1,33 @@
 {
-  "score": 77,
+  "score": 83,
   "labels": {
     "fit": "loose_flowy",
     "pants_type": "wide_leg_trousers",
     "top_type": "short sleeve top",
     "color_palette": [
-      "periwinkle",
-      "taupe",
-      "pastel_blue",
-      "slate",
-      "black"
+      "black",
+      "silver",
+      "silver",
+      "gray",
+      "charcoal"
     ],
     "footwear_type": "footwear_not_visible",
     "accessories": [],
     "style": "casual"
   },
   "score_breakdown": {
-    "fit": 19,
-    "color": 18,
-    "footwear": 15,
+    "fit": 21,
+    "color": 19,
+    "footwear": 18,
     "accessories": 14,
     "style": 15
   },
   "feedback": {
-    "fit": "Nice pairing of short sleeve top with trousers. The silhouette is flattering with the proportions work well for your frame.",
-    "color": "The periwinkle elements pairs nicely with the taupe elements. showing good understanding of coordinating colors.",
+    "fit": "The short sleeve top works well with the trousers. The proportions are good, with creating a nice balance between the upper and lower body.",
+    "color": "Nice color coordination with black and silver. showing good understanding of coordinating colors.",
     "footwear": "Consider adding appropriate footwear to complete the look.",
-    "accessories": "This outfit could benefit from some accessories. Consider adding a scarf or hat to add dimension and personality.",
-    "style": "Excellent execution of casual style. there's thoughtful coordination without appearing too studied."
+    "accessories": "The outfit is missing accessories. a belt to define the waistline and add structure would enhance it.",
+    "style": "This outfit perfectly embodies casual aesthetics. the outfit shows sophistication while maintaining everyday wearability."
   },
   "clothing_items": [
     {
@@ -47,4 +47,206 @@
         "height": 0.5341666666666667,
         "area": 0.3449987905176584
       },
-      "crop": 
+      "fit": "wide_leg",
+      "dominant_color": "unknown"
+    },
+    {
+      "type": "short sleeve top",
+      "category": "top",
+      "confidence": 0.7178060412406921,
+      "box": [
+        230,
+        314,
+        689,
+        913
+      ],
+      "position": {
+        "center_x": 0.6669085631349783,
+        "center_y": 0.51125,
+        "width": 0.6661828737300436,
+        "height": 0.49916666666666665,
+        "area": 0.33253628447024675
+      },
+      "fit": "casual",
+      "dominant_color": "silver",
+      "colors": [
+        {
+          "name": "silver",
+          "rgb": [
+            188,
+            174,
+            159
+          ],
+          "hex": "#bcae9f"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            152,
+            135,
+            120
+          ],
+          "hex": "#988778"
+        },
+        {
+          "name": "charcoal",
+          "rgb": [
+            69,
+            64,
+            55
+          ],
+          "hex": "#454037"
+        }
+      ]
+    }
+  ],
+  "color_analysis": {
+    "color_palette": [
+      {
+        "name": "black",
+        "rgb": [
+          15,
+          16,
+          22
+        ],
+        "hex": "#0f1016",
+        "harmony_type": "neutral",
+        "harmony_score": 70,
+        "seasonal_palette": "winter"
+      },
+      {
+        "name": "silver",
+        "rgb": [
+          181,
+          159,
+          144
+        ],
+        "hex": "#b59f90"
+      },
+      {
+        "name": "silver",
+        "rgb": [
+          197,
+          183,
+          168
+        ],
+        "hex": "#c5b7a8"
+      },
+      {
+        "name": "gray",
+        "rgb": [
+          158,
+          136,
+          121
+        ],
+        "hex": "#9e8879"
+      },
+      {
+        "name": "charcoal",
+        "rgb": [
+          34,
+          34,
+          40
+        ],
+        "hex": "#222228"
+      },
+      {
+        "name": "gray",
+        "rgb": [
+          134,
+          112,
+          97
+        ],
+        "hex": "#867061"
+      },
+      {
+        "name": "charcoal",
+        "rgb": [
+          72,
+          61,
+          56
+        ],
+        "hex": "#483d38"
+      },
+      {
+        "name": "charcoal",
+        "rgb": [
+          104,
+          88,
+          76
+        ],
+        "hex": "#68584c"
+      }
+    ],
+    "harmony": {
+      "type": "neutral",
+      "score": 70
+    },
+    "seasonal_palette": "winter",
+    "item_colors": {
+      "0": [],
+      "1": [
+        {
+          "name": "silver",
+          "rgb": [
+            188,
+            174,
+            159
+          ],
+          "hex": "#bcae9f"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            152,
+            135,
+            120
+          ],
+          "hex": "#988778"
+        },
+        {
+          "name": "charcoal",
+          "rgb": [
+            69,
+            64,
+            55
+          ],
+          "hex": "#454037"
+        }
+      ]
+    }
+  },
+  "style_result": {
+    "style": "casual",
+    "confidence": 0.1675977653631285,
+    "coherence": 0.1675977653631285,
+    "description": "Relaxed, everyday wear focused on comfort",
+    "top_styles": [
+      [
+        "casual",
+        0.1675977653631285
+      ],
+      [
+        "minimalist",
+        0.1675977653631285
+      ],
+      [
+        "fashion_week_off_duty",
+        0.1675977653631285
+      ]
+    ],
+    "all_probabilities": {
+      "casual": 0.1675977653631285,
+      "formal": 0.02793296089385475,
+      "streetwear": 0.13966480446927376,
+      "bohemian": 0.0,
+      "minimalist": 0.1675977653631285,
+      "edgy_chic": 0.1340782122905028,
+      "preppy": 0.0558659217877095,
+      "sporty": 0.13966480446927376,
+      "vintage": 0.0,
+      "fashion_week_off_duty": 0.1675977653631285
+    },
+    "method": "rule_based"
+  }
+}

@@ -1,0 +1,465 @@
+{
+  "score": 81,
+  "labels": {
+    "fit": "loose_flowy",
+    "pants_type": "wide_leg_trousers",
+    "top_type": "vest_with_vest",
+    "color_palette": [
+      "black",
+      "black",
+      "silver",
+      "silver",
+      "white"
+    ],
+    "footwear_type": "footwear_not_visible",
+    "accessories": [],
+    "style": "fashion_week_off_duty"
+  },
+  "score_breakdown": {
+    "fit": 20,
+    "color": 20,
+    "footwear": 17,
+    "accessories": 15,
+    "style": 15
+  },
+  "feedback": {
+    "fit": "The top and trousers create a harmonious proportion. the proportions work well for your frame.",
+    "color": "Nice color coordination with black and black. using color effectively to highlight key pieces.",
+    "footwear": "Consider adding appropriate footwear to complete the look.",
+    "accessories": "Try adding some accessories like a statement necklace or earrings to add visual interest to complete the look.",
+    "style": "This outfit perfectly embodies fashion week off duty aesthetics. demonstrates insider fashion knowledge through thoughtful, unexpected styling choices."
+  },
+  "clothing_items": [
+    {
+      "type": "trousers",
+      "category": "bottom",
+      "confidence": 0.6454505324363708,
+      "box": [
+        0,
+        239,
+        239,
+        599
+      ],
+      "position": {
+        "center_x": 0.29875,
+        "center_y": 0.6983333333333334,
+        "width": 0.5975,
+        "height": 0.6,
+        "area": 0.3585
+      },
+      "fit": "wide_leg",
+      "dominant_color": "black",
+      "colors": [
+        {
+          "name": "black",
+          "rgb": [
+            14,
+            13,
+            13
+          ],
+          "hex": "#0e0d0d"
+        },
+        {
+          "name": "taupe",
+          "rgb": [
+            64,
+            58,
+            61
+          ],
+          "hex": "#403a3d"
+        },
+        {
+          "name": "blush_pink",
+          "rgb": [
+            226,
+            204,
+            198
+          ],
+          "hex": "#e2ccc6"
+        }
+      ]
+    },
+    {
+      "type": "vest",
+      "category": "outerwear",
+      "confidence": 0.5184003114700317,
+      "box": [
+        0,
+        89,
+        251,
+        430
+      ],
+      "position": {
+        "center_x": 0.31375,
+        "center_y": 0.4325,
+        "width": 0.6275,
+        "height": 0.5683333333333334,
+        "area": 0.35662916666666666
+      },
+      "fit": "casual",
+      "dominant_color": "black",
+      "colors": [
+        {
+          "name": "black",
+          "rgb": [
+            23,
+            21,
+            23
+          ],
+          "hex": "#171517"
+        },
+        {
+          "name": "blush_pink",
+          "rgb": [
+            228,
+            218,
+            218
+          ],
+          "hex": "#e4dada"
+        },
+        {
+          "name": "tan",
+          "rgb": [
+            183,
+            154,
+            140
+          ],
+          "hex": "#b79a8c"
+        }
+      ]
+    },
+    {
+      "type": "trousers",
+      "category": "bottom",
+      "confidence": 0.2986137866973877,
+      "box": [
+        125,
+        239,
+        369,
+        600
+      ],
+      "position": {
+        "center_x": 0.6175,
+        "center_y": 0.6991666666666667,
+        "width": 0.61,
+        "height": 0.6016666666666667,
+        "area": 0.36701666666666666
+      },
+      "fit": "wide_leg",
+      "dominant_color": "black",
+      "colors": [
+        {
+          "name": "black",
+          "rgb": [
+            21,
+            21,
+            22
+          ],
+          "hex": "#151516"
+        },
+        {
+          "name": "blush_pink",
+          "rgb": [
+            226,
+            205,
+            200
+          ],
+          "hex": "#e2cdc8"
+        },
+        {
+          "name": "taupe",
+          "rgb": [
+            105,
+            89,
+            88
+          ],
+          "hex": "#695958"
+        }
+      ]
+    },
+    {
+      "type": "vest",
+      "category": "outerwear",
+      "confidence": 0.2542467713356018,
+      "box": [
+        117,
+        89,
+        370,
+        429
+      ],
+      "position": {
+        "center_x": 0.60875,
+        "center_y": 0.43166666666666664,
+        "width": 0.6325,
+        "height": 0.5666666666666667,
+        "area": 0.35841666666666666
+      },
+      "fit": "casual",
+      "dominant_color": "black",
+      "colors": [
+        {
+          "name": "black",
+          "rgb": [
+            25,
+            23,
+            24
+          ],
+          "hex": "#191718"
+        },
+        {
+          "name": "silver",
+          "rgb": [
+            219,
+            209,
+            208
+          ],
+          "hex": "#dbd1d0"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            147,
+            123,
+            112
+          ],
+          "hex": "#937b70"
+        }
+      ]
+    }
+  ],
+  "color_analysis": {
+    "color_palette": [
+      {
+        "name": "black",
+        "rgb": [
+          11,
+          11,
+          11
+        ],
+        "hex": "#0b0b0b",
+        "harmony_type": "neutral",
+        "harmony_score": 70,
+        "seasonal_palette": "winter"
+      },
+      {
+        "name": "black",
+        "rgb": [
+          36,
+          34,
+          35
+        ],
+        "hex": "#242223"
+      },
+      {
+        "name": "silver",
+        "rgb": [
+          218,
+          206,
+          203
+        ],
+        "hex": "#dacecb"
+      },
+      {
+        "name": "silver",
+        "rgb": [
+          194,
+          179,
+          172
+        ],
+        "hex": "#c2b3ac"
+      },
+      {
+        "name": "white",
+        "rgb": [
+          241,
+          238,
+          242
+        ],
+        "hex": "#f1eef2"
+      },
+      {
+        "name": "gray",
+        "rgb": [
+          172,
+          145,
+          128
+        ],
+        "hex": "#ac9180"
+      },
+      {
+        "name": "taupe",
+        "rgb": [
+          81,
+          63,
+          55
+        ],
+        "hex": "#513f37"
+      },
+      {
+        "name": "gray",
+        "rgb": [
+          127,
+          105,
+          93
+        ],
+        "hex": "#7f695d"
+      }
+    ],
+    "harmony": {
+      "type": "neutral",
+      "score": 70
+    },
+    "seasonal_palette": "winter",
+    "item_colors": {
+      "0": [
+        {
+          "name": "black",
+          "rgb": [
+            14,
+            13,
+            13
+          ],
+          "hex": "#0e0d0d"
+        },
+        {
+          "name": "taupe",
+          "rgb": [
+            64,
+            58,
+            61
+          ],
+          "hex": "#403a3d"
+        },
+        {
+          "name": "blush_pink",
+          "rgb": [
+            226,
+            204,
+            198
+          ],
+          "hex": "#e2ccc6"
+        }
+      ],
+      "1": [
+        {
+          "name": "black",
+          "rgb": [
+            23,
+            21,
+            23
+          ],
+          "hex": "#171517"
+        },
+        {
+          "name": "blush_pink",
+          "rgb": [
+            228,
+            218,
+            218
+          ],
+          "hex": "#e4dada"
+        },
+        {
+          "name": "tan",
+          "rgb": [
+            183,
+            154,
+            140
+          ],
+          "hex": "#b79a8c"
+        }
+      ],
+      "2": [
+        {
+          "name": "black",
+          "rgb": [
+            21,
+            21,
+            22
+          ],
+          "hex": "#151516"
+        },
+        {
+          "name": "blush_pink",
+          "rgb": [
+            226,
+            205,
+            200
+          ],
+          "hex": "#e2cdc8"
+        },
+        {
+          "name": "taupe",
+          "rgb": [
+            105,
+            89,
+            88
+          ],
+          "hex": "#695958"
+        }
+      ],
+      "3": [
+        {
+          "name": "black",
+          "rgb": [
+            25,
+            23,
+            24
+          ],
+          "hex": "#191718"
+        },
+        {
+          "name": "silver",
+          "rgb": [
+            219,
+            209,
+            208
+          ],
+          "hex": "#dbd1d0"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            147,
+            123,
+            112
+          ],
+          "hex": "#937b70"
+        }
+      ]
+    }
+  },
+  "style_result": {
+    "style": "fashion_week_off_duty",
+    "confidence": 0.22388059701492538,
+    "coherence": 0.22388059701492538,
+    "description": "Effortless yet deliberate styling seen on fashion industry insiders",
+    "top_styles": [
+      [
+        "fashion_week_off_duty",
+        0.22388059701492538
+      ],
+      [
+        "edgy_chic",
+        0.17910447761194032
+      ],
+      [
+        "casual",
+        0.10660980810234542
+      ]
+    ],
+    "all_probabilities": {
+      "casual": 0.10660980810234542,
+      "formal": 0.10660980810234542,
+      "streetwear": 0.08528784648187633,
+      "bohemian": 0.042643923240938165,
+      "minimalist": 0.10660980810234542,
+      "edgy_chic": 0.17910447761194032,
+      "preppy": 0.06396588486140725,
+      "sporty": 0.08528784648187633,
+      "vintage": 0.0,
+      "fashion_week_off_duty": 0.22388059701492538
+    },
+    "method": "rule_based"
+  }
+}

@@ -1,14 +1,14 @@
 {
-  "score": 82,
+  "score": 83,
   "labels": {
     "fit": "loose_flowy",
     "pants_type": "wide_leg_trousers",
     "top_type": "long sleeve outwear",
     "color_palette": [
-      "rich_black",
-      "dark_gray",
-      "gray",
-      "taupe",
+      "black",
+      "charcoal",
+      "charcoal",
+      "charcoal",
       "lavender"
     ],
     "footwear_type": "footwear_not_visible",
@@ -17,17 +17,17 @@
   },
   "score_breakdown": {
     "fit": 19,
-    "color": 12,
+    "color": 14,
     "footwear": 15,
     "accessories": 14,
     "style": 15
   },
   "feedback": {
-    "fit": "The top works well with the trousers. The proportions are good, with the silhouette shows good understanding of shape and balance.",
-    "color": "Consider revisiting the color scheme. The rich_black elements focusing on a more harmonious color scheme.",
+    "fit": "Nice pairing of top with trousers. The silhouette is flattering with creating a nice balance between the upper and lower body.",
+    "color": "The colors work, though balancing the warm and cool tones more evenly would enhance the outfit.",
     "footwear": "Consider adding appropriate footwear to complete the look.",
-    "accessories": "The outfit is missing accessories. simple jewelry to add a personal touch would enhance it.",
-    "style": "Successfully combines elements for a cohesive fashion week off duty look. demonstrates insider fashion knowledge through thoughtful, unexpected styling choices."
+    "accessories": "This outfit could benefit from some accessories. Consider adding a coordinating bag to add functionality and style.",
+    "style": "This outfit perfectly embodies fashion week off duty aesthetics. effortlessly combines high-end pieces with casual elements for that perfect 'off duty' look."
   },
   "clothing_items": [
     {
@@ -48,37 +48,34 @@
         "area": 0.49438343471612817
       },
       "fit": "wide_leg",
-      "dominant_color": "rich_black",
+      "dominant_color": "black",
       "colors": [
         {
-          "name": "rich_black",
+          "name": "black",
           "rgb": [
-            26,
-            15,
-            8
+            8,
+            16,
+            27
           ],
-          "hex": "#080f1a",
-          "harmony_type": "complementary",
-          "harmony_score": 85,
-          "seasonal_palette": "summer"
+          "hex": "#08101b"
         },
         {
-          "name": "light_gray",
+          "name": "lavender",
           "rgb": [
-            204,
-            209,
-            206
+            228,
+            235,
+            239
           ],
-          "hex": "#ced1cc"
+          "hex": "#e4ebef"
         },
         {
-          "name": "gray",
+          "name": "silver",
           "rgb": [
-            121,
-            127,
-            128
+            155,
+            162,
+            165
           ],
-          "hex": "#807f79"
+          "hex": "#9ba2a5"
         }
       ]
     },
@@ -100,34 +97,34 @@
         "area": 0.32866930926738464
       },
       "fit": "structured",
-      "dominant_color": "dark_gray",
+      "dominant_color": "black",
       "colors": [
         {
-          "name": "dark_gray",
+          "name": "black",
           "rgb": [
-            97,
-            102,
-            111
+            8,
+            14,
+            25
           ],
-          "hex": "#6f6661"
+          "hex": "#080e19"
         },
         {
-          "name": "dark_charcoal",
+          "name": "charcoal",
           "rgb": [
-            39,
-            37,
-            39
+            89,
+            79,
+            78
           ],
-          "hex": "#272527"
+          "hex": "#594f4e"
         },
         {
           "name": "silver",
           "rgb": [
-            198,
-            205,
+            196,
+            204,
             216
           ],
-          "hex": "#d8cdc6"
+          "hex": "#c4ccd8"
         }
       ]
     }
@@ -135,70 +132,79 @@
   "color_analysis": {
     "color_palette": [
       {
-        "name": "rich_black",
+        "name": "black",
         "rgb": [
-          26,
-          15,
-          8
+          4,
+          11,
+          23
         ],
-        "hex": "#080f1a",
+        "hex": "#040b17",
         "harmony_type": "complementary",
         "harmony_score": 85,
         "seasonal_palette": "summer"
       },
       {
-        "name": "dark_gray",
+        "name": "charcoal",
         "rgb": [
-          97,
-          102,
-          111
+          48,
+          43,
+          45
         ],
-        "hex": "#6f6661"
+        "hex": "#302b2d"
       },
       {
-        "name": "gray",
+        "name": "charcoal",
         "rgb": [
-          158,
-          159,
-          152
+          76,
+          66,
+          64
         ],
-        "hex": "#9e9f98"
+        "hex": "#4c4240"
       },
       {
-        "name": "taupe",
+        "name": "charcoal",
         "rgb": [
-          61,
-          55,
-          54
+          101,
+          89,
+          86
         ],
-        "hex": "#3d3736"
+        "hex": "#655956"
       },
       {
         "name": "lavender",
         "rgb": [
-          233,
-          238,
-          234
+          223,
+          235,
+          245
         ],
-        "hex": "#e9eeea"
+        "hex": "#dfebf5"
+      },
+      {
+        "name": "gray",
+        "rgb": [
+          130,
+          116,
+          113
+        ],
+        "hex": "#827471"
       },
       {
         "name": "silver",
         "rgb": [
-          186,
-          187,
-          181
+          188,
+          195,
+          207
         ],
-        "hex": "#babbb5"
+        "hex": "#bcc3cf"
       },
       {
-        "name": "light_gray",
+        "name": "gray",
         "rgb": [
-          216,
-          211,
-          202
+          154,
+          153,
+          158
         ],
-        "hex": "#d8d3ca"
+        "hex": "#9a999e"
       }
     ],
     "harmony": {
@@ -209,63 +215,60 @@
     "item_colors": {
       "0": [
         {
-          "name": "rich_black",
+          "name": "black",
           "rgb": [
-            26,
-            15,
-            8
+            8,
+            16,
+            27
           ],
-          "hex": "#080f1a",
-          "harmony_type": "complementary",
-          "harmony_score": 85,
-          "seasonal_palette": "summer"
+          "hex": "#08101b"
         },
         {
-          "name": "light_gray",
+          "name": "lavender",
           "rgb": [
-            204,
-            209,
-            206
+            228,
+            235,
+            239
           ],
-          "hex": "#ced1cc"
-        },
-        {
-          "name": "gray",
-          "rgb": [
-            121,
-            127,
-            128
-          ],
-          "hex": "#807f79"
-        }
-      ],
-      "1": [
-        {
-          "name": "dark_gray",
-          "rgb": [
-            97,
-            102,
-            111
-          ],
-          "hex": "#6f6661"
-        },
-        {
-          "name": "dark_charcoal",
-          "rgb": [
-            39,
-            37,
-            39
-          ],
-          "hex": "#272527"
+          "hex": "#e4ebef"
         },
         {
           "name": "silver",
           "rgb": [
-            198,
-            205,
+            155,
+            162,
+            165
+          ],
+          "hex": "#9ba2a5"
+        }
+      ],
+      "1": [
+        {
+          "name": "black",
+          "rgb": [
+            8,
+            14,
+            25
+          ],
+          "hex": "#080e19"
+        },
+        {
+          "name": "charcoal",
+          "rgb": [
+            89,
+            79,
+            78
+          ],
+          "hex": "#594f4e"
+        },
+        {
+          "name": "silver",
+          "rgb": [
+            196,
+            204,
             216
           ],
-          "hex": "#d8cdc6"
+          "hex": "#c4ccd8"
         }
       ]
     }
