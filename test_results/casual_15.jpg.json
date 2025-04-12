@@ -1,0 +1,665 @@
+{
+  "score": 79,
+  "labels": {
+    "fit": "loose_flowy",
+    "pants_type": "pants",
+    "top_type": "short sleeve top",
+    "color_palette": [
+      "white",
+      "cobalt",
+      "denim_blue",
+      "silver",
+      "denim_blue"
+    ],
+    "footwear_type": "footwear_not_visible",
+    "accessories": [],
+    "style": "fashion_week_off_duty"
+  },
+  "score_breakdown": {
+    "fit": 19,
+    "color": 21,
+    "footwear": 17,
+    "accessories": 13,
+    "style": 15
+  },
+  "feedback": {
+    "fit": "the short sleeve top and pants create a harmonious proportion. the silhouette shows good understanding of shape and balance.",
+    "color": "Nice color coordination with white and cobalt. maintaining consistency in color temperature.",
+    "footwear": "Consider adding appropriate footwear to complete the look.",
+    "accessories": "This outfit could benefit from some accessories. Consider adding simple jewelry to add a personal touch.",
+    "style": "This outfit perfectly embodies fashion week off duty aesthetics. shows a confident understanding of proportion and subtle statement-making."
+  },
+  "clothing_items": [
+    {
+      "type": "maxi skirt",
+      "category": "bottom",
+      "confidence": 0.5408751368522644,
+      "box": [
+        176,
+        268,
+        400,
+        599
+      ],
+      "position": {
+        "center_x": 0.72,
+        "center_y": 0.7225,
+        "width": 0.56,
+        "height": 0.5516666666666666,
+        "area": 0.30893333333333334
+      },
+      "fit": "wide_leg",
+      "dominant_color": "silver",
+      "clip_analysis": {
+        "garment": {
+          "best_match": {
+            "type": "maxi skirt",
+            "confidence": 0.4197847843170166
+          },
+          "top_matches": [
+            {
+              "type": "maxi skirt",
+              "confidence": 0.4197847843170166
+            },
+            {
+              "type": "pants",
+              "confidence": 0.2315492182970047
+            },
+            {
+              "type": "trousers",
+              "confidence": 0.1681758463382721
+            },
+            {
+              "type": "slacks",
+              "confidence": 0.07996084541082382
+            },
+            {
+              "type": "maxi dress",
+              "confidence": 0.030740870162844658
+            }
+          ]
+        },
+        "style": {
+          "best_match": {
+            "style": "streetwear",
+            "confidence": 0.18674203753471375
+          },
+          "top_matches": [
+            {
+              "style": "streetwear",
+              "confidence": 0.18674203753471375
+            },
+            {
+              "style": "casual",
+              "confidence": 0.17020317912101746
+            },
+            {
+              "style": "minimalist",
+              "confidence": 0.11742142587900162
+            }
+          ]
+        }
+      },
+      "colors": [
+        {
+          "name": "silver",
+          "rgb": [
+            187,
+            179,
+            180
+          ],
+          "hex": "#bbb3b4"
+        },
+        {
+          "name": "denim_blue",
+          "rgb": [
+            54,
+            78,
+            161
+          ],
+          "hex": "#364ea1"
+        },
+        {
+          "name": "cobalt",
+          "rgb": [
+            16,
+            25,
+            76
+          ],
+          "hex": "#10194c"
+        }
+      ]
+    },
+    {
+      "type": "short sleeve top",
+      "category": "top",
+      "confidence": 0.5252183675765991,
+      "box": [
+        173,
+        170,
+        400,
+        472
+      ],
+      "position": {
+        "center_x": 0.71625,
+        "center_y": 0.535,
+        "width": 0.5675,
+        "height": 0.5033333333333333,
+        "area": 0.2856416666666667
+      },
+      "fit": "casual",
+      "dominant_color": "denim_blue",
+      "clip_analysis": {
+        "garment": {
+          "best_match": {
+            "type": "pants",
+            "confidence": 0.27694767713546753
+          },
+          "top_matches": [
+            {
+              "type": "pants",
+              "confidence": 0.27694767713546753
+            },
+            {
+              "type": "maxi skirt",
+              "confidence": 0.1962725818157196
+            },
+            {
+              "type": "skirt",
+              "confidence": 0.12531603872776031
+            },
+            {
+              "type": "slacks",
+              "confidence": 0.09631892293691635
+            },
+            {
+              "type": "midi skirt",
+              "confidence": 0.08311576396226883
+            }
+          ]
+        },
+        "style": {
+          "best_match": {
+            "style": "romantic",
+            "confidence": 0.15443037450313568
+          },
+          "top_matches": [
+            {
+              "style": "romantic",
+              "confidence": 0.15443037450313568
+            },
+            {
+              "style": "bohemian",
+              "confidence": 0.11019792407751083
+            },
+            {
+              "style": "preppy",
+              "confidence": 0.10705162584781647
+            }
+          ]
+        }
+      },
+      "colors": [
+        {
+          "name": "denim_blue",
+          "rgb": [
+            25,
+            45,
+            119
+          ],
+          "hex": "#192d77"
+        },
+        {
+          "name": "silver",
+          "rgb": [
+            209,
+            202,
+            204
+          ],
+          "hex": "#d1cacc"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            130,
+            118,
+            106
+          ],
+          "hex": "#82766a"
+        }
+      ]
+    },
+    {
+      "type": "short sleeve top",
+      "category": "top",
+      "confidence": 0.3555467128753662,
+      "box": [
+        73,
+        170,
+        299,
+        474
+      ],
+      "position": {
+        "center_x": 0.465,
+        "center_y": 0.5366666666666666,
+        "width": 0.565,
+        "height": 0.5066666666666667,
+        "area": 0.28626666666666667
+      },
+      "fit": "casual",
+      "dominant_color": "silver",
+      "clip_analysis": {
+        "garment": {
+          "best_match": {
+            "type": "skirt",
+            "confidence": 0.2564287483692169
+          },
+          "top_matches": [
+            {
+              "type": "skirt",
+              "confidence": 0.2564287483692169
+            },
+            {
+              "type": "midi skirt",
+              "confidence": 0.25623905658721924
+            },
+            {
+              "type": "maxi skirt",
+              "confidence": 0.1801227331161499
+            },
+            {
+              "type": "pants",
+              "confidence": 0.08007088303565979
+            },
+            {
+              "type": "slacks",
+              "confidence": 0.046361275017261505
+            }
+          ]
+        },
+        "style": {
+          "best_match": {
+            "style": "streetwear",
+            "confidence": 0.17179381847381592
+          },
+          "top_matches": [
+            {
+              "style": "streetwear",
+              "confidence": 0.17179381847381592
+            },
+            {
+              "style": "minimalist",
+              "confidence": 0.11869185417890549
+            },
+            {
+              "style": "casual",
+              "confidence": 0.10787719488143921
+            }
+          ]
+        }
+      },
+      "colors": [
+        {
+          "name": "silver",
+          "rgb": [
+            204,
+            197,
+            198
+          ],
+          "hex": "#ccc5c6"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            110,
+            113,
+            70
+          ],
+          "hex": "#6e7146"
+        },
+        {
+          "name": "denim_blue",
+          "rgb": [
+            29,
+            55,
+            146
+          ],
+          "hex": "#1d3792"
+        }
+      ]
+    },
+    {
+      "type": "pants",
+      "category": "bottom",
+      "confidence": 0.32728761434555054,
+      "box": [
+        69,
+        268,
+        290,
+        599
+      ],
+      "position": {
+        "center_x": 0.44875,
+        "center_y": 0.7225,
+        "width": 0.5525,
+        "height": 0.5516666666666666,
+        "area": 0.3047958333333333
+      },
+      "fit": "wide_leg",
+      "dominant_color": "silver",
+      "clip_analysis": {
+        "garment": {
+          "best_match": {
+            "type": "pants",
+            "confidence": 0.5062151551246643
+          },
+          "top_matches": [
+            {
+              "type": "pants",
+              "confidence": 0.5062151551246643
+            },
+            {
+              "type": "trousers",
+              "confidence": 0.24603992700576782
+            },
+            {
+              "type": "slacks",
+              "confidence": 0.13363340497016907
+            },
+            {
+              "type": "jumpsuit",
+              "confidence": 0.031227946281433105
+            },
+            {
+              "type": "chinos",
+              "confidence": 0.020239107310771942
+            }
+          ]
+        },
+        "style": {
+          "best_match": {
+            "style": "casual",
+            "confidence": 0.23125742375850677
+          },
+          "top_matches": [
+            {
+              "style": "casual",
+              "confidence": 0.23125742375850677
+            },
+            {
+              "style": "streetwear",
+              "confidence": 0.14593099057674408
+            },
+            {
+              "style": "preppy",
+              "confidence": 0.07819708436727524
+            }
+          ]
+        }
+      },
+      "colors": [
+        {
+          "name": "silver",
+          "rgb": [
+            190,
+            184,
+            185
+          ],
+          "hex": "#beb8b9"
+        },
+        {
+          "name": "denim_blue",
+          "rgb": [
+            29,
+            55,
+            146
+          ],
+          "hex": "#1d3792"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            114,
+            114,
+            76
+          ],
+          "hex": "#72724c"
+        }
+      ]
+    }
+  ],
+  "color_analysis": {
+    "color_palette": [
+      {
+        "name": "white",
+        "rgb": [
+          229,
+          226,
+          229
+        ],
+        "hex": "#e5e2e5",
+        "harmony_type": "balanced",
+        "harmony_score": 70,
+        "seasonal_palette": "winter"
+      },
+      {
+        "name": "cobalt",
+        "rgb": [
+          14,
+          30,
+          101
+        ],
+        "hex": "#0e1e65"
+      },
+      {
+        "name": "denim_blue",
+        "rgb": [
+          29,
+          56,
+          151
+        ],
+        "hex": "#1d3897"
+      },
+      {
+        "name": "silver",
+        "rgb": [
+          196,
+          184,
+          186
+        ],
+        "hex": "#c4b8ba"
+      },
+      {
+        "name": "denim_blue",
+        "rgb": [
+          47,
+          86,
+          196
+        ],
+        "hex": "#2f56c4"
+      },
+      {
+        "name": "black",
+        "rgb": [
+          11,
+          14,
+          45
+        ],
+        "hex": "#0b0e2d"
+      },
+      {
+        "name": "gray",
+        "rgb": [
+          157,
+          125,
+          125
+        ],
+        "hex": "#9d7d7d"
+      },
+      {
+        "name": "taupe",
+        "rgb": [
+          105,
+          74,
+          70
+        ],
+        "hex": "#694a46"
+      }
+    ],
+    "harmony": {
+      "type": "balanced",
+      "score": 70
+    },
+    "seasonal_palette": "winter",
+    "item_colors": {
+      "0": [
+        {
+          "name": "silver",
+          "rgb": [
+            187,
+            179,
+            180
+          ],
+          "hex": "#bbb3b4"
+        },
+        {
+          "name": "denim_blue",
+          "rgb": [
+            54,
+            78,
+            161
+          ],
+          "hex": "#364ea1"
+        },
+        {
+          "name": "cobalt",
+          "rgb": [
+            16,
+            25,
+            76
+          ],
+          "hex": "#10194c"
+        }
+      ],
+      "1": [
+        {
+          "name": "denim_blue",
+          "rgb": [
+            25,
+            45,
+            119
+          ],
+          "hex": "#192d77"
+        },
+        {
+          "name": "silver",
+          "rgb": [
+            209,
+            202,
+            204
+          ],
+          "hex": "#d1cacc"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            130,
+            118,
+            106
+          ],
+          "hex": "#82766a"
+        }
+      ],
+      "2": [
+        {
+          "name": "silver",
+          "rgb": [
+            204,
+            197,
+            198
+          ],
+          "hex": "#ccc5c6"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            110,
+            113,
+            70
+          ],
+          "hex": "#6e7146"
+        },
+        {
+          "name": "denim_blue",
+          "rgb": [
+            29,
+            55,
+            146
+          ],
+          "hex": "#1d3792"
+        }
+      ],
+      "3": [
+        {
+          "name": "silver",
+          "rgb": [
+            190,
+            184,
+            185
+          ],
+          "hex": "#beb8b9"
+        },
+        {
+          "name": "denim_blue",
+          "rgb": [
+            29,
+            55,
+            146
+          ],
+          "hex": "#1d3792"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            114,
+            114,
+            76
+          ],
+          "hex": "#72724c"
+        }
+      ]
+    }
+  },
+  "style_result": {
+    "style": "fashion_week_off_duty",
+    "confidence": 0.18703241895261843,
+    "coherence": 0.18703241895261843,
+    "description": "Effortless yet deliberate styling seen on fashion industry insiders",
+    "top_styles": [
+      [
+        "fashion_week_off_duty",
+        0.18703241895261843
+      ],
+      [
+        "minimalist",
+        0.17456359102244387
+      ],
+      [
+        "casual",
+        0.14962593516209477
+      ]
+    ],
+    "all_probabilities": {
+      "casual": 0.14962593516209477,
+      "formal": 0.0,
+      "streetwear": 0.0997506234413965,
+      "bohemian": 0.04987531172069825,
+      "minimalist": 0.17456359102244387,
+      "edgy_chic": 0.08977556109725685,
+      "preppy": 0.07481296758104738,
+      "sporty": 0.12468827930174563,
+      "vintage": 0.04987531172069825,
+      "fashion_week_off_duty": 0.18703241895261843
+    },
+    "method": "rule_based"
+  }
+}

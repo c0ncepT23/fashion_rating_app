@@ -13,8 +13,8 @@ import asyncio
 
 class EnhancedColorAnalyzer:
     """
-    Enhanced color analyzer using DeepLabV3+ for segmentation and 
-    improved color analysis
+    Enhanced color analyzer using DeepLabV3+ for segmentation, 
+    ResNet18 for feature extraction, and improved color analysis
     """
     
     def __init__(self):
@@ -23,7 +23,13 @@ class EnhancedColorAnalyzer:
         self.seg_model = deeplabv3_resnet101(pretrained=True).to(self.device)
         self.seg_model.eval()
         
-        # Create transform for segmentation input
+        # Load ResNet18 for feature extraction
+        self.resnet = torchvision.models.resnet18(pretrained=True).to(self.device)
+        # Remove classification layer to get feature maps
+        self.resnet = torch.nn.Sequential(*(list(self.resnet.children())[:-2]))
+        self.resnet.eval()
+        
+        # Create transforms
         self.transform = transforms.Compose([
             transforms.ToTensor(),
             transforms.Normalize(mean=[0.485, 0.456, 0.406], 
@@ -109,7 +115,7 @@ class EnhancedColorAnalyzer:
 
     async def analyze_outfit_colors(self, image: Image.Image, clothing_items: List[Dict]) -> Dict[str, Any]:
         """
-        Analyze colors using improved segmentation and color detection
+        Analyze colors using improved segmentation, ResNet features, and color detection
         
         Args:
             image: PIL Image
@@ -118,18 +124,32 @@ class EnhancedColorAnalyzer:
         Returns:
             dict: Color analysis results
         """
-        # Convert to tensor for segmentation
+        # Convert to tensor for segmentation and feature extraction
         img_tensor = self._preprocess_image(image)
         
         # Perform segmentation to isolate clothing
         segmentation_mask = self._segment_image(img_tensor)
         
+        # Get ResNet features for attention map
+        attention_map = self._get_attention_map(image)
+        # Resize attention map to match segmentation mask dimensions
+        attention_map_resized = cv2.resize(attention_map, 
+                                      (segmentation_mask.shape[1], segmentation_mask.shape[0]), 
+                                      interpolation=cv2.INTER_LINEAR)
+        
         # Convert PIL image to cv2
         cv_image = np.array(image)
         cv_image = cv_image[:, :, ::-1].copy()  # RGB to BGR
         
-        # Extract colors using segmentation mask
-        colors = self._extract_colors_from_mask(cv_image, segmentation_mask)
+        # Combine segmentation mask with attention map
+        combined_weight_map = segmentation_mask.astype(float) * attention_map_resized
+        
+        # Normalize combined weights
+        if combined_weight_map.max() > 0:
+            combined_weight_map = combined_weight_map / combined_weight_map.max()
+        
+        # Extract colors using weighted clustering
+        colors = self._extract_weighted_colors(cv_image, combined_weight_map)
         
         # Get named colors
         named_colors = []
@@ -172,11 +192,13 @@ class EnhancedColorAnalyzer:
             x1, y1, x2, y2 = max(0, x1), max(0, y1), min(segmentation_mask.shape[1], x2), min(segmentation_mask.shape[0], y2)
             item_mask[y1:y2, x1:x2] = 1
             
-            # Combine with segmentation mask
-            combined_mask = item_mask & (segmentation_mask > 0)
+            # Combine with segmentation mask and attention map
+            item_weight_map = item_mask.astype(float) * attention_map_resized
+            if np.max(item_weight_map) > 0:
+                item_weight_map = item_weight_map / np.max(item_weight_map)
             
             # Extract colors for this item
-            item_colors = self._extract_colors_from_mask(cv_image, combined_mask, n_colors=3)
+            item_colors = self._extract_weighted_colors(cv_image, item_weight_map, n_colors=3)
             
             # Convert to named colors
             item_named_colors = []
@@ -231,61 +253,98 @@ class EnhancedColorAnalyzer:
         
         return clothing_mask
     
-    def _extract_colors_from_mask(self, image: np.ndarray, mask: np.ndarray, n_colors=8) -> List[Tuple[int, int, int]]:
+    def _get_attention_map(self, image: Image.Image) -> np.ndarray:
         """
-        Extract dominant colors from masked region with improved clustering
+        Generate attention map using ResNet features
+        
+        Args:
+            image: PIL Image
+            
+        Returns:
+            numpy.ndarray: Attention map highlighting important regions
+        """
+        # Resize image for ResNet
+        resized_img = image.resize((224, 224))
+        
+        # Transform for ResNet
+        img_tensor = self.transform(resized_img).unsqueeze(0).to(self.device)
+        
+        # Get feature maps from ResNet
+        with torch.no_grad():
+            feature_maps = self.resnet(img_tensor)
+        
+        # Convert feature maps to spatial attention
+        # Take mean across channels to get attention map
+        attention = feature_maps.mean(dim=1).squeeze().cpu().numpy()
+        
+        # Resize attention map to match original image
+        #attention_resized = cv2.resize(attention, (image.width, image.height))
+        
+        # Normalize to 0-1 range
+        #attention_normalized = (attention_resized - attention_resized.min()) / (attention_resized.max() - attention_resized.min() + 1e-8)
+        
+        return attention
+    
+    def _extract_weighted_colors(self, image: np.ndarray, weights: np.ndarray, n_colors=8) -> List[Tuple[int, int, int]]:
+        """
+        Extract dominant colors using weighted k-means clustering
         
         Args:
             image: Input image (OpenCV format)
-            mask: Binary mask
+            weights: Weight map for pixel importance
             n_colors: Number of colors to extract
             
         Returns:
             list: List of (B, G, R) color tuples
         """
-        # Ensure mask has the same size as the image
-        if mask.shape[:2] != image.shape[:2]:
-            mask = cv2.resize(mask, (image.shape[1], image.shape[0]), interpolation=cv2.INTER_NEAREST)
+        # Ensure weights has the same dimensions as image
+        if weights.shape[:2] != image.shape[:2]:
+            weights = cv2.resize(weights, (image.shape[1], image.shape[0]), interpolation=cv2.INTER_LINEAR)
         
-        # Ensure mask is of type uint8
-        mask = mask.astype(np.uint8)
+        # Reshape image and weights
+        pixels = image.reshape(-1, 3).astype(np.float32)
+        flat_weights = weights.flatten()
         
-        # Apply mask
-        masked_image = cv2.bitwise_and(image, image, mask=mask)
+        # Filter out pixels with very low weights
+        valid_indices = flat_weights > 0.05
+        valid_pixels = pixels[valid_indices]
+        valid_weights = flat_weights[valid_indices]
         
-        # Get non-zero pixels
-        non_zero = masked_image[mask > 0]
-        
-        if len(non_zero) == 0:
+        if len(valid_pixels) == 0:
             return []
         
-        # Reshape for clustering
-        pixels = non_zero.reshape(-1, 3).astype(np.float32)
+        # Adjust number of clusters if needed
+        k = min(n_colors, len(valid_pixels))
+        if k <= 1:
+            return [tuple(map(int, valid_pixels[0]))]
         
-        # Limit number of colors based on available pixels
-        k = min(n_colors, len(pixels))
-        if k == 0:
-            return []
+        # Use KMeans with weighted initialization
+        # Select initial centroids weighted by importance
+        init_indices = np.random.choice(
+            len(valid_pixels), 
+            size=k, 
+            replace=False, 
+            p=valid_weights/np.sum(valid_weights)
+        )
+        init_centroids = valid_pixels[init_indices]
         
-        # Apply K-means with better initialization and more iterations
-        criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 200, 0.1)
-        _, labels, centers = cv2.kmeans(pixels, k, None, criteria, 20, cv2.KMEANS_PP_CENTERS)
+        # Perform K-means clustering
+        criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 300, 0.1)
+        _, labels, centers = cv2.kmeans(
+            valid_pixels, k, 
+            init_centroids, 
+            criteria, 
+            30, 
+            cv2.KMEANS_PP_CENTERS
+        )
         
-        # Count pixels in each cluster
-        counts = np.bincount(labels.flatten())
+        # Calculate weighted cluster sizes
+        cluster_weights = np.zeros(k)
+        for i, label in enumerate(labels.flatten()):
+            cluster_weights[label] += valid_weights[i]
         
-        # Filter out very small clusters (likely noise)
-        valid_indices = [i for i, count in enumerate(counts) if count > len(pixels) * 0.03]
-        
-        if not valid_indices:
-            valid_indices = list(range(min(k, len(counts))))
-        
-        # Extract centers and sort by frequency
-        centers = centers[valid_indices]
-        counts = counts[valid_indices]
-        
-        # Sort by count (most frequent first)
-        sorted_indices = np.argsort(counts)[::-1]
+        # Sort clusters by weighted size
+        sorted_indices = np.argsort(cluster_weights)[::-1]
         centers = centers[sorted_indices]
         
         # Convert to integer tuples
@@ -319,6 +378,18 @@ class EnhancedColorAnalyzer:
         # Special case for very light colors (near white)
         if brightness > 240:
             return "white"
+        elif brightness > 225:
+            # More refined check for off-white vs. white
+            saturation = max(r, g, b) - min(r, g, b)
+            if saturation < 10:
+                return "white"
+            else:
+                return "off_white"
+        elif brightness > 210:
+            # Check for cream or ivory
+            if r > g + 5 and r > b + 5:  # Warmer tone
+                return "cream"
+            return "ivory"
         
         # Special handling for fashion-important colors like coral
         # Check coral first with special weighting
@@ -333,6 +404,12 @@ class EnhancedColorAnalyzer:
             
             if light_blue_distance < 50 or denim_distance < 50:
                 return "light_blue" if light_blue_distance < denim_distance else "denim_blue"
+        
+        # For lavender/purple detection (often misidentified)
+        if 100 < brightness < 230 and b > r and r > g:
+            lavender_distance = self._color_distance(rgb_color, self.color_names["lavender"])
+            if lavender_distance < 45:
+                return "lavender"
         
         # Standard color matching for everything else
         for name, color in self.color_names.items():

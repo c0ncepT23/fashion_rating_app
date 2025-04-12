@@ -76,3 +76,343 @@
 2025-04-12 10:58:40,706 - app.core.pipeline - INFO - Overall score: 80/100
 2025-04-12 10:58:40,706 - app.core.pipeline - INFO - Generating feedback...
 2025-04-12 10:58:40,706 - app.core.pipeline - INFO - Analysis completed in 6.83 seconds
+2025-04-12 11:10:59,114 - app.core.pipeline - INFO - Starting analysis of image: C:\Users\Vamsi\fashion_rating_app\test_images\casual_2.jpg
+2025-04-12 11:11:00,904 - app.core.pipeline - INFO - Detecting clothing items...
+2025-04-12 11:11:01,291 - app.core.pipeline - INFO - Detected 3 clothing items
+2025-04-12 11:11:01,291 - app.core.pipeline - INFO - Initial YOLOv8 detections:
+2025-04-12 11:11:01,292 - app.core.pipeline - INFO - Item 0: type=trousers, category=bottom, confidence=0.57
+2025-04-12 11:11:01,292 - app.core.pipeline - INFO -   Box: [0, 359, 244, 799]
+2025-04-12 11:11:01,292 - app.core.pipeline - INFO - Item 1: type=long sleeve outwear, category=outerwear, confidence=0.37
+2025-04-12 11:11:01,292 - app.core.pipeline - INFO -   Box: [0, 197, 256, 637]
+2025-04-12 11:11:01,292 - app.core.pipeline - INFO - Item 2: type=trousers, category=bottom, confidence=0.31
+2025-04-12 11:11:01,292 - app.core.pipeline - INFO -   Box: [75, 359, 299, 799]
+2025-04-12 11:11:01,292 - app.core.pipeline - INFO - Found 1 top/outerwear items in YOLOv8 detection
+2025-04-12 11:11:01,292 - app.core.pipeline - INFO - Enhancing detections with FashionCLIP...
+2025-04-12 11:11:01,293 - app.core.pipeline - INFO - Item 0 has a crop with size: (244, 440)
+2025-04-12 11:11:01,956 - app.core.pipeline - INFO - Item 0 CLIP classification: slacks with confidence 0.56
+2025-04-12 11:11:01,956 - app.core.pipeline - INFO - Item 1 has a crop with size: (256, 440)
+2025-04-12 11:11:02,640 - app.core.pipeline - INFO - Item 1 CLIP classification: wide leg jeans with confidence 0.44
+2025-04-12 11:11:02,640 - app.core.pipeline - INFO - Item 2 has a crop with size: (224, 440)
+2025-04-12 11:11:03,314 - app.core.pipeline - INFO - Item 2 CLIP classification: slacks with confidence 0.49
+2025-04-12 11:11:03,314 - app.core.pipeline - INFO - Analyzing color palette...
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - Classifying style...
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - Detected style: casual with confidence 0.21
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - Extracting CLIP classifications...
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - CLIP classified item as slacks with confidence 0.56
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - Adding slacks to bottom types
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - CLIP classified item as wide leg jeans with confidence 0.44
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - Adding wide leg jeans to bottom types
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - CLIP classified item as slacks with confidence 0.49
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - Adding slacks to bottom types
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - CLIP bottom types: [('slacks', 0.5571980476379395), ('slacks', 0.49013209342956543), ('wide leg jeans', 0.436229407787323)]
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - CLIP top types: []
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - CLIP dress types: []
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - CLIP outerwear types: []
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - Using YOLO top type: unknown_top
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - Using CLIP bottom type: slacks
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - Using loose_flowy fit type based on wide leg detection
+2025-04-12 11:11:06,130 - app.core.pipeline - INFO - Generating scores...
+2025-04-12 11:11:06,136 - app.core.pipeline - INFO - Overall score: 80/100
+2025-04-12 11:11:06,136 - app.core.pipeline - INFO - Generating feedback...
+2025-04-12 11:11:06,136 - app.core.pipeline - INFO - Analysis completed in 7.02 seconds
+2025-04-12 11:19:05,594 - app.core.pipeline - INFO - Starting analysis of image: C:\Users\Vamsi\fashion_rating_app\test_images\casual_1.jpg
+2025-04-12 11:19:07,576 - app.core.pipeline - INFO - Detecting clothing items...
+2025-04-12 11:19:08,030 - app.core.pipeline - INFO - Detected 2 clothing items
+2025-04-12 11:19:08,031 - app.core.pipeline - INFO - Initial YOLOv8 detections:
+2025-04-12 11:19:08,031 - app.core.pipeline - INFO - Item 0: type=trousers, category=bottom, confidence=0.76
+2025-04-12 11:19:08,031 - app.core.pipeline - INFO -   Box: [244, 558, 689, 1199]
+2025-04-12 11:19:08,032 - app.core.pipeline - INFO - Item 1: type=short sleeve top, category=top, confidence=0.72
+2025-04-12 11:19:08,032 - app.core.pipeline - INFO -   Box: [230, 314, 689, 913]
+2025-04-12 11:19:08,032 - app.core.pipeline - INFO - Found 1 top/outerwear items in YOLOv8 detection
+2025-04-12 11:19:08,032 - app.core.pipeline - INFO - Enhancing detections with FashionCLIP...
+2025-04-12 11:19:08,032 - app.core.pipeline - INFO - Item 0 has a crop with size: (445, 641)
+2025-04-12 11:19:08,939 - app.core.pipeline - INFO - Item 0 CLIP classification: slacks with confidence 0.59
+2025-04-12 11:19:08,939 - app.core.pipeline - INFO - Item 1 has a crop with size: (459, 599)
+2025-04-12 11:19:09,793 - app.core.pipeline - INFO - Item 1 CLIP classification: shorts with confidence 0.35
+2025-04-12 11:19:09,794 - app.core.pipeline - INFO - Analyzing color palette...
+2025-04-12 11:19:14,365 - app.core.pipeline - INFO - Classifying style...
+2025-04-12 11:19:14,366 - app.core.pipeline - INFO - Detected style: casual with confidence 0.22
+2025-04-12 11:19:14,366 - app.core.pipeline - INFO - Extracting CLIP classifications...
+2025-04-12 11:19:14,366 - app.core.pipeline - INFO - CLIP classified item as slacks with confidence 0.59
+2025-04-12 11:19:14,367 - app.core.pipeline - INFO - Adding slacks to bottom types
+2025-04-12 11:19:14,367 - app.core.pipeline - INFO - CLIP classified item as shorts with confidence 0.35
+2025-04-12 11:19:14,367 - app.core.pipeline - INFO - Adding shorts to bottom types
+2025-04-12 11:19:14,367 - app.core.pipeline - INFO - CLIP bottom types: [('slacks', 0.5929654240608215), ('shorts', 0.3477461636066437)]
+2025-04-12 11:19:14,367 - app.core.pipeline - INFO - CLIP top types: []
+2025-04-12 11:19:14,367 - app.core.pipeline - INFO - CLIP dress types: []
+2025-04-12 11:19:14,367 - app.core.pipeline - INFO - CLIP outerwear types: []
+2025-04-12 11:19:14,368 - app.core.pipeline - INFO - Using YOLO top type: unknown_top
+2025-04-12 11:19:14,368 - app.core.pipeline - INFO - Using CLIP bottom type: slacks
+2025-04-12 11:19:14,368 - app.core.pipeline - INFO - Using loose_flowy fit type based on wide leg detection
+2025-04-12 11:19:14,368 - app.core.pipeline - INFO - Generating scores...
+2025-04-12 11:19:14,369 - app.core.pipeline - INFO - Overall score: 80/100
+2025-04-12 11:19:14,369 - app.core.pipeline - INFO - Generating feedback...
+2025-04-12 11:19:14,369 - app.core.pipeline - INFO - Analysis completed in 8.78 seconds
+2025-04-12 11:19:44,588 - app.core.pipeline - INFO - Starting analysis of image: C:\Users\Vamsi\fashion_rating_app\test_images\casual_3.jpg
+2025-04-12 11:19:46,485 - app.core.pipeline - INFO - Detecting clothing items...
+2025-04-12 11:19:46,975 - app.core.pipeline - INFO - Detected 2 clothing items
+2025-04-12 11:19:46,975 - app.core.pipeline - INFO - Initial YOLOv8 detections:
+2025-04-12 11:19:46,975 - app.core.pipeline - INFO - Item 0: type=trousers, category=bottom, confidence=0.85
+2025-04-12 11:19:46,975 - app.core.pipeline - INFO -   Box: [197, 424, 736, 1307]
+2025-04-12 11:19:46,975 - app.core.pipeline - INFO - Item 1: type=long sleeve outwear, category=outerwear, confidence=0.75
+2025-04-12 11:19:46,975 - app.core.pipeline - INFO -   Box: [173, 1, 736, 563]
+2025-04-12 11:19:46,975 - app.core.pipeline - INFO - Found 1 top/outerwear items in YOLOv8 detection
+2025-04-12 11:19:46,975 - app.core.pipeline - INFO - Possible top region from position: long sleeve outwear
+2025-04-12 11:19:46,975 - app.core.pipeline - INFO - Enhancing detections with FashionCLIP...
+2025-04-12 11:19:46,975 - app.core.pipeline - INFO - Item 0 has a crop with size: (539, 883)
+2025-04-12 11:19:47,830 - app.core.pipeline - INFO - Item 0 CLIP classification: wide leg jeans with confidence 0.35
+2025-04-12 11:19:47,831 - app.core.pipeline - INFO - Item 1 has a crop with size: (563, 562)
+2025-04-12 11:19:48,647 - app.core.pipeline - INFO - Item 1 CLIP classification: jacket with confidence 0.77
+2025-04-12 11:19:48,647 - app.core.pipeline - INFO - Item 1 categorized as top based on CLIP type: jacket
+2025-04-12 11:19:48,647 - app.core.pipeline - INFO - Analyzing color palette...
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - Classifying style...
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - Detected style: streetwear with confidence 0.24
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - Extracting CLIP classifications...
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - CLIP classified item as wide leg jeans with confidence 0.35
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - Adding wide leg jeans to bottom types
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - CLIP classified item as jacket with confidence 0.77
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - Adding jacket to top types
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - CLIP bottom types: [('wide leg jeans', 0.34989336133003235)]
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - CLIP top types: [('jacket', 0.7653072476387024)]
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - CLIP dress types: []
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - CLIP outerwear types: []
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - Using CLIP top type: jacket
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - Using CLIP bottom type: wide leg jeans
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - Using loose_flowy fit type based on wide leg detection
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - Generating scores...
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - Overall score: 82/100
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - Generating feedback...
+2025-04-12 11:19:59,839 - app.core.pipeline - INFO - Analysis completed in 15.25 seconds
+2025-04-12 11:20:51,527 - app.core.pipeline - INFO - Starting analysis of image: C:\Users\Vamsi\fashion_rating_app\test_images\casual_2.jpg
+2025-04-12 11:20:53,208 - app.core.pipeline - INFO - Detecting clothing items...
+2025-04-12 11:20:53,609 - app.core.pipeline - INFO - Detected 3 clothing items
+2025-04-12 11:20:53,609 - app.core.pipeline - INFO - Initial YOLOv8 detections:
+2025-04-12 11:20:53,609 - app.core.pipeline - INFO - Item 0: type=trousers, category=bottom, confidence=0.57
+2025-04-12 11:20:53,609 - app.core.pipeline - INFO -   Box: [0, 359, 244, 799]
+2025-04-12 11:20:53,609 - app.core.pipeline - INFO - Item 1: type=long sleeve outwear, category=outerwear, confidence=0.37
+2025-04-12 11:20:53,609 - app.core.pipeline - INFO -   Box: [0, 197, 256, 637]
+2025-04-12 11:20:53,609 - app.core.pipeline - INFO - Item 2: type=trousers, category=bottom, confidence=0.31
+2025-04-12 11:20:53,609 - app.core.pipeline - INFO -   Box: [75, 359, 299, 799]
+2025-04-12 11:20:53,609 - app.core.pipeline - INFO - Found 1 top/outerwear items in YOLOv8 detection
+2025-04-12 11:20:53,609 - app.core.pipeline - INFO - Enhancing detections with FashionCLIP...
+2025-04-12 11:20:53,609 - app.core.pipeline - INFO - Item 0 has a crop with size: (244, 440)
+2025-04-12 11:20:54,320 - app.core.pipeline - INFO - Item 0 CLIP classification: slacks with confidence 0.56
+2025-04-12 11:20:54,320 - app.core.pipeline - INFO - Item 1 has a crop with size: (256, 440)
+2025-04-12 11:20:54,976 - app.core.pipeline - INFO - Item 1 CLIP classification: wide leg jeans with confidence 0.44
+2025-04-12 11:20:54,976 - app.core.pipeline - INFO - Item 2 has a crop with size: (224, 440)
+2025-04-12 11:20:55,610 - app.core.pipeline - INFO - Item 2 CLIP classification: slacks with confidence 0.49
+2025-04-12 11:20:55,610 - app.core.pipeline - INFO - Analyzing color palette...
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - Classifying style...
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - Detected style: casual with confidence 0.21
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - Extracting CLIP classifications...
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - CLIP classified item as slacks with confidence 0.56
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - Adding slacks to bottom types
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - CLIP classified item as wide leg jeans with confidence 0.44
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - Adding wide leg jeans to bottom types
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - CLIP classified item as slacks with confidence 0.49
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - Adding slacks to bottom types
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - CLIP bottom types: [('slacks', 0.5571980476379395), ('slacks', 0.49013209342956543), ('wide leg jeans', 0.436229407787323)]
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - CLIP top types: []
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - CLIP dress types: []
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - CLIP outerwear types: []
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - Using YOLO top type: unknown_top
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - Using CLIP bottom type: slacks
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - Using loose_flowy fit type based on wide leg detection
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - Generating scores...
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - Overall score: 80/100
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - Generating feedback...
+2025-04-12 11:20:58,358 - app.core.pipeline - INFO - Analysis completed in 6.83 seconds
+2025-04-12 11:24:36,872 - app.core.pipeline - INFO - Starting analysis of image: C:\Users\Vamsi\fashion_rating_app\test_images\casual_2.jpg
+2025-04-12 11:24:38,556 - app.core.pipeline - INFO - Detecting clothing items...
+2025-04-12 11:24:38,919 - app.core.pipeline - INFO - Detected 3 clothing items
+2025-04-12 11:24:38,919 - app.core.pipeline - INFO - Initial YOLOv8 detections:
+2025-04-12 11:24:38,919 - app.core.pipeline - INFO - Item 0: type=trousers, category=bottom, confidence=0.57
+2025-04-12 11:24:38,919 - app.core.pipeline - INFO -   Box: [0, 359, 244, 799]
+2025-04-12 11:24:38,919 - app.core.pipeline - INFO - Item 1: type=long sleeve outwear, category=outerwear, confidence=0.37
+2025-04-12 11:24:38,919 - app.core.pipeline - INFO -   Box: [0, 197, 256, 637]
+2025-04-12 11:24:38,919 - app.core.pipeline - INFO - Item 2: type=trousers, category=bottom, confidence=0.31
+2025-04-12 11:24:38,919 - app.core.pipeline - INFO -   Box: [75, 359, 299, 799]
+2025-04-12 11:24:38,919 - app.core.pipeline - INFO - Found 1 top/outerwear items in YOLOv8 detection
+2025-04-12 11:24:38,919 - app.core.pipeline - INFO - Enhancing detections with FashionCLIP...
+2025-04-12 11:24:38,919 - app.core.pipeline - INFO - Item 0 has a crop with size: (244, 440)
+2025-04-12 11:24:39,605 - app.core.pipeline - INFO - Item 0 CLIP classification: slacks with confidence 0.56
+2025-04-12 11:24:39,605 - app.core.pipeline - INFO - Item 1 has a crop with size: (256, 440)
+2025-04-12 11:24:40,270 - app.core.pipeline - INFO - Item 1 CLIP classification: wide leg jeans with confidence 0.44
+2025-04-12 11:24:40,270 - app.core.pipeline - INFO - Item 2 has a crop with size: (224, 440)
+2025-04-12 11:24:40,912 - app.core.pipeline - INFO - Item 2 CLIP classification: slacks with confidence 0.49
+2025-04-12 11:24:40,912 - app.core.pipeline - INFO - Analyzing color palette...
+2025-04-12 11:24:43,626 - app.core.pipeline - INFO - Classifying style...
+2025-04-12 11:24:43,626 - app.core.pipeline - INFO - Detected style: casual with confidence 0.21
+2025-04-12 11:24:43,626 - app.core.pipeline - INFO - Extracting CLIP classifications...
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - CLIP classified item as slacks with confidence 0.56
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - Adding slacks to bottom types
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - CLIP classified item as wide leg jeans with confidence 0.44
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - Adding wide leg jeans to bottom types
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - CLIP classified item as slacks with confidence 0.49
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - Adding slacks to bottom types
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - CLIP bottom types: [('slacks', 0.5571980476379395), ('slacks', 0.49013209342956543), ('wide leg jeans', 0.436229407787323)]
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - CLIP top types: []
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - CLIP dress types: []
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - CLIP outerwear types: []
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - Using YOLO top type: unknown_top
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - Using YOLOv8 top type directly: long sleeve outwear
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - Using CLIP bottom type: slacks
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - Using loose_flowy fit type based on wide leg detection
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - Generating scores...
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - Overall score: 80/100
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - Generating feedback...
+2025-04-12 11:24:43,642 - app.core.pipeline - INFO - Analysis completed in 6.77 seconds
+2025-04-12 11:26:19,113 - app.core.pipeline - INFO - Starting analysis of image: C:\Users\Vamsi\fashion_rating_app\test_images\casual_15.jpg
+2025-04-12 11:26:20,807 - app.core.pipeline - INFO - Detecting clothing items...
+2025-04-12 11:26:21,224 - app.core.pipeline - INFO - Detected 4 clothing items
+2025-04-12 11:26:21,224 - app.core.pipeline - INFO - Initial YOLOv8 detections:
+2025-04-12 11:26:21,224 - app.core.pipeline - INFO - Item 0: type=trousers, category=bottom, confidence=0.54
+2025-04-12 11:26:21,224 - app.core.pipeline - INFO -   Box: [176, 268, 400, 599]
+2025-04-12 11:26:21,224 - app.core.pipeline - INFO - Item 1: type=short sleeve top, category=top, confidence=0.53
+2025-04-12 11:26:21,224 - app.core.pipeline - INFO -   Box: [173, 170, 400, 472]
+2025-04-12 11:26:21,224 - app.core.pipeline - INFO - Item 2: type=short sleeve top, category=top, confidence=0.36
+2025-04-12 11:26:21,224 - app.core.pipeline - INFO -   Box: [73, 170, 299, 474]
+2025-04-12 11:26:21,224 - app.core.pipeline - INFO - Item 3: type=trousers, category=bottom, confidence=0.33
+2025-04-12 11:26:21,224 - app.core.pipeline - INFO -   Box: [69, 268, 290, 599]
+2025-04-12 11:26:21,224 - app.core.pipeline - INFO - Found 2 top/outerwear items in YOLOv8 detection
+2025-04-12 11:26:21,224 - app.core.pipeline - INFO - Enhancing detections with FashionCLIP...
+2025-04-12 11:26:21,224 - app.core.pipeline - INFO - Item 0 has a crop with size: (224, 331)
+2025-04-12 11:26:21,902 - app.core.pipeline - INFO - Item 0 CLIP classification: maxi skirt with confidence 0.42
+2025-04-12 11:26:21,905 - app.core.pipeline - INFO - Item 1 has a crop with size: (227, 302)
+2025-04-12 11:26:22,587 - app.core.pipeline - INFO - Item 2 has a crop with size: (226, 304)
+2025-04-12 11:26:23,303 - app.core.pipeline - INFO - Item 3 has a crop with size: (221, 331)
+2025-04-12 11:26:23,979 - app.core.pipeline - INFO - Item 3 CLIP classification: pants with confidence 0.51
+2025-04-12 11:26:23,979 - app.core.pipeline - INFO - Analyzing color palette...
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - Classifying style...
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - Detected style: minimalist with confidence 0.19
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - Extracting CLIP classifications...
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - CLIP classified item as maxi skirt with confidence 0.42
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - Adding maxi skirt to bottom types
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - CLIP classified item as pants with confidence 0.28
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - Adding pants to bottom types
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - CLIP classified item as skirt with confidence 0.26
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - Adding skirt to bottom types
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - CLIP classified item as pants with confidence 0.51
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - Adding pants to bottom types
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - CLIP bottom types: [('pants', 0.5062151551246643), ('maxi skirt', 0.4197847843170166), ('pants', 0.27694767713546753), ('skirt', 0.2564287483692169)]
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - CLIP top types: []
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - CLIP dress types: []
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - CLIP outerwear types: []
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - Using YOLO top type: short sleeve top_with_short sleeve top
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - Using YOLOv8 top type directly: short sleeve top
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - Using CLIP bottom type: pants
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - Using loose_flowy fit type based on wide leg detection
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - Generating scores...
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - Overall score: 79/100
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - Generating feedback...
+2025-04-12 11:26:26,601 - app.core.pipeline - INFO - Analysis completed in 7.49 seconds
+2025-04-12 11:39:16,570 - app.core.pipeline - INFO - Starting analysis of image: C:\Users\Vamsi\fashion_rating_app\test_images\casual_15.jpg
+2025-04-12 11:39:20,321 - app.core.pipeline - INFO - Detecting clothing items...
+2025-04-12 11:39:20,701 - app.core.pipeline - INFO - Detected 4 clothing items
+2025-04-12 11:39:20,701 - app.core.pipeline - INFO - Initial YOLOv8 detections:
+2025-04-12 11:39:20,701 - app.core.pipeline - INFO - Item 0: type=trousers, category=bottom, confidence=0.54
+2025-04-12 11:39:20,701 - app.core.pipeline - INFO -   Box: [176, 268, 400, 599]
+2025-04-12 11:39:20,701 - app.core.pipeline - INFO - Item 1: type=short sleeve top, category=top, confidence=0.53
+2025-04-12 11:39:20,701 - app.core.pipeline - INFO -   Box: [173, 170, 400, 472]
+2025-04-12 11:39:20,701 - app.core.pipeline - INFO - Item 2: type=short sleeve top, category=top, confidence=0.36
+2025-04-12 11:39:20,701 - app.core.pipeline - INFO -   Box: [73, 170, 299, 474]
+2025-04-12 11:39:20,701 - app.core.pipeline - INFO - Item 3: type=trousers, category=bottom, confidence=0.33
+2025-04-12 11:39:20,701 - app.core.pipeline - INFO -   Box: [69, 268, 290, 599]
+2025-04-12 11:39:20,701 - app.core.pipeline - INFO - Found 2 top/outerwear items in YOLOv8 detection
+2025-04-12 11:39:20,701 - app.core.pipeline - INFO - Enhancing detections with FashionCLIP...
+2025-04-12 11:39:20,701 - app.core.pipeline - INFO - Item 0 has a crop with size: (224, 331)
+2025-04-12 11:39:21,380 - app.core.pipeline - INFO - Item 0 CLIP classification: maxi skirt with confidence 0.42
+2025-04-12 11:39:21,380 - app.core.pipeline - INFO - Item 1 has a crop with size: (227, 302)
+2025-04-12 11:39:22,048 - app.core.pipeline - INFO - Item 2 has a crop with size: (226, 304)
+2025-04-12 11:39:22,714 - app.core.pipeline - INFO - Item 3 has a crop with size: (221, 331)
+2025-04-12 11:39:23,383 - app.core.pipeline - INFO - Item 3 CLIP classification: pants with confidence 0.51
+2025-04-12 11:39:23,383 - app.core.pipeline - INFO - Analyzing color palette...
+2025-04-12 11:39:24,561 - app.core.pipeline - ERROR - Error in processing pipeline: operands could not be broadcast together with shapes (513,513) (600,400) 
+2025-04-12 11:43:44,604 - app.core.pipeline - INFO - Starting analysis of image: C:\Users\Vamsi\fashion_rating_app\test_images\casual_15.jpg
+2025-04-12 11:43:46,510 - app.core.pipeline - INFO - Detecting clothing items...
+2025-04-12 11:43:46,903 - app.core.pipeline - INFO - Detected 4 clothing items
+2025-04-12 11:43:46,903 - app.core.pipeline - INFO - Initial YOLOv8 detections:
+2025-04-12 11:43:46,903 - app.core.pipeline - INFO - Item 0: type=trousers, category=bottom, confidence=0.54
+2025-04-12 11:43:46,903 - app.core.pipeline - INFO -   Box: [176, 268, 400, 599]
+2025-04-12 11:43:46,903 - app.core.pipeline - INFO - Item 1: type=short sleeve top, category=top, confidence=0.53
+2025-04-12 11:43:46,903 - app.core.pipeline - INFO -   Box: [173, 170, 400, 472]
+2025-04-12 11:43:46,903 - app.core.pipeline - INFO - Item 2: type=short sleeve top, category=top, confidence=0.36
+2025-04-12 11:43:46,903 - app.core.pipeline - INFO -   Box: [73, 170, 299, 474]
+2025-04-12 11:43:46,903 - app.core.pipeline - INFO - Item 3: type=trousers, category=bottom, confidence=0.33
+2025-04-12 11:43:46,903 - app.core.pipeline - INFO -   Box: [69, 268, 290, 599]
+2025-04-12 11:43:46,903 - app.core.pipeline - INFO - Found 2 top/outerwear items in YOLOv8 detection
+2025-04-12 11:43:46,903 - app.core.pipeline - INFO - Enhancing detections with FashionCLIP...
+2025-04-12 11:43:46,903 - app.core.pipeline - INFO - Item 0 has a crop with size: (224, 331)
+2025-04-12 11:43:47,607 - app.core.pipeline - INFO - Item 0 CLIP classification: maxi skirt with confidence 0.42
+2025-04-12 11:43:47,607 - app.core.pipeline - INFO - Item 1 has a crop with size: (227, 302)
+2025-04-12 11:43:48,280 - app.core.pipeline - INFO - Item 2 has a crop with size: (226, 304)
+2025-04-12 11:43:48,933 - app.core.pipeline - INFO - Item 3 has a crop with size: (221, 331)
+2025-04-12 11:43:49,609 - app.core.pipeline - INFO - Item 3 CLIP classification: pants with confidence 0.51
+2025-04-12 11:43:49,609 - app.core.pipeline - INFO - Analyzing color palette...
+2025-04-12 11:43:53,145 - app.core.pipeline - INFO - Classifying style...
+2025-04-12 11:43:53,145 - app.core.pipeline - INFO - Detected style: fashion_week_off_duty with confidence 0.19
+2025-04-12 11:43:53,145 - app.core.pipeline - INFO - Extracting CLIP classifications...
+2025-04-12 11:43:53,145 - app.core.pipeline - INFO - CLIP classified item as maxi skirt with confidence 0.42
+2025-04-12 11:43:53,145 - app.core.pipeline - INFO - Adding maxi skirt to bottom types
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - CLIP classified item as pants with confidence 0.28
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - Adding pants to bottom types
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - CLIP classified item as skirt with confidence 0.26
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - Adding skirt to bottom types
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - CLIP classified item as pants with confidence 0.51
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - Adding pants to bottom types
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - CLIP bottom types: [('pants', 0.5062151551246643), ('maxi skirt', 0.4197847843170166), ('pants', 0.27694767713546753), ('skirt', 0.2564287483692169)]
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - CLIP top types: []
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - CLIP dress types: []
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - CLIP outerwear types: []
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - Using YOLO top type: short sleeve top_with_short sleeve top
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - Using YOLOv8 top type directly: short sleeve top
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - Using CLIP bottom type: pants
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - Using loose_flowy fit type based on wide leg detection
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - Generating scores...
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - Overall score: 79/100
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - Generating feedback...
+2025-04-12 11:43:53,150 - app.core.pipeline - INFO - Analysis completed in 8.55 seconds
+2025-04-12 11:56:51,044 - app.core.pipeline - INFO - Starting analysis of image: C:\Users\Vamsi\fashion_rating_app\test_images\casual_15.jpg
+2025-04-12 11:56:52,887 - app.core.pipeline - INFO - Detecting clothing items...
+2025-04-12 11:56:53,249 - app.core.pipeline - INFO - Detected 4 clothing items
+2025-04-12 11:56:53,249 - app.core.pipeline - INFO - Initial YOLOv8 detections:
+2025-04-12 11:56:53,249 - app.core.pipeline - INFO - Item 0: type=trousers, category=bottom, confidence=0.54
+2025-04-12 11:56:53,249 - app.core.pipeline - INFO -   Box: [176, 268, 400, 599]
+2025-04-12 11:56:53,249 - app.core.pipeline - INFO - Item 1: type=short sleeve top, category=top, confidence=0.53
+2025-04-12 11:56:53,249 - app.core.pipeline - INFO -   Box: [173, 170, 400, 472]
+2025-04-12 11:56:53,249 - app.core.pipeline - INFO - Item 2: type=short sleeve top, category=top, confidence=0.36
+2025-04-12 11:56:53,249 - app.core.pipeline - INFO -   Box: [73, 170, 299, 474]
+2025-04-12 11:56:53,249 - app.core.pipeline - INFO - Item 3: type=trousers, category=bottom, confidence=0.33
+2025-04-12 11:56:53,249 - app.core.pipeline - INFO -   Box: [69, 268, 290, 599]
+2025-04-12 11:56:53,249 - app.core.pipeline - INFO - Found 2 top/outerwear items in YOLOv8 detection
+2025-04-12 11:56:53,249 - app.core.pipeline - INFO - Enhancing detections with FashionCLIP...
+2025-04-12 11:56:53,249 - app.core.pipeline - INFO - Item 0 has a crop with size: (224, 331)
+2025-04-12 11:56:53,913 - app.core.pipeline - INFO - Item 0 CLIP classification: maxi skirt with confidence 0.42
+2025-04-12 11:56:53,913 - app.core.pipeline - INFO - Item 1 has a crop with size: (227, 302)
+2025-04-12 11:56:54,565 - app.core.pipeline - INFO - Item 2 has a crop with size: (226, 304)
+2025-04-12 11:56:55,218 - app.core.pipeline - INFO - Item 3 has a crop with size: (221, 331)
+2025-04-12 11:56:55,864 - app.core.pipeline - INFO - Item 3 CLIP classification: pants with confidence 0.51
+2025-04-12 11:56:55,864 - app.core.pipeline - INFO - Analyzing color palette...
+2025-04-12 11:56:59,315 - app.core.pipeline - INFO - Classifying style...
+2025-04-12 11:56:59,315 - app.core.pipeline - INFO - Detected style: fashion_week_off_duty with confidence 0.19
+2025-04-12 11:56:59,315 - app.core.pipeline - INFO - Extracting CLIP classifications...
+2025-04-12 11:56:59,315 - app.core.pipeline - INFO - CLIP classified item as maxi skirt with confidence 0.42
+2025-04-12 11:56:59,315 - app.core.pipeline - INFO - Adding maxi skirt to bottom types
+2025-04-12 11:56:59,315 - app.core.pipeline - INFO - CLIP classified item as pants with confidence 0.28
+2025-04-12 11:56:59,315 - app.core.pipeline - INFO - Adding pants to bottom types
+2025-04-12 11:56:59,315 - app.core.pipeline - INFO - CLIP classified item as skirt with confidence 0.26
+2025-04-12 11:56:59,330 - app.core.pipeline - INFO - Adding skirt to bottom types
+2025-04-12 11:56:59,330 - app.core.pipeline - INFO - CLIP classified item as pants with confidence 0.51
+2025-04-12 11:56:59,330 - app.core.pipeline - INFO - Adding pants to bottom types
+2025-04-12 11:56:59,330 - app.core.pipeline - INFO - CLIP bottom types: [('pants', 0.5062151551246643), ('maxi skirt', 0.4197847843170166), ('pants', 0.27694767713546753), ('skirt', 0.2564287483692169)]
+2025-04-12 11:56:59,330 - app.core.pipeline - INFO - CLIP top types: []
+2025-04-12 11:56:59,330 - app.core.pipeline - INFO - CLIP dress types: []
+2025-04-12 11:56:59,330 - app.core.pipeline - INFO - CLIP outerwear types: []
+2025-04-12 11:56:59,330 - app.core.pipeline - INFO - Using YOLO top type: short sleeve top_with_short sleeve top
+2025-04-12 11:56:59,330 - app.core.pipeline - INFO - Using YOLOv8 top type directly: short sleeve top
+2025-04-12 11:56:59,330 - app.core.pipeline - INFO - Using CLIP bottom type: pants
+2025-04-12 11:56:59,330 - app.core.pipeline - INFO - Using loose_flowy fit type based on wide leg detection
+2025-04-12 11:56:59,330 - app.core.pipeline - INFO - Generating scores...
+2025-04-12 11:56:59,330 - app.core.pipeline - INFO - Overall score: 79/100
+2025-04-12 11:56:59,330 - app.core.pipeline - INFO - Generating feedback...
+2025-04-12 11:56:59,330 - app.core.pipeline - INFO - Analysis completed in 8.29 seconds

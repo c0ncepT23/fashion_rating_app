@@ -6,6 +6,7 @@ import asyncio
 import time
 import logging
 
+
 # Set up logging
 logger = logging.getLogger(__name__)
 
@@ -25,6 +26,7 @@ from app.models.style_classifier import StyleClassifier
 from app.core.feedback_generator import generate_feedback
 from app.core.learning_scorer import LearningBasedScorer
 from app.models.fashion_clip_classifier import FashionCLIPClassifier
+from app.core.feedback_reconciliation import reconcile_fashion_analysis
 
 # Set up logging
 logger = logging.getLogger(__name__)
@@ -272,8 +274,18 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
                 top_type = clip_top_types[0][0]
                 logger.info(f"Using CLIP top type: {top_type}")
             else:
+                # Find top items from YOLOv8 detection
                 top_type = item_detector.determine_top_type(clothing_items)
                 logger.info(f"Using YOLO top type: {top_type}")
+                
+                if top_items:
+                    # Use the type of the first top item directly
+                    top_type = top_items[0]["type"]
+                    logger.info(f"Using YOLOv8 top type directly: {top_type}")
+                else:
+                    # Only use the generic method if no tops were detected
+                    top_type = item_detector.determine_top_type(clothing_items)
+                    logger.info(f"Using YOLO top type: {top_type}")
                 
             if clip_bottom_types:
                 pants_type = clip_bottom_types[0][0]
@@ -339,10 +351,12 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
             "color_analysis": color_analysis,
             "style_result": style_result
         }
+        # Step 8: Reconcile results to ensure consistency
+        reconciled_result = reconcile_fashion_analysis(result)
         
         logger.info(f"Analysis completed in {time.time() - start_time:.2f} seconds")
         
-        return result
+        return reconciled_result
     
     except Exception as e:
         logger.error(f"Error in processing pipeline: {str(e)}")
