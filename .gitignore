@@ -1,4 +1,4 @@
-echo "# Python virtual environment
+# Python virtual environment
 venv/
 __pycache__/
 *.py[cod]
@@ -13,4 +13,12 @@ build/
 
 # IDE files
 .idea/
-.vscode/" > .gitignore
+.vscode/
+
+# Exclude Git repository
+open-fashion-clip/
+
+# Model weights
+weights/
+model_weights/
+**/weights/
