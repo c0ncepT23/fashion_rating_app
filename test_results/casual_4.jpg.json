@@ -1,15 +1,15 @@
 {
-  "score": 85,
+  "score": 80,
   "labels": {
     "fit": "relaxed_casual",
-    "pants_type": "unknown_bottom",
+    "pants_type": "skirt",
     "top_type": "unknown_top",
     "color_palette": [
       "ruby_red",
-      "brown",
       "burgundy",
-      "pink",
-      "gray"
+      "burgundy",
+      "tan",
+      "taupe"
     ],
     "footwear_type": "footwear_not_visible",
     "accessories": [],
@@ -17,23 +17,23 @@
   },
   "score_breakdown": {
     "fit": 19,
-    "color": 19,
-    "footwear": 14,
-    "accessories": 14,
+    "color": 21,
+    "footwear": 15,
+    "accessories": 15,
     "style": 15
   },
   "feedback": {
-    "fit": "The top and bottom create a harmonious proportion. creating a nice balance between the upper and lower body.",
-    "color": "The ruby_red elements pairs nicely with the brown elements. showing good understanding of coordinating colors.",
+    "fit": "Nice pairing of top with skirt. The silhouette is flattering with the combination of fitted and loose elements adds visual interest.",
+    "color": "The ruby_red elements pairs nicely with the burgundy elements. using color effectively to highlight key pieces.",
     "footwear": "Consider adding appropriate footwear to complete the look.",
-    "accessories": "Try adding some accessories like simple jewelry to add a personal touch to complete the look.",
-    "style": "This outfit perfectly embodies fashion week off duty aesthetics. demonstrates insider fashion knowledge through thoughtful, unexpected styling choices."
+    "accessories": "This outfit could benefit from some accessories. Consider adding a coordinating bag to add functionality and style.",
+    "style": "Excellent execution of fashion week off duty style. shows a confident understanding of proportion and subtle statement-making."
   },
   "clothing_items": [
     {
-      "type": "short sleeve dress",
-      "category": "dress",
-      "confidence": 0.5995191335678101,
+      "type": "skirt",
+      "category": "bottom",
+      "confidence": 0.5995872616767883,
       "box": [
         46,
         148,
@@ -48,41 +48,91 @@
         "area": 0.45905563491757073
       },
       "fit": "casual",
-      "dominant_color": "burgundy",
+      "dominant_color": "gray",
+      "clip_analysis": {
+        "garment": {
+          "best_match": {
+            "type": "skirt",
+            "confidence": 0.39142459630966187
+          },
+          "top_matches": [
+            {
+              "type": "skirt",
+              "confidence": 0.39142459630966187
+            },
+            {
+              "type": "mini skirt",
+              "confidence": 0.2970471978187561
+            },
+            {
+              "type": "mini dress",
+              "confidence": 0.10869137197732925
+            },
+            {
+              "type": "dress",
+              "confidence": 0.0876762866973877
+            },
+            {
+              "type": "midi skirt",
+              "confidence": 0.04417630285024643
+            }
+          ]
+        },
+        "style": {
+          "best_match": {
+            "style": "retro",
+            "confidence": 0.22399303317070007
+          },
+          "top_matches": [
+            {
+              "style": "retro",
+              "confidence": 0.22399303317070007
+            },
+            {
+              "style": "maximalist",
+              "confidence": 0.1461155116558075
+            },
+            {
+              "style": "vintage",
+              "confidence": 0.11543112248182297
+            }
+          ]
+        }
+      },
       "colors": [
+        {
+          "name": "gray",
+          "rgb": [
+            146,
+            121,
+            109
+          ],
+          "hex": "#92796d"
+        },
         {
           "name": "burgundy",
           "rgb": [
-            84,
-            14,
-            27
+            100,
+            34,
+            45
           ],
-          "hex": "#540e1b"
+          "hex": "#64222d"
         },
         {
-          "name": "brown",
+          "name": "tan",
           "rgb": [
-            145,
-            57,
-            68
+            203,
+            176,
+            159
           ],
-          "hex": "#913944"
-        },
-        {
-          "name": "salmon",
-          "rgb": [
-            205,
-            148,
-            122
-          ],
-          "hex": "#cd947a"
+          "hex": "#cbb09f"
         }
       ]
     },
     {
-      "type": "short sleeve dress",
-      "category": "dress",
-      "confidence": 0.32115745544433594,
+      "type": "skirt",
+      "category": "bottom",
+      "confidence": 0.32109564542770386,
       "box": [
         0,
         148,
@@ -97,34 +147,84 @@
         "area": 0.4394617968418208
       },
       "fit": "casual",
-      "dominant_color": "burgundy",
+      "dominant_color": "gray",
+      "clip_analysis": {
+        "garment": {
+          "best_match": {
+            "type": "skirt",
+            "confidence": 0.3706834614276886
+          },
+          "top_matches": [
+            {
+              "type": "skirt",
+              "confidence": 0.3706834614276886
+            },
+            {
+              "type": "mini skirt",
+              "confidence": 0.3082948327064514
+            },
+            {
+              "type": "mini dress",
+              "confidence": 0.10248509049415588
+            },
+            {
+              "type": "dress",
+              "confidence": 0.07692868262529373
+            },
+            {
+              "type": "midi skirt",
+              "confidence": 0.03903801366686821
+            }
+          ]
+        },
+        "style": {
+          "best_match": {
+            "style": "retro",
+            "confidence": 0.21311338245868683
+          },
+          "top_matches": [
+            {
+              "style": "retro",
+              "confidence": 0.21311338245868683
+            },
+            {
+              "style": "vintage",
+              "confidence": 0.11265706270933151
+            },
+            {
+              "style": "preppy",
+              "confidence": 0.10067493468523026
+            }
+          ]
+        }
+      },
       "colors": [
-        {
-          "name": "burgundy",
-          "rgb": [
-            71,
-            11,
-            22
-          ],
-          "hex": "#470b16"
-        },
-        {
-          "name": "brown",
-          "rgb": [
-            120,
-            61,
-            61
-          ],
-          "hex": "#783d3d"
-        },
         {
           "name": "gray",
           "rgb": [
-            168,
-            133,
-            120
+            142,
+            125,
+            111
           ],
-          "hex": "#a88578"
+          "hex": "#8e7d6f"
+        },
+        {
+          "name": "taupe",
+          "rgb": [
+            87,
+            52,
+            54
+          ],
+          "hex": "#573436"
+        },
+        {
+          "name": "silver",
+          "rgb": [
+            192,
+            181,
+            170
+          ],
+          "hex": "#c0b5aa"
         }
       ]
     }
@@ -134,71 +234,71 @@
       {
         "name": "ruby_red",
         "rgb": [
-          203,
-          52,
-          92
+          206,
+          55,
+          95
         ],
-        "hex": "#cb345c",
+        "hex": "#ce375f",
         "harmony_type": "balanced",
         "harmony_score": 70,
-        "seasonal_palette": "summer"
-      },
-      {
-        "name": "brown",
-        "rgb": [
-          146,
-          22,
-          54
-        ],
-        "hex": "#921636"
+        "seasonal_palette": "autumn"
       },
       {
         "name": "burgundy",
         "rgb": [
-          88,
-          18,
-          29
+          94,
+          15,
+          30
         ],
-        "hex": "#58121d"
+        "hex": "#5e0f1e"
       },
       {
-        "name": "pink",
+        "name": "burgundy",
         "rgb": [
-          234,
-          180,
-          149
+          154,
+          25,
+          59
         ],
-        "hex": "#eab495"
+        "hex": "#9a193b"
       },
       {
-        "name": "gray",
+        "name": "tan",
         "rgb": [
-          124,
-          87,
-          74
+          229,
+          177,
+          147
         ],
-        "hex": "#7c574a"
+        "hex": "#e5b193"
       },
       {
-        "name": "gray",
+        "name": "taupe",
         "rgb": [
-          183,
-          138,
-          121
+          116,
+          80,
+          67
         ],
-        "hex": "#b78a79"
+        "hex": "#745043"
+      },
+      {
+        "name": "camel",
+        "rgb": [
+          170,
+          130,
+          114
+        ],
+        "hex": "#aa8272"
       },
       {
         "name": "black",
         "rgb": [
-          33,
-          10,
-          7
+          35,
+          11,
+          8
         ],
-        "hex": "#210a07"
+        "hex": "#230b08"
       },
       {
-        "name": "lavender",
+        "name": "ivory",
         "rgb": [
           225,
           220,
@@ -211,98 +311,98 @@
       "type": "balanced",
       "score": 70
     },
-    "seasonal_palette": "summer",
+    "seasonal_palette": "autumn",
     "item_colors": {
       "0": [
         {
+          "name": "gray",
+          "rgb": [
+            146,
+            121,
+            109
+          ],
+          "hex": "#92796d"
+        },
+        {
           "name": "burgundy",
           "rgb": [
-            84,
-            14,
-            27
+            100,
+            34,
+            45
           ],
-          "hex": "#540e1b"
+          "hex": "#64222d"
         },
         {
-          "name": "brown",
+          "name": "tan",
           "rgb": [
-            145,
-            57,
-            68
+            203,
+            176,
+            159
           ],
-          "hex": "#913944"
-        },
-        {
-          "name": "salmon",
-          "rgb": [
-            205,
-            148,
-            122
-          ],
-          "hex": "#cd947a"
+          "hex": "#cbb09f"
         }
       ],
       "1": [
         {
-          "name": "burgundy",
-          "rgb": [
-            71,
-            11,
-            22
-          ],
-          "hex": "#470b16"
-        },
-        {
-          "name": "brown",
-          "rgb": [
-            120,
-            61,
-            61
-          ],
-          "hex": "#783d3d"
-        },
-        {
           "name": "gray",
           "rgb": [
-            168,
-            133,
-            120
+            142,
+            125,
+            111
           ],
-          "hex": "#a88578"
+          "hex": "#8e7d6f"
+        },
+        {
+          "name": "taupe",
+          "rgb": [
+            87,
+            52,
+            54
+          ],
+          "hex": "#573436"
+        },
+        {
+          "name": "silver",
+          "rgb": [
+            192,
+            181,
+            170
+          ],
+          "hex": "#c0b5aa"
         }
       ]
     }
   },
   "style_result": {
     "style": "fashion_week_off_duty",
-    "confidence": 0.1724137931034483,
-    "coherence": 0.1724137931034483,
+    "confidence": 0.20737327188940094,
+    "coherence": 0.20737327188940094,
     "description": "Effortless yet deliberate styling seen on fashion industry insiders",
     "top_styles": [
       [
         "fashion_week_off_duty",
-        0.1724137931034483
+        0.20737327188940094
       ],
       [
-        "edgy_chic",
-        0.13793103448275862
+        "minimalist",
+        0.1382488479262673
       ],
       [
-        "casual",
-        0.1149425287356322
+        "preppy",
+        0.1382488479262673
       ]
     ],
     "all_probabilities": {
-      "casual": 0.1149425287356322,
-      "formal": 0.1149425287356322,
-      "streetwear": 0.1149425287356322,
-      "bohemian": 0.0,
-      "minimalist": 0.1149425287356322,
-      "edgy_chic": 0.13793103448275862,
-      "preppy": 0.0574712643678161,
-      "sporty": 0.1149425287356322,
-      "vintage": 0.0574712643678161,
-      "fashion_week_off_duty": 0.1724137931034483
+      "casual": 0.04608294930875576,
+      "formal": 0.04608294930875576,
+      "streetwear": 0.09216589861751152,
+      "bohemian": 0.09216589861751152,
+      "minimalist": 0.1382488479262673,
+      "edgy_chic": 0.05529953917050691,
+      "preppy": 0.1382488479262673,
+      "sporty": 0.04608294930875576,
+      "vintage": 0.1382488479262673,
+      "fashion_week_off_duty": 0.20737327188940094
     },
     "method": "rule_based"
   }

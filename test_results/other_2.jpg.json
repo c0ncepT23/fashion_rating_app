@@ -1,0 +1,409 @@
+{
+  "score": 82,
+  "labels": {
+    "fit": "relaxed_casual",
+    "pants_type": "unknown_bottom",
+    "top_type": "slip dress",
+    "color_palette": [
+      "white",
+      "silver",
+      "ivory",
+      "gray",
+      "gray"
+    ],
+    "footwear_type": "footwear_not_visible",
+    "accessories": [],
+    "style": "fashion_week_off_duty"
+  },
+  "score_breakdown": {
+    "fit": 21,
+    "color": 22,
+    "footwear": 13,
+    "accessories": 15,
+    "style": 15
+  },
+  "feedback": {
+    "fit": "Nice pairing of top with bottom. The silhouette is flattering with the silhouette shows good understanding of shape and balance.",
+    "color": "The white elements creates a striking focal point against the silver elements. the palette feels intentional and cohesive.",
+    "footwear": "Consider adding appropriate footwear to complete the look.",
+    "accessories": "Try adding some accessories like a coordinating bag to add functionality and style to complete the look.",
+    "style": "This outfit perfectly embodies fashion week off duty aesthetics. effortlessly combines high-end pieces with casual elements for that perfect 'off duty' look."
+  },
+  "clothing_items": [
+    {
+      "type": "short sleeve dress",
+      "category": "dress",
+      "confidence": 0.5056219100952148,
+      "box": [
+        0,
+        122,
+        238,
+        598
+      ],
+      "position": {
+        "center_x": 0.2975,
+        "center_y": 0.6,
+        "width": 0.595,
+        "height": 0.7933333333333333,
+        "area": 0.47203333333333336
+      },
+      "fit": "casual",
+      "dominant_color": "silver",
+      "clip_analysis": {
+        "garment": {
+          "best_match": {
+            "type": "dress",
+            "confidence": 0.2315906435251236
+          },
+          "top_matches": [
+            {
+              "type": "dress",
+              "confidence": 0.2315906435251236
+            },
+            {
+              "type": "slip dress",
+              "confidence": 0.12590117752552032
+            },
+            {
+              "type": "maxi dress",
+              "confidence": 0.11388615518808365
+            },
+            {
+              "type": "maxi skirt",
+              "confidence": 0.07337743788957596
+            },
+            {
+              "type": "skirt",
+              "confidence": 0.06924481689929962
+            }
+          ]
+        },
+        "style": {
+          "best_match": {
+            "style": "minimalist",
+            "confidence": 0.19169814884662628
+          },
+          "top_matches": [
+            {
+              "style": "minimalist",
+              "confidence": 0.19169814884662628
+            },
+            {
+              "style": "avant-garde",
+              "confidence": 0.184967502951622
+            },
+            {
+              "style": "maximalist",
+              "confidence": 0.11819013953208923
+            }
+          ]
+        }
+      },
+      "colors": [
+        {
+          "name": "silver",
+          "rgb": [
+            192,
+            181,
+            184
+          ],
+          "hex": "#c0b5b8"
+        },
+        {
+          "name": "denim_blue",
+          "rgb": [
+            67,
+            98,
+            117
+          ],
+          "hex": "#436275"
+        },
+        {
+          "name": "white",
+          "rgb": [
+            241,
+            247,
+            249
+          ],
+          "hex": "#f1f7f9"
+        }
+      ]
+    },
+    {
+      "type": "short sleeve dress",
+      "category": "dress",
+      "confidence": 0.39618563652038574,
+      "box": [
+        101,
+        123,
+        343,
+        597
+      ],
+      "position": {
+        "center_x": 0.555,
+        "center_y": 0.6,
+        "width": 0.605,
+        "height": 0.79,
+        "area": 0.47795
+      },
+      "fit": "casual",
+      "dominant_color": "silver",
+      "clip_analysis": {
+        "garment": {
+          "best_match": {
+            "type": "slip dress",
+            "confidence": 0.25050032138824463
+          },
+          "top_matches": [
+            {
+              "type": "slip dress",
+              "confidence": 0.25050032138824463
+            },
+            {
+              "type": "asymmetric tunic",
+              "confidence": 0.17024379968643188
+            },
+            {
+              "type": "dress",
+              "confidence": 0.11897248774766922
+            },
+            {
+              "type": "skirt",
+              "confidence": 0.0869109109044075
+            },
+            {
+              "type": "mini dress",
+              "confidence": 0.07302262634038925
+            }
+          ]
+        },
+        "style": {
+          "best_match": {
+            "style": "contemporary",
+            "confidence": 0.1341182440519333
+          },
+          "top_matches": [
+            {
+              "style": "contemporary",
+              "confidence": 0.1341182440519333
+            },
+            {
+              "style": "minimalist",
+              "confidence": 0.10332097858190536
+            },
+            {
+              "style": "classic",
+              "confidence": 0.09701203554868698
+            }
+          ]
+        }
+      },
+      "colors": [
+        {
+          "name": "silver",
+          "rgb": [
+            186,
+            173,
+            177
+          ],
+          "hex": "#baadb1"
+        },
+        {
+          "name": "white",
+          "rgb": [
+            237,
+            247,
+            249
+          ],
+          "hex": "#edf7f9"
+        },
+        {
+          "name": "denim_blue",
+          "rgb": [
+            71,
+            90,
+            107
+          ],
+          "hex": "#475a6b"
+        }
+      ]
+    }
+  ],
+  "color_analysis": {
+    "color_palette": [
+      {
+        "name": "white",
+        "rgb": [
+          241,
+          252,
+          253
+        ],
+        "hex": "#f1fcfd",
+        "harmony_type": "complementary",
+        "harmony_score": 85,
+        "seasonal_palette": "winter"
+      },
+      {
+        "name": "silver",
+        "rgb": [
+          202,
+          188,
+          188
+        ],
+        "hex": "#cabcbc"
+      },
+      {
+        "name": "ivory",
+        "rgb": [
+          218,
+          222,
+          227
+        ],
+        "hex": "#dadee3"
+      },
+      {
+        "name": "gray",
+        "rgb": [
+          184,
+          147,
+          148
+        ],
+        "hex": "#b89394"
+      },
+      {
+        "name": "gray",
+        "rgb": [
+          120,
+          103,
+          110
+        ],
+        "hex": "#78676e"
+      },
+      {
+        "name": "coral",
+        "rgb": [
+          194,
+          75,
+          79
+        ],
+        "hex": "#c24b4f"
+      },
+      {
+        "name": "black",
+        "rgb": [
+          31,
+          29,
+          43
+        ],
+        "hex": "#1f1d2b"
+      },
+      {
+        "name": "light_blue",
+        "rgb": [
+          63,
+          204,
+          223
+        ],
+        "hex": "#3fccdf"
+      }
+    ],
+    "harmony": {
+      "type": "complementary",
+      "score": 85
+    },
+    "seasonal_palette": "winter",
+    "item_colors": {
+      "0": [
+        {
+          "name": "silver",
+          "rgb": [
+            192,
+            181,
+            184
+          ],
+          "hex": "#c0b5b8"
+        },
+        {
+          "name": "denim_blue",
+          "rgb": [
+            67,
+            98,
+            117
+          ],
+          "hex": "#436275"
+        },
+        {
+          "name": "white",
+          "rgb": [
+            241,
+            247,
+            249
+          ],
+          "hex": "#f1f7f9"
+        }
+      ],
+      "1": [
+        {
+          "name": "silver",
+          "rgb": [
+            186,
+            173,
+            177
+          ],
+          "hex": "#baadb1"
+        },
+        {
+          "name": "white",
+          "rgb": [
+            237,
+            247,
+            249
+          ],
+          "hex": "#edf7f9"
+        },
+        {
+          "name": "denim_blue",
+          "rgb": [
+            71,
+            90,
+            107
+          ],
+          "hex": "#475a6b"
+        }
+      ]
+    }
+  },
+  "style_result": {
+    "style": "fashion_week_off_duty",
+    "confidence": 0.18672199170124482,
+    "coherence": 0.18672199170124482,
+    "description": "Effortless yet deliberate styling seen on fashion industry insiders",
+    "top_styles": [
+      [
+        "fashion_week_off_duty",
+        0.18672199170124482
+      ],
+      [
+        "casual",
+        0.16597510373443983
+      ],
+      [
+        "edgy_chic",
+        0.14937759336099582
+      ]
+    ],
+    "all_probabilities": {
+      "casual": 0.16597510373443983,
+      "formal": 0.12448132780082986,
+      "streetwear": 0.08298755186721991,
+      "bohemian": 0.0,
+      "minimalist": 0.12448132780082986,
+      "edgy_chic": 0.14937759336099582,
+      "preppy": 0.04149377593360996,
+      "sporty": 0.12448132780082986,
+      "vintage": 0.0,
+      "fashion_week_off_duty": 0.18672199170124482
+    },
+    "method": "rule_based"
+  }
+}

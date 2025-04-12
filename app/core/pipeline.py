@@ -5,19 +5,21 @@ from PIL import Image
 import asyncio
 import time
 import logging
-
+import torch
+import numpy as np
+import cv2
 
 # Set up logging
-logger = logging.getLogger(__name__)
+#logger = logging.getLogger(__name__)
 
 # Set up file logging
-import logging.handlers
-log_file = "fashion_analysis.log"
-file_handler = logging.handlers.RotatingFileHandler(log_file, maxBytes=10485760, backupCount=5)
-file_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-file_handler.setFormatter(file_formatter)
-logger.addHandler(file_handler)
-logger.setLevel(logging.INFO)
+#import logging.handlers
+#log_file = "fashion_analysis.log"
+#file_handler = logging.handlers.RotatingFileHandler(log_file, maxBytes=10485760, backupCount=5)
+#file_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+#file_handler.setFormatter(file_formatter)
+#logger.addHandler(file_handler)
+#logger.setLevel(logging.INFO)
 
 from app.config import settings
 from app.models.item_detector import ItemDetector
@@ -27,9 +29,18 @@ from app.core.feedback_generator import generate_feedback
 from app.core.learning_scorer import LearningBasedScorer
 from app.models.fashion_clip_classifier import FashionCLIPClassifier
 from app.core.feedback_reconciliation import reconcile_fashion_analysis
+from app.utils.garment_detection import detect_potential_dress, get_dress_type_from_items
 
-# Set up logging
-logger = logging.getLogger(__name__)
+from segment_anything import sam_model_registry, SamPredictor
+
+def apply_mask(image, mask):
+    return cv2.bitwise_and(image, image, mask=mask.astype(np.uint8)*255)
+
+# Load SAM model once
+sam_checkpoint_path = os.path.join("weights", "sam_vit_b_01ec64.pth")
+sam = sam_model_registry["vit_b"](checkpoint=sam_checkpoint_path)
+sam.to("cuda" if torch.cuda.is_available() else "cpu")
+predictor = SamPredictor(sam)
 
 # Initialize the learning-based scorer
 learning_scorer = LearningBasedScorer(model_dir="models/scoring")
@@ -46,7 +57,7 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
     """
     try:
         start_time = time.time()
-        logger.info(f"Starting analysis of image: {image_path}")
+        #logger.info(f"Starting analysis of image: {image_path}")
         
         # Load image
         image = Image.open(image_path).convert('RGB')
@@ -58,20 +69,59 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
         fashion_clip = FashionCLIPClassifier(weights_path='weights/openfashionclip.pt')
         
         # Step 1: Detect clothing items
-        logger.info("Detecting clothing items...")
+        #logger.info("Detecting clothing items...")
         clothing_items = await item_detector.detect(image)
-        logger.info(f"Detected {len(clothing_items)} clothing items")
+        #logger.info(f"Detected {len(clothing_items)} clothing items")
         
-        # Log initial YOLOv8 detections
-        logger.info("Initial YOLOv8 detections:")
-        for i, item in enumerate(clothing_items):
-            logger.info(f"Item {i}: type={item['type']}, category={item['category']}, confidence={item['confidence']:.2f}")
+        # Convert PIL image to numpy for SAM
+        cv_image = np.array(image)
+        cv_image = cv_image[:, :, ::-1].copy()  # RGB to BGR for OpenCV
+
+        # Set the image for the SAM predictor
+        predictor.set_image(cv_image)
+
+        # Process each detected item with SAM for better segmentation
+        for item in clothing_items:
             if 'box' in item:
-                logger.info(f"  Box: {item['box']}")
+                x1, y1, x2, y2 = item['box']
+                
+                # Get input point for SAM (center of bounding box)
+                input_point = np.array([[int((x1 + x2) / 2), int((y1 + y2) / 2)]])
+                input_label = np.array([1])  # 1 indicates foreground
+                
+                # Generate mask with SAM
+                masks, scores, logits = predictor.predict(
+                    point_coords=input_point,
+                    point_labels=input_label,
+                    box=np.array([x1, y1, x2, y2]),  # Optional bounding box
+                    multimask_output=True
+                )
+                
+                # Take the best mask
+                best_mask_idx = np.argmax(scores)
+                item['sam_mask'] = masks[best_mask_idx]
+                
+                # Create a masked image crop for CLIP analysis
+                mask = item['sam_mask']
+                masked_image = apply_mask(cv_image, mask)
+                
+                # Create a PIL Image from the masked area
+                y_indices, x_indices = np.where(mask)
+                if len(y_indices) > 0 and len(x_indices) > 0:
+                    # Get bounding box of the mask
+                    x_min, x_max = np.min(x_indices), np.max(x_indices)
+                    y_min, y_max = np.min(y_indices), np.max(y_indices)
+                    
+                    # Crop the masked area
+                    masked_crop = masked_image[y_min:y_max, x_min:x_max]
+                    
+                    # Convert back to PIL for CLIP analysis
+                    if masked_crop.size > 0:
+                        item['crop'] = Image.fromarray(masked_crop[:, :, ::-1])  # BGR to RGB
         
         # Check specifically for top items
         top_items = [item for item in clothing_items if item["category"] in ["top", "outerwear"]]
-        logger.info(f"Found {len(top_items)} top/outerwear items in YOLOv8 detection")
+        #logger.info(f"Found {len(top_items)} top/outerwear items in YOLOv8 detection")
         
         # Check for top detection in the image even if not categorized as top
         possible_top_regions = []
@@ -79,14 +129,14 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
             # Items in the upper half of the image might be tops
             if "position" in item and item["position"]["center_y"] < 0.5:
                 possible_top_regions.append(item)
-                logger.info(f"Possible top region from position: {item['type']}")
+                #logger.info(f"Possible top region from position: {item['type']}")
         
         # Step 1.5: Enhance detections with CLIP
-        logger.info("Enhancing detections with FashionCLIP...")
+        #logger.info("Enhancing detections with FashionCLIP...")
         enhanced_items = []
         for i, item in enumerate(clothing_items):
             if "crop" in item:
-                logger.info(f"Item {i} has a crop with size: {item['crop'].size}")
+                #logger.info(f"Item {i} has a crop with size: {item['crop'].size}")
                 # Get CLIP analysis for this cropped item
                 clip_result = fashion_clip.classify_garment(item["crop"])
                 
@@ -95,7 +145,7 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
                 
                 # Update type with more specific description from CLIP
                 if clip_result["garment"]["best_match"]["confidence"] > 0.3:  # Only use if confident
-                    logger.info(f"Item {i} CLIP classification: {clip_result['garment']['best_match']['type']} with confidence {clip_result['garment']['best_match']['confidence']:.2f}")
+                    #logger.info(f"Item {i} CLIP classification: {clip_result['garment']['best_match']['type']} with confidence {clip_result['garment']['best_match']['confidence']:.2f}")
                     enhanced_item["type"] = clip_result["garment"]["best_match"]["type"]
                     
                     # Update category based on type
@@ -103,7 +153,7 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
                         enhanced_item["category"] = "dress"
                     elif any(term in enhanced_item["type"].lower() for term in ["shirt", "blouse", "top", "tee", "tank", "tunic", "jacket", "blazer", "coat"]):
                         enhanced_item["category"] = "top"
-                        logger.info(f"Item {i} categorized as top based on CLIP type: {enhanced_item['type']}")
+                        #logger.info(f"Item {i} categorized as top based on CLIP type: {enhanced_item['type']}")
                     elif any(term in enhanced_item["type"].lower() for term in ["jean", "trouser", "pant", "skirt", "short"]):
                         enhanced_item["category"] = "bottom"
                 
@@ -111,8 +161,9 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
                 enhanced_item["clip_analysis"] = clip_result
                 enhanced_items.append(enhanced_item)
             else:
-                logger.info(f"Item {i} has NO crop")
+                #logger.info(f"Item {i} has NO crop")
                 enhanced_items.append(item)
+        
         # Add our misclassification fix right here
         # Fix misclassified items by using YOLOv8 category information
         for item in clothing_items:
@@ -123,7 +174,7 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
                 # If YOLOv8 says it's a top/outerwear but CLIP thinks it's pants,
                 # try to get the second-best match from CLIP
                 if item["category"] in ["top", "outerwear"] and any(term in item_type.lower() for term in ["jean", "trouser", "pant"]):
-                    logger.info(f"Potential misclassification: YOLOv8 says {item['category']} but CLIP says {item_type}")
+                    #logger.info(f"Potential misclassification: YOLOv8 says {item['category']} but CLIP says {item_type}")
                     
                     # Check for other top-like classifications in CLIP results
                     for match in item["clip_analysis"]["garment"]["top_matches"]:
@@ -131,24 +182,24 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
                         alt_conf = match["confidence"]
                         
                         if any(term in alt_type.lower() for term in ["shirt", "blouse", "jacket", "blazer"]):
-                            logger.info(f"Using alternative CLIP classification: {alt_type} with confidence {alt_conf:.2f}")
+                            #logger.info(f"Using alternative CLIP classification: {alt_type} with confidence {alt_conf:.2f}")
                             item["type"] = alt_type
                             break
                     
                     # If no suitable alternative found, use the YOLOv8 type
                     if any(term in item["type"].lower() for term in ["jean", "trouser", "pant"]):
-                        logger.info(f"Falling back to YOLOv8 type: {item['category']}")
+                        #logger.info(f"Falling back to YOLOv8 type: {item['category']}")
                         item["type"] = item["category"]
         
         # Replace original items with enhanced ones
         clothing_items = enhanced_items
         
         # Step 2: Analyze colors
-        logger.info("Analyzing color palette...")
+        #logger.info("Analyzing color palette...")
         color_analysis = await color_analyzer.analyze_outfit_colors(image, clothing_items)
         
         # Step 3: Classify style (enhance with CLIP)
-        logger.info("Classifying style...")
+        #logger.info("Classifying style...")
         style_result = await style_classifier.classify(
             image=image, 
             clothing_items=clothing_items,
@@ -196,7 +247,7 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
                     style_result["style"] = mapped_style
                     style_result["confidence"] = avg_confidence
         
-        logger.info(f"Detected style: {style_result['style']} with confidence {style_result['confidence']:.2f}")
+        #logger.info(f"Detected style: {style_result['style']} with confidence {style_result['confidence']:.2f}")
         
         # Step 4: Use CLIP analysis for item types
         clip_top_types = []
@@ -205,38 +256,38 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
         clip_outerwear_types = []
 
         # Extract CLIP classifications for each item with confidence
-        logger.info("Extracting CLIP classifications...")
+        #logger.info("Extracting CLIP classifications...")
         for item in clothing_items:
             if "clip_analysis" in item and "garment" in item["clip_analysis"]:
                 item_type = item["clip_analysis"]["garment"]["best_match"]["type"]
                 confidence = item["clip_analysis"]["garment"]["best_match"]["confidence"]
                 
-                logger.info(f"CLIP classified item as {item_type} with confidence {confidence:.2f}")
+                #logger.info(f"CLIP classified item as {item_type} with confidence {confidence:.2f}")
                 
                 # Only use classifications with reasonable confidence
                 if confidence > 0.25:
                     # Explicitly categorize by recognizable terms
                     if any(term in item_type.lower() for term in ["jean", "trouser", "slack", "pant", "chino", "skirt", "short"]):
-                        logger.info(f"Adding {item_type} to bottom types")
+                        #logger.info(f"Adding {item_type} to bottom types")
                         clip_bottom_types.append((item_type, confidence))
                     elif any(term in item_type.lower() for term in ["shirt", "blouse", "top", "tee", "tank", "tunic", "jacket", "blazer", "coat", "sweater", "hoodie", "cardigan"]):
-                        logger.info(f"Adding {item_type} to top types")
+                        #logger.info(f"Adding {item_type} to top types")
                         clip_top_types.append((item_type, confidence))
                     elif any(term in item_type.lower() for term in ["dress", "gown"]):
-                        logger.info(f"Adding {item_type} to dress types")
+                        #logger.info(f"Adding {item_type} to dress types")
                         clip_dress_types.append((item_type, confidence))
                     elif any(term in item_type.lower() for term in ["jacket", "blazer", "coat", "cardigan"]):
-                        logger.info(f"Adding {item_type} to outerwear types")
+                        #logger.info(f"Adding {item_type} to outerwear types")
                         clip_outerwear_types.append((item_type, confidence))
 
         # If no tops were detected, try analyzing the whole upper portion of the image
         if not clip_top_types and not top_items:
-            logger.info("No tops detected - analyzing upper image portion")
+            #logger.info("No tops detected - analyzing upper image portion")
             # Create a crop of the upper third of the image
             upper_crop = image.crop((0, 0, image.width, image.height // 3))
             # Analyze with CLIP
             upper_analysis = fashion_clip.classify_garment(upper_crop)
-            logger.info(f"Upper image CLIP analysis: {upper_analysis['garment']['best_match']}")
+            #logger.info(f"Upper image CLIP analysis: {upper_analysis['garment']['best_match']}")
             
             # Check if CLIP found a top-like item
             upper_type = upper_analysis['garment']['best_match']['type']
@@ -245,7 +296,7 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
             if upper_conf > 0.25 and any(term in upper_type.lower() for term in 
                                     ["shirt", "blouse", "top", "tee", "tank", "jacket", "coat"]):
                 clip_top_types.append((upper_type, upper_conf))
-                logger.info(f"Added whole-image top detection: {upper_type} ({upper_conf:.2f})")
+                #logger.info(f"Added whole-image top detection: {upper_type} ({upper_conf:.2f})")
 
         # Sort by confidence (highest first)
         clip_bottom_types.sort(key=lambda x: x[1], reverse=True)
@@ -254,10 +305,10 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
         clip_outerwear_types.sort(key=lambda x: x[1], reverse=True)
 
         # Log what we found
-        logger.info(f"CLIP bottom types: {clip_bottom_types}")
-        logger.info(f"CLIP top types: {clip_top_types}")
-        logger.info(f"CLIP dress types: {clip_dress_types}")
-        logger.info(f"CLIP outerwear types: {clip_outerwear_types}")
+        #logger.info(f"CLIP bottom types: {clip_bottom_types}")
+        #logger.info(f"CLIP top types: {clip_top_types}")
+        #logger.info(f"CLIP dress types: {clip_dress_types}")
+        #logger.info(f"CLIP outerwear types: {clip_outerwear_types}")
 
         # Determine primary types using CLIP data or fall back to YOLOv8
         top_type = "unknown_top"
@@ -267,60 +318,60 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
             # If dress is detected, it's the primary garment
             top_type = clip_dress_types[0][0]
             pants_type = "unknown_bottom"  # No separate bottom for dresses
-            logger.info(f"Using dress type: {top_type}")
+            #logger.info(f"Using dress type: {top_type}")
         else:
             # Handle top and bottom separately
             if clip_top_types:
                 top_type = clip_top_types[0][0]
-                logger.info(f"Using CLIP top type: {top_type}")
+                #logger.info(f"Using CLIP top type: {top_type}")
             else:
                 # Find top items from YOLOv8 detection
                 top_type = item_detector.determine_top_type(clothing_items)
-                logger.info(f"Using YOLO top type: {top_type}")
+                #logger.info(f"Using YOLO top type: {top_type}")
                 
                 if top_items:
                     # Use the type of the first top item directly
                     top_type = top_items[0]["type"]
-                    logger.info(f"Using YOLOv8 top type directly: {top_type}")
+                    #logger.info(f"Using YOLOv8 top type directly: {top_type}")
                 else:
                     # Only use the generic method if no tops were detected
                     top_type = item_detector.determine_top_type(clothing_items)
-                    logger.info(f"Using YOLO top type: {top_type}")
+                    #logger.info(f"Using YOLO top type: {top_type}")
                 
             if clip_bottom_types:
                 pants_type = clip_bottom_types[0][0]
-                logger.info(f"Using CLIP bottom type: {pants_type}")
+                #logger.info(f"Using CLIP bottom type: {pants_type}")
             else:
                 pants_type = item_detector.determine_pants_type(clothing_items)
-                logger.info(f"Using YOLO bottom type: {pants_type}")
+                #logger.info(f"Using YOLO bottom type: {pants_type}")
 
         # For fit type, use a combination of CLIP and YOLOv8
         if any(item.get("fit") == "wide_leg" for item in clothing_items) or any("wide" in b_type[0].lower() for b_type in clip_bottom_types):
             fit_type = "loose_flowy"
-            logger.info("Using loose_flowy fit type based on wide leg detection")
+            #logger.info("Using loose_flowy fit type based on wide leg detection")
         elif any(item.get("fit") == "skinny" for item in clothing_items) or any("skinny" in b_type[0].lower() for b_type in clip_bottom_types):
             fit_type = "fitted_slim"
-            logger.info("Using fitted_slim fit type based on skinny detection")
+            #logger.info("Using fitted_slim fit type based on skinny detection")
         else:
             # Fall back to YOLOv8
             fit_type = item_detector.determine_fit_type(clothing_items)
-            logger.info(f"Using YOLO fit type: {fit_type}")
+            #logger.info(f"Using YOLO fit type: {fit_type}")
 
         # For footwear and accessories, still rely on YOLOv8 as CLIP crops might not contain these
         footwear_type = item_detector.determine_footwear_type(clothing_items)
         accessories = item_detector.determine_accessories(clothing_items)
         
         # Step 5: Generate scores using learning-based scorer
-        logger.info("Generating scores...")
+        #logger.info("Generating scores...")
         score, score_breakdown = learning_scorer.predict(
             clothing_items=clothing_items,
             color_analysis=color_analysis,
             style_result=style_result
         )
-        logger.info(f"Overall score: {score}/100")
+        #logger.info(f"Overall score: {score}/100")
         
         # Step 6: Generate feedback
-        logger.info("Generating feedback...")
+        #logger.info("Generating feedback...")
         feedback = generate_feedback(
             clothing_items=clothing_items,
             color_analysis=color_analysis,
@@ -352,12 +403,16 @@ async def process_fashion_image(image_path: str) -> Dict[str, Any]:
             "style_result": style_result
         }
         # Step 8: Reconcile results to ensure consistency
-        reconciled_result = reconcile_fashion_analysis(result)
+        reconciled_result = reconcile_fashion_analysis(
+            result=result, 
+            clothing_items=clothing_items, 
+            color_analysis=color_analysis
+        )
         
-        logger.info(f"Analysis completed in {time.time() - start_time:.2f} seconds")
+        #logger.info(f"Analysis completed in {time.time() - start_time:.2f} seconds")
         
         return reconciled_result
     
     except Exception as e:
-        logger.error(f"Error in processing pipeline: {str(e)}")
+        #logger.error(f"Error in processing pipeline: {str(e)}")
         raise

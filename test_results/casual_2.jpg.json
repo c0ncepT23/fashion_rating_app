@@ -1,5 +1,5 @@
 {
-  "score": 80,
+  "score": 87,
   "labels": {
     "fit": "loose_flowy",
     "pants_type": "slacks",
@@ -7,7 +7,7 @@
     "color_palette": [
       "black",
       "silver",
-      "off_white",
+      "white",
       "silver",
       "black"
     ],
@@ -16,24 +16,24 @@
     "style": "casual"
   },
   "score_breakdown": {
-    "fit": 21,
-    "color": 19,
-    "footwear": 12,
-    "accessories": 15,
+    "fit": 22,
+    "color": 20,
+    "footwear": 20,
+    "accessories": 14,
     "style": 15
   },
   "feedback": {
-    "fit": "The top and slacks create a harmonious proportion. the proportions work well for your frame.",
-    "color": "The black elements pairs nicely with the silver elements. using color effectively to highlight key pieces.",
+    "fit": "The structured top pairs elegantly with the slacks. The overall silhouette the combination creates visual interest while maintaining harmony.",
+    "color": "Good use of black with silver accents. creating a pleasing visual harmony.",
     "footwear": "Consider adding appropriate footwear to complete the look.",
-    "accessories": "This outfit could benefit from some accessories. Consider adding a statement necklace or earrings to add visual interest.",
-    "style": "Excellent execution of casual style. the relaxed elements blend with put-together pieces for an effortless look."
+    "accessories": "The outfit is missing accessories. a coordinating bag to add functionality and style would enhance it.",
+    "style": "Successfully combines elements for a cohesive casual look. the relaxed elements blend with put-together pieces for an effortless look."
   },
   "clothing_items": [
     {
       "type": "slacks",
       "category": "bottom",
-      "confidence": 0.5711818337440491,
+      "confidence": 0.5712370276451111,
       "box": [
         0,
         359,
@@ -48,91 +48,91 @@
         "area": 0.29888641425389756
       },
       "fit": "wide_leg",
-      "dominant_color": "silver",
+      "dominant_color": "gray",
       "clip_analysis": {
         "garment": {
           "best_match": {
             "type": "slacks",
-            "confidence": 0.5571980476379395
+            "confidence": 0.5572247505187988
           },
           "top_matches": [
             {
               "type": "slacks",
-              "confidence": 0.5571980476379395
+              "confidence": 0.5572247505187988
             },
             {
               "type": "chinos",
-              "confidence": 0.20581971108913422
+              "confidence": 0.2055659294128418
             },
             {
               "type": "wide leg jeans",
-              "confidence": 0.06185712665319443
+              "confidence": 0.06206206604838371
             },
             {
               "type": "straight leg jeans",
-              "confidence": 0.061210792511701584
+              "confidence": 0.06151628866791725
             },
             {
               "type": "pants",
-              "confidence": 0.05632638931274414
+              "confidence": 0.056167732924222946
             }
           ]
         },
         "style": {
           "best_match": {
             "style": "preppy",
-            "confidence": 0.12063343822956085
+            "confidence": 0.12085797637701035
           },
           "top_matches": [
             {
               "style": "preppy",
-              "confidence": 0.12063343822956085
+              "confidence": 0.12085797637701035
             },
             {
               "style": "streetwear",
-              "confidence": 0.110426165163517
+              "confidence": 0.11030153930187225
             },
             {
               "style": "minimalist",
-              "confidence": 0.09157723933458328
+              "confidence": 0.09162003546953201
             }
           ]
         }
       },
       "colors": [
         {
-          "name": "silver",
+          "name": "gray",
           "rgb": [
-            217,
-            217,
-            216
+            108,
+            110,
+            110
           ],
-          "hex": "#d9d9d8"
+          "hex": "#6c6e6e"
         },
         {
-          "name": "silver",
+          "name": "ivory",
           "rgb": [
-            170,
-            166,
-            162
+            218,
+            218,
+            217
           ],
-          "hex": "#aaa6a2"
+          "hex": "#dadad9"
         },
         {
           "name": "taupe",
           "rgb": [
-            52,
-            52,
-            53
+            49,
+            49,
+            50
           ],
-          "hex": "#343435"
+          "hex": "#313132"
         }
       ]
     },
     {
       "type": "wide leg jeans",
       "category": "bottom",
-      "confidence": 0.3663935959339142,
+      "confidence": 0.36669105291366577,
       "box": [
         0,
         197,
@@ -147,91 +147,91 @@
         "area": 0.3135857461024499
       },
       "fit": "structured",
-      "dominant_color": "silver",
+      "dominant_color": "black",
       "clip_analysis": {
         "garment": {
           "best_match": {
             "type": "wide leg jeans",
-            "confidence": 0.436229407787323
+            "confidence": 0.4358060359954834
           },
           "top_matches": [
             {
               "type": "wide leg jeans",
-              "confidence": 0.436229407787323
+              "confidence": 0.4358060359954834
             },
             {
               "type": "slacks",
-              "confidence": 0.15457911789417267
+              "confidence": 0.15407544374465942
             },
             {
               "type": "pants",
-              "confidence": 0.12770016491413116
+              "confidence": 0.12801766395568848
             },
             {
               "type": "trousers",
-              "confidence": 0.10602517426013947
+              "confidence": 0.10645759105682373
             },
             {
               "type": "chinos",
-              "confidence": 0.07180607318878174
+              "confidence": 0.07191571593284607
             }
           ]
         },
         "style": {
           "best_match": {
             "style": "casual",
-            "confidence": 0.1806270182132721
+            "confidence": 0.18006177246570587
           },
           "top_matches": [
             {
               "style": "casual",
-              "confidence": 0.1806270182132721
+              "confidence": 0.18006177246570587
             },
             {
               "style": "streetwear",
-              "confidence": 0.1401015818119049
+              "confidence": 0.13991272449493408
             },
             {
               "style": "preppy",
-              "confidence": 0.10441973060369492
+              "confidence": 0.1045474261045456
             }
           ]
         }
       },
       "colors": [
         {
-          "name": "silver",
-          "rgb": [
-            212,
-            211,
-            210
-          ],
-          "hex": "#d4d3d2"
-        },
-        {
           "name": "black",
           "rgb": [
-            16,
-            15,
-            18
+            17,
+            18,
+            20
           ],
-          "hex": "#100f12"
+          "hex": "#111214"
+        },
+        {
+          "name": "ivory",
+          "rgb": [
+            215,
+            213,
+            211
+          ],
+          "hex": "#d7d5d3"
         },
         {
           "name": "gray",
           "rgb": [
-            157,
-            149,
-            140
+            108,
+            108,
+            107
           ],
-          "hex": "#9d958c"
+          "hex": "#6c6c6b"
         }
       ]
     },
     {
       "type": "slacks",
       "category": "bottom",
-      "confidence": 0.3125852942466736,
+      "confidence": 0.31260010600090027,
       "box": [
         75,
         359,
@@ -246,84 +246,84 @@
         "area": 0.27438752783964365
       },
       "fit": "wide_leg",
-      "dominant_color": "silver",
+      "dominant_color": "gray",
       "clip_analysis": {
         "garment": {
           "best_match": {
             "type": "slacks",
-            "confidence": 0.49013209342956543
+            "confidence": 0.48950350284576416
           },
           "top_matches": [
             {
               "type": "slacks",
-              "confidence": 0.49013209342956543
+              "confidence": 0.48950350284576416
             },
             {
               "type": "chinos",
-              "confidence": 0.2610883414745331
+              "confidence": 0.26140686869621277
             },
             {
               "type": "trousers",
-              "confidence": 0.11472959816455841
+              "confidence": 0.1148897185921669
             },
             {
               "type": "pants",
-              "confidence": 0.06702746450901031
+              "confidence": 0.06714020669460297
             },
             {
               "type": "wide leg jeans",
-              "confidence": 0.02596515230834484
+              "confidence": 0.025976156815886497
             }
           ]
         },
         "style": {
           "best_match": {
             "style": "formal",
-            "confidence": 0.1345711201429367
+            "confidence": 0.13454270362854004
           },
           "top_matches": [
             {
               "style": "formal",
-              "confidence": 0.1345711201429367
+              "confidence": 0.13454270362854004
             },
             {
               "style": "minimalist",
-              "confidence": 0.13026472926139832
+              "confidence": 0.13032618165016174
             },
             {
               "style": "preppy",
-              "confidence": 0.11671176552772522
+              "confidence": 0.11684457212686539
             }
           ]
         }
       },
       "colors": [
         {
-          "name": "silver",
+          "name": "gray",
           "rgb": [
-            217,
-            217,
-            216
+            109,
+            110,
+            108
           ],
-          "hex": "#d9d9d8"
+          "hex": "#6d6e6c"
         },
         {
-          "name": "silver",
+          "name": "ivory",
           "rgb": [
-            170,
-            166,
-            162
+            213,
+            212,
+            210
           ],
-          "hex": "#aaa6a2"
+          "hex": "#d5d4d2"
         },
         {
           "name": "taupe",
           "rgb": [
-            52,
-            52,
-            53
+            49,
+            50,
+            49
           ],
-          "hex": "#343435"
+          "hex": "#313231"
         }
       ]
     }
@@ -352,7 +352,7 @@
         "hex": "#cbc7c4"
       },
       {
-        "name": "off_white",
+        "name": "white",
         "rgb": [
           225,
           226,
@@ -372,38 +372,38 @@
       {
         "name": "black",
         "rgb": [
-          37,
-          32,
-          32
+          38,
+          33,
+          33
         ],
-        "hex": "#252020"
+        "hex": "#262121"
       },
       {
         "name": "gray",
         "rgb": [
-          156,
+          155,
           140,
           128
         ],
-        "hex": "#9c8c80"
+        "hex": "#9b8c80"
       },
       {
         "name": "taupe",
         "rgb": [
-          84,
-          65,
-          54
+          85,
+          66,
+          55
         ],
-        "hex": "#544136"
+        "hex": "#554237"
       },
       {
         "name": "gray",
         "rgb": [
-          127,
-          103,
-          89
+          126,
+          104,
+          91
         ],
-        "hex": "#7f6759"
+        "hex": "#7e685b"
       }
     ],
     "harmony": {
@@ -414,89 +414,89 @@
     "item_colors": {
       "0": [
         {
-          "name": "silver",
+          "name": "gray",
           "rgb": [
-            217,
-            217,
-            216
+            108,
+            110,
+            110
           ],
-          "hex": "#d9d9d8"
+          "hex": "#6c6e6e"
         },
         {
-          "name": "silver",
+          "name": "ivory",
           "rgb": [
-            170,
-            166,
-            162
+            218,
+            218,
+            217
           ],
-          "hex": "#aaa6a2"
+          "hex": "#dadad9"
         },
         {
           "name": "taupe",
           "rgb": [
-            52,
-            52,
-            53
+            49,
+            49,
+            50
           ],
-          "hex": "#343435"
+          "hex": "#313132"
         }
       ],
       "1": [
         {
-          "name": "silver",
-          "rgb": [
-            212,
-            211,
-            210
-          ],
-          "hex": "#d4d3d2"
-        },
-        {
           "name": "black",
           "rgb": [
-            16,
-            15,
-            18
+            17,
+            18,
+            20
           ],
-          "hex": "#100f12"
+          "hex": "#111214"
+        },
+        {
+          "name": "ivory",
+          "rgb": [
+            215,
+            213,
+            211
+          ],
+          "hex": "#d7d5d3"
         },
         {
           "name": "gray",
           "rgb": [
-            157,
-            149,
-            140
+            108,
+            108,
+            107
           ],
-          "hex": "#9d958c"
+          "hex": "#6c6c6b"
         }
       ],
       "2": [
         {
-          "name": "silver",
+          "name": "gray",
           "rgb": [
-            217,
-            217,
-            216
+            109,
+            110,
+            108
           ],
-          "hex": "#d9d9d8"
+          "hex": "#6d6e6c"
         },
         {
-          "name": "silver",
+          "name": "ivory",
           "rgb": [
-            170,
-            166,
-            162
+            213,
+            212,
+            210
           ],
-          "hex": "#aaa6a2"
+          "hex": "#d5d4d2"
         },
         {
           "name": "taupe",
           "rgb": [
-            52,
-            52,
-            53
+            49,
+            50,
+            49
           ],
-          "hex": "#343435"
+          "hex": "#313231"
         }
       ]
     }

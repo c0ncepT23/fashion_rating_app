@@ -3,6 +3,7 @@ import asyncio
 import json
 import os
 import sys
+import numpy as np
 from pprint import pprint
 
 # Add the parent directory to the path so we can import the app
@@ -14,11 +15,13 @@ def clean_for_serialization(obj):
     """Remove non-serializable objects from dictionaries and lists"""
     if isinstance(obj, dict):
         return {k: clean_for_serialization(v) for k, v in obj.items() 
-                if not hasattr(v, 'mode') and k != 'crop'}
+                if not hasattr(v, 'mode') and k != 'crop' and k != 'sam_mask'}
     elif isinstance(obj, list):
         return [clean_for_serialization(item) for item in obj]
     elif hasattr(obj, 'mode') and hasattr(obj, 'getpixel'):  # PIL Image
         return "[Image object]"
+    elif isinstance(obj, np.ndarray):  # Handle NumPy arrays
+        return "[NumPy array]"
     else:
         return obj
 

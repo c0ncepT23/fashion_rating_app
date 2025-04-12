@@ -1,0 +1,409 @@
+{
+  "score": 87,
+  "labels": {
+    "fit": "elegant_formal",
+    "pants_type": "unknown_bottom",
+    "top_type": "dress",
+    "color_palette": [
+      "mustard",
+      "coral",
+      "cream",
+      "coral",
+      "mustard"
+    ],
+    "footwear_type": "footwear_not_visible",
+    "accessories": [],
+    "style": "formal"
+  },
+  "score_breakdown": {
+    "fit": 21,
+    "color": 25,
+    "footwear": 15,
+    "accessories": 13,
+    "style": 15
+  },
+  "feedback": {
+    "fit": "The top works well with the bottom. The proportions are good, with the layering creates depth without overwhelming the look.",
+    "color": "Masterful use of mustard and coral. The color combination demonstrating confident styling and creating visual impact.",
+    "footwear": "Consider adding appropriate footwear to complete the look.",
+    "accessories": "This outfit could benefit from some accessories. Consider adding a belt to define the waistline and add structure.",
+    "style": "Excellent execution of formal style. there's excellent balance between different elements."
+  },
+  "clothing_items": [
+    {
+      "type": "dress",
+      "category": "dress",
+      "confidence": 0.5100954174995422,
+      "box": [
+        58,
+        149,
+        318,
+        665
+      ],
+      "position": {
+        "center_x": 0.5251396648044693,
+        "center_y": 0.6111111111111112,
+        "width": 0.7262569832402235,
+        "height": 0.7747747747747747,
+        "area": 0.5626855906185515
+      },
+      "fit": "elegant",
+      "dominant_color": "mustard",
+      "clip_analysis": {
+        "garment": {
+          "best_match": {
+            "type": "dress",
+            "confidence": 0.3046171963214874
+          },
+          "top_matches": [
+            {
+              "type": "dress",
+              "confidence": 0.3046171963214874
+            },
+            {
+              "type": "maxi dress",
+              "confidence": 0.18582168221473694
+            },
+            {
+              "type": "slip dress",
+              "confidence": 0.13330121338367462
+            },
+            {
+              "type": "sundress",
+              "confidence": 0.07011643052101135
+            },
+            {
+              "type": "sleeveless dress",
+              "confidence": 0.05787687748670578
+            }
+          ]
+        },
+        "style": {
+          "best_match": {
+            "style": "formal",
+            "confidence": 0.25279226899147034
+          },
+          "top_matches": [
+            {
+              "style": "formal",
+              "confidence": 0.25279226899147034
+            },
+            {
+              "style": "contemporary",
+              "confidence": 0.18868915736675262
+            },
+            {
+              "style": "avant-garde",
+              "confidence": 0.1670934557914734
+            }
+          ]
+        }
+      },
+      "colors": [
+        {
+          "name": "mustard",
+          "rgb": [
+            229,
+            192,
+            94
+          ],
+          "hex": "#e5c05e"
+        },
+        {
+          "name": "off_white",
+          "rgb": [
+            244,
+            238,
+            219
+          ],
+          "hex": "#f4eedb"
+        },
+        {
+          "name": "camel",
+          "rgb": [
+            130,
+            121,
+            60
+          ],
+          "hex": "#82793c"
+        }
+      ]
+    },
+    {
+      "type": "dress",
+      "category": "dress",
+      "confidence": 0.48167869448661804,
+      "box": [
+        115,
+        149,
+        358,
+        665
+      ],
+      "position": {
+        "center_x": 0.6606145251396648,
+        "center_y": 0.6111111111111112,
+        "width": 0.6787709497206704,
+        "height": 0.7747747747747747,
+        "area": 0.5258946096934923
+      },
+      "fit": "elegant",
+      "dominant_color": "mustard",
+      "clip_analysis": {
+        "garment": {
+          "best_match": {
+            "type": "dress",
+            "confidence": 0.38048219680786133
+          },
+          "top_matches": [
+            {
+              "type": "dress",
+              "confidence": 0.38048219680786133
+            },
+            {
+              "type": "maxi dress",
+              "confidence": 0.17536288499832153
+            },
+            {
+              "type": "maxi skirt",
+              "confidence": 0.05528172478079796
+            },
+            {
+              "type": "jacket",
+              "confidence": 0.04264537990093231
+            },
+            {
+              "type": "skirt",
+              "confidence": 0.04157407954335213
+            }
+          ]
+        },
+        "style": {
+          "best_match": {
+            "style": "formal",
+            "confidence": 0.2686266303062439
+          },
+          "top_matches": [
+            {
+              "style": "formal",
+              "confidence": 0.2686266303062439
+            },
+            {
+              "style": "avant-garde",
+              "confidence": 0.22401228547096252
+            },
+            {
+              "style": "contemporary",
+              "confidence": 0.19699230790138245
+            }
+          ]
+        }
+      },
+      "colors": [
+        {
+          "name": "mustard",
+          "rgb": [
+            235,
+            189,
+            84
+          ],
+          "hex": "#ebbd54"
+        },
+        {
+          "name": "off_white",
+          "rgb": [
+            242,
+            233,
+            211
+          ],
+          "hex": "#f2e9d3"
+        },
+        {
+          "name": "camel",
+          "rgb": [
+            133,
+            120,
+            60
+          ],
+          "hex": "#85783c"
+        }
+      ]
+    }
+  ],
+  "color_analysis": {
+    "color_palette": [
+      {
+        "name": "mustard",
+        "rgb": [
+          243,
+          197,
+          83
+        ],
+        "hex": "#f3c553",
+        "harmony_type": "bright",
+        "harmony_score": 70,
+        "seasonal_palette": "spring"
+      },
+      {
+        "name": "coral",
+        "rgb": [
+          239,
+          180,
+          71
+        ],
+        "hex": "#efb447"
+      },
+      {
+        "name": "cream",
+        "rgb": [
+          245,
+          220,
+          177
+        ],
+        "hex": "#f5dcb1"
+      },
+      {
+        "name": "coral",
+        "rgb": [
+          227,
+          148,
+          55
+        ],
+        "hex": "#e39437"
+      },
+      {
+        "name": "mustard",
+        "rgb": [
+          246,
+          223,
+          105
+        ],
+        "hex": "#f6df69"
+      },
+      {
+        "name": "taupe",
+        "rgb": [
+          77,
+          53,
+          32
+        ],
+        "hex": "#4d3520"
+      },
+      {
+        "name": "camel",
+        "rgb": [
+          211,
+          171,
+          122
+        ],
+        "hex": "#d3ab7a"
+      },
+      {
+        "name": "camel",
+        "rgb": [
+          149,
+          116,
+          76
+        ],
+        "hex": "#95744c"
+      }
+    ],
+    "harmony": {
+      "type": "bright",
+      "score": 70
+    },
+    "seasonal_palette": "spring",
+    "item_colors": {
+      "0": [
+        {
+          "name": "mustard",
+          "rgb": [
+            229,
+            192,
+            94
+          ],
+          "hex": "#e5c05e"
+        },
+        {
+          "name": "off_white",
+          "rgb": [
+            244,
+            238,
+            219
+          ],
+          "hex": "#f4eedb"
+        },
+        {
+          "name": "camel",
+          "rgb": [
+            130,
+            121,
+            60
+          ],
+          "hex": "#82793c"
+        }
+      ],
+      "1": [
+        {
+          "name": "mustard",
+          "rgb": [
+            235,
+            189,
+            84
+          ],
+          "hex": "#ebbd54"
+        },
+        {
+          "name": "off_white",
+          "rgb": [
+            242,
+            233,
+            211
+          ],
+          "hex": "#f2e9d3"
+        },
+        {
+          "name": "camel",
+          "rgb": [
+            133,
+            120,
+            60
+          ],
+          "hex": "#85783c"
+        }
+      ]
+    }
+  },
+  "style_result": {
+    "style": "formal",
+    "confidence": 0.2163676843047142,
+    "coherence": 0.9,
+    "description": "Free-spirited style with artistic, earthy elements",
+    "top_styles": [
+      [
+        "bohemian",
+        1.0
+      ],
+      [
+        "casual",
+        0.0
+      ],
+      [
+        "formal",
+        0.0
+      ]
+    ],
+    "all_probabilities": {
+      "casual": 0.0,
+      "formal": 0.0,
+      "streetwear": 0.0,
+      "bohemian": 1.0,
+      "minimalist": 0.0,
+      "edgy_chic": 0.0,
+      "preppy": 0.0,
+      "sporty": 0.0,
+      "vintage": 0.0,
+      "fashion_week_off_duty": 0.0
+    },
+    "method": "rule_based"
+  }
+}

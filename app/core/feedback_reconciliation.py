@@ -1,5 +1,6 @@
 # app/core/feedback_reconciliation.py
 from typing import Dict, List, Any
+from app.utils.garment_detection import detect_potential_dress, get_dress_type_from_items
 
 class FeedbackReconciler:
     """
@@ -26,12 +27,14 @@ class FeedbackReconciler:
             "pleated skirt": "skirt"
         }
         
-    def reconcile_results(self, result: Dict[str, Any]) -> Dict[str, Any]:
+    def reconcile_results(self, result: Dict[str, Any], clothing_items: List[Dict] = None, color_analysis: Dict[str, Any] = None) -> Dict[str, Any]:
         """
         Reconcile all components of the results to ensure consistency
         
         Args:
             result: The complete analysis result
+            clothing_items: Optional list of detected clothing items
+            color_analysis: Optional color analysis results
             
         Returns:
             dict: The reconciled result
@@ -42,10 +45,11 @@ class FeedbackReconciler:
         # Extract key information
         labels = reconciled.get("labels", {})
         feedback = reconciled.get("feedback", {})
-        clothing_items = reconciled.get("clothing_items", [])
+        clothing_items = clothing_items or reconciled.get("clothing_items", [])
+        color_analysis = color_analysis or reconciled.get("color_analysis", {})
         
         # 1. Reconcile garment types
-        self._reconcile_garment_types(labels, clothing_items)
+        self._reconcile_garment_types(labels, clothing_items, color_analysis, feedback)
         
         # 2. Reconcile accessories
         self._reconcile_accessories(labels, clothing_items, feedback)
@@ -59,10 +63,48 @@ class FeedbackReconciler:
         # Return the reconciled result
         return reconciled
     
-    def _reconcile_garment_types(self, labels: Dict[str, Any], clothing_items: List[Dict]):
+    def _reconcile_garment_types(self, labels: Dict[str, Any], clothing_items: List[Dict], 
+                                color_analysis: Dict[str, Any], feedback: Dict[str, str]):
         """
-        Ensure consistency in garment type naming
+        Ensure consistency in garment type naming with improved dress detection
         """
+        # Check for potential dress
+        is_likely_dress = detect_potential_dress(clothing_items, color_analysis)
+        
+        # If we detected a likely dress but it's labeled as separate pieces
+        if is_likely_dress and (
+            "skirt" in labels.get("pants_type", "").lower() or
+            labels.get("top_type", "") == "unknown_top" or
+            (labels.get("top_type", "") and labels.get("pants_type", "") and 
+             any("top" in item["category"] for item in clothing_items) and 
+             any("bottom" in item["category"] for item in clothing_items))
+        ):
+            # Get a proper dress type
+            dress_type = get_dress_type_from_items(clothing_items, color_analysis)
+            
+            # Update labels to correctly identify as a dress
+            labels["top_type"] = dress_type
+            labels["pants_type"] = "unknown_bottom"  # No separate bottom for dresses
+            
+            # Also update feedback to reflect the dress
+            for key in feedback:
+                # Replace "top and skirt" or similar phrases with "dress"
+                feedback[key] = feedback[key].replace("top and skirt", "dress")
+                feedback[key] = feedback[key].replace("top with skirt", "dress")
+                feedback[key] = feedback[key].replace("layering", "dress design")
+                # For any other combinations of top + bottom terms
+                bottom_terms = ["skirt", "bottom", "pants"]
+                top_terms = ["top", "blouse", "shirt"]
+                
+                for bottom in bottom_terms:
+                    for top in top_terms:
+                        combined = f"{top} and {bottom}"
+                        feedback[key] = feedback[key].replace(combined, "dress")
+                        combined = f"{top} with {bottom}"
+                        feedback[key] = feedback[key].replace(combined, "dress")
+            
+            return
+        
         # Get information about bottom garments
         bottom_items = [item for item in clothing_items if item.get("category") == "bottom"]
         
@@ -164,15 +206,17 @@ class FeedbackReconciler:
                     feedback[section] = section_feedback.lower().replace(incorrect, correct)
 
 
-def reconcile_fashion_analysis(result: Dict[str, Any]) -> Dict[str, Any]:
+def reconcile_fashion_analysis(result: Dict[str, Any], clothing_items: List[Dict] = None, color_analysis: Dict[str, Any] = None) -> Dict[str, Any]:
     """
     Main function to reconcile fashion analysis results
     
     Args:
         result: Complete fashion analysis result
+        clothing_items: Optional list of detected clothing items
+        color_analysis: Optional color analysis results
         
     Returns:
         dict: Reconciled fashion analysis
     """
     reconciler = FeedbackReconciler()
-    return reconciler.reconcile_results(result)
+    return reconciler.reconcile_results(result, clothing_items, color_analysis)

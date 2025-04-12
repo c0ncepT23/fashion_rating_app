@@ -1,0 +1,665 @@
+{
+  "score": 81,
+  "labels": {
+    "fit": "relaxed_casual",
+    "pants_type": "mini skirt",
+    "top_type": "long sleeve top",
+    "color_palette": [
+      "silver",
+      "camel",
+      "white",
+      "charcoal",
+      "charcoal"
+    ],
+    "footwear_type": "footwear_not_visible",
+    "accessories": [],
+    "style": "fashion_week_off_duty"
+  },
+  "score_breakdown": {
+    "fit": 19,
+    "color": 21,
+    "footwear": 17,
+    "accessories": 15,
+    "style": 15
+  },
+  "feedback": {
+    "fit": "The top works well with the mini skirt. The proportions are good, with the combination of fitted and loose elements adds visual interest.",
+    "color": "The silver elements pairs nicely with the camel elements. creating a pleasing visual harmony.",
+    "footwear": "Consider adding appropriate footwear to complete the look.",
+    "accessories": "This outfit could benefit from some accessories. Consider adding simple jewelry to add a personal touch.",
+    "style": "This outfit perfectly embodies fashion week off duty aesthetics. shows a confident understanding of proportion and subtle statement-making."
+  },
+  "clothing_items": [
+    {
+      "type": "mini skirt",
+      "category": "bottom",
+      "confidence": 0.6029435992240906,
+      "box": [
+        154,
+        107,
+        400,
+        418
+      ],
+      "position": {
+        "center_x": 0.6925,
+        "center_y": 0.4375,
+        "width": 0.615,
+        "height": 0.5183333333333333,
+        "area": 0.318775
+      },
+      "fit": "relaxed",
+      "dominant_color": "cream",
+      "clip_analysis": {
+        "garment": {
+          "best_match": {
+            "type": "mini skirt",
+            "confidence": 0.44388604164123535
+          },
+          "top_matches": [
+            {
+              "type": "mini skirt",
+              "confidence": 0.44388604164123535
+            },
+            {
+              "type": "skirt",
+              "confidence": 0.43812254071235657
+            },
+            {
+              "type": "shorts",
+              "confidence": 0.07171989232301712
+            },
+            {
+              "type": "midi skirt",
+              "confidence": 0.007265293505042791
+            },
+            {
+              "type": "blouse",
+              "confidence": 0.007151727098971605
+            }
+          ]
+        },
+        "style": {
+          "best_match": {
+            "style": "casual",
+            "confidence": 0.23338831961154938
+          },
+          "top_matches": [
+            {
+              "style": "casual",
+              "confidence": 0.23338831961154938
+            },
+            {
+              "style": "preppy",
+              "confidence": 0.21949908137321472
+            },
+            {
+              "style": "streetwear",
+              "confidence": 0.11765982955694199
+            }
+          ]
+        }
+      },
+      "colors": [
+        {
+          "name": "cream",
+          "rgb": [
+            233,
+            226,
+            214
+          ],
+          "hex": "#e9e2d6"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            149,
+            100,
+            99
+          ],
+          "hex": "#956463"
+        },
+        {
+          "name": "charcoal",
+          "rgb": [
+            33,
+            60,
+            49
+          ],
+          "hex": "#213c31"
+        }
+      ]
+    },
+    {
+      "type": "mini skirt",
+      "category": "bottom",
+      "confidence": 0.5965121388435364,
+      "box": [
+        154,
+        216,
+        400,
+        597
+      ],
+      "position": {
+        "center_x": 0.6925,
+        "center_y": 0.6775,
+        "width": 0.615,
+        "height": 0.635,
+        "area": 0.390525
+      },
+      "fit": "flowy",
+      "dominant_color": "cream",
+      "clip_analysis": {
+        "garment": {
+          "best_match": {
+            "type": "mini skirt",
+            "confidence": 0.4686005711555481
+          },
+          "top_matches": [
+            {
+              "type": "mini skirt",
+              "confidence": 0.4686005711555481
+            },
+            {
+              "type": "skirt",
+              "confidence": 0.37495946884155273
+            },
+            {
+              "type": "mini dress",
+              "confidence": 0.03346873074769974
+            },
+            {
+              "type": "dress",
+              "confidence": 0.03143532946705818
+            },
+            {
+              "type": "midi skirt",
+              "confidence": 0.020712075755000114
+            }
+          ]
+        },
+        "style": {
+          "best_match": {
+            "style": "streetwear",
+            "confidence": 0.14470691978931427
+          },
+          "top_matches": [
+            {
+              "style": "streetwear",
+              "confidence": 0.14470691978931427
+            },
+            {
+              "style": "casual",
+              "confidence": 0.14180007576942444
+            },
+            {
+              "style": "minimalist",
+              "confidence": 0.10194111615419388
+            }
+          ]
+        }
+      },
+      "colors": [
+        {
+          "name": "cream",
+          "rgb": [
+            239,
+            226,
+            208
+          ],
+          "hex": "#efe2d0"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            153,
+            98,
+            96
+          ],
+          "hex": "#996260"
+        },
+        {
+          "name": "charcoal",
+          "rgb": [
+            33,
+            66,
+            53
+          ],
+          "hex": "#214235"
+        }
+      ]
+    },
+    {
+      "type": "skirt",
+      "category": "bottom",
+      "confidence": 0.36913737654685974,
+      "box": [
+        38,
+        215,
+        285,
+        595
+      ],
+      "position": {
+        "center_x": 0.40375,
+        "center_y": 0.675,
+        "width": 0.6175,
+        "height": 0.6333333333333333,
+        "area": 0.39108333333333334
+      },
+      "fit": "flowy",
+      "dominant_color": "cream",
+      "clip_analysis": {
+        "garment": {
+          "best_match": {
+            "type": "mini skirt",
+            "confidence": 0.1610436737537384
+          },
+          "top_matches": [
+            {
+              "type": "mini skirt",
+              "confidence": 0.1610436737537384
+            },
+            {
+              "type": "shorts",
+              "confidence": 0.15648086369037628
+            },
+            {
+              "type": "bermuda shorts",
+              "confidence": 0.148927703499794
+            },
+            {
+              "type": "skirt",
+              "confidence": 0.1389804184436798
+            },
+            {
+              "type": "slacks",
+              "confidence": 0.0680675134062767
+            }
+          ]
+        },
+        "style": {
+          "best_match": {
+            "style": "streetwear",
+            "confidence": 0.22606328129768372
+          },
+          "top_matches": [
+            {
+              "style": "streetwear",
+              "confidence": 0.22606328129768372
+            },
+            {
+              "style": "casual",
+              "confidence": 0.20492219924926758
+            },
+            {
+              "style": "preppy",
+              "confidence": 0.10257955640554428
+            }
+          ]
+        }
+      },
+      "colors": [
+        {
+          "name": "cream",
+          "rgb": [
+            232,
+            213,
+            194
+          ],
+          "hex": "#e8d5c2"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            156,
+            108,
+            106
+          ],
+          "hex": "#9c6c6a"
+        },
+        {
+          "name": "taupe",
+          "rgb": [
+            49,
+            50,
+            45
+          ],
+          "hex": "#31322d"
+        }
+      ]
+    },
+    {
+      "type": "mini skirt",
+      "category": "bottom",
+      "confidence": 0.35402053594589233,
+      "box": [
+        61,
+        107,
+        304,
+        419
+      ],
+      "position": {
+        "center_x": 0.45625,
+        "center_y": 0.43833333333333335,
+        "width": 0.6075,
+        "height": 0.52,
+        "area": 0.3159
+      },
+      "fit": "relaxed",
+      "dominant_color": "cream",
+      "clip_analysis": {
+        "garment": {
+          "best_match": {
+            "type": "mini skirt",
+            "confidence": 0.4904376268386841
+          },
+          "top_matches": [
+            {
+              "type": "mini skirt",
+              "confidence": 0.4904376268386841
+            },
+            {
+              "type": "skirt",
+              "confidence": 0.4392332136631012
+            },
+            {
+              "type": "shorts",
+              "confidence": 0.03960147500038147
+            },
+            {
+              "type": "midi skirt",
+              "confidence": 0.010063865222036839
+            },
+            {
+              "type": "bermuda shorts",
+              "confidence": 0.0032589747570455074
+            }
+          ]
+        },
+        "style": {
+          "best_match": {
+            "style": "casual",
+            "confidence": 0.22508969902992249
+          },
+          "top_matches": [
+            {
+              "style": "casual",
+              "confidence": 0.22508969902992249
+            },
+            {
+              "style": "preppy",
+              "confidence": 0.20571255683898926
+            },
+            {
+              "style": "streetwear",
+              "confidence": 0.1652962565422058
+            }
+          ]
+        }
+      },
+      "colors": [
+        {
+          "name": "cream",
+          "rgb": [
+            228,
+            215,
+            201
+          ],
+          "hex": "#e4d7c9"
+        },
+        {
+          "name": "charcoal",
+          "rgb": [
+            28,
+            43,
+            39
+          ],
+          "hex": "#1c2b27"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            143,
+            98,
+            100
+          ],
+          "hex": "#8f6264"
+        }
+      ]
+    }
+  ],
+  "color_analysis": {
+    "color_palette": [
+      {
+        "name": "silver",
+        "rgb": [
+          210,
+          207,
+          200
+        ],
+        "hex": "#d2cfc8",
+        "harmony_type": "balanced",
+        "harmony_score": 70,
+        "seasonal_palette": "winter"
+      },
+      {
+        "name": "camel",
+        "rgb": [
+          154,
+          98,
+          74
+        ],
+        "hex": "#9a624a"
+      },
+      {
+        "name": "white",
+        "rgb": [
+          246,
+          243,
+          234
+        ],
+        "hex": "#f6f3ea"
+      },
+      {
+        "name": "charcoal",
+        "rgb": [
+          16,
+          62,
+          46
+        ],
+        "hex": "#103e2e"
+      },
+      {
+        "name": "charcoal",
+        "rgb": [
+          39,
+          94,
+          76
+        ],
+        "hex": "#275e4c"
+      },
+      {
+        "name": "tan",
+        "rgb": [
+          182,
+          154,
+          133
+        ],
+        "hex": "#b69a85"
+      },
+      {
+        "name": "black",
+        "rgb": [
+          30,
+          13,
+          9
+        ],
+        "hex": "#1e0d09"
+      },
+      {
+        "name": "taupe",
+        "rgb": [
+          107,
+          57,
+          41
+        ],
+        "hex": "#6b3929"
+      }
+    ],
+    "harmony": {
+      "type": "balanced",
+      "score": 70
+    },
+    "seasonal_palette": "winter",
+    "item_colors": {
+      "0": [
+        {
+          "name": "cream",
+          "rgb": [
+            233,
+            226,
+            214
+          ],
+          "hex": "#e9e2d6"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            149,
+            100,
+            99
+          ],
+          "hex": "#956463"
+        },
+        {
+          "name": "charcoal",
+          "rgb": [
+            33,
+            60,
+            49
+          ],
+          "hex": "#213c31"
+        }
+      ],
+      "1": [
+        {
+          "name": "cream",
+          "rgb": [
+            239,
+            226,
+            208
+          ],
+          "hex": "#efe2d0"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            153,
+            98,
+            96
+          ],
+          "hex": "#996260"
+        },
+        {
+          "name": "charcoal",
+          "rgb": [
+            33,
+            66,
+            53
+          ],
+          "hex": "#214235"
+        }
+      ],
+      "2": [
+        {
+          "name": "cream",
+          "rgb": [
+            232,
+            213,
+            194
+          ],
+          "hex": "#e8d5c2"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            156,
+            108,
+            106
+          ],
+          "hex": "#9c6c6a"
+        },
+        {
+          "name": "taupe",
+          "rgb": [
+            49,
+            50,
+            45
+          ],
+          "hex": "#31322d"
+        }
+      ],
+      "3": [
+        {
+          "name": "cream",
+          "rgb": [
+            228,
+            215,
+            201
+          ],
+          "hex": "#e4d7c9"
+        },
+        {
+          "name": "charcoal",
+          "rgb": [
+            28,
+            43,
+            39
+          ],
+          "hex": "#1c2b27"
+        },
+        {
+          "name": "gray",
+          "rgb": [
+            143,
+            98,
+            100
+          ],
+          "hex": "#8f6264"
+        }
+      ]
+    }
+  },
+  "style_result": {
+    "style": "fashion_week_off_duty",
+    "confidence": 0.2272727272727273,
+    "coherence": 0.2272727272727273,
+    "description": "Effortless yet deliberate styling seen on fashion industry insiders",
+    "top_styles": [
+      [
+        "fashion_week_off_duty",
+        0.2272727272727273
+      ],
+      [
+        "minimalist",
+        0.15151515151515152
+      ],
+      [
+        "preppy",
+        0.11363636363636365
+      ]
+    ],
+    "all_probabilities": {
+      "casual": 0.07575757575757576,
+      "formal": 0.07575757575757576,
+      "streetwear": 0.07575757575757576,
+      "bohemian": 0.07575757575757576,
+      "minimalist": 0.15151515151515152,
+      "edgy_chic": 0.09090909090909091,
+      "preppy": 0.11363636363636365,
+      "sporty": 0.03787878787878788,
+      "vintage": 0.07575757575757576,
+      "fashion_week_off_duty": 0.2272727272727273
+    },
+    "method": "rule_based"
+  }
+}
