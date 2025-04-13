@@ -1,0 +1,136 @@
+{
+  "outfits": [
+    {
+      "image": "casual_626.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Slim fit",
+        "top_type": "Utility jacket",
+        "bottom_type": "Denim shorts",
+        "color_palette": [
+          "Khaki",
+          "Blue denim",
+          "Black"
+        ],
+        "footwear_type": "Heels",
+        "accessories": [
+          "Clutch bag"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 23,
+        "color": 21,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit utility jacket and denim shorts create a flattering silhouette that accentuates her figure.",
+        "color": "The khaki jacket pairs nicely with the blue denim shorts for a classic casual look. The black heels and clutch add sophistication.",
+        "footwear": "The black heels dress up the casual outfit and elongate her legs.",
+        "accessories": "The black clutch is a chic choice that doesn't distract from the overall look.",
+        "style": "This outfit strikes a great balance between casual and chic, perfect for a variety of occasions."
+      }
+    },
+    {
+      "image": "casual_627.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Relaxed fit",
+        "top_type": "Striped t-shirt",
+        "bottom_type": "Skinny jeans",
+        "color_palette": [
+          "Yellow",
+          "White",
+          "Blue denim"
+        ],
+        "footwear_type": "Flats",
+        "accessories": [
+          "Scarf"
+        ],
+        "style": "Casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 19,
+        "footwear": 15,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the striped t-shirt and skinny jeans creates a comfortable and effortless look.",
+        "color": "The yellow and white stripes add a cheerful pop of color to the classic blue jeans.",
+        "footwear": "The yellow flats tie in with the t-shirt and add a casual vibe to the outfit.",
+        "accessories": "The light-colored scarf complements the t-shirt and adds a soft, feminine touch.",
+        "style": "This is a great everyday casual outfit that is both comfortable and stylish."
+      }
+    },
+    {
+      "image": "casual_628.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fit and flare",
+        "top_type": "Tank top",
+        "bottom_type": "Floral dress",
+        "color_palette": [
+          "Blue",
+          "Pink",
+          "Yellow",
+          "Green"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [
+          "Beret",
+          "Shoulder bag"
+        ],
+        "style": "Quirky vintage"
+      },
+      "score_breakdown": {
+        "fit": 23,
+        "color": 22,
+        "footwear": 17,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fit and flare silhouette of the floral dress is very flattering and feminine.",
+        "color": "The vibrant mix of colors in the floral print is eye-catching and perfect for spring or summer.",
+        "footwear": "The brown wedge sandals ground the busy print and add a bohemian touch.",
+        "accessories": "The red beret and shoulder bag add a quirky, vintage-inspired twist to the look.",
+        "style": "This outfit has a lot of personality and would be great for someone who likes to stand out with their unique style."
+      }
+    },
+    {
+      "image": "casual_629.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Striped tank top",
+        "bottom_type": "Shorts",
+        "color_palette": [
+          "Red",
+          "White",
+          "Blue"
+        ],
+        "footwear_type": "Knee-high socks and boots",
+        "accessories": [],
+        "style": "Preppy"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 21, 
+        "footwear": 15,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the tank top and shorts gives the outfit a relaxed and casual feel.",
+        "color": "The red, white and blue color scheme has a classic, all-American vibe.",
+        "footwear": "The knee-high socks and boots add a preppy twist and give the look a slight edge.",
+        "accessories": "This outfit could be elevated with the addition of some simple accessories, like a delicate necklace or bracelet.",
+        "style": "Overall, this outfit has a youthful, preppy style that would be cute for weekend activities or hanging out with friends."
+      }
+    }
+  ]
+}

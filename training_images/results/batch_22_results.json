@@ -1,0 +1,332 @@
+{
+  "outfits": [
+    {
+      "image": "casual_356.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose, relaxed fit",
+        "top_type": "Sleeveless floral blouse",
+        "bottom_type": "Olive green wide-leg pants",
+        "color_palette": [
+          "olive green",
+          "pink",
+          "white"
+        ],
+        "footwear_type": "Hot pink platform sandals",
+        "accessories": [],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 10,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, relaxed fit of the pants and blouse create an effortlessly chic silhouette.",
+        "color": "The olive green and pink color combination is fresh and stylish for summer.",
+        "footwear": "The hot pink platform sandals add a fun pop of color to complement the floral top.",
+        "accessories": "Consider adding a few simple accessories like a pendant necklace or bangles to complete the look.",
+        "style": "Overall, this outfit achieves a trendy casual chic style that's perfect for a variety of occasions."
+      }
+    },
+    {
+      "image": "casual_357.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted top, A-line skirt",
+        "top_type": "Black sleeveless top",
+        "bottom_type": "Khaki A-line skirt",
+        "color_palette": [
+          "black",
+          "khaki",
+          "red"
+        ],
+        "footwear_type": "Red peep-toe pumps",
+        "accessories": [
+          "Beige shoulder bag"
+        ],
+        "style": "Preppy chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted top tucked into the A-line skirt creates a flattering, feminine silhouette.",
+        "color": "The classic black and khaki color scheme is elevated by the pop of red in the shoes.",
+        "footwear": "The red peep-toe pumps add a chic, stylish touch to the neutral outfit.",
+        "accessories": "The beige shoulder bag complements the outfit nicely without being distracting.",
+        "style": "This preppy chic look is versatile and appropriate for both the office or social events."
+      }
+    },
+    {
+      "image": "casual_358.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Fitted top, A-line skirt",
+        "top_type": "Red short sleeve sweater",
+        "bottom_type": "Light blue A-line skirt",
+        "color_palette": [
+          "red",
+          "light blue",
+          "red"
+        ],
+        "footwear_type": "Red peep-toe pumps",
+        "accessories": [],
+        "style": "Retro chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 10,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted sweater and A-line skirt create a classic, flattering silhouette.",
+        "color": "The red and light blue color combination has a retro feel but could have more contrast.",
+        "footwear": "The red pumps coordinate well with the sweater for a cohesive look.",
+        "accessories": "Adding a belt, necklace or other accessories could elevate this outfit further.",
+        "style": "This outfit channels vintage style with a modern fit for a cute retro chic aesthetic."
+      }
+    },
+    {
+      "image": "casual_359.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Relaxed fit",
+        "top_type": "Olive green button-down shirt",
+        "bottom_type": "Khaki chinos",
+        "color_palette": [
+          "olive green",
+          "khaki",
+          "brown",
+          "red"
+        ],
+        "footwear_type": "Brown leather pumps",
+        "accessories": [
+          "Brown leather tote bag",
+          "Patterned scarf"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the shirt and chinos creates an effortlessly stylish look.",
+        "color": "The earth tones of olive green and khaki are perfectly accented by the brown leather accessories.",
+        "footwear": "The brown leather pumps dress up the casual outfit while still being comfortable.",
+        "accessories": "The patterned scarf and leather tote add visual interest and pull the look together.",
+        "style": "This is a great example of elevated casual chic that's both fashionable and functional."
+      }
+    },
+    {
+      "image": "casual_360.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose sweater, fitted skirt",
+        "top_type": "Coral cable knit sweater",
+        "bottom_type": "Black mini skirt",
+        "color_palette": [
+          "coral",
+          "black"
+        ],
+        "footwear_type": "Black platform pumps",
+        "accessories": [
+          "Gold statement necklace"
+        ],
+        "style": "Flirty chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose sweater balances the fitted mini skirt for a flirty, feminine look.",
+        "color": "The coral and black make a bold, eye-catching color combination.",
+        "footwear": "The black platform pumps elongate the legs and dress up the outfit.",
+        "accessories": "The gold statement necklace is the perfect glamorous accent to the sweater.",
+        "style": "This outfit has flirty chic style that would work well for date night or girls' night out."
+      }
+    },
+    {
+      "image": "casual_361.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Blue printed sleeveless dress",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "blue",
+          "white",
+          "pink"
+        ],
+        "footwear_type": "Pink peep-toe pumps",
+        "accessories": [
+          "Pink clutch"
+        ],
+        "style": "Feminine chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose fit of the dress drapes nicely and is very figure-flattering.",
+        "color": "The blue and white print is fresh and summery, perfectly accented by the pink accessories.",
+        "footwear": "The pink peep-toe pumps add a fun pop of color and elongate the legs.",
+        "accessories": "The matching pink clutch ties the look together cohesively.",
+        "style": "This outfit exudes feminine, ladylike chic that's perfect for a summer event or occasion."
+      }
+    },
+    {
+      "image": "casual_362.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose tee, fitted shorts",
+        "top_type": "Red graphic tee",
+        "bottom_type": "Floral print shorts",
+        "color_palette": [
+          "red",
+          "blue",
+          "white"
+        ],
+        "footwear_type": "Nude strappy sandals",
+        "accessories": [
+          "White tote bag",
+          "Layered necklaces"
+        ],
+        "style": "Casual cute"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 18,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose tee and fitted shorts create a relaxed, easygoing silhouette.",
+        "color": "The red tee adds a bright pop of color against the blue floral shorts.",
+        "footwear": "The nude strappy sandals elongate the legs and complement the outfit.",
+        "accessories": "The layered necklaces and white tote add chic touches to elevate the casual look.",
+        "style": "This is a great casual cute summer outfit that's both stylish and comfortable."
+      }
+    },
+    {
+      "image": "casual_363.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Yellow cropped jacket",
+        "bottom_type": "Pink skater skirt",
+        "color_palette": [
+          "yellow",
+          "pink",
+          "black"
+        ],
+        "footwear_type": "Brown lace-up boots",
+        "accessories": [
+          "Black shoulder bag"
+        ],
+        "style": "Quirky casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 14,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose fit of the jacket and skirt is relaxed but could be more figure-flattering.",
+        "color": "The yellow and pink color scheme is certainly unique and eye-catching.",
+        "footwear": "The brown boots seem a bit heavy for the overall look and lighter shoes may work better.",
+        "accessories": "The black bag works fine but doesn't add much to the outfit.",
+        "style": "This quirky casual look takes risks with color and proportions for an eclectic, artsy vibe."
+      }
+    },
+    {
+      "image": "casual_364.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Cream button-down shirt",
+        "bottom_type": "Denim cut-off shorts",
+        "color_palette": [
+          "cream",
+          "blue",
+          "black"
+        ],
+        "footwear_type": "Black oxfords",
+        "accessories": [
+          "Black shoulder bag"
+        ],
+        "style": "Tomboy chic"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose fit of the shirt with the shorts creates a casual, boyish silhouette.",
+        "color": "The neutral cream and denim color palette is classic but a bit bland.",
+        "footwear": "The black oxfords are a chic menswear-inspired touch.",
+        "accessories": "A different bag besides basic black could add more personality.",
+        "style": "This look channels an effortless tomboy chic aesthetic but could use more styling to really shine."
+      }
+    },
+    {
+      "image": "casual_365.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted top, loose shorts",
+        "top_type": "Pink sleeveless top",
+        "bottom_type": "Floral print shorts",
+        "color_palette": [
+          "pink",
+          "blue",
+          "yellow"
+        ],
+        "footwear_type": "Yellow peep-toe flats",
+        "accessories": [
+          "Statement necklace"
+        ],
+        "style": "Girly chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted top balances the loose shorts, showing off the waist.",
+        "color": "The pink, blue and yellow color scheme is fresh, vibrant and perfect for summer.",
+        "footwear": "The yellow flats are a fun choice that complement the colors in the shorts.",
+        "accessories": "The statement necklace adds the right amount of glamorous flair.",
+        "style": "This outfit has a girly chic charm that's youthful and flirty for casual summer days."
+      }
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "outfits": [
+    {
+      "image": "casual_256.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Relaxed, casual fit",
+        "top_type": "Loose white blouse",
+        "bottom_type": "Light wash denim shorts",
+        "color_palette": [
+          "white",
+          "light blue",
+          "black"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the blouse and shorts creates an effortlessly casual look that is still put-together.",
+        "color": "The white and light blue color palette is fresh and summery. Black boots add a slight edge.",
+        "footwear": "Ankle boots dress up the casual outfit a bit. Sandals could work for an even more laid-back vibe.",
+        "accessories": "Minimal accessories keep the look simple, but a long pendant necklace could enhance the bohemian feel.",
+        "style": "Overall this outfit nails casual chic - comfortable and unfussy, yet still stylish."
+      }
+    },
+    {
+      "image": "casual_257.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose, flowy silhouette",
+        "top_type": "Oversized cream sweater",
+        "bottom_type": "Black skater skirt",
+        "color_palette": [
+          "cream",
+          "black",
+          "grey"
+        ],
+        "footwear_type": "Tan ankle boots",
+        "accessories": [
+          "Red infinity scarf"
+        ],
+        "style": "Cozy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized sweater and flared skirt create a relaxed, flowy silhouette that looks cozy and comfortable.",
+        "color": "The neutral cream and black palette is easy to wear, but a bit bland. The red scarf adds a nice pop.",
+        "footwear": "Ankle boots are a practical choice but don't add much interest. Tall boots could streamline the look.",
+        "accessories": "The bold red scarf makes the outfit by providing contrast and visual interest to the neutral colors.",
+        "style": "The style is casual and a bit frumpy. Swapping the skirt for slim pants or jeans would make it more current."
+      }
+    },
+    {
+      "image": "casual_258.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Tailored, leg-baring silhouette",
+        "top_type": "Striped red blazer",
+        "bottom_type": "Black shorts",
+        "color_palette": [
+          "red",
+          "black",
+          "tan"
+        ],
+        "footwear_type": "Red strappy heels",
+        "accessories": [
+          "Blush handbag"
+        ],
+        "style": "Bold casual glamour"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The tailored blazer and short shorts create a leggy, body-conscious silhouette that is bold and sexy.",
+        "color": "The bright red and black make a striking, graphic statement. Tan and blush soften it slightly.",
+        "footwear": "Red heels elongate the legs and tie in with the blazer for a coordinated, glamorous effect.",
+        "accessories": "The ladylike blush bag adds a feminine touch that balances the bold colors and sexy fit.",
+        "style": "This outfit makes a strong style statement with its daring proportions and bold primary colors. Chic and eye-catching."
+      }
+    },
+    {
+      "image": "casual_259.jpg",
+      "score": 75,
+      "labels": {
+        "fit": "Loose, drapey silhouette",
+        "top_type": "Cream lace tank",
+        "bottom_type": "Brown harem pants",
+        "color_palette": [
+          "cream",
+          "brown",
+          "gold"
+        ],
+        "footwear_type": "Gold flat sandals",
+        "accessories": [
+          "Gold bangle bracelets"
+        ],
+        "style": "Boho casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 15,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, drapey fit of the harem pants and lace tank creates a bohemian silhouette, but risks looking sloppy.",
+        "color": "Shades of cream and brown are earthy and neutral, but a bit bland and muddy together.",
+        "footwear": "Simple flat sandals work with the boho vibe but the metallic finish clashes slightly with the earthy tones.",
+        "accessories": "The armful of bangles enhances the free-spirited boho feel, but competes with the busy lace top.",
+        "style": "The outfit captures a boho sensibility but needs some editing and polish to avoid looking costume-y."
+      }
+    },
+    {
+      "image": "casual_260.jpg",
+      "score": 87,
+      "labels": {
+        "fit": "Fitted layers",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Black ruffled mini skirt",
+        "color_palette": [
+          "white",
+          "black",
+          "red"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [
+          "Red knit scarf"
+        ],
+        "style": "Preppy with a twist"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 18,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The button-down shirt and mini skirt create a fitted, layered silhouette that is polished.",
+        "color": "Crisp white and black is a classic combo, while the red scarf adds a bold accent color.",
+        "footwear": "The brown wedge sandals are a slightly casual choice that dresses down the mini skirt.",
+        "accessories": "The red scarf makes the outfit - it adds color and interest to the basic black and white pieces.",
+        "style": "This look takes preppy staples like a button-down and adds trendy touches like a ruffled mini and bright scarf."
+      }
+    },
+    {
+      "image": "casual_261.jpg",
+      "score": 85,
+      "labels": {
+        "fit": "Relaxed, slouchy silhouette",
+        "top_type": "Loose grey tee",
+        "bottom_type": "Cuffed boyfriend jeans",
+        "color_palette": [
+          "grey",
+          "blue",
+          "brown"
+        ],
+        "footwear_type": "Brown flat loafers",
+        "accessories": [
+          "Floral print handbag",
+          "Hoop earrings"
+        ],
+        "style": "Boyfriend chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 18,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The slouchy tee and relaxed jeans create a comfortable, boyfriend-inspired silhouette.",
+        "color": "Heather grey and medium wash blue denim are casual and neutral. The brown shoes and bag warm it up.",
+        "footwear": "Classic loafers are a smart choice that polishes the look without being too dressy.",
+        "accessories": "The floral print bag adds a nice feminine contrast to the tomboyish outfit. Hoop earrings are a cute detail.",
+        "style": "This look takes the boyfriend jean trend and makes it more polished with the addition of loafers and a pretty bag."
+      }
+    },
+    {
+      "image": "casual_262.jpg",
+      "score": 79,
+      "labels": {
+        "fit": "Loose layers",
+        "top_type": "Oversized taupe cardigan",
+        "bottom_type": "Olive drawstring pants",
+        "color_palette": [
+          "taupe",
+          "olive",
+          "brown"
+        ],
+        "footwear_type": "Leopard print wedge sandals",
+        "accessories": [
+          "Red leather tote bag"
+        ],
+        "style": "Safari chic"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 15,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The drapey cardigan and drawstring pants create a loose, relaxed fit that borders on sloppy.",
+        "color": "Shades of taupe and olive are earthy and muted. They're easy to wear but a bit dull together.",
+        "footwear": "The leopard print wedges add a welcome pattern and some height to the loose silhouette.",
+        "accessories": "The red bag provides a much-needed pop of color to the neutral outfit.",
+        "style": "The safari-inspired neutrals and animal print give off a global traveler vibe, but the pieces don't quite come together."
+      }
+    },
+    {
+      "image": "casual_263.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted and leggy",
+        "top_type": "Cobalt blue off-shoulder dress",
+        "bottom_type": "None (dress)",
+        "color_palette": [
+          "cobalt blue",
+          "tan",
+          "gold"
+        ],
+        "footwear_type": "Tan and gold strappy heels",
+        "accessories": [
+          "Gold chain necklace",
+          "Gold cuff bracelet"
+        ],
+        "style": "Sexy night-out"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The off-shoulder mini dress shows off the shoulders and legs for a sexy, going-out silhouette.",
+        "color": "The electric blue color makes a bold statement, while the tan and gold accessories add a touch of glam.",
+        "footwear": "Strappy heels elongate the legs and dress up the look. The tan and gold colors tie in perfectly.",
+        "accessories": "Gold jewelry provides the perfect accent to the blue dress and gives the look an expensive finish.",
+        "style": "This outfit is perfect for a night out - it's sexy and attention-grabbing but still classy with the right accessories."
+      }
+    },
+    {
+      "image": "casual_264.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Slim and cropped",
+        "top_type": "White lace tee",
+        "bottom_type": "Red mini skirt",
+        "color_palette": [
+          "white",
+          "red",
+          "tan"
+        ],
+        "footwear_type": "Tan and gold strappy sandals",
+        "accessories": [
+          "Gold chain bracelet"
+        ],
+        "style": "Flirty casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The cropped lace tee and short skirt create a flirty, leggy silhouette that's perfect for summer.",
+        "color": "Bright red and white is a classic combo that pops. The tan sandals keep it summery and light.",
+        "footwear": "Strappy flat sandals are comfortable for daytime but still sexy with the short skirt.",
+        "accessories": "The delicate gold bracelet adds a hint of shine without competing with the lace top.",
+        "style": "This look nails flirty casual style - it's youthful and sexy but still appropriate for daytime."
+      }
+    },
+    {
+      "image": "casual_265.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted on top, short and leggy",
+        "top_type": "White lace tee",
+        "bottom_type": "Red mini skirt",
+        "color_palette": [
+          "white",
+          "red",
+          "tan"
+        ],
+        "footwear_type": "Tan and gold strappy sandals",
+        "accessories": [
+          "Gold chain bracelet"
+        ],
+        "style": "Cute and casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The fitted lace top and short skirt show off the figure in a flirty way that's perfect for a casual summer day.",
+        "color": "The patriotic red, white and blue color scheme is cute and classic. Tan sandals keep it neutral.",
+        "footwear": "Strappy flat sandals elongate the legs and dress up the casual outfit without looking too formal.",
+        "accessories": "A few delicate gold jewelry pieces are all that's needed to complete this simple summer look.",
+        "style": "This outfit epitomizes cute, casual summer style - it's youthful, flirty and perfect for a BBQ or picnic."
+      }
+    }
+  ]
+}

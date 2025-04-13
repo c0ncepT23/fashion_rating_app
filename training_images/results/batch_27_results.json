@@ -1,0 +1,339 @@
+{
+  "outfits": [
+    {
+      "image": "casual_406.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Slim fit jeans and loose fitting blouse",
+        "top_type": "Sleeveless silk blouse",
+        "bottom_type": "Dark wash skinny jeans",
+        "color_palette": [
+          "ivory",
+          "dark blue",
+          "tan"
+        ],
+        "footwear_type": "Strappy nude sandals",
+        "accessories": [
+          "Navy handbag",
+          "Gold chain necklace"
+        ],
+        "style": "Chic casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 15,
+        "accessories": 14,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The slim fit jeans and loose blouse create a balanced silhouette. Tucking in the blouse would elevate the look.",
+        "color": "The neutral color palette is sophisticated but a pop of color could add some visual interest.",
+        "footwear": "The nude sandals elongate the legs and pair well with the outfit.",
+        "accessories": "The navy bag and dainty gold necklace are chic additions.",
+        "style": "Overall this is a polished casual look perfect for many occasions."
+      }
+    },
+    {
+      "image": "casual_407.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Skinny jeans and fitted tank top",
+        "top_type": "White ribbed tank top",
+        "bottom_type": "Dark wash skinny jeans",
+        "color_palette": [
+          "white",
+          "dark blue",
+          "mustard yellow",
+          "tan"
+        ],
+        "footwear_type": "Strappy tan sandals",
+        "accessories": [
+          "Mustard yellow satchel bag"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 15,
+        "accessories": 14,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The fitted tank and skinny jeans create a sleek, streamlined look that flatters the figure.",
+        "color": "The pop of mustard yellow adds a nice contrast to the neutral white and dark blue.",
+        "footwear": "The strappy tan sandals are a great neutral choice that elongates the legs.",
+        "accessories": "The mustard satchel adds a fun pop of color and complements the outfit nicely.",
+        "style": "This is a great elevated casual look that is both stylish and easy to wear."
+      }
+    },
+    {
+      "image": "casual_408.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Oversized sweater and skinny jeans",
+        "top_type": "Beige cable knit sweater",
+        "bottom_type": "Black skinny jeans",
+        "color_palette": [
+          "beige",
+          "black",
+          "turquoise"
+        ],
+        "footwear_type": "Strappy nude heels",
+        "accessories": [
+          "Turquoise crossbody bag"
+        ],
+        "style": "Cozy chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 17,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The oversized sweater with skinny jeans is a classic combination that balances proportions beautifully.",
+        "color": "The neutral beige and black create a sophisticated base, while the pop of turquoise adds freshness.",
+        "footwear": "The strappy nude heels dress up the look and elongate the legs.",
+        "accessories": "The turquoise crossbody bag is a standout piece that makes the outfit pop.",
+        "style": "This cozy chic look is perfect for cooler weather and can easily go from day to night."
+      }
+    },
+    {
+      "image": "casual_409.jpg",
+      "score": 85,
+      "labels": {
+        "fit": "Loose fit romper",
+        "top_type": "Sleeveless yellow romper",
+        "bottom_type": "Romper shorts",
+        "color_palette": [
+          "yellow",
+          "tan",
+          "turquoise"
+        ],
+        "footwear_type": "Strappy wedge sandals",
+        "accessories": [
+          "Straw tote bag",
+          "Floral headband"
+        ],
+        "style": "Playful summer chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 17,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose fit of the romper is breezy and comfortable for summer weather.",
+        "color": "The cheerful yellow is perfect for summer and pairs well with the turquoise and tan accessories.",
+        "footwear": "The strappy wedges are a great choice to dress up the romper a bit.",
+        "accessories": "The straw tote and floral headband add a playful, feminine touch that completes the look.",
+        "style": "This outfit exudes carefree summer style that's both cute and easy to wear."
+      }
+    },
+    {
+      "image": "casual_410.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Loose fit blouse and shorts",
+        "top_type": "Floral print blouse",
+        "bottom_type": "Hot pink shorts",
+        "color_palette": [
+          "hot pink",
+          "green",
+          "white",
+          "tan"
+        ],
+        "footwear_type": "Metallic flat sandals",
+        "accessories": [
+          "Pink satchel handbag"
+        ],
+        "style": "Bold summer casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 17,
+        "accessories": 17,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose fitting blouse and shorts are breezy and comfortable for hot weather.",
+        "color": "The vibrant combination of hot pink, green floral, and metallic is eye-catching and perfect for making a statement.",
+        "footwear": "The metallic flat sandals add a bit of shine and dress up the casual shorts.",
+        "accessories": "The pink satchel ties in with the shorts and provides a nice pop against the floral blouse.",
+        "style": "This bold, flirty look is great for summer events or vacation when you want a fun, head-turning outfit."
+      }
+    },
+    {
+      "image": "casual_411.jpg",
+      "score": 75,
+      "labels": {
+        "fit": "Loose fit t-shirt and shorts",
+        "top_type": "White graphic t-shirt",
+        "bottom_type": "High-waisted denim shorts",
+        "color_palette": [
+          "white",
+          "blue",
+          "teal",
+          "silver"
+        ],
+        "footwear_type": "Silver flat sandals",
+        "accessories": [
+          "Teal statement necklace"
+        ],
+        "style": "Casual summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 15,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 15,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The loose t-shirt and shorts are casual and comfortable, but tucking in the shirt a bit could improve the fit.",
+        "color": "The white, blue and silver create a cool, crisp combo. The teal necklace adds a nice accent.",
+        "footwear": "The silver sandals are cute but a slight heel could elevate the look.",
+        "accessories": "The teal necklace makes a statement, but the outfit could benefit from another accessory like a belt or bracelet.",
+        "style": "This is a decent casual summer look but has room for small tweaks to take it up a notch."
+      }
+    },
+    {
+      "image": "casual_412.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted top and flowy shorts",
+        "top_type": "White short sleeve blouse",
+        "bottom_type": "Teal high-waisted shorts",
+        "color_palette": [
+          "white",
+          "teal",
+          "tan"
+        ],
+        "footwear_type": "Nude pointed-toe heels",
+        "accessories": [
+          "Teal statement necklace"
+        ],
+        "style": "Polished summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The fitted blouse highlights the waist, while the flowy shorts balance proportions and add movement.",
+        "color": "The crisp white and rich teal are a stunning color combination for summer.",
+        "footwear": "The nude heels elongate the legs and add a touch of sophistication.",
+        "accessories": "The teal necklace perfectly matches the shorts and makes the outfit pop.",
+        "style": "This polished summer look is chic and put-together. Perfect for a dressy brunch or event."
+      }
+    },
+    {
+      "image": "casual_413.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Fitted blazer and shorts",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "black",
+          "white",
+          "blue"
+        ],
+        "footwear_type": "Nude peep-toe heels",
+        "accessories": [
+          "Black tote bag",
+          "Waist belt"
+        ],
+        "style": "Smart casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 15,
+        "accessories": 16,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The fitted blazer gives structure while the cuffed shorts keep the look casual. Fit is good overall.",
+        "color": "The black, white and denim blue is a classic combo, but the outfit could use a small pop of color.",
+        "footwear": "The nude heels work well, but a shoe with more contrast could be more interesting.",
+        "accessories": "The black bag and belt are practical additions that define the waist.",
+        "style": "This outfit walks the line between casual and professional well, making it versatile."
+      }
+    },
+    {
+      "image": "casual_414.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Fitted crop top and loose pants",
+        "top_type": "Black triangle bikini top",
+        "bottom_type": "Grey cropped cargo pants",
+        "color_palette": [
+          "black",
+          "grey",
+          "red"
+        ],
+        "footwear_type": "Red strappy heels",
+        "accessories": [],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 15,
+        "footwear": 17,
+        "accessories": 12,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The crop top shows some skin that balances the loose, long pants. An oversized jacket could elevate the look.",
+        "color": "The grey and black is edgy but a bit dull. The red shoes help, but another colorful accessory would be better.",
+        "footwear": "The red strappy heels are an unexpected and fun choice that make the outfit pop.",
+        "accessories": "This look is crying out for some accessories - a statement necklace, hat, or patterned bag would take it to the next level.",
+        "style": "The outfit has an edgy, urban vibe but needs a few more styled elements to feel complete."
+      }
+    },
+    {
+      "image": "casual_415.jpg",
+      "score": 85,
+      "labels": {
+        "fit": "Fitted jacket and pants",
+        "top_type": "Red double-breasted jacket",
+        "bottom_type": "Slim orange cropped trousers",
+        "color_palette": [
+          "red",
+          "orange",
+          "black"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Black fedora hat",
+          "Black handbag"
+        ],
+        "style": "Bold retro chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 17,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted jacket and slim cropped pants create a streamlined retro-inspired silhouette.",
+        "color": "The vibrant red and orange color-blocking is bold and makes a strong statement.",
+        "footwear": "The black ankle boots ground the bright colors and add a bit of edge.",
+        "accessories": "The fedora is a nice retro touch. A chunky bracelet or necklace could also work well.",
+        "style": "This outfit has a confident, vintage-inspired style that will turn heads. Great for fashion-forward events."
+      }
+    }
+  ]
+}

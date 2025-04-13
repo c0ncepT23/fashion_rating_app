@@ -1,0 +1,330 @@
+{
+  "outfits": [
+    {
+      "image": "casual_386.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Loose, flowy dress",
+        "top_type": "Sleeveless dress",
+        "bottom_type": "Knee-length skirt",
+        "color_palette": [
+          "Sky blue",
+          "White"
+        ],
+        "footwear_type": "Black strappy sandals",
+        "accessories": [
+          "Straw hat"
+        ],
+        "style": "Casual summer dress"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 20,
+        "accessories": 12,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit of the dress is perfect for a casual summer day. It drapes nicely on the body without being too tight or restrictive.",
+        "color": "The sky blue color is fresh and summery, pairing well with the white hat for a clean, crisp look.",
+        "footwear": "The black strappy sandals complement the outfit without competing with the dress. They elongate the legs.",
+        "accessories": "The straw hat is a stylish summer accessory that provides sun protection. Consider adding sunglasses.",
+        "style": "Overall, this is a great casual summer outfit. The dress is the star, with the hat and sandals playing supporting roles."
+      }
+    },
+    {
+      "image": "casual_387.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose, tiered dress",
+        "top_type": "Sleeveless dress",
+        "bottom_type": "Knee-length skirt",
+        "color_palette": [
+          "Royal blue",
+          "Black"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Fringe bag"
+        ],
+        "style": "Boho chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The loose, tiered style of the dress is flattering and comfortable. It has a relaxed boho vibe.",
+        "color": "The royal blue color is bold and eye-catching. It contrasts nicely with the black boots.",
+        "footwear": "The black ankle boots add an edgy touch to the feminine dress. However, they may be a bit heavy for summer.",
+        "accessories": "The fringe bag enhances the boho style of the outfit. Some layered necklaces could also work well.",
+        "style": "This outfit has a trendy boho chic look. The dress makes a statement with its vibrant color and flowy silhouette."
+      }
+    },
+    {
+      "image": "casual_388.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Loose button-down shirt, tailored shorts",
+        "top_type": "Collared button-down shirt",
+        "bottom_type": "High-waisted shorts",
+        "color_palette": [
+          "Tan",
+          "White"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [
+          "Straw fedora hat",
+          "Brown leather tote bag"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 20,
+        "accessories": 14,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The loose fit of the button-down shirt paired with the tailored shorts creates a balanced silhouette. Tucking in the front of the shirt defines the waist.",
+        "color": "The tan and white color scheme is neutral and versatile. It has a clean, polished look.",
+        "footwear": "The brown wedge sandals elongate the legs while being comfortable for walking. They match the bag perfectly.",
+        "accessories": "The straw fedora hat and leather tote bag add a touch of preppy sophistication. The accessories elevate the basic shirt and shorts.",
+        "style": "This outfit nails the preppy casual style. It's put-together and chic without trying too hard."
+      }
+    },
+    {
+      "image": "casual_389.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose sleeveless blouse, short skirt",
+        "top_type": "Sleeveless collared blouse",
+        "bottom_type": "Pleated mini skirt",
+        "color_palette": [
+          "Hot pink",
+          "White",
+          "Multicolor"
+        ],
+        "footwear_type": "White sneakers",
+        "accessories": [
+          "Black handbag"
+        ],
+        "style": "Quirky preppy"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose blouse balances the short skirt, but tucking it in all the way around would improve the proportions.",
+        "color": "The hot pink top adds a pop of color, but clashes slightly with the multicolored skirt. A neutral skirt would be more versatile.",
+        "footwear": "The white sneakers are a comfortable, casual choice that pairs well with the youthful vibe of the outfit.",
+        "accessories": "The black handbag feels a bit heavy for the playful look. A smaller cross-body bag in a bright color could be fun.",
+        "style": "This outfit has a quirky, preppy style that suits the young woman. The mix of girly and sporty elements is interesting."
+      }
+    },
+    {
+      "image": "casual_390.jpg",
+      "score": 72,
+      "labels": {
+        "fit": "Loose cardigan, flared skirt",
+        "top_type": "Striped cardigan",
+        "bottom_type": "Flared mini skirt",
+        "color_palette": [
+          "Red",
+          "White",
+          "Purple"
+        ],
+        "footwear_type": "Red ankle boots",
+        "accessories": [
+          "Red patent handbag"
+        ],
+        "style": "Retro mod"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 14,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose cardigan over the short flared skirt creates an imbalanced silhouette. A fitted top would work better.",
+        "color": "The red, white and purple color scheme is bold and quirky, but a bit clashy. Reducing it to two colors would be more harmonious.",
+        "footwear": "The red ankle boots match the handbag and cardigan, but compete with the purple skirt. Neutral footwear would be more versatile.",
+        "accessories": "The patent handbag adds a nice sheen, but a smaller size would better suit the youthful proportions of the outfit.",
+        "style": "The outfit has a retro mod vibe, but the execution could be refined. Simplifying the colors and proportions would elevate the look."
+      }
+    },
+    {
+      "image": "casual_391.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Fitted polo shirt, mini skirt",
+        "top_type": "Polo shirt",
+        "bottom_type": "Zippered mini skirt",
+        "color_palette": [
+          "Aqua",
+          "Black"
+        ],
+        "footwear_type": "Black platform sandals",
+        "accessories": [
+          "Turquoise ankle socks"
+        ],
+        "style": "Sporty chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted polo shirt tucked into the mini skirt creates a sleek, sporty silhouette that flatters the figure.",
+        "color": "The aqua and black color combination is fresh and modern. The black grounds the bright aqua.",
+        "footwear": "The black platform sandals add height and edge to the preppy polo and skirt combo.",
+        "accessories": "The turquoise ankle socks are a fun, unexpected touch that coordinates with the aqua shirt.",
+        "style": "This outfit mixes preppy and edgy elements for a unique sporty chic look. It's youthful and fashion-forward."
+      }
+    },
+    {
+      "image": "casual_392.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose floral blouse, skinny jeans",
+        "top_type": "Floral print blouse",
+        "bottom_type": "Skinny jeans",
+        "color_palette": [
+          "White",
+          "Green",
+          "Blue"
+        ],
+        "footwear_type": "Nude platform sandals",
+        "accessories": [
+          "Mint green clutch"
+        ],
+        "style": "Feminine casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22, 
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose blouse over the skinny jeans creates a nice balance of volume. Front-tucking the blouse streamlines the look.",
+        "color": "The white, green and blue color palette is soft and pretty. The pastel floral print is perfect for spring/summer.",
+        "footwear": "The nude platform sandals elongate the legs and complement the feminine outfit without competing with the print.",
+        "accessories": "The mint green clutch coordinates beautifully with the floral colors. A delicate necklace could also work well.",
+        "style": "This outfit embodies feminine casual style. The floral blouse is romantic while the jeans keep it grounded and relaxed."
+      }
+    },
+    {
+      "image": "casual_393.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose tank top, flared skirt",
+        "top_type": "Scoop neck tank top",
+        "bottom_type": "Flared mini skirt",
+        "color_palette": [
+          "Black",
+          "White"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [
+          "Brown leather satchel"
+        ],
+        "style": "Monochrome casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose tank top paired with the flared skirt is relaxed and comfortable. Tucking in the top would define the waist more.",
+        "color": "The black and white outfit is classic and chic. Adding a colorful accessory could liven it up.",
+        "footwear": "The brown wedge sandals are a practical choice for walking, but black sandals would streamline the monochrome look.",
+        "accessories": "The brown leather satchel is stylish and functional. Black sunglasses would be a chic addition.",
+        "style": "This monochrome outfit is simple and versatile. It can easily go from day to night with a change of accessories."
+      }
+    },
+    {
+      "image": "casual_394.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted blazer, tailored shorts",
+        "top_type": "Lace camisole",
+        "bottom_type": "High-waisted denim shorts",
+        "color_palette": [
+          "Blush pink",
+          "White",
+          "Blue"
+        ],
+        "footwear_type": "Nude strappy heels",
+        "accessories": [
+          "Pink clutch"
+        ],
+        "style": "Romantic casual"
+      },
+      "score_breakdown": {
+        "fit": 24,
+        "color": 24,
+        "footwear": 22,
+        "accessories": 12,
+        "style": 10
+      },
+      "feedback": {
+        "fit": "The fitted blazer adds polish to the lace camisole and denim shorts, elevating the casual pieces. The proportions are spot-on.",
+        "color": "The blush pink, white and blue color scheme is soft, romantic and perfect for summer. The colors are harmonious.",
+        "footwear": "The nude strappy heels elongate the legs and dress up the shorts. They're a great choice for a feminine summer look.",
+        "accessories": "The pink clutch matches the camisole perfectly. Delicate gold jewelry would be lovely, but is not necessary.",
+        "style": "This outfit nails romantic casual style by mixing dressy and laid-back pieces. The look is sweet, flirty and put-together."
+      }
+    },
+    {
+      "image": "casual_395.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Loose blazer, fitted shorts",
+        "top_type": "Lace-trimmed camisole",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "Peach",
+          "White",
+          "Blue" 
+        ],
+        "footwear_type": "Nude strappy sandals",
+        "accessories": [
+          "Pink shoulder bag"
+        ],
+        "style": "Polished casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 20,
+        "accessories": 12,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The loose blazer over the fitted camisole and shorts creates a relaxed, yet refined silhouette. Pushing up the sleeves adds cool effortlessness.",
+        "color": "The peach, white and blue color palette is fresh and summery. The peach complements the model's warm skin tone beautifully.",
+        "footwear": "The nude strappy sandals are a versatile choice that dresses up the cuffed denim shorts without looking overdone.",
+        "accessories": "The pink shoulder bag adds a cute pop of color. Tortoiseshell sunglasses would be a chic addition.",
+        "style": "This polished casual outfit is perfect for summer weekends or vacation. It's put-together but not fussy."
+      }
+    }
+  ]
+}

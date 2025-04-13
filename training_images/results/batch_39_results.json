@@ -1,0 +1,330 @@
+{
+  "outfits": [
+    {
+      "image": "casual_526.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Flowy tiered skirt with fitted tank top",
+        "top_type": "Navy blue spaghetti strap tank top",
+        "bottom_type": "White tiered ruffle mini skirt",
+        "color_palette": [
+          "navy",
+          "white",
+          "brown"
+        ],
+        "footwear_type": "Brown strappy flat sandals",
+        "accessories": [
+          "Beige tote bag",
+          "Sunglasses"
+        ],
+        "style": "Casual feminine summer look"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted tank top balances nicely with the flowy skirt for a flattering silhouette. Skirt length is flirty and fun for summer.",
+        "color": "Navy and white create a classic, crisp color combination. Brown accessories add a nice neutral touch.",
+        "footwear": "Strappy flat sandals are a comfortable and stylish choice for a casual summer outfit.",
+        "accessories": "The beige tote bag is practical and coordinates well with the outfit. Sunglasses complete the look.",
+        "style": "Overall this is a cute, put-together casual look that's perfect for summer. It has a youthful, feminine vibe."
+      }
+    },
+    {
+      "image": "casual_527.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose-fitting shorts romper with cinched waist",
+        "top_type": "Navy blue collared short sleeve romper top",
+        "bottom_type": "Matching navy shorts",
+        "color_palette": [
+          "navy",
+          "brown"
+        ],
+        "footwear_type": "Brown strappy wedge sandals",
+        "accessories": [
+          "Brown leather handbag"
+        ],
+        "style": "Preppy casual romper outfit"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The romper has a relaxed, comfortable fit. Cinched elastic waist helps define the silhouette.",
+        "color": "Monochromatic navy color is flattering but a bit plain on its own. Brown accessories help break it up.",
+        "footwear": "Wedge sandals dress up the casual romper nicely and elongate the legs.",
+        "accessories": "The cognac brown handbag is a stylish choice that matches the shoes and contrasts against the navy.",
+        "style": "This preppy romper look is easy to wear for a polished casual summer outfit. Could be enhanced with a pop of color or print."
+      }
+    },
+    {
+      "image": "casual_528.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose lace top with fitted denim shorts",
+        "top_type": "White sheer lace short sleeve blouse",
+        "bottom_type": "Medium wash denim shorts",
+        "color_palette": [
+          "white",
+          "blue",
+          "black"
+        ],
+        "footwear_type": "White low-top sneakers",
+        "accessories": [
+          "Stacked bracelets"
+        ],
+        "style": "Boho casual summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "Pairing the loose, flowy lace top with fitted denim shorts creates nice proportions and shows some leg.",
+        "color": "White lace with medium blue denim is a classic summer combo. Bright white sneakers keep the look light and fresh.",
+        "footwear": "You can't go wrong with simple white sneakers for a cute, casual outfit. Fits the youthful vibe.",
+        "accessories": "A stack of boho bracelets adds a trendy accent to the laidback look.",
+        "style": "This outfit has an easygoing boho style that's youthful and perfect for summer. The lace top makes it a bit more interesting."
+      }
+    },
+    {
+      "image": "casual_529.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted strapless top with flouncy mini skirt",
+        "top_type": "White eyelet lace strapless top",
+        "bottom_type": "Black and white tribal print mini skirt",
+        "color_palette": [
+          "white",
+          "black",
+          "red"
+        ],
+        "footwear_type": "Black strappy heeled sandals",
+        "accessories": [
+          "Red leather satchel handbag"
+        ],
+        "style": "Flirty feminine summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The strapless top shows off shoulders and fits close to the body. Skirt has a fun, flouncy shape that moves nicely.",
+        "color": "Black and white is always chic. The red bag really pops against the monochrome outfit for a bold accent.",
+        "footwear": "Black heeled sandals elongate the legs and dress up the look, making it appropriate for a summer event or night out.",
+        "accessories": "The red structured satchel adds a great contrasting pop of color and polish to the black and white ensemble.",
+        "style": "This is such a cute, flirty outfit! It has a youthful, feminine style that would be perfect for a summer party or date night."
+      }
+    },
+    {
+      "image": "casual_530.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose printed blouse with fitted shorts",
+        "top_type": "Sheer floral print tie-front blouse",
+        "bottom_type": "Coral pink shorts",
+        "color_palette": [
+          "coral",
+          "blue",
+          "green",
+          "white"
+        ],
+        "footwear_type": "Brown strappy wedge sandals",
+        "accessories": [
+          "Brown leather tote bag"
+        ],
+        "style": "Tropical resort wear casual outfit"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The blouse drapes loosely but the tie-front keeps it from overwhelming the figure. Shorts fit well and show some leg.",
+        "color": "Beautiful tropical floral print in blues and greens pops against the coral shorts. Brown accessories ground the look.",
+        "footwear": "Wedge sandals are a great choice for a resort or beach vacation - dressier than flat sandals but still comfortable.",
+        "accessories": "The brown leather tote is practical for vacation and complements the tropical color scheme.",
+        "style": "This outfit has a fun tropical resort vibe that's colorful and laidback. Perfect for a beach vacation or summer weekend."
+      }
+    },
+    {
+      "image": "casual_531.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose white blouse with high-waisted shorts",
+        "top_type": "White button-down sleeveless blouse",
+        "bottom_type": "Black and white tribal print shorts",
+        "color_palette": [
+          "white",
+          "black"
+        ],
+        "footwear_type": "Leopard print platform wedge sandals",
+        "accessories": [
+          "Red leather handbag"
+        ],
+        "style": "Monochrome casual summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose blouse tucked into high-waisted shorts creates an easy, comfortable look. Shorts are a tad short.",
+        "color": "Black and white is classic but a bit plain. Red bag adds a nice pop. Leopard print shoes clash slightly with the tribal print.",
+        "footwear": "Platform wedge sandals have a fun, retro vibe and dress up the simple outfit. Leopard print is a bit disconnected.",
+        "accessories": "The red handbag brings a welcome shot of bold color to the black and white palette.",
+        "style": "This monochrome outfit is decent for a casual summer day, but a bit plain overall. Prints are a little busy together."
+      }
+    },
+    {
+      "image": "casual_532.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Loose graphic tee with fitted denim shorts",
+        "top_type": "White graphic print t-shirt",
+        "bottom_type": "Medium blue denim shorts",
+        "color_palette": [
+          "white",
+          "blue",
+          "tan"
+        ],
+        "footwear_type": "Tan and white slip-on sneakers",
+        "accessories": [
+          "Orange leather tote bag"
+        ],
+        "style": "Casual cool summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "You can't go wrong with a classic t-shirt and denim shorts combo. Fitted shorts balance the looser top.",
+        "color": "White tee and blue denim shorts are failproof summer colors. Orange bag adds a fun pop.",
+        "footwear": "The slip-on sneakers are a great casual shoe choice. The tan color is neutral and versatile.",
+        "accessories": "An orange tote bag brings a nice bright accent to the look and picks up the warm tones of the sneakers.",
+        "style": "This is an easy, no-fuss casual summer outfit formula. The graphic tee gives it a youthful, laidback vibe."
+      }
+    },
+    {
+      "image": "casual_533.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose lace dress with cinched waist",
+        "top_type": "White lace short sleeve dress",
+        "bottom_type": "Same white lace dress",
+        "color_palette": [
+          "white",
+          "teal"
+        ],
+        "footwear_type": "Teal strappy flat sandals",
+        "accessories": [],
+        "style": "Feminine lace summer dress"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The lace dress has a loose, flowy fit that drapes nicely on the body. Cinched waist keeps it from looking shapeless.",
+        "color": "All white is fresh and feminine for summer. Teal sandals add a fun contrasting pop of color.",
+        "footwear": "Flat strappy sandals are comfortable and work well with the casual vibe of the lace dress.",
+        "accessories": "No accessories, which keeps the look simple and unfussy. Could add some delicate jewelry if desired.",
+        "style": "This outfit is all about the pretty white lace dress, which has a romantic, feminine feel. Nice for a summer brunch or shower."
+      }
+    },
+    {
+      "image": "casual_534.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose striped blouse with loose denim shorts",
+        "top_type": "Pink and white striped button-down blouse",
+        "bottom_type": "Medium blue distressed denim shorts",
+        "color_palette": [
+          "pink",
+          "white",
+          "blue"
+        ],
+        "footwear_type": "Brown strappy heeled sandals",
+        "accessories": [
+          "Brown leather handbag"
+        ],
+        "style": "Casual summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "Both the top and shorts are quite loose-fitting, which looks a bit sloppy untucked. Tucking in the blouse would improve the proportions.",
+        "color": "Pink and white stripes are cute for summer. The blue denim goes well with the color scheme.",
+        "footwear": "Brown heeled sandals are a versatile summer shoe that dresses up denim shorts.",
+        "accessories": "The brown satchel coordinates with the shoes and has a slightly more polished vibe than the rest of the look.",
+        "style": "This outfit is very casual and laidback. Tucking in the shirt and adding some jewelry could elevate it a bit."
+      }
+    },
+    {
+      "image": "casual_535.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose printed kimono-style top with fitted denim shorts",
+        "top_type": "Coral and white printed short sleeve kimono top",
+        "bottom_type": "Medium blue denim shorts",
+        "color_palette": [
+          "coral",
+          "white",
+          "blue",
+          "black"
+        ],
+        "footwear_type": "Black strappy heeled sandals",
+        "accessories": [],
+        "style": "Boho casual summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The kimono-style top has a loose, flowy fit that drapes beautifully. Pairing with fitted denim shorts balances the volume.",
+        "color": "Coral print is eye-catching and perfect for summer. Denim shorts and black sandals keep it grounded.",
+        "footwear": "Black heeled sandals work well for dressing up a casual shorts look and coordinate with her black hair.",
+        "accessories": "No accessories, likely to keep the focus on the printed top. Some delicate layered necklaces could look nice.",
+        "style": "This outfit has a boho vibe thanks to the kimono-style top. It's an easy, stylish look for a summer day or night out."
+      }
+    }
+  ]
+}

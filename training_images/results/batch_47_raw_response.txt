@@ -1,0 +1,334 @@
+{
+  "outfits": [
+    {
+      "image": "casual_606.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Relaxed, casual fit",
+        "top_type": "Striped t-shirt",
+        "bottom_type": "Distressed denim shorts",
+        "color_palette": [
+          "white",
+          "red",
+          "blue"
+        ],
+        "footwear_type": "Strappy wedge sandals",
+        "accessories": [
+          "Sunglasses",
+          "Shoulder bag"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the t-shirt and shorts creates an effortlessly cool vibe that's perfect for casual summer days.",
+        "color": "The red and white stripes pair nicely with the blue denim, giving the outfit a classic, nautical-inspired color scheme.",
+        "footwear": "The strappy wedge sandals elevate the look and add a touch of sophistication to the otherwise casual ensemble.",
+        "accessories": "The sunglasses and shoulder bag are practical choices that complement the overall style without overwhelming it.",
+        "style": "This outfit strikes a great balance between laid-back and put-together, making it ideal for a variety of casual occasions."
+      }
+    },
+    {
+      "image": "casual_607.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted, tailored silhouette",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Coral skater skirt",
+        "color_palette": [
+          "white",
+          "coral",
+          "black"
+        ],
+        "footwear_type": "Studded ankle boots",
+        "accessories": [
+          "Black blazer",
+          "Statement necklace",
+          "Leather satchel"
+        ],
+        "style": "Preppy with an edge"
+      },
+      "score_breakdown": {
+        "fit": 24,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted shirt and skater skirt create a polished, feminine silhouette that flatters the figure.",
+        "color": "The crisp white and vibrant coral make a striking combination, while the black accents ground the look.",
+        "footwear": "The studded ankle boots add an unexpected edge to the preppy ensemble, making it more interesting and modern.",
+        "accessories": "The black blazer pulls the look together, while the statement necklace and leather satchel add texture and visual interest.",
+        "style": "This outfit successfully combines preppy and edgy elements for a unique and stylish look that's perfect for both work and play."
+      }
+    },
+    {
+      "image": "casual_608.jpg",
+      "score": 85,
+      "labels": {
+        "fit": "Loose, flowy fit",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Blush pink wide-leg pants",
+        "color_palette": [
+          "white",
+          "blush pink",
+          "brown"
+        ],
+        "footwear_type": "Studded ankle boots",
+        "accessories": [
+          "Wide-brim hat",
+          "Sunglasses"  
+        ],
+        "style": "Bohemian chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 13
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit of the shirt and pants creates a relaxed, effortless vibe that's perfect for a bohemian-inspired look.",
+        "color": "The soft blush pink and crisp white make a lovely, feminine color combination, while the brown boots add warmth and earthiness.",
+        "footwear": "The studded ankle boots provide an interesting contrast to the flowy silhouette and add a touch of edge to the overall look.",
+        "accessories": "The wide-brim hat and sunglasses are practical choices that also contribute to the bohemian aesthetic.",
+        "style": "This outfit embodies the carefree, artistic spirit of bohemian fashion while still looking put-together and chic."
+      }
+    },
+    {
+      "image": "casual_609.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Tailored, slim fit",
+        "top_type": "Yellow sleeveless blouse",
+        "bottom_type": "Rust-colored trousers",
+        "color_palette": [
+          "yellow",
+          "rust",
+          "beige"  
+        ],
+        "footwear_type": "Pointed-toe pumps",
+        "accessories": [
+          "Silk scarf"
+        ],
+        "style": "Vintage-inspired"
+      },
+      "score_breakdown": {
+        "fit": 20, 
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The tailored, slim fit of the blouse and trousers creates a polished, retro-inspired silhouette.",
+        "color": "The warm yellow and rust tones are an unexpected but appealing color combination that feels vintage and autumnal.",
+        "footwear": "The pointed-toe pumps elongate the leg and add a touch of sophistication to the look.",
+        "accessories": "The silk scarf is a chic, vintage-inspired accessory that ties the look together, but the outfit could benefit from one or two additional accessories for added visual interest.",
+        "style": "This outfit successfully captures the essence of vintage fashion with its color palette, silhouette, and accessories."
+      }
+    },
+    {
+      "image": "casual_610.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Relaxed, casual fit",
+        "top_type": "Ombré button-down shirt",
+        "bottom_type": "Distressed denim shorts",
+        "color_palette": [
+          "blue",
+          "white",
+          "brown"
+        ],
+        "footwear_type": "Wooden platform sandals",
+        "accessories": [],
+        "style": "Casual summer"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the shirt and shorts creates a laid-back, comfortable vibe that's perfect for a casual summer day.",
+        "color": "The blue ombré effect on the shirt is eye-catching and pairs beautifully with the distressed denim, while the brown sandals add warmth.",
+        "footwear": "The wooden platform sandals are a stylish and practical choice that complement the casual, summery feel of the outfit.",
+        "accessories": "While the outfit looks great as is, it could be elevated with the addition of one or two simple accessories, such as a delicate necklace or a pair of sunglasses.",
+        "style": "This outfit perfectly embodies the essence of casual summer style with its relaxed fit, cool color palette, and laid-back accessories."
+      }
+    },
+    {
+      "image": "casual_611.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Fitted top, flared skirt",
+        "top_type": "Black lace top",
+        "bottom_type": "Cream ruffled mini skirt",
+        "color_palette": [
+          "black",
+          "cream",
+          "red"
+        ],
+        "footwear_type": "Strappy wedge sandals",
+        "accessories": [
+          "Red handbag",
+          "Belt"
+        ],
+        "style": "Feminine chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted lace top and flared mini skirt create a feminine, flirty silhouette that flatters the figure.",
+        "color": "The black and cream color palette is classic and elegant, while the pop of red from the handbag adds a touch of visual interest.",
+        "footwear": "The strappy wedge sandals elongate the legs and complement the feminine vibe of the outfit.",
+        "accessories": "The red handbag is a great choice for adding a bold accent color, and the belt helps to define the waist and pull the look together.",
+        "style": "This outfit is a perfect example of feminine chic style, with its delicate lace, flirty silhouette, and elegant color palette."
+      }
+    },
+    {
+      "image": "casual_612.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted, tailored",
+        "top_type": "Coral blazer",
+        "bottom_type": "Printed shorts",
+        "color_palette": [
+          "coral",
+          "yellow",
+          "white"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [
+          "Statement necklace",
+          "Tote bag"
+        ],
+        "style": "Preppy summer"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted blazer and tailored shorts create a polished, put-together silhouette that's perfect for a preppy summer look.",
+        "color": "The vibrant coral and yellow hues are cheerful and energetic, making them ideal for summer, while the white provides a crisp, clean contrast.",
+        "footwear": "The wedge sandals are a great choice for adding height and elongating the legs, while still being comfortable and appropriate for summer.",
+        "accessories": "The statement necklace adds a touch of glamour and visual interest, while the tote bag is a practical and stylish choice for carrying essentials.",
+        "style": "This outfit perfectly captures the essence of preppy summer style with its tailored fit, vibrant colors, and chic accessories."
+      }
+    },
+    {
+      "image": "casual_613.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose, oversized fit",
+        "top_type": "Graphic t-shirt",
+        "bottom_type": "Floral print shorts",
+        "color_palette": [
+          "teal",
+          "pink",
+          "white"  
+        ],
+        "footwear_type": "Platform sandals",
+        "accessories": [],
+        "style": "Quirky casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, oversized fit of the t-shirt creates a relaxed, casual vibe, but it may overwhelm the shorts and disrupt the overall proportions of the outfit.",
+        "color": "The teal and pink color combination is unexpected and quirky, adding a fun, playful element to the look.",
+        "footwear": "The platform sandals are a good choice for adding height and balancing out the loose fit of the t-shirt.",
+        "accessories": "While the graphic tee and floral shorts make a bold statement on their own, the addition of one or two simple accessories could help tie the look together and add visual interest.",
+        "style": "This outfit has a quirky, casual vibe that showcases the wearer's unique personal style, but the fit and proportions could be improved for a more polished look."
+      }
+    },
+    {
+      "image": "casual_614.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Loose, flowy top; fitted shorts",
+        "top_type": "White off-the-shoulder top",
+        "bottom_type": "High-waisted denim shorts",
+        "color_palette": [
+          "white",
+          "blue",
+          "brown"
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [],
+        "style": "Boho summer casual"
+      },
+      "score_breakdown": {
+        "fit": 24,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit of the off-the-shoulder top pairs beautifully with the fitted, high-waisted denim shorts, creating a balanced and flattering silhouette.",
+        "color": "The crisp white and classic blue denim create a fresh, summery color palette, while the brown ankle boots add a touch of warmth and earthiness.",
+        "footwear": "The ankle boots are an unexpected but stylish choice for summer, adding a touch of edge and sophistication to the otherwise casual look.",
+        "accessories": "While the outfit looks great as is, it could be elevated with the addition of one or two simple, bohemian-inspired accessories, such as a pair of statement earrings or a delicate necklace.",
+        "style": "This outfit perfectly captures the essence of bohemian summer style with its flowy top, fitted shorts, and unexpected footwear choice."
+      }
+    },
+    {
+      "image": "casual_615.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose, oversized fit",
+        "top_type": "White graphic t-shirt",
+        "bottom_type": "Distressed denim shorts",
+        "color_palette": [
+          "white",
+          "blue",
+          "brown"  
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [
+          "Sunglasses"
+        ],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20, 
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, oversized fit of the graphic tee creates a relaxed, effortless vibe, but it may overwhelm the shorts and disrupt the overall proportions of the outfit.",
+        "color": "The white and blue color palette is classic and versatile, while the brown ankle boots add warmth and depth.",
+        "footwear": "The ankle boots are a great choice for adding edge and toughness to the casual look, and they pair well with the distressed denim shorts.",
+        "accessories": "The sunglasses are a practical and stylish accessory that complement the edgy, casual vibe of the outfit, but the look could benefit from one or two additional accessories for added visual interest.",
+        "style": "This outfit has an edgy, casual vibe that's perfect for weekends or laid-back occasions, but the fit and proportions could be improved for a more polished look."
+      }
+    }
+  ]
+}

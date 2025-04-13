@@ -1,0 +1,329 @@
+{
+  "outfits": [
+    {
+      "image": "casual_286.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Loose, flowy silhouette",
+        "top_type": "Off-the-shoulder sweater",
+        "bottom_type": "Ruched mini skirt",
+        "color_palette": [
+          "Cream",
+          "Blush pink"
+        ],
+        "footwear_type": "Patterned wedge sandals",
+        "accessories": [],
+        "style": "Feminine casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, flowy sweater pairs nicely with the fitted mini skirt, creating an effortless casual look with feminine flair.",
+        "color": "The soft, muted color palette of cream and blush pink is very harmonious and enhances the outfit's delicate, feminine vibe.",
+        "footwear": "The patterned wedge sandals add a fun pop of visual interest to complement the solid-colored outfit.",
+        "accessories": "The look is accessory-light, which works for the casual styling, but a long pendant necklace could elevate it further.",
+        "style": "Overall, this is a well-executed casual outfit with girly, flirty elements that come together cohesively."
+      }
+    },
+    {
+      "image": "casual_287.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Relaxed, slouchy fit",
+        "top_type": "Oversized v-neck sweater",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "Navy blue",
+          "Medium wash denim"
+        ],
+        "footwear_type": "Strappy black heels",
+        "accessories": [],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized sweater with rolled sleeves creates a slouchy, relaxed silhouette, balanced by the leg-baring denim shorts.",
+        "color": "The dark navy sweater pairs okay with the medium wash denim, but the contrast could be improved for a more striking look.",
+        "footwear": "The strappy black heels dress up the casual outfit, but a chunkier heeled bootie or sandal might complement the slouchy vibe better.",
+        "accessories": "A long pendant necklace peeking out from the v-neck would add a nice finishing touch.",
+        "style": "This look nails casual chic by mixing a cozy knit with cuffed denim shorts for an effortless, slightly undone aesthetic."
+      }
+    },
+    {
+      "image": "casual_288.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Slim, tailored fit",
+        "top_type": "Cropped jacket",
+        "bottom_type": "Slim khaki pants",
+        "color_palette": [
+          "Charcoal gray",
+          "Tan",
+          "Burgundy"
+        ],
+        "footwear_type": "Black pointed-toe pumps",
+        "accessories": [
+          "Red beret",
+          "Pendant necklace"
+        ],
+        "style": "Parisian chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The cropped jacket and slim pants create a sleek, tailored silhouette that looks very polished and put-together.",
+        "color": "The charcoal gray, tan, and burgundy color scheme is sophisticated and perfect for fall. The pops of red add great visual interest.",
+        "footwear": "The black pointed-toe pumps are a classic choice that elongates the leg line and dresses up the tailored separates.",
+        "accessories": "The red beret is a chic, stylish accessory that makes the outfit, and the pendant necklace is a nice subtle accent.",
+        "style": "This look exudes Parisian chic, from the beret to the perfect fitting trousers and cropped jacket. It's an elevated take on casual wear."
+      }
+    },
+    {
+      "image": "casual_289.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Relaxed, easy fit",
+        "top_type": "Loose tie-neck blouse",
+        "bottom_type": "Slim red jeans",
+        "color_palette": [
+          "White",
+          "Bright red"
+        ],
+        "footwear_type": "Brown suede ankle boots",
+        "accessories": [
+          "Printed clutch"
+        ],
+        "style": "Casual with a pop of color"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose blouse balances the slim fit of the red jeans for a nice juxtaposition of volumes in this casual look.",
+        "color": "Crisp white and bright red is a striking, bold color combo that really makes an impact. The outfit has a great focal point.",
+        "footwear": "The brown suede ankle boots ground the look with an earthy neutral and provide a bit of a rugged contrast to the jeans.",
+        "accessories": "The printed clutch adds another pop of visual interest. A few simple jewelry pieces could also elevate the look.",
+        "style": "This outfit is a great example of using one bold piece, the red jeans, to make a statement in an otherwise casual ensemble."
+      }
+    },
+    {
+      "image": "casual_290.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Preppy, polished fit",
+        "top_type": "Red blazer",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "Bright red",
+          "White",
+          "Light wash denim"
+        ],
+        "footwear_type": "Loafers",
+        "accessories": [
+          "Structured handbag"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The tailored red blazer elevates the casual denim shorts, striking a nice balance between polished and relaxed.",
+        "color": "Bright red, crisp white and light wash denim is a classic preppy color palette that feels fresh and appropriate for summer.",
+        "footwear": "The loafers lean into the preppy aesthetic and look great with the cuffed denim shorts, elongating the leg line.",
+        "accessories": "The structured black handbag adds a professional touch. Dainty jewelry or pearls could amp up the preppy factor.",
+        "style": "This look nails preppy casual, combining traditional preppy elements like a blazer and loafers with laid-back denim shorts."
+      }
+    },
+    {
+      "image": "casual_291.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose, boxy fit",
+        "top_type": "Patterned short sleeve blouse",
+        "bottom_type": "Pleated maxi skirt",
+        "color_palette": [
+          "Coral",
+          "White",
+          "Black"
+        ],
+        "footwear_type": "Lace-up wedge sandals",
+        "accessories": [
+          "Floral crown",
+          "Structured handbag"
+        ],
+        "style": "Boho casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose blouse and flowy maxi skirt create a lot of volume that overwhelms the figure a bit. A more fitted top could improve the proportions.",
+        "color": "The coral and black color scheme has potential, but the busy patterns of the separates clash somewhat and don't quite harmonize.",
+        "footwear": "The lace-up wedge sandals work with the boho styling but get a bit lost under the long skirt.",
+        "accessories": "The floral crown fits the boho aesthetic but competes with the patterned blouse. The structured handbag seems out of place with the look.",
+        "style": "While going for a boho casual vibe, the outfit lacks some cohesion in the contrasting prints and proportions. Simplifying one area would improve the overall effect."
+      }
+    },
+    {
+      "image": "casual_292.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Edgy, slim fit",
+        "top_type": "Cropped leather vest",
+        "bottom_type": "High-waisted red shorts",
+        "color_palette": [
+          "Black",
+          "Bright red",
+          "White"
+        ],
+        "footwear_type": "Black ankle booties",
+        "accessories": [
+          "Pendant necklace",
+          "Studded clutch"
+        ],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The cropped leather vest and high-waisted shorts create an edgy, leg-lengthening silhouette that looks fierce and fashion-forward.",
+        "color": "Black, white and bright red is a striking, bold color combo that packs a punch, perfect for the outfit's edgy vibe.",
+        "footwear": "The black ankle booties ground the look and maintain the edgy aesthetic, while lengthening the leg line.",
+        "accessories": "The pendant necklace and studded clutch add the perfect finishing touches, enhancing the outfit's bold, edgy style.",
+        "style": "This look nails edgy casual, combining statement pieces like the leather vest and red shorts for a daring, fashion-forward take on casual wear."
+      }
+    },
+    {
+      "image": "casual_293.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Slim, leg-baring fit",
+        "top_type": "Sleeveless collared blouse",
+        "bottom_type": "High-waisted mini skirt",
+        "color_palette": [
+          "White",
+          "Turquoise",
+          "Bright yellow"
+        ],
+        "footwear_type": "Yellow platform sandals",
+        "accessories": [
+          "Structured handbag"
+        ],
+        "style": "Colorful, retro-inspired casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The sleeveless blouse tucked into the high-waisted mini skirt creates a leggy, form-fitting silhouette that looks polished and purposeful.",
+        "color": "The white, turquoise and bright yellow color palette is unexpected and fun, giving retro vibes that suit the outfit's styling.",
+        "footwear": "The yellow platform sandals are a bold choice that complement the skirt and elongate the leg line.",
+        "accessories": "The structured white handbag adds a crisp, professional contrast to the colorful outfit.",
+        "style": "This look masters colorful, retro-inspired casual wear with the bright color palette and 60s-esque silhouette. It's youthful and fun yet still put-together."
+      }
+    },
+    {
+      "image": "casual_294.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Relaxed, easy fit",
+        "top_type": "Loose t-shirt",
+        "bottom_type": "Maxi skirt with thigh-high slit",
+        "color_palette": [
+          "White",
+          "Bright blue",
+          "Black"
+        ],
+        "footwear_type": "Black ankle-strap heels",
+        "accessories": [
+          "Statement necklace"
+        ],
+        "style": "Casual glam"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose t-shirt half-tucked into the maxi skirt creates an effortless, relaxed fit while still defining the waist.",
+        "color": "The bright blue maxi skirt makes a bold statement, balanced by the black and white separates for a strong color combo.",
+        "footwear": "The black ankle-strap heels elongate the leg and dress up the casual tee and skirt combo.",
+        "accessories": "The statement necklace adds the perfect glam factor to elevate the basic tee.",
+        "style": "This look nails casual glam, combining a basic tee and statement maxi skirt with heels and bold jewelry for an elevated take on casual wear."
+      }
+    },
+    {
+      "image": "casual_295.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Slim, tailored fit",
+        "top_type": "Sleeveless collared blouse",
+        "bottom_type": "Skinny jeans",
+        "color_palette": [
+          "White",
+          "Bright blue"
+        ],
+        "footwear_type": "Red pointed-toe flats",
+        "accessories": [
+          "Black structured handbag"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The sleeveless blouse tucked into the skinny jeans creates a slim, tailored silhouette that looks polished and put-together.",
+        "color": "Crisp white and bold blue is a classic color combo, but the outfit could use another accent color to add more visual interest.",
+        "footwear": "The unexpected pop of red in the pointed-toe flats adds a fun, stylish element to the look.",
+        "accessories": "The black structured handbag is a practical, professional choice. A few simple jewelry pieces could elevate the look further.",
+        "style": "This outfit nails casual chic, combining tailored separates in a classic color palette for a crisp, timeless aesthetic with a pop of personality in the red flats."
+      }
+    }
+  ]
+}

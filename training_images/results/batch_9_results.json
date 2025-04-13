@@ -1,0 +1,341 @@
+{
+  "outfits": [
+    {
+      "image": "casual_226.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose, oversized fit",
+        "top_type": "Leopard print sweater",
+        "bottom_type": "Black leggings",
+        "color_palette": [
+          "Brown",
+          "Black",
+          "Tan"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Red knit scarf"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized leopard print sweater pairs well with the fitted black leggings for a balanced silhouette.",
+        "color": "The neutral color palette of browns and black is accented nicely by the pop of red in the scarf.",
+        "footwear": "The black ankle boots ground the look and work with the casual aesthetic.",
+        "accessories": "The red knit scarf adds a cozy touch and a dash of color to the neutral outfit.",
+        "style": "Overall, this is a stylish casual look with trendy animal print and classic black pieces."
+      }
+    },
+    {
+      "image": "casual_227.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Slim, tailored fit",
+        "top_type": "Red turtleneck sweater",
+        "bottom_type": "Black skinny jeans",
+        "color_palette": [
+          "Red",
+          "Black",
+          "Gray"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [
+          "Leopard print scarf",
+          "Patterned handbag"
+        ],
+        "style": "Parisian chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit of the turtleneck and skinny jeans creates a sleek, polished silhouette.",
+        "color": "The bold red sweater pops against the black jeans for a striking color contrast.",
+        "footwear": "The brown ankle boots complement the outfit and add a touch of Parisian flair.",
+        "accessories": "The leopard print scarf and patterned handbag elevate the look with interesting prints and textures.",
+        "style": "This outfit embodies effortless French style with its classic pieces and chic accessories."
+      }
+    },
+    {
+      "image": "casual_228.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Relaxed, flowy fit",
+        "top_type": "Gray sleeveless blouse",
+        "bottom_type": "Teal pleated midi skirt",
+        "color_palette": [
+          "Gray",
+          "Teal",
+          "Brown"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Brown leather satchel"
+        ],
+        "style": "Bohemian casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 14,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose blouse and flowy skirt create a relaxed, bohemian silhouette.",
+        "color": "The gray top and teal skirt are an unexpected but complementary color pairing.",
+        "footwear": "The black ankle boots are a practical choice but don't add much to the overall look.",
+        "accessories": "The brown leather satchel is a nice neutral addition that doesn't compete with the outfit.",
+        "style": "While the bohemian vibe is evident, the outfit could use some editing for a more pulled-together feel."
+      }
+    },
+    {
+      "image": "casual_229.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Fitted top, slim-fit shorts",
+        "top_type": "Olive green tank top",
+        "bottom_type": "Denim shorts",
+        "color_palette": [
+          "Olive green",
+          "Blue denim",
+          "Red",
+          "Tan"
+        ],
+        "footwear_type": "Red knee-high socks and brown ankle boots",
+        "accessories": [
+          "Tan shoulder bag"
+        ],
+        "style": "Quirky casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted tank and slim-fit shorts flatter the figure and create nice proportions.",
+        "color": "The olive green, denim blue, and pops of red create an eye-catching color story.",
+        "footwear": "The unexpected combination of red socks and brown boots adds quirky style.",
+        "accessories": "The tan bag is a practical, understated choice that lets the outfit shine.",
+        "style": "This look expresses a fun, slightly offbeat casual style that shows personality."
+      }
+    },
+    {
+      "image": "casual_230.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Loose top, fitted shorts",
+        "top_type": "Pale pink loose t-shirt",
+        "bottom_type": "Denim cut-off shorts",
+        "color_palette": [
+          "Pale pink",
+          "Blue denim",
+          "Tan",
+          "Turquoise"
+        ],
+        "footwear_type": "Tan gladiator sandals",
+        "accessories": [
+          "Brown leather tote bag",
+          "Turquoise statement necklace"
+        ],
+        "style": "Feminine casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose tee and fitted shorts create a relaxed but still figure-flattering silhouette.",
+        "color": "The soft pink, denim blue, and turquoise accents make a pretty, feminine color palette.",
+        "footwear": "The tan gladiator sandals elongate the legs and complement the casual outfit.",
+        "accessories": "The brown tote and turquoise necklace are stylish additions that elevate the look.",
+        "style": "Overall, this is a well-coordinated, feminine take on casual summer style."
+      }
+    },
+    {
+      "image": "casual_231.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose, boxy fit",
+        "top_type": "Light blue button-down shirt with cartoon graphic",
+        "bottom_type": "Distressed denim shorts",
+        "color_palette": [
+          "Light blue",
+          "Blue denim",
+          "Yellow",
+          "Brown"
+        ],
+        "footwear_type": "Brown lace-up ankle boots",
+        "accessories": [
+          "Brown belt with gold buckle"
+        ],
+        "style": "Quirky vintage casual"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, boxy fit of the shirt overwhelms the figure and could be more flattering.",
+        "color": "The light blue, denim, and touches of yellow and brown are a decent casual color combo.",
+        "footwear": "The brown ankle boots work with the outfit but seem a bit heavy for the shorts.",
+        "accessories": "The belt is the only accessory and doesn't add much interest to the look.",
+        "style": "The vintage-inspired graphic shirt and denim give a quirky, retro casual vibe."
+      }
+    },
+    {
+      "image": "casual_232.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted tank, flowy skirt",
+        "top_type": "Red sleeveless sweater tank",
+        "bottom_type": "Black mini skirt",
+        "color_palette": [
+          "Red",
+          "Black",
+          "Turquoise"
+        ],
+        "footwear_type": "Turquoise platform sandals",
+        "accessories": [
+          "Silver statement necklace",
+          "Brown leather clutch"
+        ],
+        "style": "Flirty going out"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted tank highlights the upper body while the skirt flows nicely over the hips.",
+        "color": "The bold red, black, and pop of turquoise create a striking, head-turning color palette.",
+        "footwear": "The turquoise platform sandals add a fun dose of color and elongate the legs.",
+        "accessories": "The silver necklace and brown clutch are glam touches that dress up the look.",
+        "style": "This outfit is perfect for a flirty night out with its body-conscious fit and bold colors."
+      }
+    },
+    {
+      "image": "casual_233.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Fitted top, slim mini skirt",
+        "top_type": "White graphic t-shirt",
+        "bottom_type": "Brown corduroy mini skirt",
+        "color_palette": [
+          "White",
+          "Brown",
+          "Gray"
+        ],
+        "footwear_type": "Gray knee-high socks and brown lace-up ankle boots",
+        "accessories": [
+          "Brown faux fur trapper hat",
+          "Brown leather shoulder bag"
+        ],
+        "style": "Quirky winter casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted tee and slim skirt show off the figure but the proportions are a bit off.",
+        "color": "The white, brown, and gray create a neutral color scheme that could use a pop of color.",
+        "footwear": "The gray socks and brown boots are a cute pairing that suit the quirky outfit.",
+        "accessories": "The furry trapper hat and leather bag add some textural interest to the look.",
+        "style": "This outfit has an eccentric, wintry casual vibe but feels a bit disjointed overall."
+      }
+    },
+    {
+      "image": "casual_234.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Fitted top, skinny pants",
+        "top_type": "Navy blue blazer over white t-shirt",
+        "bottom_type": "Red skinny jeans",
+        "color_palette": [
+          "Navy blue",
+          "White",
+          "Red",
+          "Brown"
+        ],
+        "footwear_type": "Brown oxford flats",
+        "accessories": [
+          "Brown leather belt"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted blazer and skinny jeans create a slim, polished silhouette.",
+        "color": "The navy, white, and red color scheme is classic and crisp with preppy flair.",
+        "footwear": "The brown oxford flats are a smart, stylish choice that ground the outfit.",
+        "accessories": "The brown belt pulls the look together, but an additional accessory could be nice.",
+        "style": "Overall, this outfit nails the preppy casual aesthetic with its tailored pieces and color combo."
+      }
+    },
+    {
+      "image": "casual_235.jpg",
+      "score": 74,
+      "labels": {
+        "fit": "Loose, boxy fit",
+        "top_type": "Yellow short-sleeved blouse with ruffles",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "Yellow",
+          "Blue denim"
+        ],
+        "footwear_type": "Nude ballet flats",
+        "accessories": [
+          "Orange leather tote bag"
+        ],
+        "style": "Feminine casual"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, boxy cut of the blouse hides the waistline and could be more figure-flattering.",
+        "color": "The bright yellow and denim blue are a cheery combo but could use another color for balance.",
+        "footwear": "The nude flats blend in and get lost - a contrasting shoe would be better.",
+        "accessories": "The orange bag adds a nice pop, but the outfit needs a few more styled accessories.",
+        "style": "While the ruffled blouse and shorts read feminine and casual, the overall outfit lacks polish."
+      }
+    }
+  ]
+}

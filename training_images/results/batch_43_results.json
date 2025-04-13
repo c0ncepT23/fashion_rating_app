@@ -1,0 +1,336 @@
+{
+  "outfits": [
+    {
+      "image": "casual_566.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Relaxed, casual fit",
+        "top_type": "Cropped leather jacket",
+        "bottom_type": "High-waisted denim shorts",
+        "color_palette": [
+          "black",
+          "blue",
+          "brown"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Orange leather tote bag"
+        ],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The cropped jacket and high-waisted shorts create a balanced, flattering silhouette. The relaxed fit is perfect for a casual look.",
+        "color": "The primarily black outfit with pops of blue denim and brown leather accessories is a classic, versatile color combination.",
+        "footwear": "The black ankle boots complement the edgy vibe of the outfit while being comfortable for all-day wear.",
+        "accessories": "The cognac leather tote adds a nice contrast to the black and blue outfit. Minimal accessories keep the look uncluttered.",
+        "style": "This outfit nails edgy casual style. It's fashionable yet functional for a variety of casual weekend activities."
+      }
+    },
+    {
+      "image": "casual_567.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Fitted, sleek silhouette",
+        "top_type": "Bright pink zip-up jacket",
+        "bottom_type": "Distressed gray skinny jeans",
+        "color_palette": [
+          "hot pink",
+          "charcoal gray",
+          "black"
+        ],
+        "footwear_type": "Black peep-toe heels",
+        "accessories": [
+          "Black leather handbag",
+          "Oversized sunglasses"
+        ],
+        "style": "Bold casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted jacket and skinny jeans create a sleek, streamlined silhouette that is very flattering.",
+        "color": "The bright pink jacket really pops against the neutral gray and black, adding a fun, bold element.",
+        "footwear": "The peep-toe heels dress up the look compared to flats or sneakers. However, they may not be the most practical for long periods of casual wear.",
+        "accessories": "The black bag and sunglasses coordinate well without competing with the statement jacket.",
+        "style": "This outfit makes a bold statement with the hot pink while still maintaining an overall casual chic vibe, appropriate for social gatherings."
+      }
+    },
+    {
+      "image": "casual_568.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Relaxed, flowy fit",
+        "top_type": "Floral print sleeveless blouse",
+        "bottom_type": "Brown belted shorts",
+        "color_palette": [
+          "white",
+          "brown",
+          "green",
+          "pink"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [
+          "Straw fedora hat",
+          "Turquoise crossbody bag"
+        ],
+        "style": "Cute summer casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The flowy blouse and relaxed shorts are breezy and comfortable for hot weather. The belted waist adds some definition.",
+        "color": "The soft floral print in pinks and greens is pretty and perfect for summer. It pairs nicely with the cognac brown shorts.",
+        "footwear": "The brown wedge sandals elongate the legs while being more walkable than stilettos. They tie in with the shorts beautifully.",
+        "accessories": "The straw hat and turquoise bag scream summer fun. They add pops of interest to the outfit.",
+        "style": "This is a quintessential cute summer look. It's stylish yet effortless and suited for many casual warm weather occasions."
+      }
+    },
+    {
+      "image": "casual_569.jpg",
+      "score": 85,
+      "labels": {
+        "fit": "Loose, boxy fit",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Olive green high-waisted shorts",
+        "color_palette": [
+          "white",
+          "olive green",
+          "brown"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [
+          "Brown leather belt"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 15,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose, boxy fit of the button-down contrasts with the fitted high-waisted shorts. Front-tucking the shirt could improve the proportions.",
+        "color": "The white and olive green color scheme is fresh and appropriate for daytime casual wear. The cognac accessories add warmth.",
+        "footwear": "The brown wedges work well with the outfit's color palette and add a touch of polish to an otherwise very casual look.",
+        "accessories": "The brown leather belt coordinates with the shoes and defines the waist. Simple gold jewelry or a watch could also elevate this basic outfit.",
+        "style": "This look channels a preppy casual vibe. A few small tweaks, like a front tuck and cuffed sleeves, could take it to the next level."
+      }
+    },
+    {
+      "image": "casual_570.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Fitted on top, loose on bottom",
+        "top_type": "Gray tank top",
+        "bottom_type": "Red high-waisted shorts",
+        "color_palette": [
+          "gray",
+          "red",
+          "black"
+        ],
+        "footwear_type": "White wedge sandals",
+        "accessories": [
+          "Black sunglasses"
+        ],
+        "style": "Simple casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 14,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The fitted tank top balances the looser, flowy shorts. However, the shorts overwhelm the frame a bit and could be more flattering if they were slightly shorter.",
+        "color": "The gray and red color combination is okay but not particularly inspiring or coordinated. The white shoes feel disconnected.",
+        "footwear": "The white wedge sandals are cute but don't really tie in with the rest of the outfit's color scheme.",
+        "accessories": "The black sunglasses are a nice basic accessory but the look could be elevated with the addition of jewelry, a belt, or a handbag.",
+        "style": "This outfit is very simple and casual. It's fine for running errands but lacks styling details that would make it more fashionable and intentional."
+      }
+    },
+    {
+      "image": "casual_571.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Tailored, polished fit",
+        "top_type": "Bright purple peplum top",
+        "bottom_type": "Black skinny jeans",
+        "color_palette": [
+          "purple",
+          "black"
+        ],
+        "footwear_type": "Black and white cutout wedges",
+        "accessories": [
+          "Black sunglasses",
+          "Silver statement necklace"
+        ],
+        "style": "Dressy casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The peplum top accentuates the waist and creates an hourglass silhouette. The skinny jeans show off the legs. The overall tailored fit is very flattering.",
+        "color": "The vibrant purple top really pops against the black jeans for a bold yet coordinated look.",
+        "footwear": "The black and white wedges add visual interest and elongate the legs. They also tie in nicely with the black jeans.",
+        "accessories": "The silver statement necklace and black sunglasses are the perfect glam additions to dress up this look.",
+        "style": "This outfit nails dressy casual, perfect for events or a night out. The peplum top and accessories elevate it beyond standard casual wear."
+      }
+    },
+    {
+      "image": "casual_572.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Relaxed, comfortable fit",
+        "top_type": "Neon orange t-shirt",
+        "bottom_type": "Denim shorts",
+        "color_palette": [
+          "orange",
+          "blue",
+          "black"
+        ],
+        "footwear_type": "Black studded sandals",
+        "accessories": [
+          "Red leather handbag",
+          "Straw fedora hat"
+        ],
+        "style": "Bright, eclectic casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the tee and shorts is easygoing and appropriate for casual summer days. Rolling the shorts once or twice could improve the proportions.",
+        "color": "The bright orange tee is fun and eye-catching. However, the red bag clashes a bit. A neutral bag would allow the orange to really shine.",
+        "footwear": "The studded black sandals add a nice edge to contrast the laid-back tee and shorts. They also ground the bright colors.",
+        "accessories": "The straw fedora is a cute summer accessory that dresses up the basic tee and shorts. As mentioned, a neutral bag in black, cognac, or tan would improve the color story.",
+        "style": "This look is casual with an eclectic, slightly boho twist thanks to the bright colors and hat. With a bag swap it would be a great summer weekend look."
+      }
+    },
+    {
+      "image": "casual_573.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Loose, breezy fit",
+        "top_type": "Chambray button-down shirt",
+        "bottom_type": "High-waisted denim shorts",
+        "color_palette": [
+          "light blue",
+          "blue",
+          "tan"
+        ],
+        "footwear_type": "Tan and orange wedge sandals",
+        "accessories": [],
+        "style": "Classic casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 20
+      },
+      "feedback": {
+        "fit": "The loose chambray shirt and fitted denim shorts create a nice juxtaposition. The rolled sleeves and front tuck are styling details that elevate the look.",
+        "color": "Different shades of blue denim are paired together for a cool monochromatic effect. The tan sandals are the perfect neutral complement.",
+        "footwear": "The tan and orange wedges add a pop of color and interest to the bottom of the outfit. The wedge style dresses up the casual denim.",
+        "accessories": "The look is clean and simple with no visible accessories. A long pendant necklace and/or a cognac leather tote would be chic additions.",
+        "style": "This outfit exemplifies classic casual style. Denim on denim is always chic, and the styling of the shirt takes it up a notch. It's perfect for many casual occasions."
+      }
+    },
+    {
+      "image": "casual_574.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose, oversized fit",
+        "top_type": "White graphic t-shirt",
+        "bottom_type": "Blue denim shorts",
+        "color_palette": [
+          "white",
+          "blue",
+          "brown"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [
+          "Silver statement necklace"
+        ],
+        "style": "Graphic tee casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized graphic tee is trendy but borders on sloppy untucked over the shorts. A French tuck could make it look more intentional.",
+        "color": "The white, blue and brown color scheme is classic and neutral. The colors all work harmoniously together.",
+        "footwear": "The brown wedges pair nicely with the blue denim shorts and help elongate the legs since a lot of skin isn't showing.",
+        "accessories": "The silver statement necklace dresses up the basic tee and shorts combo. Stacked bracelets would also be a nice addition.",
+        "style": "This is a good example of how to style a graphic tee for a casual summer look. A few small tweaks like a French tuck could elevate it further."
+      }
+    },
+    {
+      "image": "casual_575.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Relaxed, slightly oversized",
+        "top_type": "Pink blazer",
+        "bottom_type": "Black denim shorts",
+        "color_palette": [
+          "pink",
+          "black",
+          "white"
+        ],
+        "footwear_type": "Black peep-toe heels",
+        "accessories": [
+          "Black sunglasses"
+        ],
+        "style": "Polished casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The slightly oversized blazer juxtaposed with fitted shorts creates an interesting play on proportions. The cuffed sleeves show it's intentional.",
+        "color": "The pastel pink blazer makes a statement against the black and white basics. It's a chic, feminine color palette.",
+        "footwear": "The black peep-toe heels elongate the legs and dress up the shorts. They coordinate perfectly with the black denim.",
+        "accessories": "The black sunglasses are a chic addition. A black leather clutch or crossbody bag would complete the look nicely.",
+        "style": "This outfit nails polished casual. The blazer elevates the basic shorts look to something more fashion-forward and appropriate for many occasions."
+      }
+    }
+  ]
+}

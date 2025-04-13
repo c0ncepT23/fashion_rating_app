@@ -1,0 +1,327 @@
+{
+  "outfits": [
+    {
+      "image": "casual_266.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose, oversized fit",
+        "top_type": "Bright orange fuzzy sweater",
+        "bottom_type": "Distressed denim shorts with fringe",
+        "color_palette": [
+          "orange",
+          "blue",
+          "black"
+        ],
+        "footwear_type": "Chunky yellow platform heels",
+        "accessories": [],
+        "style": "Eclectic, bold casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 10,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized sweater contrasts interestingly with the short denim shorts, but the proportions are a bit unbalanced.",
+        "color": "The bright orange and yellow really pop against the distressed denim for a bold color statement.",
+        "footwear": "The chunky platform heels add an edgy, funky vibe that suits the overall aesthetic.",
+        "accessories": "Some layered necklaces or stacks of bracelets could take this look to the next level.",
+        "style": "It's a daring, notice-me casual look that makes a strong fashion statement, if a bit over-the-top."
+      }
+    },
+    {
+      "image": "casual_267.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Relaxed, slightly oversized",
+        "top_type": "Black double-breasted peacoat",
+        "bottom_type": "Skinny black jeans",
+        "color_palette": [
+          "black",
+          "purple"
+        ],
+        "footwear_type": "Black leather ankle boots",
+        "accessories": [
+          "Oversized sunglasses",
+          "Leather shoulder bag"
+        ],
+        "style": "Chic casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slightly oversized peacoat balances nicely with the skinny jeans for a chic, effortless silhouette.",
+        "color": "The all black ensemble is elevated by the pop of purple in the top. Very sleek and sophisticated.",
+        "footwear": "The ankle boots are the perfect choice to complete the streamlined look.",
+        "accessories": "The oversized sunnies and leather bag add a cool factor and pull the outfit together.",
+        "style": "Epitome of casual chic - polished and put-together but still comfortable and unfussy."
+      }
+    },
+    {
+      "image": "casual_268.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Loose, flowy",
+        "top_type": "Lightweight yellow jacket",
+        "bottom_type": "Black lace tights",
+        "color_palette": [
+          "yellow",
+          "black",
+          "brown"
+        ],
+        "footwear_type": "Brown lace-up boots",
+        "accessories": [
+          "Tan leather satchel"
+        ],
+        "style": "Boho casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, flowy silhouette of the dress and jacket create an easy, effortless vibe.",
+        "color": "The cheerful yellow contrasts beautifully with the black tights and grounds the look.",
+        "footwear": "The lace-up boots add a slightly rugged touch that works well with the boho style.",
+        "accessories": "The leather satchel is a great choice, but a long pendant necklace would also be lovely.",
+        "style": "Charming boho look that feels carefree and romantic. Great for a casual day out."
+      }
+    },
+    {
+      "image": "casual_269.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Relaxed, casual",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "white",
+          "blue",
+          "orange"
+        ],
+        "footwear_type": "Orange open-toe mules",
+        "accessories": [
+          "Pendant necklace"
+        ],
+        "style": "Simple casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the shirt and shorts is perfect for a casual summer day.",
+        "color": "Crisp white and denim blue is a classic combo, and the orange shoes add a fun pop of color.",
+        "footwear": "The orange mules are an unexpected and playful choice that makes the outfit more interesting.",
+        "accessories": "The pendant necklace is a nice simple touch. Could also add a denim jacket if needed.",
+        "style": "Easy, unfussy casual look that's perfect for running errands or a low-key outing."
+      }
+    },
+    {
+      "image": "casual_270.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose, boxy",
+        "top_type": "Peach button-down shirt",
+        "bottom_type": "Floral print mini skirt",
+        "color_palette": [
+          "peach",
+          "black",
+          "white"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Straw hat"
+        ],
+        "style": "Casual feminine"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose shirt and short skirt create a relaxed silhouette, but the proportions feel a bit off.",
+        "color": "The peach and floral print are soft and feminine together, but don't necessarily flatter the complexion.",
+        "footwear": "The black ankle boots feel a little heavy for the overall daintiness of the look.",
+        "accessories": "The straw hat is cute but competes a bit with the shirt. A dainty necklace could work better.",
+        "style": "Has potential as a sweet casual look, but fit and accessorizing could be improved."
+      }
+    },
+    {
+      "image": "casual_271.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Tailored, polished",
+        "top_type": "Pink cropped blazer",
+        "bottom_type": "High-waisted skinny jeans",
+        "color_palette": [
+          "pink",
+          "blue",
+          "white"
+        ],
+        "footwear_type": "Strappy black heels",
+        "accessories": [
+          "Bow neck blouse"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "Impeccably tailored and fitted, the blazer and jeans create a sleek, polished silhouette.",
+        "color": "The pastel pink, crisp white and denim blue are fresh and lovely together.",
+        "footwear": "The delicate strappy heels elongate the legs and add a feminine touch.",
+        "accessories": "The bow blouse peeking out is an adorable detail that suits the preppy aesthetic perfectly.",
+        "style": "Preppy perfection - ladylike and pulled-together but still youthful and casual. Ideal for many occasions."
+      }
+    },
+    {
+      "image": "casual_272.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Relaxed, easy",
+        "top_type": "Emerald green peplum top",
+        "bottom_type": "Black feather mini skirt",
+        "color_palette": [
+          "green",
+          "black"
+        ],
+        "footwear_type": "Black peep-toe booties",
+        "accessories": [
+          "Black shoulder bag"
+        ],
+        "style": "Flirty going out"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The peplum top highlights the waist while the feathered skirt adds volume for a flirty, fun silhouette.",
+        "color": "The rich emerald green is striking and eye-catching against the black. Very impactful color combo.",
+        "footwear": "The peep-toe booties elongate the legs and add a flirty vibe that works with the skirt.",
+        "accessories": "A simple black bag is all that's needed to finish off the look without competing with the skirt.",
+        "style": "Great going out look that's equal parts sexy and playful. The green top makes it more interesting."
+      }
+    },
+    {
+      "image": "casual_273.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose, boxy",
+        "top_type": "Embellished sweater",
+        "bottom_type": "Black shorts",
+        "color_palette": [
+          "tan",
+          "black"
+        ],
+        "footwear_type": "Black lace-up wedge booties",
+        "accessories": [],
+        "style": "Casual quirky"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 14,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The boxy sweater and loose shorts create a very relaxed, almost slouchy silhouette.",
+        "color": "The neutral tan and black are okay together but a bit dull and don't really flatter the complexion.",
+        "footwear": "The wedge booties add some nice height and toughen up the look a bit, which helps.",
+        "accessories": "This outfit is crying out for some accessories - a long pendant necklace, bracelets, a hat - to add interest.",
+        "style": "The embellished sweater adds a quirky touch to an otherwise basic casual look. Has potential but needs refinement."
+      }
+    },
+    {
+      "image": "casual_274.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted on top, flowy bottom",
+        "top_type": "Embroidered sweater",
+        "bottom_type": "Black flowy shorts",
+        "color_palette": [
+          "tan",
+          "black",
+          "red"
+        ],
+        "footwear_type": "Black lace-up ankle boots",
+        "accessories": [
+          "Red beret"
+        ],
+        "style": "Parisian chic casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted sweater tucked into high-waisted flowy shorts creates a lovely proportional silhouette.",
+        "color": "The neutral tan is elevated by the black shorts and pops of red in the beret and sweater embroidery.",
+        "footwear": "The ankle boots ground the look and add a bit of edge to the feminine shorts.",
+        "accessories": "The jaunty red beret makes the perfect French-inspired statement piece to complete the outfit.",
+        "style": "Captures effortless Parisian chic - feminine and put-together but with a bit of insouciance. Trés bien!"
+      }
+    },
+    {
+      "image": "casual_275.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Fitted on top, straight bottom",
+        "top_type": "Black velvet military jacket",
+        "bottom_type": "Black leggings",
+        "color_palette": [
+          "black",
+          "red"
+        ],
+        "footwear_type": "Brown lace-up boots",
+        "accessories": [
+          "Red beret"
+        ],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted military jacket with leggings creates a streamlined silhouette, but a looser bottom could balance the look better.",
+        "color": "The all-black ensemble is punctuated by the pop of red in the beret, but it borders on harsh.",
+        "footwear": "The brown lace-up boots are okay but seem a bit heavy and casual for the velvet jacket.",
+        "accessories": "The beret adds a nice pop of color but a different style hat could better complement the military vibe.",
+        "style": "Going for an edgy look with the military jacket and leggings, but a few tweaks could really elevate this."
+      }
+    }
+  ]
+}

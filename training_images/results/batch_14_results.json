@@ -1,0 +1,331 @@
+{
+  "outfits": [
+    {
+      "image": "casual_276.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose-fitting blouse with fitted skirt",
+        "top_type": "Striped button-down blouse",
+        "bottom_type": "Red pencil skirt",
+        "color_palette": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "footwear_type": "White sneakers",
+        "accessories": [],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose blouse balances the fitted skirt nicely. Tucking in the blouse would elevate the look.",
+        "color": "The red, white and blue color scheme is classic and works well together.",
+        "footwear": "The white sneakers dress down the outfit for a more casual vibe.",
+        "accessories": "Some simple jewelry like stud earrings or a delicate necklace could complete the look.",
+        "style": "Overall this is a cute preppy casual outfit. Polishing the details would take it to the next level."
+      }
+    },
+    {
+      "image": "casual_277.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Loose-fitting blazer with slim pants",
+        "top_type": "Purple blazer",
+        "bottom_type": "Light wash skinny jeans",
+        "color_palette": [
+          "purple",
+          "white",
+          "blue"
+        ],
+        "footwear_type": "Flat sandals",
+        "accessories": [
+          "Black handbag"
+        ],
+        "style": "Smart casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized blazer with slim jeans creates a stylish silhouette that elongates the legs.",
+        "color": "The purple and white color combination is fresh and eye-catching.",
+        "footwear": "The flat sandals are a comfortable choice that work with the casual outfit.",
+        "accessories": "The black handbag adds a nice contrast and pulls the look together.",
+        "style": "This is a great example of an effortless smart casual outfit. The blazer dresses up the jeans."
+      }
+    },
+    {
+      "image": "casual_278.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Loose-fitting button-down with skinny pants",
+        "top_type": "Light wash denim shirt",
+        "bottom_type": "Black leather pants",
+        "color_palette": [
+          "blue",
+          "black",
+          "gold"
+        ],
+        "footwear_type": "Gold peep-toe heels",
+        "accessories": [
+          "Black fringe bag"
+        ],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized denim shirt contrasts nicely with the fitted leather pants.",
+        "color": "The light and dark contrast of the denim and leather is bold and works well.",
+        "footwear": "The gold heels add a glam element and elongate the legs.",
+        "accessories": "The black fringe bag adds great texture and movement to the look.",
+        "style": "This outfit has an edgy casual vibe. The mix of casual denim with sleek leather is very cool."
+      }
+    },
+    {
+      "image": "casual_279.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose sweater with flared mini skirt",
+        "top_type": "Mint green cable knit sweater",
+        "bottom_type": "Royal blue skater skirt",
+        "color_palette": [
+          "mint green",
+          "royal blue",
+          "brown"
+        ],
+        "footwear_type": "Brown ankle booties",
+        "accessories": [
+          "Brown leather backpack",
+          "Blue polka dot hair bow"
+        ],
+        "style": "Quirky preppy"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 18,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized sweater with short flared skirt is a cute, flirty silhouette.",
+        "color": "The mint and royal blue color combination is unique and eye-catching.",
+        "footwear": "The brown booties ground the look and transition the outfit into fall.",
+        "accessories": "The backpack and hair bow add whimsical touches that suit the overall style.",
+        "style": "This look is a fun, quirky take on preppy style. The mix of colors and textures is playful."
+      }
+    },
+    {
+      "image": "casual_280.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose plaid shirt with skinny jeans",
+        "top_type": "Red plaid flannel shirt",
+        "bottom_type": "Dark wash skinny jeans",
+        "color_palette": [
+          "red",
+          "navy",
+          "green",
+          "white"
+        ],
+        "footwear_type": "Tan suede ankle boots",
+        "accessories": [
+          "Red knit infinity scarf"
+        ],
+        "style": "Rustic casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized flannel with skinny jeans is a classic casual combo.",
+        "color": "The red plaid pairs well with the dark denim wash.",
+        "footwear": "The ankle boots are practical but a different color may have complemented the outfit better.",
+        "accessories": "The red scarf coordinates with the plaid and adds coziness.",
+        "style": "This has a rustic, outdoorsy casual vibe. A belt could help define the waist and pull the look together more."
+      }
+    },
+    {
+      "image": "casual_281.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Loose button-down tucked into flared skirt",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Tan suede skirt",
+        "color_palette": [
+          "white",
+          "tan",
+          "black"
+        ],
+        "footwear_type": "Black tights and pumps",
+        "accessories": [
+          "Blush pink suitcase"
+        ],
+        "style": "Parisian chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "Tucking the loose blouse into the flared skirt accentuates the waist beautifully.",
+        "color": "The neutral color palette of white, tan and black is tr\u00e8s chic.",
+        "footwear": "The black tights and pumps elongate the legs and add polish.",
+        "accessories": "The blush suitcase is a lovely accent color that softens the look.",
+        "style": "This outfit exudes effortless Parisian style. It's simple, elegant and perfectly coordinated."
+      }
+    },
+    {
+      "image": "casual_282.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose tank tucked into high-waisted shorts",
+        "top_type": "Coral floral tank top",
+        "bottom_type": "Distressed denim shorts",
+        "color_palette": [
+          "coral",
+          "blue",
+          "white"
+        ],
+        "footwear_type": "Nude peep-toe wedges",
+        "accessories": [
+          "Brown leather tote bag"
+        ],
+        "style": "Feminine casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "Tucking the flowy tank balances the relaxed fit of the distressed shorts.",
+        "color": "The coral floral print adds a nice pop of color to the denim shorts.",
+        "footwear": "The nude wedges are a leg-lengthening choice but sandals could make it more casual.",
+        "accessories": "The leather tote is a great neutral piece that doesn't compete with the floral.",
+        "style": "This look is casual with feminine touches. Swapping the wedges for flat sandals would dress it down."
+      }
+    },
+    {
+      "image": "casual_283.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose t-shirt dress",
+        "top_type": "Coral t-shirt dress",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "coral",
+          "hot pink"
+        ],
+        "footwear_type": "Hot pink peep-toe heels",
+        "accessories": [],
+        "style": "Monochromatic casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 14,
+        "footwear": 14,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose t-shirt dress is comfortable but shapeless. A belt could define the waist.",
+        "color": "The monochromatic coral and pink color scheme is bold but a bit overwhelming.",
+        "footwear": "The hot pink heels are a lot of look with the bright dress. Neutral shoes would balance it better.",
+        "accessories": "This outfit is missing an opportunity to incorporate jewelry or a bag to complete the look.",
+        "style": "The monochromatic scheme and t-shirt dress are casual, but the heels confuse the vibe a bit."
+      }
+    },
+    {
+      "image": "casual_284.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Tailored blazer with skinny jeans",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Mint green skinny jeans",
+        "color_palette": [
+          "white",
+          "mint green",
+          "coral"
+        ],
+        "footwear_type": "Coral pointed-toe pumps",
+        "accessories": [
+          "Black and white polka dot clutch"
+        ],
+        "style": "Preppy with a twist"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The tailored blazer brings structure while the skinny jeans keep the look sleek.",
+        "color": "The mint jeans are a fun, unexpected choice that pair nicely with the white and coral.",
+        "footwear": "The coral pumps add a great pop of color and coordinate with the clutch.",
+        "accessories": "The polka dot clutch is a playful touch that doesn't overwhelm the colorful outfit.",
+        "style": "This look takes classic preppy pieces and gives them a modern twist with the pastel jeans. It's a stylish casual outfit."
+      }
+    },
+    {
+      "image": "casual_285.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Loose trench coat with skinny jeans",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Black skinny jeans",
+        "color_palette": [
+          "gray",
+          "white",
+          "black"
+        ],
+        "footwear_type": "Coral peep-toe heels",
+        "accessories": [
+          "Black and white patterned clutch"
+        ],
+        "style": "Parisian casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 18,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized trench coat creates a stylish silhouette over the slim jeans.",
+        "color": "The gray, white and black color scheme is classic and chic.",
+        "footwear": "The unexpected coral heels add a fun pop of color to the neutral outfit.",
+        "accessories": "The patterned clutch adds great visual interest and dresses up the look.",
+        "style": "This outfit has an air of effortless Parisian style. The trench makes it casual but still polished and put-together."
+      }
+    }
+  ]
+}

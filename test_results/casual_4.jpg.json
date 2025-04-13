@@ -1,5 +1,5 @@
 {
-  "score": 80,
+  "score": 85,
   "labels": {
     "fit": "relaxed_casual",
     "pants_type": "skirt",
@@ -17,17 +17,17 @@
   },
   "score_breakdown": {
     "fit": 19,
-    "color": 21,
-    "footwear": 15,
-    "accessories": 15,
+    "color": 20,
+    "footwear": 17,
+    "accessories": 13,
     "style": 15
   },
   "feedback": {
-    "fit": "Nice pairing of top with skirt. The silhouette is flattering with the combination of fitted and loose elements adds visual interest.",
-    "color": "The ruby_red elements pairs nicely with the burgundy elements. using color effectively to highlight key pieces.",
+    "fit": "The top works well with the skirt. The proportions are good, with the silhouette shows good understanding of shape and balance.",
+    "color": "Nice color coordination with ruby_red and burgundy. creating a pleasing visual harmony.",
     "footwear": "Consider adding appropriate footwear to complete the look.",
-    "accessories": "This outfit could benefit from some accessories. Consider adding a coordinating bag to add functionality and style.",
-    "style": "Excellent execution of fashion week off duty style. shows a confident understanding of proportion and subtle statement-making."
+    "accessories": "This outfit could benefit from some accessories. Consider adding a statement necklace or earrings to add visual interest.",
+    "style": "This outfit perfectly embodies fashion week off duty aesthetics. demonstrates insider fashion knowledge through thoughtful, unexpected styling choices."
   },
   "clothing_items": [
     {

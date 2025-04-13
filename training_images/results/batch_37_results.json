@@ -1,0 +1,340 @@
+{
+  "outfits": [
+    {
+      "image": "casual_506.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Relaxed, casual fit",
+        "top_type": "Floral print blouse",
+        "bottom_type": "Denim shorts",
+        "color_palette": [
+          "white",
+          "blue",
+          "brown"
+        ],
+        "footwear_type": "Nude pumps",
+        "accessories": [
+          "Brown leather handbag"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the blouse pairs well with the fitted denim shorts for a balanced silhouette.",
+        "color": "The neutral color palette of white, blue, and brown is versatile and easy to wear.",
+        "footwear": "The nude pumps elongate the legs and add a touch of elegance to the casual outfit.",
+        "accessories": "The brown leather handbag complements the outfit and adds a polished element.",
+        "style": "Overall, this outfit achieves a stylish casual chic look that is perfect for a variety of occasions."
+      }
+    },
+    {
+      "image": "casual_507.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Relaxed, oversized fit",
+        "top_type": "White blazer",
+        "bottom_type": "Khaki shorts",
+        "color_palette": [
+          "white",
+          "khaki",
+          "brown"
+        ],
+        "footwear_type": "Brown platform sandals",
+        "accessories": [
+          "Brown leather tote bag",
+          "Red necklace"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 24,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized fit of the blazer creates a relaxed, effortless vibe that balances the fitted shorts.",
+        "color": "The neutral white and khaki color scheme is classic and versatile.",
+        "footwear": "The brown platform sandals add height and complement the casual aesthetic.",
+        "accessories": "The brown leather tote is practical and stylish, while the red necklace adds a pop of color.",
+        "style": "This preppy casual look is perfect for a summer day out or a casual work environment."
+      }
+    },
+    {
+      "image": "casual_508.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Fitted, tailored",
+        "top_type": "White tank top",
+        "bottom_type": "Denim skirt",
+        "color_palette": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "footwear_type": "Red peep-toe heels",
+        "accessories": [
+          "Red cardigan"
+        ],
+        "style": "Retro-inspired casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted tank top and tailored denim skirt create a streamlined silhouette.",
+        "color": "The bold red cardigan adds a vibrant pop of color to the classic white and blue combination.",
+        "footwear": "The red peep-toe heels match the cardigan and elevate the casual look.",
+        "accessories": "The outfit could benefit from additional accessories, such as a statement necklace or a belt.",
+        "style": "This retro-inspired casual look is fun and flirty, perfect for a summer outing or a date."
+      }
+    },
+    {
+      "image": "casual_509.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Relaxed, comfortable",
+        "top_type": "White t-shirt",
+        "bottom_type": "Black shorts",
+        "color_palette": [
+          "red",
+          "white",
+          "black",
+          "blue"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [
+          "Red cardigan",
+          "Brown leather crossbody bag",
+          "Beaded necklace"
+        ],
+        "style": "Bohemian casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the t-shirt and shorts creates a comfortable, easygoing vibe.",
+        "color": "The red cardigan adds a bold pop of color to the neutral white and black base.",
+        "footwear": "The brown ankle boots ground the look and add a touch of bohemian flair.",
+        "accessories": "The beaded necklace and brown leather crossbody bag enhance the bohemian aesthetic.",
+        "style": "This bohemian casual look is perfect for a laid-back day of shopping or hanging out with friends."
+      }
+    },
+    {
+      "image": "casual_510.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Relaxed, loose",
+        "top_type": "Beige trench coat",
+        "bottom_type": "Black mini skirt",
+        "color_palette": [
+          "beige",
+          "black",
+          "brown"
+        ],
+        "footwear_type": "Brown gladiator sandals",
+        "accessories": [
+          "Brown leather handbag",
+          "Statement necklace"
+        ],
+        "style": "Chic casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the trench coat balances the fitted mini skirt for a relaxed yet put-together look.",
+        "color": "The neutral beige and black color palette is classic and sophisticated.",
+        "footwear": "The brown gladiator sandals add a trendy touch and complement the overall aesthetic.",
+        "accessories": "The statement necklace and brown leather handbag elevate the casual look.",
+        "style": "This chic casual outfit is versatile and can be worn for various occasions, from a day out to a casual dinner."
+      }
+    },
+    {
+      "image": "casual_511.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Fitted, tailored",
+        "top_type": "Orange polka dot blouse",
+        "bottom_type": "Black skinny jeans",
+        "color_palette": [
+          "orange",
+          "black",
+          "brown"
+        ],
+        "footwear_type": "Brown strappy sandals",
+        "accessories": [
+          "Brown leather tote bag"
+        ],
+        "style": "Retro-inspired casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted blouse and skinny jeans create a sleek and streamlined silhouette.",
+        "color": "The orange polka dot pattern adds a fun, retro-inspired element to the black and brown color scheme.",
+        "footwear": "The brown strappy sandals complement the outfit and add a touch of sophistication.",
+        "accessories": "While the brown leather tote is practical, the outfit could benefit from additional accessories like a belt or statement earrings.",
+        "style": "This retro-inspired casual look is perfect for a day out or a casual work environment."
+      }
+    },
+    {
+      "image": "casual_512.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose, relaxed",
+        "top_type": "Black and white striped t-shirt",
+        "bottom_type": "Mustard yellow mini skirt",
+        "color_palette": [
+          "black",
+          "white",
+          "yellow",
+          "brown"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [],
+        "style": "Casual streetwear"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 10,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the t-shirt contrasts with the fitted mini skirt, creating a relaxed silhouette.",
+        "color": "The black and white stripes pair well with the bold mustard yellow skirt for a striking color combination.",
+        "footwear": "The brown wedge sandals are a practical choice and complement the casual vibe.",
+        "accessories": "The outfit lacks accessories, which could elevate the overall look. Consider adding a statement necklace or a crossbody bag.",
+        "style": "This casual streetwear look is simple and comfortable, perfect for running errands or a casual outing."
+      }
+    },
+    {
+      "image": "casual_513.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted, tailored",
+        "top_type": "Red t-shirt",
+        "bottom_type": "Dark wash skinny jeans",
+        "color_palette": [
+          "red",
+          "blue",
+          "brown"
+        ],
+        "footwear_type": "Brown leather ankle boots",
+        "accessories": [
+          "Brown leather satchel"
+        ],
+        "style": "Classic casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted t-shirt and skinny jeans create a sleek and polished silhouette.",
+        "color": "The bold red t-shirt adds a pop of color to the classic blue jeans and brown accessories.",
+        "footwear": "The brown leather ankle boots are a stylish and practical choice, perfect for a variety of occasions.",
+        "accessories": "The brown leather satchel complements the boots and adds a touch of sophistication to the casual look.",
+        "style": "This classic casual outfit is timeless and versatile, suitable for a variety of settings from a day out to a casual dinner."
+      }
+    },
+    {
+      "image": "casual_514.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Relaxed, comfortable",
+        "top_type": "Red graphic t-shirt",
+        "bottom_type": "Polka dot shorts",
+        "color_palette": [
+          "red",
+          "white",
+          "black",
+          "yellow"
+        ],
+        "footwear_type": "Yellow sneakers",
+        "accessories": [
+          "Brown fedora hat"
+        ],
+        "style": "Quirky casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the t-shirt and shorts creates a comfortable and easygoing silhouette.",
+        "color": "The bold red t-shirt, polka dot shorts, and yellow sneakers create a fun and quirky color combination.",
+        "footwear": "The yellow sneakers add a playful touch and complement the overall casual aesthetic.",
+        "accessories": "The brown fedora hat adds a stylish element and ties the look together.",
+        "style": "This quirky casual outfit is perfect for a fun day out or a casual gathering with friends."
+      }
+    },
+    {
+      "image": "casual_515.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Relaxed, loose",
+        "top_type": "Eat Pray Love graphic t-shirt",
+        "bottom_type": "Polka dot shorts",
+        "color_palette": [
+          "white",
+          "black",
+          "blue",
+          "yellow"
+        ],
+        "footwear_type": "Yellow sneakers",
+        "accessories": [
+          "Brown fedora hat"
+        ],
+        "style": "Playful casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the t-shirt and shorts creates a relaxed and comfortable silhouette.",
+        "color": "The white t-shirt with colorful graphic, polka dot shorts, and yellow sneakers create a playful color combination.",
+        "footwear": "The yellow sneakers add a fun pop of color and complement the casual vibe.",
+        "accessories": "While the brown fedora hat is a stylish addition, the outfit could benefit from additional accessories like a colorful bracelet or a crossbody bag.",
+        "style": "This playful casual outfit is perfect for a laid-back day of exploring or hanging out with friends."
+      }
+    }
+  ]
+}

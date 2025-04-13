@@ -1,0 +1,328 @@
+{
+  "outfits": [
+    {
+      "image": "casual_436.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Slim fit",
+        "top_type": "Striped t-shirt",
+        "bottom_type": "Floral print shorts",
+        "color_palette": [
+          "Green",
+          "White",
+          "Black"
+        ],
+        "footwear_type": "Brown leather sandals",
+        "accessories": [],
+        "style": "Casual summer"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 10,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The slim fit t-shirt and shorts create a youthful silhouette that suits your frame well.",
+        "color": "The green striped shirt pairs nicely with the black and white floral shorts for a cohesive casual look.",
+        "footwear": "The brown leather sandals are a great choice to complete the relaxed summer outfit.",
+        "accessories": "No accessories needed - the outfit speaks for itself with the bold prints.",
+        "style": "This is a stylish casual summer look that's perfect for a day out with friends or running errands."
+      }
+    },
+    {
+      "image": "casual_437.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Distressed denim shorts",
+        "color_palette": [
+          "White",
+          "Light blue"
+        ],
+        "footwear_type": "Black wedge sandals",
+        "accessories": [
+          "Black handbag",
+          "Sunglasses"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the shirt balances the fitted denim shorts. Rolling the sleeves would elevate the look.",
+        "color": "The white shirt and light wash denim create a clean, fresh palette for summer.",
+        "footwear": "The black wedges dress up the casual outfit while still being comfortable for walking.",
+        "accessories": "The black bag and sunglasses are chic additions that polish off the relaxed style.",
+        "style": "Overall this is a put-together casual look, but a half-tuck of the shirt could take it up a notch."
+      }
+    },
+    {
+      "image": "casual_438.jpg",
+      "score": 72,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Striped off-the-shoulder top",
+        "bottom_type": "Black mini skirt",
+        "color_palette": [
+          "Red",
+          "White",
+          "Black"
+        ],
+        "footwear_type": "Black pumps",
+        "accessories": [
+          "Yellow scarf"
+        ],
+        "style": "Parisian chic"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose fit of the top with the short skirt creates an unbalanced silhouette. Tucking in the shirt a bit could help.",
+        "color": "The red stripes pop nicely against the black skirt, but the yellow scarf clashes a bit with the palette.",
+        "footwear": "The black pumps lengthen the legs but seem a touch too formal for the overall outfit.",
+        "accessories": "The scarf color doesn't quite coordinate with the rest of the look. A neutral tone would be better.",
+        "style": "There are nice elements of Parisian style here, but the proportions and accessories could use some refining."
+      }
+    },
+    {
+      "image": "casual_439.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted",
+        "top_type": "Distressed denim vest",
+        "bottom_type": "Blue shorts",
+        "color_palette": [
+          "Light blue",
+          "Royal blue"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Black watch"
+        ],
+        "style": "Casual rocker"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted denim vest and shorts hug your curves and create an attractive silhouette.",
+        "color": "The mix of light and royal blue denim pieces work well together for a coordinated casual look.",
+        "footwear": "The black ankle boots add an edgy vibe that pairs perfectly with the distressed denim.",
+        "accessories": "The black watch is a nice subtle accessory that doesn't distract from the outfit.",
+        "style": "This casual look has a great rocker edge to it. The pieces are simple but make a bold statement together."
+      }
+    },
+    {
+      "image": "casual_440.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Flowy",
+        "top_type": "White cardigan",
+        "bottom_type": "Green sundress",
+        "color_palette": [
+          "White",
+          "Green"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [],
+        "style": "Feminine bohemian"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The flowy sundress drapes beautifully and the lightweight cardigan provides nice coverage without bulk.",
+        "color": "The crisp white cardigan makes the green dress pop. It's a fresh, natural color palette.",
+        "footwear": "The brown wedge sandals elongate your legs while complementing the bohemian style.",
+        "accessories": "The outfit is strong on its own without accessories. The simplicity allows the dress to shine.",
+        "style": "This look embodies effortless feminine bohemian style. It's perfect for a summer day event."
+      }
+    },
+    {
+      "image": "casual_441.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Fitted",
+        "top_type": "Fuchsia off-the-shoulder sweater",
+        "bottom_type": "Gray tights",
+        "color_palette": [
+          "Fuchsia",
+          "Gray",
+          "Black"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Red handbag"
+        ],
+        "style": "Bold and trendy"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The fitted off-the-shoulder sweater shows off your neckline and the tights hug your legs to create a sleek look.",
+        "color": "The bold fuchsia contrasts nicely with the gray tights, but the red bag is a bit of a clash with the pink tone.",
+        "footwear": "The black ankle boots ground the outfit and add a touch of edge to the feminine sweater.",
+        "accessories": "A different colored bag, like black or metallic, would coordinate better with the outfit.",
+        "style": "This look makes a bold, trendy statement with the off-the-shoulder silhouette and pop of bright color."
+      }
+    },
+    {
+      "image": "casual_442.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose",
+        "top_type": "Floral print blouse",
+        "bottom_type": "Skinny jeans",
+        "color_palette": [
+          "Blue",
+          "White",
+          "Green"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [
+          "Red handbag"
+        ],
+        "style": "Casual feminine"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose fit of the blouse paired with the tight jeans creates an unbalanced silhouette. Tucking in the top would improve the proportions.",
+        "color": "The blue floral print is pretty against the white background, but the red bag doesn't coordinate well with the color scheme.",
+        "footwear": "The brown wedges work nicely with the outfit's casual vibe and palette.",
+        "accessories": "A blue or green bag would tie in better with the floral colors than the bold red.",
+        "style": "This outfit has potential as a cute casual look, but could be elevated with some tweaks to fit and accessories."
+      }
+    },
+    {
+      "image": "casual_443.jpg",
+      "score": 68,
+      "labels": {
+        "fit": "Loose",
+        "top_type": "Gray t-shirt",
+        "bottom_type": "Plaid shorts",
+        "color_palette": [
+          "Gray",
+          "Blue",
+          "White"
+        ],
+        "footwear_type": "Tan wedge sandals",
+        "accessories": [
+          "White tote bag"
+        ],
+        "style": "Casual preppy"
+      },
+      "score_breakdown": {
+        "fit": 12,
+        "color": 14,
+        "footwear": 14,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, long t-shirt overwhelms your figure when paired with the loose shorts. Tucking or tying the shirt would create a more flattering silhouette.",
+        "color": "The gray and blue color palette is okay but a bit dull. The outfit could use a small pop of color.",
+        "footwear": "The tan wedges are nice for a casual look but seem slightly disconnected from the rest of the outfit.",
+        "accessories": "The white tote is very large and distracting. A smaller bag in a coordinating color would be better.",
+        "style": "There are preppy elements here with the plaid and tote, but the overall outfit lacks polish in the fit and color departments."
+      }
+    },
+    {
+      "image": "casual_444.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Slim fit",
+        "top_type": "Navy and white striped cardigan",
+        "bottom_type": "Khaki chino pants",
+        "color_palette": [
+          "Navy",
+          "White",
+          "Khaki"
+        ],
+        "footwear_type": "Brown leather sandals",
+        "accessories": [
+          "Brown leather handbag"
+        ],
+        "style": "Preppy chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The slim fit of the cardigan and chinos creates a polished, tailored silhouette that flatters your figure.",
+        "color": "The navy and white stripes pair perfectly with the neutral khaki for a classic preppy color combo.",
+        "footwear": "The brown leather sandals pick up the warm tones of the khakis and add a casual touch.",
+        "accessories": "The brown leather bag is an excellent coordinating accessory that enhances the put-together style.",
+        "style": "This look nails preppy chic style with the crisp basics and carefully coordinated color palette. Great for many occasions."
+      }
+    },
+    {
+      "image": "casual_445.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Relaxed",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Gray drawstring shorts",
+        "color_palette": [
+          "White",
+          "Gray"
+        ],
+        "footwear_type": "Tan thong sandals",
+        "accessories": [
+          "Brown leather tote bag",
+          "Sunglasses"
+        ],
+        "style": "Casual minimalist"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the shorts with the loose shirt creates an effortlessly casual look that suits you.",
+        "color": "The white and gray neutrals are clean and work well together, but the outfit could use one more color to liven it up a bit.",
+        "footwear": "The tan sandals are the perfect simple and comfortable choice for this minimalist outfit.",
+        "accessories": "The brown bag and sunglasses enhance the easy, fuss-free style. A long pendant necklace could be a nice addition.",
+        "style": "This is a great example of casual minimalist style, with uncomplicated pieces in a neutral palette. Very versatile for summer weekends."
+      }
+    }
+  ]
+}

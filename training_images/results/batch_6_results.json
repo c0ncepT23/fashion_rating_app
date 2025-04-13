@@ -1,0 +1,327 @@
+{
+  "outfits": [
+    {
+      "image": "casual_196.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Slim fit",
+        "top_type": "Gray t-shirt",
+        "bottom_type": "Neon green shorts",
+        "color_palette": [
+          "gray",
+          "neon green",
+          "black"
+        ],
+        "footwear_type": "Black wedge sandals",
+        "accessories": [
+          "Sunglasses"
+        ],
+        "style": "Casual sporty"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit t-shirt and shorts create a sporty silhouette that flatters your figure.",
+        "color": "The neon green shorts add a fun pop of color, but could be balanced better with the neutral gray top.",
+        "footwear": "The black wedge sandals dress up the look a bit while still being casual and comfortable.",
+        "accessories": "The sunglasses are a nice practical touch for the outdoors.",
+        "style": "Overall this is a cute casual sporty look for summer. To elevate it further, consider swapping the t-shirt for a more stylish sleeveless blouse."
+      }
+    },
+    {
+      "image": "casual_197.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Relaxed fit",
+        "top_type": "Striped blazer",
+        "bottom_type": "Blue shorts",
+        "color_palette": [
+          "black",
+          "white",
+          "royal blue"
+        ],
+        "footwear_type": "Brown wedges",
+        "accessories": [
+          "Black clutch"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the blazer and shorts is comfortable while still looking put-together.",
+        "color": "The black and white stripes pair nicely with the bold blue shorts for a balanced color scheme.",
+        "footwear": "The brown wedges complement the outfit colors and dresses it up a notch.",
+        "accessories": "The black clutch is simple and coordinates well without being distracting.",
+        "style": "This preppy take on casual wear is great for many summer occasions. The blazer makes it a bit more polished."
+      }
+    },
+    {
+      "image": "casual_198.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Tailored",
+        "top_type": "Hot pink blazer",
+        "bottom_type": "Bright blue pants",
+        "color_palette": [
+          "hot pink",
+          "bright blue",
+          "white"
+        ],
+        "footwear_type": "Nude pumps",
+        "accessories": [],
+        "style": "Bold colorblocking"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The tailored fit of the blazer and pants creates a polished, fashionable silhouette.",
+        "color": "The bold colorblocking of hot pink and bright blue is daring and stylish. The white top balances it.",
+        "footwear": "The nude pumps elongate your legs and let the bold outfit colors take center stage.",
+        "accessories": "No accessories are needed with this statement-making outfit. The simplicity works well.",
+        "style": "This outfit is a head-turner! The bold colorblocking feels very on-trend and fashion-forward."
+      }
+    },
+    {
+      "image": "casual_199.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "White graphic tee",
+        "bottom_type": "Plaid wrap skirt",
+        "color_palette": [
+          "white",
+          "navy",
+          "red"
+        ],
+        "footwear_type": "Gray sneakers",
+        "accessories": [],
+        "style": "Casual grunge"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 14,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose fit tee and wrap skirt are comfy casual, but look a bit sloppy and unintentional.",
+        "color": "The white, navy and red color scheme is classic, but the pieces don't coordinate that well together.",
+        "footwear": "The gray sneakers are very casual and laid-back, bordering on sloppy with this outfit.",
+        "accessories": "Some simple accessories like a long pendant necklace could help tie this look together better.",
+        "style": "The outfit has an edgy casual grunge vibe, but needs some polishing to look more put-together and intentional."
+      }
+    },
+    {
+      "image": "casual_200.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted",
+        "top_type": "Peach button-down blouse",
+        "bottom_type": "Red shorts",
+        "color_palette": [
+          "peach",
+          "red",
+          "black"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 24,
+        "color": 22,
+        "footwear": 22,
+        "accessories": 10,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted blouse tucked into the shorts creates a flattering silhouette that shows off your figure.",
+        "color": "The light peach top contrasts nicely against the bold red shorts for a summery color palette.",
+        "footwear": "The black ankle boots add some edge and toughen up the feminine outfit in a stylish way.",
+        "accessories": "The outfit could be elevated with some dainty gold jewelry, but looks clean and crisp as is.",
+        "style": "This is a great example of casual chic - combining tailored, feminine pieces for a polished summer look."
+      }
+    },
+    {
+      "image": "casual_201.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Cream cardigan",
+        "bottom_type": "Floral shorts",
+        "color_palette": [
+          "cream",
+          "blue",
+          "brown"
+        ],
+        "footwear_type": "Brown satchel",
+        "accessories": [],
+        "style": "Vintage casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit of the cardigan and shorts gives a relaxed, effortless vibe.",
+        "color": "The cream cardigan is a nice neutral pairing with the blue floral shorts.",
+        "footwear": "The brown satchel coordinates with the outfit's color scheme and vintage style.",
+        "accessories": "Some retro sunglasses or a long pendant necklace could enhance the vintage feel.",
+        "style": "This outfit has a cute vintage casual style, perfect for a summer day out shopping or brunching."
+      }
+    },
+    {
+      "image": "casual_202.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Slim fit",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Orange skinny jeans",
+        "color_palette": [
+          "white",
+          "orange",
+          "gold"
+        ],
+        "footwear_type": "Fuchsia heels",
+        "accessories": [
+          "Leopard print clutch",
+          "Gold necklace"
+        ],
+        "style": "Statement casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit jeans and fitted shirt create a sleek, fashionable silhouette.",
+        "color": "The bright orange jeans make a bold statement, balanced by the crisp white shirt.",
+        "footwear": "The unexpected fuchsia heels add another fun pop of color that surprisingly works.",
+        "accessories": "The leopard clutch and gold necklace are glamorous touches that dress up the look.",
+        "style": "This outfit makes a fashion statement with the bright jeans while still keeping things casual overall."
+      }
+    },
+    {
+      "image": "casual_203.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Skinny fit",
+        "top_type": "White graphic tee",
+        "bottom_type": "Red skinny jeans",
+        "color_palette": [
+          "white",
+          "red",
+          "black"
+        ],
+        "footwear_type": "Black sandals",
+        "accessories": [
+          "Black handbag"
+        ],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The skinny jeans and fitted tee hug your curves and create a sleek silhouette.",
+        "color": "The bright red jeans paired with the white tee is a classic, striking color combo.",
+        "footwear": "The black sandals are simple and work fine, but a black ankle boot could kick it up a notch.",
+        "accessories": "The black handbag coordinates well and adds a touch of sophistication.",
+        "style": "This outfit has an edgy, rocker-chic casual vibe that's great for a night out."
+      }
+    },
+    {
+      "image": "casual_204.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Polka dot blouse",
+        "bottom_type": "Red skinny jeans",
+        "color_palette": [
+          "white",
+          "black",
+          "red"
+        ],
+        "footwear_type": "Blue heels",
+        "accessories": [
+          "Black handbag"
+        ],
+        "style": "Vintage casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose polka dot blouse contrasts with the tight skinny jeans, but looks a bit unbalanced proportionally.",
+        "color": "The black and white polka dots are classic, but don't coordinate that well with the bright red jeans.",
+        "footwear": "The blue heels seem out of place with the rest of the color scheme and overly formal for the outfit.",
+        "accessories": "The black handbag works okay, but a different color or pattern could tie things together better.",
+        "style": "The outfit has potential for a cute vintage casual look, but needs some tweaking to the proportions and color pairings."
+      }
+    },
+    {
+      "image": "casual_205.jpg",
+      "score": 94,
+      "labels": {
+        "fit": "Tailored",
+        "top_type": "White blazer",
+        "bottom_type": "Red skinny jeans",
+        "color_palette": [
+          "white",
+          "red",
+          "blue"
+        ],
+        "footwear_type": "Blue heels",
+        "accessories": [
+          "Tan handbag"
+        ],
+        "style": "Chic casual"
+      },
+      "score_breakdown": {
+        "fit": 24,
+        "color": 24,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The tailored blazer and skinny jeans create a very flattering, polished silhouette.",
+        "color": "The crisp white blazer makes the red jeans pop even more for a bold, chic look.",
+        "footwear": "The blue heels are an unexpected but perfect color addition that makes the outfit.",
+        "accessories": "The tan handbag is a nice neutral touch that doesn't compete with the statement pieces.",
+        "style": "This is casual chic at its finest - a fashionable, put-together outfit that turns heads with the pops of color."
+      }
+    }
+  ]
+}

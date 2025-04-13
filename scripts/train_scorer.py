@@ -4,6 +4,7 @@ import sys
 import json
 import argparse
 import asyncio
+import numpy as np
 from typing import List, Dict, Tuple, Any
 
 # Add the parent directory to the path so we can import the app
@@ -11,6 +12,14 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 
 from app.core.learning_scorer import LearningBasedScorer
 from app.core.pipeline import process_fashion_image
+
+# Add a custom JSON encoder for NumPy arrays
+class NumpyEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        # Handle other non-serializable types here if needed
+        return json.JSONEncoder.default(self, obj)
 
 def load_expert_ratings(ratings_file: str) -> List[Dict]:
     """
@@ -155,7 +164,8 @@ async def main():
     # Save training data for reference
     os.makedirs(args.output, exist_ok=True)
     with open(os.path.join(args.output, "training_data.json"), 'w') as f:
-        json.dump(training_data, f)
+        # Use the custom encoder to handle NumPy arrays
+        json.dump(training_data, f, cls=NumpyEncoder)
     
     # Train the scorer
     scorer = LearningBasedScorer(model_dir=args.output)

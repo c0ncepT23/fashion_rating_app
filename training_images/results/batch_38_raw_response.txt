@@ -1,0 +1,330 @@
+{
+  "outfits": [
+    {
+      "image": "casual_516.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Flowy, feminine silhouette",
+        "top_type": "Floral print blouse",
+        "bottom_type": "Flared mini skirt",
+        "color_palette": [
+          "white",
+          "pink",
+          "green"
+        ],
+        "footwear_type": "Teal wedge sandals",
+        "accessories": [
+          "Straw fedora hat"
+        ],
+        "style": "Bohemian chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The flowy blouse and flared skirt create a feminine, bohemian silhouette that suits her frame well.",
+        "color": "The pastel floral print coordinates nicely with the teal sandals for a soft, spring-appropriate color palette.",
+        "footwear": "The teal wedges add a pop of color and elongate her legs, but a more neutral sandal could also work.",
+        "accessories": "The straw fedora complements the bohemian vibe and provides sun protection.",
+        "style": "Overall, this is a cute, well-coordinated outfit for a casual summer day. Embraces the bohemian aesthetic."
+      }
+    },
+    {
+      "image": "casual_517.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Relaxed, boyish fit",
+        "top_type": "Cropped denim jacket",
+        "bottom_type": "Loose yellow shorts",
+        "color_palette": [
+          "blue",
+          "yellow",
+          "beige"  
+        ],
+        "footwear_type": "Lace-up espadrille wedges",
+        "accessories": [],
+        "style": "Casual tomboy"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized denim jacket and loose shorts create a relaxed, boyish silhouette. Could benefit from more shape.",
+        "color": "The blue denim and yellow shorts are a classic casual combo. Neutral shoes keep it understated.",
+        "footwear": "The lace-up espadrille wedges suit the laid-back outfit and add a touch of femininity.",
+        "accessories": "The outfit could be elevated with the addition of a couple simple accessories, like a pendant necklace or bracelet.",
+        "style": "Has an effortless tomboy vibe that's ideal for a low-key summer day. A few small tweaks could polish the look."
+      }
+    },
+    {
+      "image": "casual_518.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Slim, leggy silhouette",
+        "top_type": "Cropped denim jacket",
+        "bottom_type": "Black skater skirt",
+        "color_palette": [
+          "blue",
+          "black",
+          "red"
+        ],
+        "footwear_type": "Strappy black heeled sandals",
+        "accessories": [
+          "Red-framed sunglasses",
+          "Black hat"
+        ],
+        "style": "Edgy feminine"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The cropped jacket and short skirt show off her legs and create a slim, leggy silhouette that flatters her figure.",
+        "color": "The blue denim jacket pops against the black skirt and is punctuated by her red sunglasses for a bold look.",
+        "footwear": "The strappy black heels elongate her legs and add a feminine edge. Coordinates well with the black skirt.",
+        "accessories": "The red sunglasses and black hat add interest to the outfit and give it a cool, downtown vibe.",
+        "style": "Balances feminine and edgy elements for a flirty yet confident look. Very stylish and intentional."
+      }
+    },
+    {
+      "image": "casual_519.jpg",
+      "score": 74,
+      "labels": {
+        "fit": "Loose, boxy fit",
+        "top_type": "Oversized tie-dye t-shirt",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "blue",
+          "white",
+          "tan"
+        ],
+        "footwear_type": "Nude peep-toe heels",
+        "accessories": [
+          "Red belt"
+        ],
+        "style": "Casual with glam touches"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized tee and loose shorts create a very casual, boxy silhouette. A more fitted top could improve the proportions.",
+        "color": "The blue tie-dye pairs fine with the denim shorts. Mostly muted, neutral tones.",
+        "footwear": "The nude heels seem a bit disconnected from the very casual outfit. A flat sandal may coordinate better.",
+        "accessories": "The red belt adds a nice pop of color at the waist. Could also incorporate a long pendant necklace.",
+        "style": "Has potential but feels a bit disjointed between the casual separates and glam heels. A few swaps could make it more cohesive."
+      }
+    },
+    {
+      "image": "casual_520.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Relaxed, sporty fit",
+        "top_type": "Blue sleeveless hoodie",
+        "bottom_type": "Cuffed grey shorts",
+        "color_palette": [
+          "blue",
+          "grey",
+          "black"
+        ],
+        "footwear_type": "Black ankle booties",
+        "accessories": [],
+        "style": "Sporty casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The sleeveless hoodie and cuffed shorts create a relaxed, sporty silhouette. Comfortable yet stylish.",
+        "color": "The bright blue top adds a nice pop of color to the grey shorts. Black booties ground the look.",
+        "footwear": "The black ankle booties toughen up the sporty outfit while still being comfortable for walking around.",
+        "accessories": "The outfit is simple and streamlined, but could add a long pendant necklace or stack of bracelets if desired.",
+        "style": "Achieves an effortlessly cool, sporty vibe. Practical for a casual summer day while still being on-trend."
+      }
+    },
+    {
+      "image": "casual_521.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Flowy, ethereal silhouette",
+        "top_type": "Sheer floral print blouse",
+        "bottom_type": "Floral print shorts",
+        "color_palette": [
+          "peach",
+          "green",
+          "tan"
+        ],
+        "footwear_type": "Teal ankle strap flats",
+        "accessories": [],
+        "style": "Romantic bohemian"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The flowy blouse and shorts create an ethereal, romantic silhouette. Very feminine and flattering for her figure.",
+        "color": "The peach floral print is soft and pretty, perfect for summer. Pops of teal in the shoes add freshness.",
+        "footwear": "The teal ankle strap flats complement the floral print beautifully and look comfortable for walking.",
+        "accessories": "No major accessories are needed, as the floral print makes a statement on its own. Very cohesive.",
+        "style": "Nails the romantic bohemian aesthetic. The flowy silhouette and floral print are flirty and free-spirited."
+      }
+    },
+    {
+      "image": "casual_522.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Relaxed, casual fit",
+        "top_type": "Orange polka dot sundress",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "orange",
+          "white",
+          "tan"
+        ],
+        "footwear_type": "Nude peep-toe wedges",
+        "accessories": [
+          "Brown leather belt"
+        ],
+        "style": "Cute sundress"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The sundress has a relaxed, flowy fit that's perfect for a casual summer day. Flatters her shape nicely.",
+        "color": "The orange polka dot print is fun and playful. Neutral accessories keep the focus on the dress.",
+        "footwear": "The nude wedges elongate her legs and dress up the casual sundress a bit. A flat sandal could also work.",
+        "accessories": "The brown leather belt defines her waist and breaks up the print. Simple and effective.",
+        "style": "This is a quintessential cute summer sundress look. Casual and comfortable but still stylish and feminine."
+      }
+    },
+    {
+      "image": "casual_523.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Relaxed, slightly boxy",
+        "top_type": "Chambray button-down shirt",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "blue",
+          "blue",
+          "tan"  
+        ],
+        "footwear_type": "Nude peep-toe heels",
+        "accessories": [
+          "Brown braided belt"
+        ],
+        "style": "Casual double denim"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The chambray top has a slightly oversized fit, as do the cuffed denim shorts. A more fitted top could balance the proportions better.",
+        "color": "The light and medium blue denim create a casual double denim look. The tan accessories coordinate but don't add much contrast.",
+        "footwear": "The nude heels are a bit dressy for the casual outfit. A flat sandal or sneaker would suit the aesthetic more.",
+        "accessories": "The braided belt adds some interest at the waist. Could also cuff the sleeves and add a couple of simple bracelets.",
+        "style": "Achieves an easy, casual vibe but the oversized proportions and dressy shoes hold it back from being a knockout look."
+      }
+    },
+    {
+      "image": "casual_524.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Slim, leggy silhouette",
+        "top_type": "Sleeveless chambray romper",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "blue",
+          "brown",
+          "gold"
+        ],
+        "footwear_type": "Brown gladiator sandals",
+        "accessories": [
+          "Brown leather belt",
+          "Gold bangle"
+        ],
+        "style": "Casual chic romper"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The sleeveless romper shows off her arms and legs, creating a slim, leggy silhouette. Very flattering for her figure.",
+        "color": "The light blue chambray is fresh and summery. The brown and gold accessories add rich, warm accents.",
+        "footwear": "The brown gladiator sandals complement the belt and bangle. Comfortable and stylish for summer.",
+        "accessories": "The brown leather belt defines her waist and the gold bangle adds a touch of shine. Well-coordinated extras.",
+        "style": "This romper look is casual chic perfection. Easy to wear but still polished thanks to the accessories."
+      }
+    },
+    {
+      "image": "casual_525.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose, boxy fit",
+        "top_type": "Black graphic t-shirt",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "black",
+          "blue",
+          "tan"
+        ],
+        "footwear_type": "Black strappy flat sandals",
+        "accessories": [
+          "Brown leather satchel"
+        ],
+        "style": "Casual rocker"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The graphic tee and denim shorts both have a loose, slightly boxy fit. Tucking in the tee a bit could improve the silhouette.",
+        "color": "The black tee and blue denim shorts are a classic casual combo. The tan bag adds a neutral accent.",
+        "footwear": "The black strappy sandals work with the tee and are practical for walking around in the summer.",
+        "accessories": "The outfit is quite simple, so a long pendant necklace and a couple of bracelets could elevate the look.",
+        "style": "Has an edgy rocker vibe that suits her style. A few small tweaks in fit and accessories could take it to the next level."
+      }
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "outfits": [
+    {
+      "image": "casual_596.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted, body-hugging silhouette",
+        "top_type": "Sleeveless, draped top",
+        "bottom_type": "Short, fitted skirt",
+        "color_palette": [
+          "Bright orange",
+          "Gold",
+          "Tan"
+        ],
+        "footwear_type": "Flat sandals",
+        "accessories": [],
+        "style": "Vibrant summer casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 18,
+        "accessories": 10,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted silhouette flatters her figure nicely. The draped top and short skirt create an attractive, proportional look.",
+        "color": "The bright orange color is eye-catching and perfect for summer. It pairs well with her skin tone and the gold sandals.",
+        "footwear": "The simple flat sandals complement the outfit without distracting from the bold color. A nice choice for a casual summer look.",
+        "accessories": "She keeps the accessories minimal, letting the vibrant color be the focus. Some delicate gold jewelry could elevate the look further.",
+        "style": "Overall, this is a great casual summer outfit. The color and fit are on-point for a youthful, lively aesthetic."
+      }
+    },
+    {
+      "image": "casual_597.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Relaxed, slightly loose fit",
+        "top_type": "Cropped denim jacket",
+        "bottom_type": "Short skirt",
+        "color_palette": [
+          "Light blue",
+          "Mustard yellow",
+          "Brown"
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [
+          "Shoulder bag"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The cropped denim jacket and short skirt create a relaxed, easygoing vibe. The slightly loose fit keeps things casual.",
+        "color": "The light blue denim pairs nicely with the mustard yellow skirt for a laid-back, retro-inspired color combo.",
+        "footwear": "The dark ankle boots ground the outfit and add a bit of edge, but some lighter shoes could make it feel more summery.",
+        "accessories": "The brown shoulder bag is a good neutral choice that doesn't compete with the outfit.",
+        "style": "This is a cute casual outfit with a hint of vintage inspiration. A few small tweaks could optimize it for the season."
+      }
+    },
+    {
+      "image": "casual_598.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Loose, boxy fit",
+        "top_type": "Colorful printed blouse",
+        "bottom_type": "Denim shorts",
+        "color_palette": [
+          "Teal",
+          "Red",
+          "White",
+          "Blue"
+        ],
+        "footwear_type": "Platform sandals",
+        "accessories": [],
+        "style": "Quirky casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 24,
+        "footwear": 20,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, boxy fit of the printed top contrasts nicely with the fitted denim shorts, creating a relaxed yet intentional look.",
+        "color": "The colorful geometric print in shades of teal, red and white really pops! It's eye-catching without being over-the-top.",
+        "footwear": "The platform sandals are a great choice - they add some height while keeping the outfit casual and comfortable.",
+        "accessories": "No major accessories, but the bold print speaks for itself. The black shoes also punctuate the look nicely.",
+        "style": "This outfit has a cool, slightly quirky vibe that's youthful and unique. The print mixing with the solids is fun and fresh."
+      }
+    },
+    {
+      "image": "casual_599.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose, flowy silhouette",
+        "top_type": "Lightweight knit cardigan",
+        "bottom_type": "Flowy mini skirt",
+        "color_palette": [
+          "Light blue",
+          "Blush pink",
+          "Tan"
+        ],
+        "footwear_type": "Strappy wedge sandals",
+        "accessories": [
+          "Thin belt"
+        ],
+        "style": "Soft, feminine casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, flowy cardigan and skirt create a soft, unstructured silhouette that drapes gently on the body.",
+        "color": "The light blue and blush pink color palette is delicate and feminine. The tan belt and shoes complement it well.",
+        "footwear": "The strappy wedge sandals elongate the legs while the neutral color keeps the focus on the outfit.",
+        "accessories": "The thin tan belt adds some definition at the waist without disrupting the flowy lines.",
+        "style": "This outfit has a pretty, feminine aesthetic that's perfect for a casual summer day. The colors and textures are soft and romantic."
+      }
+    },
+    {
+      "image": "casual_600.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose, oversized fit",
+        "top_type": "Basic t-shirt",
+        "bottom_type": "Linen wide-leg pants",
+        "color_palette": [
+          "White",
+          "Tan"
+        ],
+        "footwear_type": "Flat sandals",
+        "accessories": [
+          "Bow headband"
+        ],
+        "style": "Simple, minimalist casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized t-shirt and wide-leg pants create a very loose, relaxed fit. It's comfortable but could benefit from some definition.",
+        "color": "The neutral white and tan color scheme is clean and simple, but lacks some contrast and visual interest on its own.",
+        "footwear": "The brown flat sandals are practical and laid-back, matching the overall casual feel.",
+        "accessories": "The bow headband is a sweet detail that adds a touch of polish to an otherwise very basic outfit.",
+        "style": "This minimalist outfit is effortless and unfussy. With the right accessories it could go from plain to chic and intentional."
+      }
+    },
+    {
+      "image": "casual_601.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Fitted on top, loose on bottom",
+        "top_type": "Graphic t-shirt",
+        "bottom_type": "Flowy mini skirt",
+        "color_palette": [
+          "Black",
+          "White",
+          "Hot pink"
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [
+          "Patterned tights",
+          "Chain necklace"
+        ],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted graphic tee contrasts well with the flowy skirt, creating a balanced silhouette. The patterned tights add coverage.",
+        "color": "The mostly black outfit gets a nice pop of color from the hot pink skirt. The white graphic breaks up the dark top.",
+        "footwear": "The black ankle boots toughen up the look and work well with the tights for cooler weather.",
+        "accessories": "The patterned tights and chain necklace enhance the edgy vibe and make the basic pieces feel intentional.",
+        "style": "This outfit has an edgy, urban feel with feminine touches. The mix of pieces and details make it feel cool and unique."
+      }
+    },
+    {
+      "image": "casual_602.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose, drapey fit",
+        "top_type": "Sheer kimono-style jacket",
+        "bottom_type": "Shorts",
+        "color_palette": [
+          "White",
+          "Tan"
+        ],
+        "footwear_type": "Metallic heels",
+        "accessories": [
+          "Bow hair clip",
+          "Red clutch"
+        ],
+        "style": "Breezy elegant casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, flowy kimono jacket creates an elegant drape over the shorts. The shorts could be more fitted for balance.",
+        "color": "The all-white ensemble is crisp and clean, but lacks some dimension. The metallic shoes and red clutch help.",
+        "footwear": "The metallic heeled sandals dress up the look and elongate the legs. They're an unexpected but welcome choice.",
+        "accessories": "The bow hair clip adds a cute, dainty detail. The red clutch provides a much-needed contrasting pop of color.",
+        "style": "This outfit is a nice blend of breezy and elegant. A few small tweaks, like more fitted shorts, could really elevate the look."
+      }
+    },
+    {
+      "image": "casual_603.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted on top, slim on bottom",
+        "top_type": "Cropped leather jacket",
+        "bottom_type": "Skinny jeans",
+        "color_palette": [
+          "Black",
+          "Red",
+          "Tan"
+        ],
+        "footwear_type": "Platform sandals",
+        "accessories": [
+          "Patterned scarf"
+        ],
+        "style": "Rocker chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The cropped leather jacket and skinny jeans create a sleek, streamlined silhouette that's fitted without being too tight.",
+        "color": "The bold red skinny jeans make a statement, while the black jacket and tan shoes keep it grounded. Great color combo.",
+        "footwear": "The platform sandals add some height and retro flair. They complement the skinny jeans nicely.",
+        "accessories": "The patterned scarf is a perfect accent - it adds interest and ties the colors together beautifully.",
+        "style": "This outfit nails edgy, rocker-chic style. The bold color, leather, and skinny fit all work together for a confident, stylish look."
+      }
+    },
+    {
+      "image": "casual_604.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose, slightly boxy fit",
+        "top_type": "Printed t-shirt",
+        "bottom_type": "Denim mini skirt",
+        "color_palette": [
+          "White",
+          "Yellow",
+          "Blue"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [
+          "Shoulder bag"
+        ],
+        "style": "Casual summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slightly boxy fit of the tee contrasts with the short denim skirt. A more fitted or cropped top could balance the proportions better.",
+        "color": "The white top with yellow print pairs okay with the light denim skirt, but there could be more contrast or color.",
+        "footwear": "The yellow wedge sandals match the shirt and add some height, but their chunkiness competes a bit with the short skirt.",
+        "accessories": "The orange bag is a nice pop of color, but doesn't quite integrate with the rest of the palette.",
+        "style": "This is a basic casual summer look. With some small adjustments to fit and color scheme, it could be more cohesive and intentional."
+      }
+    },
+    {
+      "image": "casual_605.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Relaxed, slightly loose fit",
+        "top_type": "Lightweight button-down shirt",
+        "bottom_type": "Denim shorts",
+        "color_palette": [
+          "White",
+          "Light blue",
+          "Tan"
+        ],
+        "footwear_type": "Flat sandals",
+        "accessories": [
+          "Straw hat",
+          "Shoulder bag"
+        ],
+        "style": "Casual summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose button-down and relaxed-fit denim shorts create an easy, laid-back silhouette that's perfect for summer.",
+        "color": "The white shirt and light blue denim shorts are a classic summer combo. The tan accessories complement the light, neutral palette.",
+        "footwear": "The flat tan sandals are practical and understated, keeping the focus on the outfit.",
+        "accessories": "The straw hat adds great summer style and sun protection. The tan shoulder bag is a nice neutral accent.",
+        "style": "This outfit embodies casual summer style - it's light, relaxed, and effortless. The classic pieces and natural accessories are timeless."
+      }
+    }
+  ]
+}

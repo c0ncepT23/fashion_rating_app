@@ -1,0 +1,331 @@
+{
+  "outfits": [
+    {
+      "image": "casual_296.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose, casual fit",
+        "top_type": "Denim button-up shirt",
+        "bottom_type": "Plaid high-waisted shorts",
+        "color_palette": [
+          "blue",
+          "brown",
+          "white"
+        ],
+        "footwear_type": "Ankle socks and sneakers",
+        "accessories": [
+          "Glasses",
+          "Straw hat"
+        ],
+        "style": "Casual, preppy"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the denim shirt and high-waisted shorts creates a relaxed, casual silhouette.",
+        "color": "The blue denim, brown plaid, and white sneakers work well together for a cohesive color palette.",
+        "footwear": "The sneakers and ankle socks are a good casual choice but a bit plain.",
+        "accessories": "The glasses and straw hat add nice preppy flair to elevate the casual outfit.",
+        "style": "Overall, this is a solid casual, preppy look that is put-together yet effortless."
+      }
+    },
+    {
+      "image": "casual_297.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose, flowy",
+        "top_type": "Ribbed off-the-shoulder sweater",
+        "bottom_type": "Pleated high-waisted shorts",
+        "color_palette": [
+          "yellow",
+          "tan",
+          "brown"
+        ],
+        "footwear_type": "Lace-up ankle boots",
+        "accessories": [],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 10,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit of the sweater and shorts creates an effortlessly chic silhouette.",
+        "color": "The soft yellow, tan, and brown color palette is very harmonious and perfect for fall.",
+        "footwear": "The brown lace-up ankle boots complement the outfit nicely and add a slightly edgy touch.",
+        "accessories": "No major accessories, allowing the clothing pieces to shine on their own.",
+        "style": "This casual chic outfit has a put-together vibe while still being comfortable and relaxed."
+      }
+    },
+    {
+      "image": "casual_298.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted on top, flowy skirt",
+        "top_type": "Polka dot blouse with bow",
+        "bottom_type": "High-waisted flowy skirt",
+        "color_palette": [
+          "black",
+          "white",
+          "red"
+        ],
+        "footwear_type": "Red ankle strap heels",
+        "accessories": [
+          "Red hat"
+        ],
+        "style": "Vintage-inspired, feminine"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted polka dot blouse tucked into the high-waisted flowy skirt creates a lovely feminine silhouette.",
+        "color": "The black and white with pops of red is a classic, striking color combination.",
+        "footwear": "The red ankle strap heels perfectly match the hat and belt, tying the look together.",
+        "accessories": "The red hat is a fantastic statement piece that makes the outfit memorable.",
+        "style": "This vintage-inspired look is flirty, fun and perfect for a special occasion or photo shoot."
+      }
+    },
+    {
+      "image": "casual_299.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Loose, oversized",
+        "top_type": "Oversized black sweater",
+        "bottom_type": "Bright pink tights",
+        "color_palette": [
+          "black",
+          "hot pink"
+        ],
+        "footwear_type": "Black platform heels",
+        "accessories": [
+          "Heart necklace"
+        ],
+        "style": "Edgy, punk-inspired"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized sweater contrasted with the tight leggings creates an interesting play on proportions.",
+        "color": "The black and hot pink color scheme is bold, youthful and makes a statement.",
+        "footwear": "The black platform heels work well with the outfit and add to the edgy vibe.",
+        "accessories": "The heart necklace is a cute touch that softens the look slightly.",
+        "style": "This punk-inspired outfit is all about having fun with fashion and expressing personal style."
+      }
+    },
+    {
+      "image": "casual_300.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose, flowy",
+        "top_type": "Mint green button-up blouse",
+        "bottom_type": "Belted high-waisted shorts",
+        "color_palette": [
+          "mint green",
+          "tan",
+          "brown"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [
+          "Brown belt",
+          "Brown hat"
+        ],
+        "style": "Casual, bohemian"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, flowy blouse paired with the high-waisted shorts creates a relaxed, effortless look.",
+        "color": "The mint green and tan/brown color palette is soft, natural and perfect for spring/summer.",
+        "footwear": "The brown ankle boots match well but seem a bit heavy for the flowy, lightweight outfit.",
+        "accessories": "The brown belt and hat tie in with the boots and complete the bohemian aesthetic.",
+        "style": "Overall, this is a cute, casual outfit with a free-spirited bohemian vibe."
+      }
+    },
+    {
+      "image": "casual_301.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose, oversized",
+        "top_type": "Black blazer",
+        "bottom_type": "Tight gray mini skirt",
+        "color_palette": [
+          "black",
+          "gray"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Black hat"
+        ],
+        "style": "Edgy, rocker-chic"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 14,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized blazer with the tight mini skirt creates an unbalanced silhouette.",
+        "color": "The all black and gray color scheme is sleek but a bit harsh and uninspired.",
+        "footwear": "The black ankle boots match the outfit and complement the edgy style.",
+        "accessories": "The black hat coordinates but doesn't add much interest to the look.",
+        "style": "While going for an edgy, rocker vibe, the outfit lacks polish and feels incomplete."
+      }
+    },
+    {
+      "image": "casual_302.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Relaxed, casual",
+        "top_type": "Loose blue off-shoulder top",
+        "bottom_type": "Bright orange shorts",
+        "color_palette": [
+          "blue",
+          "orange",
+          "hot pink"
+        ],
+        "footwear_type": "Hot pink platform heels",
+        "accessories": [
+          "Yellow clutch"
+        ],
+        "style": "Bold, colorful, trendy"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 20,
+        "accessories": 18,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose top and shorts create a relaxed, easygoing silhouette perfect for a summer day.",
+        "color": "The vibrant blue, orange, and hot pink color combination is eye-catching and fun.",
+        "footwear": "The hot pink platform heels are an unexpected, bold choice that makes the outfit pop.",
+        "accessories": "The yellow clutch adds another punch of color and ties in well with the bright palette.",
+        "style": "This outfit is all about having fun with color and making a bold, trendy statement."
+      }
+    },
+    {
+      "image": "casual_303.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose, flowy",
+        "top_type": "Denim jacket",
+        "bottom_type": "Mustard yellow maxi skirt",
+        "color_palette": [
+          "blue denim",
+          "mustard yellow",
+          "black"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Black bag"
+        ],
+        "style": "Boho-chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose denim jacket and flowy maxi skirt create an effortlessly chic silhouette.",
+        "color": "The blue denim, mustard yellow, and black color scheme is earthy and perfect for fall.",
+        "footwear": "The black ankle boots ground the look and add a touch of edge.",
+        "accessories": "The black bag is simple and practical, allowing the clothing to take center stage.",
+        "style": "This boho-chic outfit has a laid-back, artistic vibe with the unique color combination."
+      }
+    },
+    {
+      "image": "casual_304.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Fitted",
+        "top_type": "Denim jacket",
+        "bottom_type": "Cropped blue pants",
+        "color_palette": [
+          "blue denim",
+          "light blue"
+        ],
+        "footwear_type": "Black strappy heels",
+        "accessories": [
+          "Leopard print scarf"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted denim jacket and cropped pants provide a streamlined silhouette.",
+        "color": "The all-blue color palette is cohesive but borders on being too monochromatic.",
+        "footwear": "The black strappy heels dress up the look but seem slightly disconnected.",
+        "accessories": "The leopard print scarf adds a nice pattern to break up the all-blue outfit.",
+        "style": "Overall, this outfit walks the line between casual and chic but could use more contrast."
+      }
+    },
+    {
+      "image": "casual_305.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Loose, oversized",
+        "top_type": "Leopard print cardigan",
+        "bottom_type": "Baggy denim pants",
+        "color_palette": [
+          "tan",
+          "brown",
+          "blue denim"
+        ],
+        "footwear_type": "Black strappy heels",
+        "accessories": [
+          "Black bag"
+        ],
+        "style": "Edgy, street style"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The oversized cardigan and baggy jeans create a cool, effortless street style look.",
+        "color": "The tan/brown leopard print with the blue denim is an interesting, unexpected combo.",
+        "footwear": "The black strappy heels add a feminine touch to the edgy, tomboyish outfit.",
+        "accessories": "The black bag is sleek and doesn't compete with the bold leopard print.",
+        "style": "This outfit pushes boundaries with the contrasting pieces for a high fashion vibe."
+      }
+    }
+  ]
+}

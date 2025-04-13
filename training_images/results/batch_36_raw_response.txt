@@ -1,0 +1,332 @@
+{
+  "outfits": [
+    {
+      "image": "casual_496.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Fitted top, flared skirt",
+        "top_type": "Cropped red blazer",
+        "bottom_type": "Floral print mini skirt",
+        "color_palette": [
+          "red",
+          "blue",
+          "white"
+        ],
+        "footwear_type": "Strappy flat sandals",
+        "accessories": [],
+        "style": "Flirty casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted cropped blazer pairs well with the flared mini skirt, creating a balanced silhouette that highlights the waist.",
+        "color": "The bold red of the blazer makes a statement against the blue floral print. Could incorporate another accent color.",
+        "footwear": "The strappy flat sandals are a good casual choice that elongate the legs with the short skirt.",
+        "accessories": "Some simple jewelry like a pendant necklace or bracelet could elevate the look without being overpowering.",
+        "style": "Achieves a flirty, youthful casual style. The structured blazer adds a touch of polish."
+      }
+    },
+    {
+      "image": "casual_497.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose fitting",
+        "top_type": "Neon yellow short sleeve blouse",
+        "bottom_type": "Light wash denim shorts",
+        "color_palette": [
+          "yellow",
+          "blue",
+          "brown"
+        ],
+        "footwear_type": "Strappy wedge sandals",
+        "accessories": [
+          "Bicycle"
+        ],
+        "style": "Casual sporty"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose fit of the top and shorts creates a relaxed, easy-going vibe but lacks shape and definition.",
+        "color": "The bright yellow top adds energy and pairs decently with the light wash denim. Brown sandals complement the palette.",
+        "footwear": "The strappy wedge sandals work well for a casual warm weather look and provide stability for bike riding.",
+        "accessories": "No accessories beyond the bicycle, which suits the sporty outfit. A hat could be a practical addition.",
+        "style": "Captures a casual, slightly tomboyish sporty style, ideal for a laid-back bike ride or outdoor activity."
+      }
+    },
+    {
+      "image": "casual_498.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Fitted top, short shorts",
+        "top_type": "White lace tank top",
+        "bottom_type": "High-waisted denim shorts",
+        "color_palette": [
+          "white",
+          "blue",
+          "brown"
+        ],
+        "footwear_type": "Strappy wedge sandals",
+        "accessories": [
+          "Wide brim hat",
+          "Shoulder bag"
+        ],
+        "style": "Boho casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted lace tank contrasts nicely with the relaxed fit of the high-waisted denim shorts, showing some skin.",
+        "color": "Crisp white and blue denim is a classic summer combo. Brown accessories add earthy tones.",
+        "footwear": "Strappy wedge sandals elongate the legs and dress up the shorts a bit.",
+        "accessories": "The wide brim hat and shoulder bag enhance the boho styling and provide sun protection.",
+        "style": "Embodies an easy, breezy boho casual look perfect for summer. Lace top adds a feminine detail."
+      }
+    },
+    {
+      "image": "casual_499.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Oversized top, slim bottoms",
+        "top_type": "Bright green boyfriend blazer",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "green",
+          "blue",
+          "white"
+        ],
+        "footwear_type": "White sneakers",
+        "accessories": [
+          "Statement necklace"
+        ],
+        "style": "Trendy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The oversized boyfriend blazer balances the slim fit of the cuffed denim shorts. Rolled sleeves show some skin.",
+        "color": "Vibrant green is an unexpected pop of color that really makes the outfit stand out. Denim and white keep it grounded.",
+        "footwear": "Classic white sneakers are comfortable and add a sporty, youthful touch that suits the shorts.",
+        "accessories": "The statement necklace draws the eye up and complements the open blazer without competing with the bright color.",
+        "style": "Puts a trendy spin on casual wear with the bold blazer. Cuffed shorts and sneakers keep it relaxed and modern."
+      }
+    },
+    {
+      "image": "casual_500.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Fitted sheath dress",
+        "top_type": "Sleeveless nude sheath dress",
+        "bottom_type": "Sleeveless nude sheath dress",
+        "color_palette": [
+          "beige",
+          "black"
+        ],
+        "footwear_type": "Black peep-toe heels",
+        "accessories": [
+          "Black shoulder bag"
+        ],
+        "style": "Chic day-to-night"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The sleeveless sheath dress skims the body for a tailored fit that is sophisticated but still casual.",
+        "color": "The neutral beige is elevated by black accents for a look that can transition from day to evening.",
+        "footwear": "Black peep-toe heels elongate the legs and dress up the simple sheath.",
+        "accessories": "A black shoulder bag is practical and coordinates with the shoes.",
+        "style": "Polished and versatile, appropriate for a variety of occasions. Peep-toes add a flirty detail."
+      }
+    },
+    {
+      "image": "casual_501.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Fitted top, A-line skirt",
+        "top_type": "Black and white striped tee",
+        "bottom_type": "Bright pink skater skirt",
+        "color_palette": [
+          "black",
+          "white",
+          "pink"
+        ],
+        "footwear_type": "Pink ballet flats",
+        "accessories": [
+          "Bow belt"
+        ],
+        "style": "Girly casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted tee tucked into the high-waisted skater skirt flatters the waist. Skirt adds volume on bottom.",
+        "color": "Pink skirt makes a bold statement against the black and white stripes. Could benefit from another coordinating color.",
+        "footwear": "Ballet flats match the skirt but lack support, fine for limited walking or standing.",
+        "accessories": "Bow belt is a cute touch at the waist. A necklace or earrings could also add polish.",
+        "style": "Has a youthful, girly vibe with the full skirt and bow. Striped tee makes it more casual."
+      }
+    },
+    {
+      "image": "casual_502.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Loose blouse, slim pants",
+        "top_type": "White button-down blouse",
+        "bottom_type": "Cuffed skinny jeans",
+        "color_palette": [
+          "white",
+          "blue",
+          "brown"
+        ],
+        "footwear_type": "Brown loafers",
+        "accessories": [
+          "Brown belt",
+          "Pendant necklace"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose blouse balances the slim fit of the cuffed jeans. Rolling the sleeves adds structure.",
+        "color": "Crisp white and denim blue is a classic combination. Cognac brown accessories add warmth.",
+        "footwear": "Brown loafers are a comfortable, preppy choice that go well with cuffed jeans.",
+        "accessories": "Belt and delicate necklace provide subtle polish. Could also add a watch or bracelet.",
+        "style": "Embodies a timeless preppy casual style. Loafers and button-down feel collegiate."
+      }
+    },
+    {
+      "image": "casual_503.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose tee and shorts",
+        "top_type": "Red short sleeve tee",
+        "bottom_type": "White linen shorts",
+        "color_palette": [
+          "red",
+          "white",
+          "brown"
+        ],
+        "footwear_type": "Brown leather sandals",
+        "accessories": [
+          "Brown belt"
+        ],
+        "style": "Relaxed casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "Both the tee and shorts have a loose, relaxed fit. Tucking in the front of the tee creates some waist definition.",
+        "color": "Red tee adds a pop of color to the neutral white and brown palette. Could incorporate another accent shade.",
+        "footwear": "Brown leather sandals are practical and comfortable for a casual summer outfit.",
+        "accessories": "Braided belt adds textural interest at the waist. Sunglasses or a hat could be good additions.",
+        "style": "Has an easy, unfussy casual vibe, perfect for relaxing on the weekend. Loose fit keeps things cool."
+      }
+    },
+    {
+      "image": "casual_504.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted button-down, slim jeans",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Medium wash skinny jeans",
+        "color_palette": [
+          "white",
+          "blue"
+        ],
+        "footwear_type": "Black pointed-toe flats",
+        "accessories": [
+          "Black shoulder bag",
+          "Pendant necklace"
+        ],
+        "style": "Polished casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "Crisp button-down tucked into slim jeans creates a sleek, polished silhouette. Rolled sleeves add casual edge.",
+        "color": "Classic combination of white and blue denim. Black accessories provide sharp contrast.",
+        "footwear": "Pointed-toe flats are a chic, comfortable choice that dress up the jeans.",
+        "accessories": "Structured black bag and delicate necklace enhance the put-together look.",
+        "style": "Strikes the perfect balance of casual and refined. Button-down and flats elevate the jeans."
+      }
+    },
+    {
+      "image": "casual_505.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose button-down, slim shorts",
+        "top_type": "Light blue button-down shirt",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "blue",
+          "brown"
+        ],
+        "footwear_type": "Brown ankle-strap sandals",
+        "accessories": [
+          "Brown shoulder bag"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose button-down contrasts with the slim fit of the cuffed denim shorts. Unbuttoned collar keeps it casual.",
+        "color": "Light blue and denim create a subtle monochrome look. Brown accessories add warmth but another color could liven it up.",
+        "footwear": "Ankle-strap flat sandals elongate the legs and work well with shorts. Neutral color is versatile.",
+        "accessories": "Brown shoulder bag matches the shoes and provides functionality.",
+        "style": "Has an easy but put-together casual chic vibe. Button-down makes shorts a bit more polished."
+      }
+    }
+  ]
+}

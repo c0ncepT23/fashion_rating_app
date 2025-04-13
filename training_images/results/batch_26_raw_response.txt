@@ -1,0 +1,335 @@
+{
+  "outfits": [
+    {
+      "image": "casual_396.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Flowy, loose-fitting dress",
+        "top_type": "Sleeveless peplum top",
+        "bottom_type": "Flared skirt",
+        "color_palette": [
+          "Yellow",
+          "Green",
+          "White"
+        ],
+        "footwear_type": "Strappy wedge sandals",
+        "accessories": [
+          "Beaded necklace",
+          "Fringe handbag"
+        ],
+        "style": "Boho chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit of the dress is perfect for a casual summer look. It drapes nicely on the body.",
+        "color": "The watercolor print in shades of yellow and green is eye-catching and suits the boho style well.",
+        "footwear": "The strappy wedge sandals elongate the legs and pair nicely with the dress for a put-together look.",
+        "accessories": "The beaded necklace and fringe bag add to the free-spirited boho vibe.",
+        "style": "Overall, this is a stylish boho chic outfit that's ideal for casual summer days or events."
+      }
+    },
+    {
+      "image": "casual_397.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose, flowy trench coat",
+        "top_type": "Cropped tank top",
+        "bottom_type": "Skinny jeans",
+        "color_palette": [
+          "Beige",
+          "Olive green",
+          "Burgundy"  
+        ],
+        "footwear_type": "Lace-up wedge sneakers",
+        "accessories": [
+          "Fedora hat"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized fit of the trench coat pairs well with the fitted tank and skinny jeans for a balanced silhouette.",
+        "color": "The neutral beige coat allows the olive green and burgundy to take center stage for a nice fall color palette.",
+        "footwear": "The lace-up wedge sneakers add a casual, comfortable element to the look.",
+        "accessories": "The fedora hat tops off the outfit nicely and suits the overall casual chic style.",
+        "style": "This look expertly mixes casual and chic elements for a stylish everyday fall outfit."
+      }
+    },
+    {
+      "image": "casual_398.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Fitted top, flared mini skirt",
+        "top_type": "Sleeveless v-neck top",
+        "bottom_type": "Flared mini skirt",
+        "color_palette": [
+          "Purple",
+          "Magenta",
+          "Black"
+        ],
+        "footwear_type": "Pointed-toe pumps",
+        "accessories": [],
+        "style": "Flirty casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted top and flared skirt create an attractive silhouette, but the short length makes it a bit revealing for some occasions.",
+        "color": "The purple and magenta color-blocking on the top is bold and makes a statement, but may not be to everyone's taste.",
+        "footwear": "The black pointed-toe pumps are a classic choice but seem slightly dressy for the overall casual look.",
+        "accessories": "The outfit could be elevated with the addition of some simple jewelry, like a pendant necklace or stud earrings.",
+        "style": "The look has a flirty, youthful vibe that would be great for a casual night out, but the short skirt limits its versatility."
+      }
+    },
+    {
+      "image": "casual_399.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Loose t-shirt, wide leg pants",
+        "top_type": "Crew neck t-shirt",
+        "bottom_type": "High-waisted wide leg pants",
+        "color_palette": [
+          "White",
+          "Navy",
+          "Red"  
+        ],
+        "footwear_type": "Red slip-on sneakers",
+        "accessories": [
+          "Straw hat",
+          "Round sunglasses",
+          "Red crossbody bag"
+        ],
+        "style": "Nautical casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose t-shirt and flowy wide leg pants create a comfortable, effortless look that's perfect for casual summer days.",
+        "color": "The classic combination of white, navy and pops of red gives the outfit a crisp, nautical-inspired aesthetic.",
+        "footwear": "The red slip-on sneakers add a fun, colorful accent and keep the look casual and easy to move in.",
+        "accessories": "The straw hat, round sunglasses and red bag enhance the summery nautical vibe and make the simple outfit more visually interesting.",
+        "style": "This is a great example of casual summer style, with its nautical color scheme and breezy silhouette. Ideal for a beach day or weekend outing."
+      }
+    },
+    {
+      "image": "casual_400.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose blouse, high-waisted shorts",
+        "top_type": "Sheer button-down blouse",
+        "bottom_type": "Polka dot high-waisted shorts",
+        "color_palette": [
+          "White",
+          "Navy",
+          "Green"
+        ],
+        "footwear_type": "Black wedge sandals",
+        "accessories": [
+          "Straw tote bag"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, airy blouse balances nicely with the more fitted high-waisted shorts for a relaxed but put-together silhouette.",
+        "color": "The classic navy and white color palette feels fresh and appropriate for summer, with a hint of green for added interest.",
+        "footwear": "The black wedge sandals are a versatile choice that dresses up the shorts a bit while still being comfortable.",
+        "accessories": "The woven straw tote is a perfect casual summer bag that complements the preppy shorts.",
+        "style": "This outfit has a polished, preppy look that's great for a variety of casual summer occasions, from a picnic to shopping."
+      }
+    },
+    {
+      "image": "casual_401.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose button-down, distressed denim shorts",
+        "top_type": "Plaid button-down shirt",
+        "bottom_type": "Distressed denim shorts",
+        "color_palette": [
+          "Blue",
+          "White",
+          "Tan"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [
+          "Straw hat",
+          "Tan shoulder bag"
+        ],
+        "style": "Casual western"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized plaid shirt worn loosely over the distressed shorts creates a very casual, undone look.",
+        "color": "The blue plaid and medium wash denim are a classic casual combo, but there's not much contrast or visual interest in the color palette.",
+        "footwear": "The brown wedge sandals seem a bit heavy for the light, summery outfit. A lighter shoe would be more cohesive.",
+        "accessories": "The straw hat and tan bag enhance the laid-back, slightly western vibe and add some needed texture to the look.",
+        "style": "This outfit captures an easy, thrown-on casual style but borders on sloppy. More thoughtful styling could elevate it."
+      }
+    },
+    {
+      "image": "casual_402.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Loose plaid shirt, fitted denim shorts",
+        "top_type": "Oversized plaid button-down",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "Blue",
+          "White",
+          "Tan"  
+        ],
+        "footwear_type": "Brown oxford flats",
+        "accessories": [
+          "Brown leather satchel",
+          "Silver watch"
+        ],
+        "style": "Preppy tomboy"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The oversized boyfriend-style plaid shirt contrasts nicely with the slim-fitting cuffed shorts for a stylish borrowed-from-the-boys look.",
+        "color": "The light blue and white plaid pairs perfectly with the medium wash denim. Brown accessories add a touch of warmth.",
+        "footwear": "The brown oxford flats are an unexpected menswear-inspired choice that works really well with the preppy tomboy aesthetic.",
+        "accessories": "The leather satchel and simple silver watch complete the scholarly vibe without competing with the plaid.",
+        "style": "This is a fantastic example of preppy tomboy style - polished and put-together but with a relaxed, slightly masculine edge."
+      }
+    },
+    {
+      "image": "casual_403.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose sweater, flared mini skirt",
+        "top_type": "Oversized v-neck sweater",
+        "bottom_type": "Flared mini skirt",
+        "color_palette": [
+          "Gray",
+          "Purple",
+          "Black"
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [
+          "Black clutch",
+          "Silver bracelet"
+        ],
+        "style": "Cute casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized sweater and short flared skirt create a cute, flirty silhouette. The volume on top balances the leg-baring bottom.",
+        "color": "The light gray sweater is a nice neutral that allows the rich purple skirt to pop. Black accessories ground the look.",
+        "footwear": "The black ankle boots transition this outfit seamlessly into fall and add a bit of edge to the feminine pieces.",
+        "accessories": "The small black clutch and delicate silver bracelet are understated choices that complement the outfit without overwhelming it.",
+        "style": "This is a great go-to cute casual look for fall when you want to look pretty and put-together but still relaxed."
+      }
+    },
+    {
+      "image": "casual_404.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose lace top, fitted denim shorts",
+        "top_type": "Sheer lace blouse",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "White",  
+          "Blue"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [
+          "Black crossbody bag"
+        ],
+        "style": "Boho casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, flowy lace top with the more fitted denim shorts makes for an easy, effortless silhouette.",
+        "color": "The all-white top with blue denim is a classic combo but a bit plain. This look could use another color to liven it up.",
+        "footwear": "The brown ankle boots are a slightly unexpected choice with the white lace and give the outfit a boho twist.",
+        "accessories": "The black crossbody bag is functional and works fine with the outfit but doesn't really enhance the overall look.",
+        "style": "This outfit has potential as a cute boho-inspired summer look but needs some thoughtful accessorizing to really shine."
+      }
+    },
+    {
+      "image": "casual_405.jpg",
+      "score": 74,
+      "labels": {
+        "fit": "Loose t-shirt, fitted denim shorts",
+        "top_type": "Graphic print t-shirt",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "Black",
+          "Blue",
+          "White"  
+        ],
+        "footwear_type": "Brown oxford shoes",
+        "accessories": [],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 14,
+        "footwear": 14,
+        "accessories": 12,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose band tee with slim denim shorts is a standard casual combo, but the oversized fit of the tee looks a bit sloppy.",
+        "color": "The stark black and white graphic tee could use some color to make this outfit more visually interesting.",
+        "footwear": "The brown oxford shoes seem like an oddly preppy choice for the edgy band tee and distressed shorts.",
+        "accessories": "This outfit is crying out for some accessories - layered jewelry, a belt, or a hat could take it from plain to cool.",
+        "style": "The band tee and distressed shorts have an edgy rocker vibe, but the styling falls flat. With better fit and accessories, this could be a great look."
+      }
+    }
+  ]
+}

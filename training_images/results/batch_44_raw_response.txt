@@ -1,0 +1,322 @@
+{
+  "outfits": [
+    {
+      "image": "casual_576.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Fitted top, flared skirt",
+        "top_type": "Sleeveless polka dot blouse",
+        "bottom_type": "Black flared mini skirt",
+        "color_palette": [
+          "Yellow",
+          "Black"
+        ],
+        "footwear_type": "Black pumps",
+        "accessories": [],
+        "style": "Cute casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted top and flared skirt create a balanced, flattering silhouette. The lengths work well together.",
+        "color": "The yellow and black color scheme is eye-catching but the large amount of black weighs it down a bit.",
+        "footwear": "The black pumps coordinate well and add a slightly dressier element to the outfit.",
+        "accessories": "Some simple jewelry like a pendant necklace or bangle could elevate the look without being overbearing.",
+        "style": "Overall it's a cute, youthful casual look that could work for many occasions with some small tweaks."
+      }
+    },
+    {
+      "image": "casual_577.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose fitting",
+        "top_type": "Blue patterned short sleeve blouse",
+        "bottom_type": "Khaki shorts",
+        "color_palette": [
+          "Blue",
+          "White",
+          "Khaki"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [],
+        "style": "Casual summer"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose fit is comfortable for summer but lacks shape and definition. A more fitted top or shorts could improve the silhouette.",
+        "color": "The blue patterned top adds nice visual interest. The neutral khaki shorts are versatile.",
+        "footwear": "The brown wedges work with the casual outfit but a lighter, brighter sandal could be more summery.",
+        "accessories": "A long pendant necklace, hat, or sunglasses could complete the breezy summer look.",
+        "style": "It's a decent casual summer outfit but could use some tweaks for a more intentional, polished style."
+      }
+    },
+    {
+      "image": "casual_578.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fit and flare",
+        "top_type": "White short sleeve blouse",
+        "bottom_type": "Mustard yellow flared skirt",
+        "color_palette": [
+          "Mustard yellow",
+          "White"
+        ],
+        "footwear_type": "Black wedge sandals",
+        "accessories": [
+          "Pearl necklace"
+        ],
+        "style": "Feminine retro"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fit and flare silhouette is very flattering, feminine and retro-inspired. Great proportions.",
+        "color": "The mustard yellow is a beautiful, less common color that pairs great with the crisp white top.",
+        "footwear": "The black wedge sandals ground the outfit and add a slightly edgy contrast to the sweet look.",
+        "accessories": "The pearl necklace is the perfect classic, feminine touch to complete the retro style.",
+        "style": "Absolutely lovely, cohesive retro look with a modern twist. Youthful yet sophisticated."
+      }
+    },
+    {
+      "image": "casual_579.jpg",
+      "score": 74,
+      "labels": {
+        "fit": "Loose, flowy",
+        "top_type": "Fuchsia tank top",
+        "bottom_type": "Fuchsia flowy skirt",
+        "color_palette": [
+          "Fuchsia",
+          "White"
+        ],
+        "footwear_type": "Nude wedge sandals",
+        "accessories": [
+          "Shell necklace"
+        ],
+        "style": "Monochrome bohemian"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit is comfortable for summer but lacks definition. A more fitted top could improve the shape.",
+        "color": "The monochromatic fuchsia is bold but a bit overwhelming. Introducing another color could provide balance.",
+        "footwear": "The nude wedges get a bit lost. A contrasting shoe color could anchor the look better.",
+        "accessories": "The shell necklace adds a nice boho touch. More accessories like bangles or a headband could complete the style.",
+        "style": "It's an eye-catching bohemian look but needs some editing for better balance and intentionality."
+      }
+    },
+    {
+      "image": "casual_580.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Relaxed, flowy",
+        "top_type": "Light blue button-down shirt",
+        "bottom_type": "White lace mini skirt",
+        "color_palette": [
+          "Light blue",
+          "White",
+          "Brown"
+        ],
+        "footwear_type": "Brown leather cowboy boots",
+        "accessories": [
+          "Brown leather belt",
+          "Brown leather satchel"
+        ],
+        "style": "Rustic feminine"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the top balances the short skirt for an effortless look. Tucking or tying the shirt could also work.",
+        "color": "The light blue and white create a fresh, feminine palette. The cognac brown accessories add earthy warmth.",
+        "footwear": "The cowboy boots add a rustic flair that toughens up the lace skirt in an unexpected, stylish way.",
+        "accessories": "The matching leather belt and satchel pull the look together beautifully and enhance the rustic vibe.",
+        "style": "Love this combo of feminine and rustic elements for a unique, fashionable summer look. Very well accessorized."
+      }
+    },
+    {
+      "image": "casual_581.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted top, A-line skirt",
+        "top_type": "Red wrap top with short sleeves",
+        "bottom_type": "Red A-line mini skirt",
+        "color_palette": [
+          "Red"
+        ],
+        "footwear_type": "Brown strappy wedge sandals",
+        "accessories": [
+          "Gold bangle",
+          "Gold watch"
+        ],
+        "style": "Monochromatic casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The wrap top accentuates the waist beautifully and the A-line skirt skims over the hips for a gorgeous silhouette.",
+        "color": "The monochromatic red is bold, sexy and striking. It commands attention in the best way.",
+        "footwear": "The brown strappy wedges complement the red hue and elongate the legs. Nude would also work well.",
+        "accessories": "The gold bangle and watch add a touch of glam without competing with the red. Very chic.",
+        "style": "This is how you do casual chic! The monochrome palette and classic pieces create a timeless, confident look."
+      }
+    },
+    {
+      "image": "casual_582.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose, draped",
+        "top_type": "Coral sleeveless draped top",
+        "bottom_type": "Coral draped mini dress",
+        "color_palette": [
+          "Coral"
+        ],
+        "footwear_type": "Brown strappy platform sandals",
+        "accessories": [
+          "Gold statement necklace",
+          "Gold bangle"
+        ],
+        "style": "Monochromatic Grecian"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 18,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, draped fit creates beautiful movement and an effortless Grecian goddess vibe.",
+        "color": "The monochromatic coral is fresh and vibrant - perfect for summer. It looks stunning with her skin tone.",
+        "footwear": "The brown platform sandals work okay but a metallic or nude strappy sandal could elevate the look even more.",
+        "accessories": "The gold statement necklace and bangle are the perfect glam touches to dress up the flowy silhouette.",
+        "style": "Gorgeous, effortless summer style with a Grecian flair. The statement accessories really make the look."
+      }
+    },
+    {
+      "image": "casual_583.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose, flowy",
+        "top_type": "Lime green short sleeve blouse",
+        "bottom_type": "Lime green flowy mini skirt",
+        "color_palette": [
+          "Lime green"
+        ],
+        "footwear_type": "Black platform sandals",
+        "accessories": [
+          "Black beaded statement necklace"
+        ],
+        "style": "Monochromatic bohemian"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit suits the bohemian style but could use more waist definition for added shape.",
+        "color": "The lime green is certainly eye-catching but head-to-toe is a bit overwhelming. Adding a neutral could help.",
+        "footwear": "The black platform sandals ground the look and add a touch of boho glam.",
+        "accessories": "The black beaded statement necklace complements the shoes and breaks up the lime green a bit.",
+        "style": "It's a fun bohemian look for summer but needs some minor tweaks to take it to the next level."
+      }
+    },
+    {
+      "image": "casual_584.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose top, fitted shorts",
+        "top_type": "Purple graphic t-shirt",
+        "bottom_type": "Pink printed shorts",
+        "color_palette": [
+          "Purple",
+          "Pink",
+          "White"
+        ],
+        "footwear_type": "Multicolored platform wedge sandals",
+        "accessories": [
+          "Beaded bracelets"
+        ],
+        "style": "Eclectic casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose tee and fitted shorts create a relaxed, balanced silhouette. The shorts could be slightly longer for better proportions.",
+        "color": "The purple and pink color scheme is fun and youthful. The graphic tee adds a nice casual element.",
+        "footwear": "The multicolored platform wedges are a perfect statement piece to jazz up the outfit. They tie in the colors well.",
+        "accessories": "The beaded bracelets enhance the eclectic vibe. A long pendant necklace could also work well here.",
+        "style": "This is a cute, quirky casual look that expresses personal style. The shoes really elevate the basic separates."
+      }
+    },
+    {
+      "image": "casual_585.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose, boxy",
+        "top_type": "Black graphic t-shirt",
+        "bottom_type": "Pink printed shorts",
+        "color_palette": [
+          "Black",
+          "Pink",
+          "White"
+        ],
+        "footwear_type": "Brown strappy flat sandals",
+        "accessories": [],
+        "style": "Casual summer"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, boxy fit of the tee overwhelms her figure, especially with the longer shorts. A more fitted or tucked top could help.",
+        "color": "The black and pink is a decent color combo but the busy patterns compete with each other a bit.",
+        "footwear": "The brown sandals are okay but get lost in the look. A brighter or bolder shoe could be more impactful.",
+        "accessories": "This casual outfit is crying out for accessories! A statement necklace, hat, and bracelets could take it up a notch.",
+        "style": "It's a basic casual summer look but lacks polish and intention. With tweaks to fit and accessories it could be more stylish."
+      }
+    }
+  ]
+}

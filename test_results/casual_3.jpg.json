@@ -1,8 +1,8 @@
 {
-  "score": 82,
+  "score": 84,
   "labels": {
     "fit": "loose_flowy",
-    "pants_type": "wide leg jeans",
+    "pants_type": "wide_leg_trousers",
     "top_type": "jacket",
     "color_palette": [
       "black",
@@ -13,27 +13,27 @@
     ],
     "footwear_type": "footwear_not_visible",
     "accessories": [],
-    "style": "streetwear"
+    "style": "fashion_week_off_duty"
   },
   "score_breakdown": {
-    "fit": 20,
-    "color": 24,
-    "footwear": 20,
-    "accessories": 15,
+    "fit": 21,
+    "color": 21,
+    "footwear": 17,
+    "accessories": 14,
     "style": 15
   },
   "feedback": {
-    "fit": "The jacket works well with the wide leg jeans. The proportions are good, with the silhouette shows good understanding of shape and balance.",
-    "color": "The black elements creates a striking focal point against the black elements. demonstrating confident styling and creating visual impact.",
+    "fit": "The jacket and trousers create a harmonious proportion. the layering creates depth without overwhelming the look.",
+    "color": "Nice color coordination with black and black. showing good understanding of coordinating colors.",
     "footwear": "Consider adding appropriate footwear to complete the look.",
-    "accessories": "The outfit is missing accessories. a scarf or hat to add dimension and personality would enhance it.",
-    "style": "This outfit perfectly embodies streetwear aesthetics. there's excellent balance between different elements."
+    "accessories": "The outfit is missing accessories. a belt to define the waistline and add structure would enhance it.",
+    "style": "Successfully combines elements for a cohesive fashion week off duty look. shows a confident understanding of proportion and subtle statement-making."
   },
   "clothing_items": [
     {
-      "type": "wide leg jeans",
+      "type": "trousers",
       "category": "bottom",
-      "confidence": 0.8513557314872742,
+      "confidence": 0.8512974977493286,
       "box": [
         197,
         424,
@@ -48,91 +48,91 @@
         "area": 0.49438343471612817
       },
       "fit": "wide_leg",
-      "dominant_color": "black",
+      "dominant_color": "gray",
       "clip_analysis": {
         "garment": {
           "best_match": {
-            "type": "wide leg jeans",
-            "confidence": 0.34989336133003235
+            "type": "pants",
+            "confidence": 0.21373102068901062
           },
           "top_matches": [
             {
-              "type": "wide leg jeans",
-              "confidence": 0.34989336133003235
-            },
-            {
-              "type": "straight leg jeans",
-              "confidence": 0.15680286288261414
+              "type": "pants",
+              "confidence": 0.21373102068901062
             },
             {
               "type": "slacks",
-              "confidence": 0.14451806247234344
-            },
-            {
-              "type": "pants",
-              "confidence": 0.09607240557670593
+              "confidence": 0.19923098385334015
             },
             {
               "type": "jeans",
-              "confidence": 0.0869695171713829
+              "confidence": 0.12989626824855804
+            },
+            {
+              "type": "overalls",
+              "confidence": 0.11694706976413727
+            },
+            {
+              "type": "trousers",
+              "confidence": 0.09332018345594406
             }
           ]
         },
         "style": {
           "best_match": {
             "style": "streetwear",
-            "confidence": 0.41259247064590454
+            "confidence": 0.2006676197052002
           },
           "top_matches": [
             {
               "style": "streetwear",
-              "confidence": 0.41259247064590454
+              "confidence": 0.2006676197052002
             },
             {
-              "style": "athleisure",
-              "confidence": 0.11466285586357117
+              "style": "contemporary",
+              "confidence": 0.132554292678833
             },
             {
-              "style": "preppy",
-              "confidence": 0.07674731314182281
+              "style": "avant-garde",
+              "confidence": 0.10378975421190262
             }
           ]
         }
       },
       "colors": [
         {
+          "name": "gray",
+          "rgb": [
+            125,
+            129,
+            124
+          ],
+          "hex": "#7d817c"
+        },
+        {
+          "name": "silver",
+          "rgb": [
+            206,
+            209,
+            205
+          ],
+          "hex": "#ced1cd"
+        },
+        {
           "name": "black",
           "rgb": [
-            9,
-            16,
-            27
+            17,
+            24,
+            32
           ],
-          "hex": "#09101b"
-        },
-        {
-          "name": "off_white",
-          "rgb": [
-            228,
-            236,
-            239
-          ],
-          "hex": "#e4ecef"
-        },
-        {
-          "name": "light_blue",
-          "rgb": [
-            156,
-            163,
-            166
-          ],
-          "hex": "#9ca3a6"
+          "hex": "#111820"
         }
       ]
     },
     {
       "type": "jacket",
       "category": "top",
-      "confidence": 0.7474343776702881,
+      "confidence": 0.747402548789978,
       "box": [
         173,
         1,
@@ -152,48 +152,48 @@
         "garment": {
           "best_match": {
             "type": "jacket",
-            "confidence": 0.7653072476387024
+            "confidence": 0.5240405201911926
           },
           "top_matches": [
             {
               "type": "jacket",
-              "confidence": 0.7653072476387024
+              "confidence": 0.5240405201911926
             },
             {
               "type": "hoodie",
-              "confidence": 0.155304953455925
+              "confidence": 0.429880827665329
             },
             {
               "type": "overalls",
-              "confidence": 0.033565279096364975
+              "confidence": 0.018307195976376534
+            },
+            {
+              "type": "cardigan",
+              "confidence": 0.007769339717924595
             },
             {
               "type": "coat",
-              "confidence": 0.025284986943006516
-            },
-            {
-              "type": "slacks",
-              "confidence": 0.0035659773275256157
+              "confidence": 0.005747719202190638
             }
           ]
         },
         "style": {
           "best_match": {
             "style": "streetwear",
-            "confidence": 0.474804162979126
+            "confidence": 0.3266362249851227
           },
           "top_matches": [
             {
               "style": "streetwear",
-              "confidence": 0.474804162979126
+              "confidence": 0.3266362249851227
             },
             {
               "style": "casual",
-              "confidence": 0.26426276564598083
+              "confidence": 0.12195473909378052
             },
             {
-              "style": "business casual",
-              "confidence": 0.06765348464250565
+              "style": "athleisure",
+              "confidence": 0.10738109052181244
             }
           ]
         }
@@ -202,29 +202,29 @@
         {
           "name": "black",
           "rgb": [
-            9,
-            14,
-            25
+            18,
+            22,
+            30
           ],
-          "hex": "#090e19"
+          "hex": "#12161e"
         },
         {
-          "name": "taupe",
+          "name": "gray",
           "rgb": [
-            89,
-            79,
-            79
+            118,
+            114,
+            110
           ],
-          "hex": "#594f4f"
+          "hex": "#76726e"
         },
         {
           "name": "silver",
           "rgb": [
-            197,
-            205,
-            216
+            209,
+            207,
+            202
           ],
-          "hex": "#c5cdd8"
+          "hex": "#d1cfca"
         }
       ]
     }
@@ -239,8 +239,8 @@
           17
         ],
         "hex": "#020711",
-        "harmony_type": "complementary",
-        "harmony_score": 85,
+        "harmony_type": "neutral",
+        "harmony_score": 70,
         "seasonal_palette": "winter"
       },
       {
@@ -255,15 +255,6 @@
       {
         "name": "taupe",
         "rgb": [
-          52,
-          47,
-          48
-        ],
-        "hex": "#342f30"
-      },
-      {
-        "name": "taupe",
-        "rgb": [
           81,
           70,
           68
@@ -271,16 +262,25 @@
         "hex": "#514644"
       },
       {
+        "name": "taupe",
+        "rgb": [
+          52,
+          47,
+          48
+        ],
+        "hex": "#342f30"
+      },
+      {
         "name": "gray",
         "rgb": [
           112,
           98,
-          95
+          96
         ],
-        "hex": "#70625f"
+        "hex": "#706260"
       },
       {
-        "name": "lavender",
+        "name": "off_white",
         "rgb": [
           222,
           233,
@@ -291,118 +291,118 @@
       {
         "name": "gray",
         "rgb": [
-          145,
-          139,
+          146,
+          140,
           142
         ],
-        "hex": "#918b8e"
+        "hex": "#928c8e"
       },
       {
         "name": "light_blue",
         "rgb": [
-          182,
+          183,
           189,
-          199
+          198
         ],
-        "hex": "#b6bdc7"
+        "hex": "#b7bdc6"
       }
     ],
     "harmony": {
-      "type": "complementary",
-      "score": 85
+      "type": "neutral",
+      "score": 70
     },
     "seasonal_palette": "winter",
     "item_colors": {
       "0": [
         {
+          "name": "gray",
+          "rgb": [
+            125,
+            129,
+            124
+          ],
+          "hex": "#7d817c"
+        },
+        {
+          "name": "silver",
+          "rgb": [
+            206,
+            209,
+            205
+          ],
+          "hex": "#ced1cd"
+        },
+        {
           "name": "black",
           "rgb": [
-            9,
-            16,
-            27
+            17,
+            24,
+            32
           ],
-          "hex": "#09101b"
-        },
-        {
-          "name": "off_white",
-          "rgb": [
-            228,
-            236,
-            239
-          ],
-          "hex": "#e4ecef"
-        },
-        {
-          "name": "light_blue",
-          "rgb": [
-            156,
-            163,
-            166
-          ],
-          "hex": "#9ca3a6"
+          "hex": "#111820"
         }
       ],
       "1": [
         {
           "name": "black",
           "rgb": [
-            9,
-            14,
-            25
+            18,
+            22,
+            30
           ],
-          "hex": "#090e19"
+          "hex": "#12161e"
         },
         {
-          "name": "taupe",
+          "name": "gray",
           "rgb": [
-            89,
-            79,
-            79
+            118,
+            114,
+            110
           ],
-          "hex": "#594f4f"
+          "hex": "#76726e"
         },
         {
           "name": "silver",
           "rgb": [
-            197,
-            205,
-            216
+            209,
+            207,
+            202
           ],
-          "hex": "#c5cdd8"
+          "hex": "#d1cfca"
         }
       ]
     }
   },
   "style_result": {
-    "style": "streetwear",
-    "confidence": 0.2351205088198185,
-    "coherence": 0.2873563218390805,
-    "description": "Relaxed, everyday wear focused on comfort",
+    "style": "fashion_week_off_duty",
+    "confidence": 0.18072289156626506,
+    "coherence": 0.18072289156626506,
+    "description": "Effortless yet deliberate styling seen on fashion industry insiders",
     "top_styles": [
       [
-        "casual",
-        0.2873563218390805
+        "fashion_week_off_duty",
+        0.18072289156626506
       ],
       [
-        "fashion_week_off_duty",
-        0.1724137931034483
+        "casual",
+        0.14457831325301204
       ],
       [
         "edgy_chic",
-        0.13793103448275862
+        0.14457831325301204
       ]
     ],
     "all_probabilities": {
-      "casual": 0.2873563218390805,
-      "formal": 0.1149425287356322,
-      "streetwear": 0.0574712643678161,
+      "casual": 0.14457831325301204,
+      "formal": 0.12048192771084337,
+      "streetwear": 0.0963855421686747,
       "bohemian": 0.0,
-      "minimalist": 0.1149425287356322,
-      "edgy_chic": 0.13793103448275862,
-      "preppy": 0.0,
-      "sporty": 0.1149425287356322,
+      "minimalist": 0.12048192771084337,
+      "edgy_chic": 0.14457831325301204,
+      "preppy": 0.07228915662650602,
+      "sporty": 0.12048192771084337,
       "vintage": 0.0,
-      "fashion_week_off_duty": 0.1724137931034483
+      "fashion_week_off_duty": 0.18072289156626506
     },
     "method": "rule_based"
   }

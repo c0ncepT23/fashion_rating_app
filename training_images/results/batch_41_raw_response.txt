@@ -1,0 +1,328 @@
+{
+  "outfits": [
+    {
+      "image": "casual_546.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Slim fit mini skirt with loose fringe top",
+        "top_type": "Loose black fringe top",
+        "bottom_type": "Tight magenta mini skirt",
+        "color_palette": [
+          "black",
+          "magenta"
+        ],
+        "footwear_type": "Bright yellow sneakers",
+        "accessories": [],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The slim fit mini skirt contrasts nicely with the loose fringe top, creating an interesting silhouette that elongates the legs.",
+        "color": "The bold magenta skirt makes a statement, balanced by the black top. The pop of yellow in the shoes adds a fun, unexpected element.",
+        "footwear": "The bright yellow sneakers are a playful, casual choice that works well with the youthful vibe of the outfit.",
+        "accessories": "No major accessories, allowing the individual pieces to shine on their own.",
+        "style": "This look has an edgy, urban casual feel. It's youthful and trendy without being over-the-top."
+      }
+    },
+    {
+      "image": "casual_547.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose, casual jumpsuit",
+        "top_type": "Floral bustier top",
+        "bottom_type": "Loose black pants",
+        "color_palette": [
+          "black",
+          "pink",
+          "green"
+        ],
+        "footwear_type": "Black and white oxfords",
+        "accessories": [
+          "Pink belt"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, flowy jumpsuit provides a relaxed, comfortable fit that drapes nicely on the body.",
+        "color": "The floral bustier top adds a feminine touch, with the pink and green hues popping against the black. Cohesive color story.",
+        "footwear": "The black and white oxfords ground the look and add a slight preppy touch to the overall casual outfit.",
+        "accessories": "The pink belt ties in with the floral top and defines the waist, giving some shape to the loose silhouette.",
+        "style": "This is a cute, casual chic look. Easy to wear but still stylish and put-together."
+      }
+    },
+    {
+      "image": "casual_548.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Loose, flowy separates",
+        "top_type": "Oversized white cardigan",
+        "bottom_type": "Loose khaki pants",
+        "color_palette": [
+          "white",
+          "khaki",
+          "teal"
+        ],
+        "footwear_type": "Teal and floral print wedges",
+        "accessories": [],
+        "style": "Bohemian casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized cardigan and loose pants create an effortlessly chic, relaxed silhouette. Very comfortable and flowy.",
+        "color": "The neutral white and khaki palette is livened up by the pop of teal in the shoes. Serene and calming color scheme.",
+        "footwear": "The teal and floral print wedges are a fun statement piece that elevate the look. They add a bohemian flair.",
+        "accessories": "No major accessories, allowing the statement shoes to take center stage. The simplicity works well here.",
+        "style": "This outfit has a free-spirited, bohemian casual vibe. It looks comfortable and effortless while still being fashionable."
+      }
+    },
+    {
+      "image": "casual_549.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose top with flowy shorts",
+        "top_type": "Oversized cream blouse",
+        "bottom_type": "Flowy blue shorts",
+        "color_palette": [
+          "cream",
+          "blue",
+          "tan"
+        ],
+        "footwear_type": "Tan ankle boots",
+        "accessories": [
+          "Black crossbody bag"
+        ],
+        "style": "Breezy casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized blouse paired with the flowy shorts creates an easy, breezy silhouette perfect for casual summer days.",
+        "color": "The cream and blue color palette is soft and refreshing. The tan boots complement the light tones nicely.",
+        "footwear": "The tan ankle boots are a practical choice that still look chic and stylish with the outfit.",
+        "accessories": "The black crossbody bag is a versatile piece that doesn't compete with the rest of the look.",
+        "style": "This look is casual and unfussy, but still very cute and put-together. It's a great go-to summer outfit."
+      }
+    },
+    {
+      "image": "casual_550.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Slim fit shorts with loose top",
+        "top_type": "Loose light blue button-down",
+        "bottom_type": "Slim fit denim shorts",
+        "color_palette": [
+          "light blue",
+          "dark blue",
+          "brown"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [
+          "Straw hat"
+        ],
+        "style": "Casual summer chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit denim shorts show off the legs, balanced by the loose, flowy button-down top. Flattering proportions.",
+        "color": "The light and dark blue tones work well together for a denim-on-denim look. Brown boots add an earthy touch.",
+        "footwear": "The brown ankle boots are a stylish choice that ground the look and transition it towards fall.",
+        "accessories": "The straw hat is a cute, summery accessory that adds a touch of charm and protects from the sun.",
+        "style": "This look is casual summer perfection with a hint of country chic. It's stylish yet totally effortless."
+      }
+    },
+    {
+      "image": "casual_551.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose, boxy top with shorts",
+        "top_type": "Boxy red sleeveless top",
+        "bottom_type": "Woven straw shorts",
+        "color_palette": [
+          "red",
+          "tan",
+          "brown"
+        ],
+        "footwear_type": "Brown strappy sandals",
+        "accessories": [
+          "Straw hat"
+        ],
+        "style": "Casual vacation"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The boxy red top is loose and flowy, contrasting with the more fitted straw shorts. Provides ease of movement.",
+        "color": "The bright red top adds a bold pop of color, offset by the neutral tan and brown tones in the shorts, hat and sandals.",
+        "footwear": "The brown strappy sandals are casual and unfussy, working well for a relaxed vacation look.",
+        "accessories": "The straw hat ties in with the woven shorts and adds a beachy, summery touch to protect from the sun.",
+        "style": "This outfit screams casual vacation - it's comfortable, unfussy and perfect for relaxing in warm weather."
+      }
+    },
+    {
+      "image": "casual_552.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Loose, flowy dress",
+        "top_type": "Loose yellow top",
+        "bottom_type": "Flowy blue skirt",
+        "color_palette": [
+          "yellow",
+          "blue",
+          "red"
+        ],
+        "footwear_type": "Red peep-toe heels",
+        "accessories": [
+          "Black waist belt"
+        ],
+        "style": "Colorful casual chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, flowy dress drapes beautifully and provides a graceful, comfortable silhouette.",
+        "color": "The outfit masterfully combines primary colors - the yellow top, blue skirt and red shoes create a bold, colorful statement that is cheerful and eye-catching.",
+        "footwear": "The red peep-toe heels add a flirty, feminine touch while picking up on the red tones in the dress.",
+        "accessories": "The black waist belt is the perfect accessory to define the waist and break up the color blocking.",
+        "style": "This look is casual chic with a colorful, artistic sensibility. It's creative, bold and sure to turn heads."
+      }
+    },
+    {
+      "image": "casual_553.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose, flowy dress",
+        "top_type": "Loose magenta top",
+        "bottom_type": "Flowy magenta skirt",
+        "color_palette": [
+          "magenta",
+          "black"
+        ],
+        "footwear_type": "Black and tan wedge sandals",
+        "accessories": [
+          "Black waist belt"
+        ],
+        "style": "Monochromatic casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, flowy dress offers an easy, unstructured silhouette that moves beautifully.",
+        "color": "The monochromatic magenta look is bold and makes a statement. Black accessories add contrast.",
+        "footwear": "The black and tan wedge sandals work okay with the look but don't particularly elevate the outfit.",
+        "accessories": "The black waist belt defines the waist and breaks up the monochrome. A nice touch.",
+        "style": "This outfit is a casual take on the monochromatic trend. The easy dress keeps it relaxed and unfussy."
+      }
+    },
+    {
+      "image": "casual_554.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose layers",
+        "top_type": "Loose gray tee and black leather jacket",
+        "bottom_type": "Black mini skirt",
+        "color_palette": [
+          "black",
+          "gray",
+          "brown"
+        ],
+        "footwear_type": "Brown lace-up boots",
+        "accessories": [
+          "Red handbag"
+        ],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose tee, leather jacket and mini skirt create a layered look, but the proportions feel a bit off, with the skirt looking quite short.",
+        "color": "The black, gray and brown color scheme is neutral and allows the red bag to really pop. However, the palette overall is a bit heavy and dark.",
+        "footwear": "The brown lace-up boots are a practical, stylish choice but compete a bit with the black in the outfit.",
+        "accessories": "The red handbag adds a much-needed pop of color to the look. However, the style of the bag doesn't quite mesh with the edgy outfit.",
+        "style": "This outfit goes for an edgy, rock-inspired casual look. While the individual pieces are great, the overall effect misses the mark a bit in terms of proportions and color palette."
+      }
+    },
+    {
+      "image": "casual_555.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted top with loose skirt",
+        "top_type": "Fitted pink polka dot crop top",
+        "bottom_type": "Loose coral skirt",
+        "color_palette": [
+          "pink",
+          "coral",
+          "gold"
+        ],
+        "footwear_type": "Coral and gold sandals",
+        "accessories": [
+          "Brown fringe bag"
+        ],
+        "style": "Feminine casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted crop top paired with the loose skirt creates a flattering silhouette that highlights the waist.",
+        "color": "The pink and coral color palette is fresh, feminine and perfect for summer. The gold sandals add a touch of glamour.",
+        "footwear": "The coral and gold sandals perfectly match the skirt and add a dressy element to elevate the casual look.",
+        "accessories": "The brown fringe bag adds a nice textural contrast to the look and the neutral tone doesn't compete with the bright colors.",
+        "style": "This look is casually feminine and flirty. The polka dot crop top adds a retro-inspired touch, while the colors keep it modern and fresh."
+      }
+    }
+  ]
+}

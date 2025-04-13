@@ -1,0 +1,340 @@
+{
+  "outfits": [
+    {
+      "image": "casual_376.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Relaxed, casual fit",
+        "top_type": "Light wash denim jacket",
+        "bottom_type": "Navy pleated shorts",
+        "color_palette": [
+          "Light blue",
+          "Navy",
+          "White"
+        ],
+        "footwear_type": "White low-top sneakers",
+        "accessories": [
+          "Brown leather belt",
+          "Tan shoulder bag"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the denim jacket and pleated shorts creates a laid-back yet put-together silhouette.",
+        "color": "The light blue denim jacket pairs nicely with the navy shorts. The white top and sneakers provide a crisp contrast.",
+        "footwear": "The white low-top sneakers are a great casual choice that tie the look together.",
+        "accessories": "The brown leather belt and tan shoulder bag add a touch of warmth to the cool-toned outfit.",
+        "style": "Overall, this is a well-executed casual chic look suitable for a variety of daytime occasions."
+      }
+    },
+    {
+      "image": "casual_377.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Slim, tailored fit",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Green A-line skirt",
+        "color_palette": [
+          "White",
+          "Green",
+          "Navy"
+        ],
+        "footwear_type": "Black and white spectator pumps",
+        "accessories": [
+          "Black structured handbag",
+          "Gold watch"
+        ],
+        "style": "Preppy chic"
+      },
+      "score_breakdown": {
+        "fit": 24,
+        "color": 24,
+        "footwear": 20,
+        "accessories": 12,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The slim fit of the shirt and tailored skirt create a polished, put-together silhouette.",
+        "color": "The green skirt pops against the crisp white shirt, while the navy blazer adds sophistication.",
+        "footwear": "The black and white spectator pumps are a perfect choice, adding a vintage-inspired touch.",
+        "accessories": "The structured black handbag and gold watch elevate the look with classic elegance.",
+        "style": "This preppy chic outfit is ideal for the office or semi-formal events, exuding confidence and refinement."
+      }
+    },
+    {
+      "image": "casual_378.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose, flowy fit",
+        "top_type": "Pink oversized sweater",
+        "bottom_type": "White denim shorts",
+        "color_palette": [
+          "Pink",
+          "White",
+          "Tan"
+        ],
+        "footwear_type": "Gray slip-on sneakers",
+        "accessories": [
+          "Straw clutch",
+          "Sunglasses"
+        ],
+        "style": "Casual feminine"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit of the sweater and shorts creates a relaxed, effortless vibe.",
+        "color": "The soft pink sweater pairs beautifully with the crisp white shorts for a fresh, feminine palette.",
+        "footwear": "The gray slip-on sneakers are a comfortable, casual choice that doesn't compete with the outfit.",
+        "accessories": "The straw clutch and sunglasses add a summery, laid-back touch to the look.",
+        "style": "This casual feminine outfit is perfect for a day of shopping or lunch with friends."
+      }
+    },
+    {
+      "image": "casual_379.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted top, flared skirt",
+        "top_type": "Floral print blouse",
+        "bottom_type": "Navy pleated skirt",
+        "color_palette": [
+          "Pink",
+          "Green",
+          "Navy"
+        ],
+        "footwear_type": "Nude ankle-strap sandals",
+        "accessories": [
+          "Brown leather satchel",
+          "Gold necklace"
+        ],
+        "style": "Feminine chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 20,
+        "accessories": 12,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The fitted blouse tucked into the flared skirt creates an attractive, feminine silhouette.",
+        "color": "The floral print blouse in pink and green hues pops against the solid navy skirt for a lovely color combination.",
+        "footwear": "The nude ankle-strap sandals elongate the legs and complement the outfit's colors.",
+        "accessories": "The brown leather satchel and delicate gold necklace add a touch of sophistication.",
+        "style": "This feminine chic look is versatile enough for the office, a date, or a semi-formal event."
+      }
+    },
+    {
+      "image": "casual_380.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Relaxed, slightly oversized",
+        "top_type": "Yellow blazer",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "Yellow",
+          "Light blue",
+          "Black"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Black shoulder bag",
+          "Sunglasses"
+        ],
+        "style": "Casual cool"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The slightly oversized blazer and cuffed shorts create a relaxed, effortless silhouette.",
+        "color": "The bright yellow blazer makes a bold statement, while the light blue denim shorts provide a casual contrast.",
+        "footwear": "The black ankle boots add an edgy touch and ground the outfit.",
+        "accessories": "The black shoulder bag and sunglasses complement the boots and complete the cool, laid-back vibe.",
+        "style": "This casual cool outfit is perfect for a day of exploring the city or meeting friends for brunch."
+      }
+    },
+    {
+      "image": "casual_381.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose, boxy fit",
+        "top_type": "Mint green floral print blouse",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "Mint green",
+          "Light blue",
+          "Gray"
+        ],
+        "footwear_type": "Gray ankle boots",
+        "accessories": [],
+        "style": "Casual bohemian"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 10,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose, boxy fit of the blouse and shorts creates a relaxed, bohemian silhouette.",
+        "color": "The mint green floral print blouse pairs nicely with the light blue denim shorts for a fresh, summery look.",
+        "footwear": "The gray ankle boots are an unexpected choice that adds a touch of edge to the outfit.",
+        "accessories": "The lack of accessories allows the floral print blouse to be the focal point of the look.",
+        "style": "This casual bohemian outfit is perfect for a music festival or a laid-back summer day."
+      }
+    },
+    {
+      "image": "casual_382.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose, flowy fit",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Green printed shorts",
+        "color_palette": [
+          "White",
+          "Green",
+          "Brown"
+        ],
+        "footwear_type": "Brown platform sandals",
+        "accessories": [
+          "Gucci logo handbag",
+          "Sunglasses"
+        ],
+        "style": "Resort chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit of the shirt and shorts creates a relaxed, vacation-ready silhouette.",
+        "color": "The white shirt and green printed shorts are a classic color combination for a tropical getaway.",
+        "footwear": "The brown platform sandals add a retro touch and complement the earth tones in the outfit.",
+        "accessories": "The Gucci logo handbag and sunglasses elevate the look with a touch of luxury.",
+        "style": "This resort chic outfit is perfect for a beach vacation or a summer day spent outdoors."
+      }
+    },
+    {
+      "image": "casual_383.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted top, A-line skirt",
+        "top_type": "Polka dot sleeveless blouse",
+        "bottom_type": "Black skater skirt",
+        "color_palette": [
+          "Black",
+          "White",
+          "Tan"
+        ],
+        "footwear_type": "Tan wedge sandals",
+        "accessories": [
+          "Tan tote bag",
+          "Gold bracelet"
+        ],
+        "style": "Retro feminine"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 20,
+        "accessories": 12,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The fitted polka dot blouse tucked into the A-line skirt creates a flattering, feminine silhouette.",
+        "color": "The black and white polka dot print is a timeless choice that pairs well with the solid black skirt.",
+        "footwear": "The tan wedge sandals elongate the legs and add a summery touch to the outfit.",
+        "accessories": "The tan tote bag and gold bracelet complement the sandals and add a touch of elegance.",
+        "style": "This retro feminine look is perfect for a summer wedding or a dressy daytime event."
+      }
+    },
+    {
+      "image": "casual_384.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted, bodycon",
+        "top_type": "Red sleeveless dress",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "Red",
+          "Black"
+        ],
+        "footwear_type": "Black platform heels",
+        "accessories": [
+          "Black clutch",
+          "Statement necklace"
+        ],
+        "style": "Sexy chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 20,
+        "accessories": 12,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The fitted, bodycon silhouette of the dress hugs the curves and creates a sexy, confident look.",
+        "color": "The bold red dress makes a statement and pairs well with the black accessories for a classic color combination.",
+        "footwear": "The black platform heels add height and elongate the legs, complementing the dress.",
+        "accessories": "The black clutch and statement necklace add a touch of glamour and complete the look.",
+        "style": "This sexy chic outfit is perfect for a night out, a cocktail party, or a date night."
+      }
+    },
+    {
+      "image": "casual_385.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose, flowy fit",
+        "top_type": "Red tank top",
+        "bottom_type": "Floral print shorts",
+        "color_palette": [
+          "Red",
+          "Green",
+          "Tan"
+        ],
+        "footwear_type": "Tan strappy sandals",
+        "accessories": [
+          "Tan shoulder bag",
+          "Straw hat"
+        ],
+        "style": "Tropical casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit of the tank top and shorts creates a relaxed, effortless silhouette.",
+        "color": "The red tank top adds a pop of color against the green and white floral print shorts for a tropical vibe.",
+        "footwear": "The tan strappy sandals are a comfortable, summery choice that complements the outfit.",
+        "accessories": "The tan shoulder bag and straw hat add a beachy, laid-back touch to the look.",
+        "style": "This tropical casual outfit is perfect for a day of shopping or exploring while on a beach vacation."
+      }
+    }
+  ]
+}

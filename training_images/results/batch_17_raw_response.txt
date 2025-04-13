@@ -1,0 +1,327 @@
+{
+  "outfits": [
+    {
+      "image": "casual_306.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose and relaxed",
+        "top_type": "Faux fur vest",
+        "bottom_type": "Patterned leggings",
+        "color_palette": [
+          "black",
+          "green",
+          "brown"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [],
+        "style": "Boho chic"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 15,
+        "accessories": 12,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The loose vest and leggings create a relaxed boho vibe, but the proportions could be improved for a more polished look.",
+        "color": "The earthy green and brown tones work well together and suit the boho style.",
+        "footwear": "The wedge sandals are a practical choice but don't elevate the outfit. Ankle boots could tie it together better.",
+        "accessories": "Some layered necklaces and bangles would complete the free-spirited boho look.",
+        "style": "Overall, it captures the boho aesthetic but needs refinement in the details and accessorizing."
+      }
+    },
+    {
+      "image": "casual_307.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Belted at waist",
+        "top_type": "Trench coat",
+        "bottom_type": "Skinny jeans",
+        "color_palette": [
+          "burgundy",
+          "gray",
+          "black"
+        ],
+        "footwear_type": "Knee-high boots",
+        "accessories": [
+          "belt"
+        ],
+        "style": "Classic chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The belted trench coat creates a flattering silhouette, and the skinny jeans provide balance.",
+        "color": "The rich burgundy contrasts nicely with the neutral gray and black for a put-together look.",
+        "footwear": "The sleek knee-high boots elongate the legs and complement the outfit perfectly.",
+        "accessories": "The outfit could be elevated with the addition of a stylish handbag and scarf.",
+        "style": "Classic and chic, this look is timeless and sophisticated. Small tweaks could take it to the next level."
+      }
+    },
+    {
+      "image": "casual_308.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Relaxed",
+        "top_type": "Button-down shirt",
+        "bottom_type": "Printed shorts",
+        "color_palette": [
+          "yellow",
+          "black",
+          "white"
+        ],
+        "footwear_type": "Wedge sneakers",
+        "accessories": [],
+        "style": "Casual cute"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the button-down and shorts is perfect for a casual summer day.",
+        "color": "The bright yellow contrasts beautifully with the black and white, making the outfit pop.",
+        "footwear": "The wedge sneakers add a fun, sporty vibe that suits the overall casual style.",
+        "accessories": "The outfit is accessorized simply with just a watch, allowing the clothes to shine.",
+        "style": "Cute, casual and perfect for summer, this outfit nails effortless style. The graphic print adds interest."
+      }
+    },
+    {
+      "image": "casual_309.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Fitted top, short shorts",
+        "top_type": "Button-down shirt",
+        "bottom_type": "Leather shorts",
+        "color_palette": [
+          "light blue",
+          "black"
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [
+          "handbag"
+        ],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted shirt tucked into short shorts creates a leggy look that is balanced by the looser shirt.",
+        "color": "The light blue and black is a classic combo, but doesn't add much visual interest.",
+        "footwear": "The chunky ankle boots ground the outfit and add an edgy vibe that works with the leather shorts.",
+        "accessories": "The black handbag is a nice basic that doesn't compete with the outfit.",
+        "style": "The leather shorts give casual basics an edgy twist. Bolder color or pattern could take it up a notch."
+      }
+    },
+    {
+      "image": "casual_310.jpg",
+      "score": 89,
+      "labels": {
+        "fit": "Oversized layers",
+        "top_type": "Sweater, coat",
+        "bottom_type": "Satin skirt",
+        "color_palette": [
+          "pink",
+          "maroon",
+          "gray"
+        ],
+        "footwear_type": "Platform sandals",
+        "accessories": [
+          "hat"
+        ],
+        "style": "Quirky chic"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 17,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The oversized sweater and coat create cozy layers, balanced by the short skirt for proportion.",
+        "color": "The monochromatic pink and maroon palette is eye-catching and makes a bold statement.",
+        "footwear": "The chunky platform sandals are an unexpected choice that adds a funky twist.",
+        "accessories": "The floppy hat tops off the look perfectly and suits the quirky vibe.",
+        "style": "Quirky and fashion-forward, this outfit combines girly and edgy pieces for a unique look."
+      }
+    },
+    {
+      "image": "casual_311.jpg",
+      "score": 85,
+      "labels": {
+        "fit": "Fitted",
+        "top_type": "Denim jacket",
+        "bottom_type": "Floral dress",
+        "color_palette": [
+          "light blue",
+          "white",
+          "pink"
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [],
+        "style": "Feminine casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 19
+      },
+      "feedback": {
+        "fit": "The fitted denim jacket and flowy dress create a nice juxtaposition of structured and feminine.",
+        "color": "The light blue denim complements the white and pink floral print for a fresh, spring-like palette.",
+        "footwear": "The ankle boots toughen up the sweet dress just a bit. Sandals could work for a different vibe.",
+        "accessories": "The outfit could use some delicate jewelry, like a necklace or bracelet, to complete the look.",
+        "style": "The mix of feminine florals with a casual denim jacket strikes the perfect balance for everyday style."
+      }
+    },
+    {
+      "image": "casual_312.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Cropped, mini",
+        "top_type": "Leather jacket",
+        "bottom_type": "Pleated skirt",
+        "color_palette": [
+          "black",
+          "white",
+          "hot pink"
+        ],
+        "footwear_type": "Studded flats",
+        "accessories": [
+          "fringe bag"
+        ],
+        "style": "Edgy feminine"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The cropped leather jacket and mini skirt show some skin for an edgy, flirty look.",
+        "color": "The black and white is punched up by the pop of hot pink in the skirt. The color blocking is striking and fun.",
+        "footwear": "The studded flats add another edgy element that coordinates with the leather jacket.",
+        "accessories": "The fringed bag is an eye-catching accessory that moves beautifully and suits the outfit's attitude.",
+        "style": "Girly with an edge, this outfit combines sweet and tough elements for a head-turning style."
+      }
+    },
+    {
+      "image": "casual_313.jpg",
+      "score": 79,
+      "labels": {
+        "fit": "Loose layers",
+        "top_type": "Graphic tee",
+        "bottom_type": "Cuffed shorts",
+        "color_palette": [
+          "navy",
+          "red",
+          "white"
+        ],
+        "footwear_type": "Sneakers",
+        "accessories": [
+          "tote bag"
+        ],
+        "style": "Tomboy chic"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 16,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The loose tee and cuffed shorts create a relaxed, boyish silhouette. More fitted pieces could flatter the figure better.",
+        "color": "The navy, red and white is a classic combo but a bit expected. Introducing another color could add interest.",
+        "footwear": "The sneakers are perfect for the tomboy aesthetic and keep the outfit casual and comfortable.",
+        "accessories": "The tote is practical but plain. A unique bag could be a focal point to elevate the basic pieces.",
+        "style": "The outfit has an effortless, borrowed-from-the-boys vibe but needs some tweaks to make it more fashionable."
+      }
+    },
+    {
+      "image": "casual_314.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted top, full skirt",
+        "top_type": "Sleeveless top",
+        "bottom_type": "Belted skirt",
+        "color_palette": [
+          "hot pink",
+          "black",
+          "beige"
+        ],
+        "footwear_type": "T-strap flats",
+        "accessories": [
+          "belt"
+        ],
+        "style": "Retro chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The fitted sleeveless top tucked into the belted full skirt creates an hourglass silhouette.",
+        "color": "The hot pink skirt makes a statement, balanced by the neutral black and beige.",
+        "footwear": "The T-strap flats have a vintage vibe that suits the retro style of the outfit.",
+        "accessories": "The black belt defines the waist and pulls the look together. A hair accessory could be a nice addition.",
+        "style": "With a nod to 50s style, this outfit has a retro feminine appeal. The bold skirt modernizes it."
+      }
+    },
+    {
+      "image": "casual_315.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Fitted",
+        "top_type": "Tank top",
+        "bottom_type": "Skater skirt",
+        "color_palette": [
+          "red",
+          "white",
+          "black"
+        ],
+        "footwear_type": "T-strap heels",
+        "accessories": [
+          "belt"
+        ],
+        "style": "Pin-up inspired"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The fitted tank and flared skater skirt hug curves in all the right places for a flirty, pin-up inspired look.",
+        "color": "The red, white and black is a classic pin-up color combo that always looks striking.",
+        "footwear": "The T-strap heels continue the retro vibe and elongate the legs. Cute but could be less comfortable.",
+        "accessories": "The thin belt accentuates the waist. Some retro sunnies or a neck scarf could amp up the pin-up style.",
+        "style": "Playful and a bit sexy, this outfit has vintage va-va-voom that would turn heads at a party."
+      }
+    }
+  ]
+}

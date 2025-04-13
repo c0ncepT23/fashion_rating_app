@@ -1,0 +1,328 @@
+{
+  "outfits": [
+    {
+      "image": "casual_346.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose, casual fit",
+        "top_type": "Button-down shirt",
+        "bottom_type": "Skinny jeans",
+        "color_palette": [
+          "white",
+          "mint green",
+          "black"
+        ],
+        "footwear_type": "Neon yellow platform heels",
+        "accessories": [
+          "Metallic clutch"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose shirt and skinny jeans create a nice casual silhouette. Tucking in the shirt would elevate the look.",
+        "color": "Great color coordination with the pastel shirt, black jeans and pop of neon in the shoes.",
+        "footwear": "The neon heels are a fun, bold choice but may be a bit much for an everyday casual look.",
+        "accessories": "The metallic clutch adds a nice touch of shine to complement the shoes.",
+        "style": "Overall a cute, casual chic outfit. A few small tweaks could polish the look further."
+      }
+    },
+    {
+      "image": "casual_347.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Oversized, slouchy fit",
+        "top_type": "Leopard print coat",
+        "bottom_type": "Black mini skirt",
+        "color_palette": [
+          "tan",
+          "black",
+          "purple"
+        ],
+        "footwear_type": "Red platform sandals",
+        "accessories": [],
+        "style": "Edgy, street style"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The oversized leopard coat with fitted skirt underneath creates an interesting play on proportions.",
+        "color": "The neutral leopard print is balanced nicely by the bold red shoes and pop of purple.",
+        "footwear": "The red platform sandals add a great pop of color and edge to the look.",
+        "accessories": "No major accessories, allowing the coat to be the statement piece.",
+        "style": "Very cool, edgy street style look. The leopard coat makes a bold statement."
+      }
+    },
+    {
+      "image": "casual_348.jpg",
+      "score": 75,
+      "labels": {
+        "fit": "Fit-and-flare silhouette",
+        "top_type": "Sleeveless collared top",
+        "bottom_type": "Floral print skater skirt",
+        "color_palette": [
+          "blue",
+          "black",
+          "brown"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [
+          "Wide waist belt"
+        ],
+        "style": "Quirky, vintage-inspired"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 14,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The fit-and-flare silhouette of the dress is flattering but a bit juvenile.",
+        "color": "The blue and black floral print is busy - a more subdued pattern would be better.",
+        "footwear": "The brown wedges coordinate well with the belt but seem a tad heavy for the dress.",
+        "accessories": "The wide waist belt helps define the waist but competes with the busy print.",
+        "style": "The vintage vibe is cute but comes across a bit costume-y. A more modern take would improve the look."
+      }
+    },
+    {
+      "image": "casual_349.jpg",
+      "score": 87,
+      "labels": {
+        "fit": "Relaxed, flowy fit",
+        "top_type": "One-shoulder tank top",
+        "bottom_type": "Lace shorts",
+        "color_palette": [
+          "tan",
+          "white",
+          "black"
+        ],
+        "footwear_type": "Black peep-toe booties",
+        "accessories": [],
+        "style": "Boho chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The flowy one-shoulder top and relaxed shorts create an effortlessly chic silhouette.",
+        "color": "The neutral color palette of tan, white and black is sophisticated.",
+        "footwear": "The black booties ground the look and add a touch of edge.",
+        "accessories": "No major accessories, allowing the one-shoulder top and lace shorts to shine.",
+        "style": "Great example of boho chic style - relaxed and flowy but still put-together and stylish."
+      }
+    },
+    {
+      "image": "casual_350.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted on top, flowy shorts",
+        "top_type": "Fuchsia one-shoulder top",
+        "bottom_type": "Bright yellow shorts",
+        "color_palette": [
+          "fuchsia",
+          "yellow",
+          "red"
+        ],
+        "footwear_type": "Red strappy sandals",
+        "accessories": [
+          "Fuchsia handbag"
+        ],
+        "style": "Bold, colorful, summery"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The fitted one-shoulder top balances nicely with the flowy high-waisted shorts.",
+        "color": "Fantastic bold color combination! The fuchsia, yellow and hints of red are so fun and summery.",
+        "footwear": "The strappy red sandals are a perfect complement to the bright outfit colors.",
+        "accessories": "The fuchsia bag ties in perfectly with the top and completes the colorful look.",
+        "style": "Absolutely love this outfit! The bold colors are styled so well together for a chic summer look."
+      }
+    },
+    {
+      "image": "casual_351.jpg",
+      "score": 89,
+      "labels": {
+        "fit": "Loose, flowy fit",
+        "top_type": "Tan safari-style jacket",
+        "bottom_type": "Coral pleated midi skirt",
+        "color_palette": [
+          "tan",
+          "coral",
+          "white"
+        ],
+        "footwear_type": "Tan ankle-strap heels",
+        "accessories": [
+          "Printed clutch"
+        ],
+        "style": "Sophisticated, feminine"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 17,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose jacket and flowy midi skirt create an elegant, feminine silhouette.",
+        "color": "Love the combination of the tan jacket with the coral skirt. Very fresh and sophisticated.",
+        "footwear": "The tan ankle-strap heels elongate the legs and complement the jacket perfectly.",  
+        "accessories": "The printed clutch adds a nice hint of pattern to the solid-colored outfit.",
+        "style": "Beautiful, polished outfit. Perfect for a summer event or work day. Very classy and put-together."
+      }
+    },
+    {
+      "image": "casual_352.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Slim-fit jeans, loose top",
+        "top_type": "Leopard print blouse",
+        "bottom_type": "Dark wash skinny jeans",
+        "color_palette": [
+          "tan",
+          "black",
+          "yellow"
+        ],
+        "footwear_type": "Yellow platform pumps",
+        "accessories": [
+          "Straw handbag"
+        ],
+        "style": "Casual with trendy details"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The slim jeans and loose blouse are a classic casual combo. Tucking in the blouse would improve the proportions.",
+        "color": "The leopard print with black and pops of yellow is fun, but a more subtle shoe color would make it more wearable.",
+        "footwear": "The yellow pumps are very trendy and add an unexpected pop, but clash a bit with the leopard.",
+        "accessories": "The straw bag is cute for summer but competes with the busyness of the leopard print.",
+        "style": "Overall a decent trendy casual look, but a bit busy with the competing leopard and yellow. Simplifying would elevate it."
+      }
+    },
+    {
+      "image": "casual_353.jpg",
+      "score": 85,
+      "labels": {
+        "fit": "Loose layers",
+        "top_type": "Aqua blazer",
+        "bottom_type": "Black leggings",
+        "color_palette": [
+          "aqua",
+          "red",
+          "black"
+        ],
+        "footwear_type": "Red platform sandals",
+        "accessories": [
+          "Chunky beaded necklace"
+        ],
+        "style": "Colorful, eclectic"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 17,
+        "accessories": 17,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The loose layered look is comfy casual but a more tailored blazer would elevate the outfit.",
+        "color": "The bright aqua and red color palette is certainly eye-catching! The black grounds it.",
+        "footwear": "The red platform sandals are a fun choice and tie in the red from the necklace.",
+        "accessories": "The chunky beaded necklace makes a bold statement against the aqua blazer.",
+        "style": "This is a very unique, eclectic look with the colorful layered pieces. It's a bit quirky but still stylish."
+      }
+    },
+    {
+      "image": "casual_354.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose tank, fitted shorts",
+        "top_type": "Graphic print tank top",
+        "bottom_type": "Acid wash denim shorts",
+        "color_palette": [
+          "black",
+          "white",
+          "blue"  
+        ],
+        "footwear_type": "Red strappy flat sandals",
+        "accessories": [],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 15,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The loose tank and fitted shorts are an easy casual look, but the proportions are a bit off.",
+        "color": "The black and white graphic with denim is classic, but the red shoes are too bold for the rest of the look.",
+        "footwear": "The red strappy sandals are cute, but a more neutral color would be more versatile.",
+        "accessories": "This look could benefit from a few accessories, like a long pendant necklace, to add interest.",
+        "style": "It's an edgy take on a casual summer look. A few tweaks would make it more cohesive and polished."
+      }
+    },
+    {
+      "image": "casual_355.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose button-down, shorts",
+        "top_type": "Chambray button-down shirt",
+        "bottom_type": "Khaki shorts",
+        "color_palette": [
+          "blue",
+          "tan",
+          "black"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Red beaded necklace"
+        ],
+        "style": "Tomboy chic"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 17,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The loose chambray shirt with cuffed shorts is a great casual tomboy look. Tucking or tying the shirt would define the waist more.",
+        "color": "The chambray and khaki color combo is classic. The pop of red in the necklace adds a nice accent.",
+        "footwear": "The black ankle boots toughen up the look, but a more summery shoe would lighten it up.",
+        "accessories": "The red beaded necklace is a great way to add a feminine touch to the tomboy aesthetic.",
+        "style": "Overall this is a cute take on tomboy style. It's casual and a bit rugged but still stylish."
+      }
+    }
+  ]
+}

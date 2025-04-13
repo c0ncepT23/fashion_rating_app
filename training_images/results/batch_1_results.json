@@ -1,0 +1,333 @@
+{
+  "outfits": [
+    {
+      "image": "casual_146.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Slim fit",
+        "top_type": "Leather jacket",
+        "bottom_type": "High-waisted shorts",
+        "color_palette": [
+          "Black",
+          "Brown",
+          "Orange"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [
+          "Sunglasses"
+        ],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit leather jacket and high-waisted shorts create a sleek silhouette that flatters her figure.",
+        "color": "The black, brown, and orange color scheme is perfect for fall and gives the outfit an edgy vibe.",
+        "footwear": "The wedge sandals elongate her legs and pair well with the shorts for a stylish casual look.",
+        "accessories": "The sunglasses add a cool factor but the outfit could benefit from another accessory like a necklace.",
+        "style": "Overall, this is a great edgy casual outfit for fall that showcases her personal style."
+      }
+    },
+    {
+      "image": "casual_147.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Relaxed fit",
+        "top_type": "Denim jacket",
+        "bottom_type": "Pleated midi skirt",
+        "color_palette": [
+          "Blue",
+          "Peach",
+          "Beige"
+        ],
+        "footwear_type": "Ballet flats",
+        "accessories": [
+          "Leather handbag"
+        ],
+        "style": "Feminine casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 24,
+        "footwear": 20,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the denim jacket balances the volume of the pleated midi skirt for an easy, casual look.",
+        "color": "The soft blue, peach, and beige color palette is refreshing and perfect for spring or summer.",
+        "footwear": "The ballet flats are a comfortable and stylish choice that complement the feminine aesthetic.",
+        "accessories": "The leather handbag is a nice neutral accessory but some dainty jewelry could elevate the look further.",
+        "style": "This outfit embodies a feminine, casual style that is both pretty and effortless."
+      }
+    },
+    {
+      "image": "casual_148.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Crop top",
+        "bottom_type": "Tulle skirt",
+        "color_palette": [
+          "White",
+          "Pink",
+          "Blue"
+        ],
+        "footwear_type": "High-top sneakers",
+        "accessories": [
+          "Necklace"
+        ],
+        "style": "Quirky cute"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose crop top and tulle skirt create an intentionally unstructured silhouette that may not be the most flattering.",
+        "color": "The white, pink, and blue color combination is cute and whimsical but could come across as a bit juvenile.",
+        "footwear": "The high-top sneakers ground the look and add an unexpected sporty twist.",
+        "accessories": "The necklace suits the quirky style but the outfit needs more impactful accessories to feel complete.",
+        "style": "While playful and expressive, the overall style borders on costumelike rather than everyday casual wear."
+      }
+    },
+    {
+      "image": "casual_149.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Relaxed fit",
+        "top_type": "Printed blouse",
+        "bottom_type": "High-waisted shorts",
+        "color_palette": [
+          "Rust",
+          "White",
+          "Brown"
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [
+          "Leather satchel",
+          "Fedora hat"
+        ],
+        "style": "Boho chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 20,
+        "accessories": 14,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the printed blouse tucked into high-waisted shorts is effortlessly chic.",
+        "color": "The rust, white, and brown color scheme has a warm, earthy quality that's perfect for the boho style.",
+        "footwear": "The ankle boots add a slightly rugged touch that complements the outfit's laid-back feel.",
+        "accessories": "The leather satchel and fedora hat are stylish accessories that complete the boho look.",
+        "style": "This outfit perfectly embodies a modern boho chic aesthetic that feels fresh and fashionable."
+      }
+    },
+    {
+      "image": "casual_150.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Graphic tee",
+        "bottom_type": "Lace shorts",
+        "color_palette": [
+          "White",
+          "Tan",
+          "Brown"
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [
+          "Leather satchel"
+        ],
+        "style": "Casual feminine"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the graphic tee contrasts the fitted lace shorts, which throws off the proportions slightly.",
+        "color": "The white, tan, and brown color palette is neutral and versatile but a bit bland.",
+        "footwear": "The ankle boots toughen up the delicate lace shorts for an interesting juxtaposition.",
+        "accessories": "The leather satchel is a great everyday bag but the look needs more accessories for polish.",
+        "style": "While cute, the casual feminine style could use some tweaks for better balance and visual interest."
+      }
+    },
+    {
+      "image": "casual_151.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted",
+        "top_type": "Lace crop top",
+        "bottom_type": "High-waisted pants",
+        "color_palette": [
+          "Beige",
+          "Rust",
+          "Gold"
+        ],
+        "footwear_type": "Strappy sandals",
+        "accessories": [
+          "Statement necklace",
+          "Clutch"
+        ],
+        "style": "Elegant casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 20,
+        "accessories": 14,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The fitted lace crop top and high-waisted pants create an elegant, streamlined silhouette.",
+        "color": "The beige, rust, and gold color scheme is warm and sophisticated.",
+        "footwear": "The strappy sandals elongate her legs and dress up the look.",
+        "accessories": "The statement necklace and clutch add a touch of glamour that elevates the outfit.",
+        "style": "This elegant casual look is perfect for a summer event or night out."
+      }
+    },
+    {
+      "image": "casual_152.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Button-down shirt",
+        "bottom_type": "Printed midi skirt",
+        "color_palette": [
+          "White",
+          "Red",
+          "Blue"
+        ],
+        "footwear_type": "Strappy sandals",
+        "accessories": [
+          "Leather belt",
+          "Hoop earrings"
+        ],
+        "style": "Vintage inspired"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the button-down shirt balances the fuller skirt but could be more tailored.",
+        "color": "The white, red, and blue color scheme has a classic, retro feel that suits the silhouette.",
+        "footwear": "The strappy sandals are a nice choice but wedges or flats would also work well.",
+        "accessories": "The leather belt defines her waist and the hoop earrings suit the vintage vibe.",
+        "style": "This outfit has a charming, vintage-inspired style that tells a story."
+      }
+    },
+    {
+      "image": "casual_153.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Floral blouse",
+        "bottom_type": "Cropped pants",
+        "color_palette": [
+          "White",
+          "Blue",
+          "Green"
+        ],
+        "footwear_type": "Strappy sandals",
+        "accessories": [
+          "Floppy hat"
+        ],
+        "style": "Casual romantic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the floral blouse and cropped pants is breezy but borders on shapeless.",
+        "color": "The white, blue, and green color palette is fresh and appropriate for spring/summer.",
+        "footwear": "The strappy sandals work fine but a shoe with more visual weight would improve the proportions.",
+        "accessories": "The floppy hat adds a romantic touch but the outfit needs more impactful accessories.",
+        "style": "While the casual romantic style is pretty, the overall effect is a bit plain."
+      }
+    },
+    {
+      "image": "casual_154.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Graphic tee",
+        "bottom_type": "Patterned leggings",
+        "color_palette": [
+          "White",
+          "Lime green",
+          "Black"
+        ],
+        "footwear_type": "High-top sneakers",
+        "accessories": [],
+        "style": "Athleisure"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 18,
+        "accessories": 10,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose fit of the graphic tee and leggings prioritizes comfort but lacks structure.",
+        "color": "The white, lime green, and black color scheme is striking but the shades clash somewhat.",
+        "footwear": "The high-top sneakers lean into the sporty aesthetic and are a practical choice.",
+        "accessories": "The outfit is missing accessories, which makes it feel unfinished.",
+        "style": "The athleisure style is on-trend but this look needs refinement to make a fashion statement."
+      }
+    },
+    {
+      "image": "casual_155.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Graphic tee",
+        "bottom_type": "Denim shorts",
+        "color_palette": [
+          "White",
+          "Mint green",
+          "Blue"
+        ],
+        "footwear_type": "Knee-high socks and sneakers",
+        "accessories": [],
+        "style": "Quirky casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 10,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose fit of the graphic tee paired with denim shorts is a classic casual combo.",
+        "color": "The white, mint green, and blue color palette is cute and youthful.",
+        "footwear": "The knee-high socks and sneakers add a quirky, playful element to the look.",
+        "accessories": "The outfit would benefit greatly from the addition of accessories to give it more personality.",
+        "style": "The quirky casual style has potential but needs more deliberate styling to feel intentional."
+      }
+    }
+  ]
+}

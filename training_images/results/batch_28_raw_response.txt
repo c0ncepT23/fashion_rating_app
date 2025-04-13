@@ -1,0 +1,327 @@
+{
+  "outfits": [
+    {
+      "image": "casual_416.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Relaxed, casual fit",
+        "top_type": "Light blue button-down shirt",
+        "bottom_type": "Olive green wide-leg pants",
+        "color_palette": [
+          "Light blue",
+          "Olive green",
+          "Tan"
+        ],
+        "footwear_type": "Tan wedge sandals",
+        "accessories": [
+          "Brown leather satchel"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the shirt and pants creates an effortlessly stylish look that is perfect for casual occasions.",
+        "color": "The light blue and olive green color combination is refreshing and on-trend. The tan accessories complement the outfit nicely.",
+        "footwear": "The wedge sandals add a touch of elegance to the casual ensemble and elongate the legs.",
+        "accessories": "The leather satchel is a practical and stylish choice that ties the look together.",
+        "style": "Overall, this outfit achieves a chic, casual vibe that is both comfortable and fashionable."
+      }
+    },
+    {
+      "image": "casual_417.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Fitted top, loose shorts",
+        "top_type": "Beige button-down shirt",
+        "bottom_type": "Distressed denim shorts",
+        "color_palette": [
+          "Beige",
+          "Light blue",
+          "Brown"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [],
+        "style": "Casual summer"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 8,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted shirt tucked into the loose shorts creates a balanced silhouette that flatters the figure.",
+        "color": "The neutral beige and light blue color scheme is perfect for a summer day and easy to mix and match with other pieces.",
+        "footwear": "The brown wedge sandals complement the casual outfit and add a touch of height.",
+        "accessories": "While the outfit lacks accessories, the simplicity allows the individual pieces to shine.",
+        "style": "This casual summer look is perfect for a day out with friends or running errands in style."
+      }
+    },
+    {
+      "image": "casual_418.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Loose, flowy silhouette",
+        "top_type": "Floral print blouse",
+        "bottom_type": "Gray wide-leg pants",
+        "color_palette": [
+          "Multicolor",
+          "Gray",
+          "Yellow"
+        ],
+        "footwear_type": "Yellow strappy sandals",
+        "accessories": [],
+        "style": "Bohemian chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 20,
+        "accessories": 8,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, flowy silhouette of the blouse and pants creates a relaxed and comfortable look that is perfect for summer.",
+        "color": "The vibrant floral print adds a pop of color to the neutral gray pants, while the yellow sandals provide a fun and unexpected accent.",
+        "footwear": "The strappy yellow sandals are a great choice for this outfit, as they add a playful touch and tie in with the colors of the blouse.",
+        "accessories": "While the outfit doesn't include any accessories, the bold print and colorful shoes make a statement on their own.",
+        "style": "This bohemian chic look is perfect for a summer day out or a casual event. The combination of prints and colors creates a stylish and eye-catching ensemble."
+      }
+    },
+    {
+      "image": "casual_419.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Loose, flowy dress",
+        "top_type": "Polka dot dress",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "Black",
+          "White",
+          "Yellow"
+        ],
+        "footwear_type": "Pink ankle boots",
+        "accessories": [
+          "Yellow crossbody bag"
+        ],
+        "style": "Retro chic"
+      },
+      "score_breakdown": {
+        "fit": 24,
+        "color": 22,
+        "footwear": 20,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit of the dress creates a comfortable and flattering silhouette that is perfect for a casual day out.",
+        "color": "The black and white polka dot print is a classic pattern that never goes out of style, while the pops of yellow and pink add a fun and playful touch.",
+        "footwear": "The pink ankle boots are an unexpected choice that adds a touch of edginess to the feminine dress.",
+        "accessories": "The yellow crossbody bag is a great addition to the outfit, as it ties in with the yellow accents in the dress and provides a practical way to carry essentials.",
+        "style": "This retro chic look is both stylish and comfortable, making it perfect for a variety of occasions. The combination of the polka dot dress and colorful accessories creates a fun and eye-catching ensemble."
+      }
+    },
+    {
+      "image": "casual_420.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose, oversized top and fitted shorts",
+        "top_type": "Mint green button-down shirt",
+        "bottom_type": "White lace shorts",
+        "color_palette": [
+          "Mint green",
+          "White",
+          "Black"
+        ],
+        "footwear_type": "Black strappy sandals",
+        "accessories": [],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 10,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized shirt paired with the fitted lace shorts creates an interesting contrast in proportions that is both comfortable and stylish.",
+        "color": "The mint green and white color combination is fresh and perfect for summer, while the black sandals ground the look.",
+        "footwear": "The black strappy sandals are a classic choice that elongates the legs and complements the casual outfit.",
+        "accessories": "While the outfit lacks accessories, the simplicity allows the individual pieces and colors to stand out.",
+        "style": "This casual chic look is perfect for a summer day out or a lunch date with friends. The combination of the oversized shirt and lace shorts creates a stylish and effortless ensemble."
+      }
+    },
+    {
+      "image": "casual_421.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Fitted top and loose shorts",
+        "top_type": "Beige t-shirt",
+        "bottom_type": "Black and white polka dot shorts",
+        "color_palette": [
+          "Beige",
+          "Black",
+          "White",
+          "Blue"
+        ],
+        "footwear_type": "Blue platform sandals",
+        "accessories": [],
+        "style": "Casual retro"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 8,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted t-shirt tucked into the loose polka dot shorts creates a balanced silhouette that is both comfortable and flattering.",
+        "color": "The neutral beige top pairs well with the black and white polka dot shorts, while the blue sandals add a pop of color.",
+        "footwear": "The blue platform sandals are a fun and unexpected choice that adds height and interest to the casual outfit.",
+        "accessories": "While the outfit doesn't include any accessories, the bold polka dot print and colorful shoes make a statement on their own.",
+        "style": "This casual retro look is perfect for a summer day out or a picnic in the park. The combination of the polka dot shorts and platform sandals creates a playful and stylish ensemble."
+      }
+    },
+    {
+      "image": "casual_422.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted dress with flowy skirt",
+        "top_type": "Gray t-shirt dress",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "Gray",
+          "Pink",
+          "Black"
+        ],
+        "footwear_type": "Black combat boots",
+        "accessories": [
+          "Pink belt"
+        ],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 20,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted top of the dress combined with the flowy skirt creates a flattering silhouette that accentuates the waist.",
+        "color": "The gray dress serves as a neutral base, allowing the pink belt to add a pop of color and the black combat boots to provide an edgy contrast.",
+        "footwear": "The black combat boots are an unexpected choice that adds a tough, edgy vibe to the feminine dress.",
+        "accessories": "The pink belt is a great addition to the outfit, as it cinches the waist and adds a touch of color to the neutral dress.",
+        "style": "This edgy casual look is perfect for someone who wants to add a bit of attitude to their everyday style. The combination of the feminine dress and tough combat boots creates an interesting and stylish contrast."
+      }
+    },
+    {
+      "image": "casual_423.jpg",
+      "score": 94,
+      "labels": {
+        "fit": "Fitted top and flowy skirt",
+        "top_type": "Yellow sleeveless top",
+        "bottom_type": "Green pleated midi skirt",
+        "color_palette": [
+          "Yellow",
+          "Green",
+          "Black"
+        ],
+        "footwear_type": "Yellow ankle strap heels",
+        "accessories": [
+          "Yellow clutch"
+        ],
+        "style": "Colorful chic"
+      },
+      "score_breakdown": {
+        "fit": 24,
+        "color": 24,
+        "footwear": 22,
+        "accessories": 12,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The fitted sleeveless top paired with the flowy pleated skirt creates a balanced and flattering silhouette that highlights the waist.",
+        "color": "The vibrant yellow and green color combination is eye-catching and perfect for summer. The black accents in the outfit provide a grounding contrast.",
+        "footwear": "The yellow ankle strap heels are a perfect match for the top and clutch, creating a cohesive and stylish look from head to toe.",
+        "accessories": "The yellow clutch is a great addition to the outfit, as it ties in with the top and shoes and provides a practical way to carry essentials.",
+        "style": "This colorful chic look is perfect for a summer event or a day out in the city. The combination of the bright colors and feminine silhouette creates a stylish and memorable ensemble."
+      }
+    },
+    {
+      "image": "casual_424.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Loose, boxy top and fitted skirt",
+        "top_type": "Yellow short-sleeved sweater",
+        "bottom_type": "Magenta pleated midi skirt",
+        "color_palette": [
+          "Yellow",
+          "Magenta",
+          "Leopard print"
+        ],
+        "footwear_type": "Leopard print pumps",
+        "accessories": [
+          "Magenta clutch"
+        ],
+        "style": "Bold and eclectic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 24,
+        "footwear": 20,
+        "accessories": 12,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The loose, boxy fit of the sweater contrasts nicely with the fitted pleated skirt, creating an interesting play on proportions.",
+        "color": "The bold combination of yellow, magenta, and leopard print is daring and eye-catching, making a strong fashion statement.",
+        "footwear": "The leopard print pumps add an extra layer of visual interest to the outfit and tie in with the bold color scheme.",
+        "accessories": "The magenta clutch complements the skirt perfectly and provides a practical way to carry essentials.",
+        "style": "This bold and eclectic look is not for the faint of heart, but it is perfect for someone who loves to experiment with fashion and make a statement. The combination of bright colors and mixed prints creates a unique and memorable ensemble."
+      }
+    },
+    {
+      "image": "casual_425.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose, oversized t-shirt and fitted shorts",
+        "top_type": "White graphic t-shirt",
+        "bottom_type": "Black denim shorts",
+        "color_palette": [
+          "White",
+          "Black",
+          "Blue"
+        ],
+        "footwear_type": "Blue suede ankle boots",
+        "accessories": [
+          "Blue baseball cap"
+        ],
+        "style": "Casual sporty"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized t-shirt paired with the fitted denim shorts creates a relaxed and comfortable silhouette that is perfect for a casual day out.",
+        "color": "The white and black color scheme is classic and versatile, while the pops of blue in the shoes and hat add a cool and sporty touch.",
+        "footwear": "The blue suede ankle boots are an unexpected choice that adds a touch of edginess to the casual outfit.",
+        "accessories": "The blue baseball cap is a great addition to the outfit, as it ties in with the blue shoes and provides sun protection.",
+        "style": "This casual sporty look is perfect for running errands, attending a sporting event, or hanging out with friends. The combination of the graphic t-shirt, denim shorts, and cool accessories creates a laid-back and stylish ensemble."
+      }
+    }
+  ]
+}

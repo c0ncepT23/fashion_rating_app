@@ -1,0 +1,326 @@
+{
+  "outfits": [
+    {
+      "image": "casual_556.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Slim fit",
+        "top_type": "Lace crop top",
+        "bottom_type": "Tapered trousers",
+        "color_palette": [
+          "Black",
+          "Beige"
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [
+          "Handbag"
+        ],
+        "style": "Chic casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit lace crop top pairs well with the tapered trousers for a sleek silhouette.",
+        "color": "The black and beige color scheme is classic and versatile.",
+        "footwear": "The ankle boots complement the outfit nicely, adding a touch of edge.",
+        "accessories": "The handbag is a practical choice that doesn't distract from the overall look.",
+        "style": "This outfit strikes a great balance between chic and casual, suitable for various occasions."
+      }
+    },
+    {
+      "image": "casual_557.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted",
+        "top_type": "Ruffled crop top",
+        "bottom_type": "Denim mini skirt",
+        "color_palette": [
+          "Coral",
+          "Light blue"
+        ],
+        "footwear_type": "Platform sandals",
+        "accessories": [
+          "Clutch"
+        ],
+        "style": "Flirty casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted crop top and mini skirt create a flirty and feminine silhouette.",
+        "color": "The coral and light blue color combination is fresh and perfect for summer.",
+        "footwear": "The platform sandals elongate the legs and add a playful touch to the outfit.",
+        "accessories": "The clutch is a cute and practical choice for this look.",
+        "style": "This outfit is a great example of a flirty casual style, ideal for a day out or a casual date."
+      }
+    },
+    {
+      "image": "casual_558.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Tailored",
+        "top_type": "Collared shirt",
+        "bottom_type": "Cropped trousers",
+        "color_palette": [
+          "Beige",
+          "White"
+        ],
+        "footwear_type": "Ankle strap sandals",
+        "accessories": [
+          "Leather backpack"
+        ],
+        "style": "Sophisticated casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The tailored fit of the collared shirt and cropped trousers creates a polished and put-together look.",
+        "color": "The beige and white color palette is sophisticated and timeless.",
+        "footwear": "The ankle strap sandals add a touch of elegance to the outfit.",
+        "accessories": "The leather backpack is both stylish and functional, perfect for a city explorer.",
+        "style": "This outfit embodies a sophisticated casual style, suitable for various settings from the office to a day out in the city."
+      }
+    },
+    {
+      "image": "casual_559.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Relaxed",
+        "top_type": "Striped button-down shirt",
+        "bottom_type": "Denim shorts",
+        "color_palette": [
+          "Blue",
+          "White",
+          "Pink"
+        ],
+        "footwear_type": "Sneakers",
+        "accessories": [
+          "Sun hat"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the striped button-down shirt and denim shorts creates a laid-back vibe.",
+        "color": "The blue, white, and pink color combination is fresh and summery.",
+        "footwear": "The sneakers keep the look casual and comfortable.",
+        "accessories": "The sun hat adds a chic touch while providing sun protection.",
+        "style": "This outfit is a great example of casual chic, perfect for a summer day out."
+      }
+    },
+    {
+      "image": "casual_560.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose",
+        "top_type": "Cropped blouse",
+        "bottom_type": "High-waisted mini skirt",
+        "color_palette": [
+          "Red",
+          "Navy"
+        ],
+        "footwear_type": "Sneakers",
+        "accessories": [],
+        "style": "Sporty chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose fit of the cropped blouse balances the fitted high-waisted mini skirt.",
+        "color": "The red and navy color combination is bold and eye-catching.",
+        "footwear": "The sneakers add a sporty touch to the outfit, making it more casual and comfortable.",
+        "accessories": "The lack of accessories allows the outfit to speak for itself.",
+        "style": "This outfit is a great example of sporty chic, combining feminine pieces with athletic elements."
+      }
+    },
+    {
+      "image": "casual_561.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted",
+        "top_type": "Geometric print dress",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "Orange",
+          "Blue",
+          "White"
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [
+          "Leather tote bag"
+        ],
+        "style": "Trendy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted geometric print dress hugs the body, creating a flattering silhouette.",
+        "color": "The orange, blue, and white color combination is trendy and eye-catching.",
+        "footwear": "The red ankle boots add a pop of color and edge to the outfit.",
+        "accessories": "The leather tote bag is a practical and stylish choice, complementing the overall look.",
+        "style": "This outfit is a great example of trendy casual, incorporating a bold print and statement accessories."
+      }
+    },
+    {
+      "image": "casual_562.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose",
+        "top_type": "Basic t-shirt",
+        "bottom_type": "Flowy shorts",
+        "color_palette": [
+          "White",
+          "Beige"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [
+          "Red handbag"
+        ],
+        "style": "Simple casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the basic t-shirt and flowy shorts creates a relaxed and comfortable look.",
+        "color": "The white and beige color palette is neutral and versatile, but may lack visual interest.",
+        "footwear": "The wedge sandals add a touch of elegance to the otherwise casual outfit.",
+        "accessories": "The red handbag provides a much-needed pop of color to the neutral ensemble.",
+        "style": "This outfit is a simple casual look, suitable for running errands or a laid-back day out."
+      }
+    },
+    {
+      "image": "casual_563.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose",
+        "top_type": "Oversized sweater",
+        "bottom_type": "Denim shorts",
+        "color_palette": [
+          "Pink",
+          "Blue"
+        ],
+        "footwear_type": "Ballet flats",
+        "accessories": [
+          "Crossbody bag"
+        ],
+        "style": "Cute casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the oversized sweater and denim shorts creates a cozy and relaxed vibe.",
+        "color": "The pink and blue color combination is soft and feminine.",
+        "footwear": "The ballet flats keep the look casual and comfortable.",
+        "accessories": "The crossbody bag is a practical and stylish choice for this outfit.",
+        "style": "This outfit is a cute casual look, perfect for a laid-back day out or a casual meet-up with friends."
+      }
+    },
+    {
+      "image": "casual_564.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted",
+        "top_type": "Floral blouse",
+        "bottom_type": "A-line skirt",
+        "color_palette": [
+          "Teal",
+          "Yellow",
+          "Pink"
+        ],
+        "footwear_type": "Platform sandals",
+        "accessories": [
+          "Statement necklace"
+        ],
+        "style": "Quirky casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted floral blouse and A-line skirt create a flattering and feminine silhouette.",
+        "color": "The teal, yellow, and pink color combination is vibrant and eye-catching.",
+        "footwear": "The platform sandals add height and a playful touch to the outfit.",
+        "accessories": "The statement necklace complements the quirky vibe of the outfit.",
+        "style": "This outfit is a great example of quirky casual, incorporating bold colors and unique pieces."
+      }
+    },
+    {
+      "image": "casual_565.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Relaxed",
+        "top_type": "Graphic tee",
+        "bottom_type": "Pleated skirt",
+        "color_palette": [
+          "Black",
+          "Blue",
+          "White"
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [
+          "Crossbody bag"
+        ],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the graphic tee paired with the pleated skirt creates an interesting contrast.",
+        "color": "The black, blue, and white color scheme is classic with a touch of edginess.",
+        "footwear": "The ankle boots add a tough and stylish element to the outfit.",
+        "accessories": "The crossbody bag is a practical and fashionable choice, complementing the overall look.",
+        "style": "This outfit is a great example of edgy casual, combining feminine and masculine elements for a unique style."
+      }
+    }
+  ]
+}

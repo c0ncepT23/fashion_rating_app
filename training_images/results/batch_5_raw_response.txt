@@ -1,0 +1,340 @@
+{
+  "outfits": [
+    {
+      "image": "casual_186.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Relaxed, casual fit",
+        "top_type": "Pink button-down blouse",
+        "bottom_type": "Red shorts",
+        "color_palette": [
+          "Pink",
+          "Red",
+          "White"
+        ],
+        "footwear_type": "White platform sandals",
+        "accessories": [
+          "Gold statement necklace",
+          "Colorful bracelet"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the blouse and shorts creates a comfortable, easygoing silhouette perfect for a casual day out.",
+        "color": "The pink and red color combination is bold yet harmonious, making a stylish statement. The white shoes provide balance.",
+        "footwear": "The platform sandals add a trendy touch while keeping the look casual and comfortable for walking.",
+        "accessories": "The gold necklace elevates the outfit and complements the warm tones. The bracelet adds a fun pop of color.",
+        "style": "Overall, this preppy casual look is stylish and put-together while maintaining an effortless, relaxed vibe."
+      }
+    },
+    {
+      "image": "casual_187.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Slim, tailored fit",
+        "top_type": "Yellow cable knit cardigan",
+        "bottom_type": "Floral print skirt",
+        "color_palette": [
+          "Yellow",
+          "White",
+          "Pink"
+        ],
+        "footwear_type": "Burgundy ankle boots",
+        "accessories": [
+          "Tan crossbody bag",
+          "Burgundy fedora hat"
+        ],
+        "style": "Quirky feminine"
+      },
+      "score_breakdown": {
+        "fit": 24,
+        "color": 24,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit of the cardigan paired with the A-line skirt creates a flattering, feminine silhouette that highlights the waist.",
+        "color": "The cheery yellow pairs beautifully with the delicate floral print. Burgundy boots add a rich contrasting accent color.",
+        "footwear": "Ankle boots in burgundy complement the outfit's color scheme while adding an unexpected twist to the feminine look.",
+        "accessories": "The tan bag is a practical choice that doesn't compete with the other elements. The burgundy hat ties in with the boots.",
+        "style": "This quirky take on feminine style is both whimsical and fashion-forward. The mix of colors and prints is eye-catching."
+      }
+    },
+    {
+      "image": "casual_188.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Oversized, relaxed fit",
+        "top_type": "Light wash denim jacket",
+        "bottom_type": "Yellow flared mini skirt",
+        "color_palette": [
+          "Light blue",
+          "Yellow",
+          "Black"
+        ],
+        "footwear_type": "Red ankle strap heels",
+        "accessories": [
+          "Black floppy hat",
+          "Red crossbody bag"
+        ],
+        "style": "Retro casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized denim jacket balances the short, flared skirt, but the proportions could be improved for a more flattering fit.",
+        "color": "The light blue denim and yellow skirt are a classic casual combo. Black and red accessories add visual interest.",
+        "footwear": "The red heels elongate the legs and dress up the otherwise casual outfit, but a lower heel may improve comfort.",
+        "accessories": "The black hat adds a retro vibe that suits the overall style. The red bag ties in with the shoes for a coordinated pop of color.",
+        "style": "This outfit has a fun, youthful retro feel. A few tweaks to the fit and shoe choice could take it to the next level."
+      }
+    },
+    {
+      "image": "casual_189.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Loose, flowy fit",
+        "top_type": "Sheer orange button-down blouse",
+        "bottom_type": "Light wash denim shorts",
+        "color_palette": [
+          "Orange",
+          "Light blue",
+          "Black"
+        ],
+        "footwear_type": "Black peep-toe booties",
+        "accessories": [],
+        "style": "Boho casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 20,
+        "accessories": 10,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, flowy blouse drapes nicely over the fitted denim shorts, creating an effortlessly chic silhouette.",
+        "color": "The vibrant orange top adds a bold pop of color that's balanced by the light wash denim. Black booties ground the look.",
+        "footwear": "The peep-toe booties add a touch of sophistication to the casual ensemble and elongate the legs.",
+        "accessories": "While the outfit looks great on its own, a long pendant necklace or stack of bangles could enhance the boho vibe.",
+        "style": "This outfit perfectly embodies a trendy boho casual aesthetic. The sheer blouse adds a flirty touch to the laid-back shorts."
+      }
+    },
+    {
+      "image": "casual_190.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Fitted on top, flowy bottom",
+        "top_type": "Pale pink sleeveless blouse",
+        "bottom_type": "Floral print maxi skirt",
+        "color_palette": [
+          "Pale pink",
+          "Beige",
+          "Green"
+        ],
+        "footwear_type": "Nude strappy sandals",
+        "accessories": [
+          "Gold bangle",
+          "Beige shoulder bag"
+        ],
+        "style": "Romantic bohemian"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted blouse highlights the waist, while the flowy maxi skirt creates an elongating effect for a flattering silhouette.",
+        "color": "The soft pink and muted floral print create a dreamy, romantic color palette. Nude sandals keep the focus on the outfit.",
+        "footwear": "Delicate strappy sandals in a neutral hue complement the feminine vibe of the outfit without competing for attention.",
+        "accessories": "The gold bangle adds a touch of shine, while the beige bag picks up on the neutral tones in the skirt for a cohesive look.",
+        "style": "This outfit exudes a romantic bohemian aesthetic, perfect for a summer day or evening. The colors and flowy silhouette are very pretty."
+      }
+    },
+    {
+      "image": "casual_191.jpg",
+      "score": 94,
+      "labels": {
+        "fit": "Tailored, structured fit",
+        "top_type": "Blue collared button-down shirt",
+        "bottom_type": "Red pleated mini skirt",
+        "color_palette": [
+          "Blue",
+          "Red",
+          "Black"
+        ],
+        "footwear_type": "Black ankle strap sandals",
+        "accessories": [
+          "Black shoulder bag",
+          "Black sunglasses"
+        ],
+        "style": "Preppy chic"
+      },
+      "score_breakdown": {
+        "fit": 24,
+        "color": 24,
+        "footwear": 20,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The tailored shirt and structured skirt create a polished, put-together silhouette that flatters the figure.",
+        "color": "The bold combination of blue and red makes a striking statement, while black accessories keep it grounded.",
+        "footwear": "Sleek black ankle strap sandals elongate the legs and dress up the look, making it versatile for day or night.",
+        "accessories": "The black bag and sunglasses tie in with the shoes and add a chic touch without overpowering the outfit.",
+        "style": "This preppy chic outfit is a stylish and eye-catching choice. The tailored elements and bold color combo exude confidence."
+      }
+    },
+    {
+      "image": "casual_192.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Relaxed, slightly oversized",
+        "top_type": "White graphic tee",
+        "bottom_type": "Distressed denim shorts",
+        "color_palette": [
+          "White",
+          "Blue",
+          "Tan"
+        ],
+        "footwear_type": "Tan wedge sandals",
+        "accessories": [
+          "Tan fedora hat",
+          "Brown crossbody bag"
+        ],
+        "style": "Casual summer chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slightly oversized tee and relaxed fit of the shorts create a comfortable, effortless silhouette ideal for a casual summer day.",
+        "color": "The classic combination of white and blue denim is fresh and crisp. Tan accessories add warmth and tie the look together.",
+        "footwear": "Tan wedge sandals dress up the casual outfit while still being comfortable and practical for summer weather.",
+        "accessories": "The fedora hat adds a stylish touch and provides sun protection. The brown bag complements the tan accents.",
+        "style": "This look is the epitome of casual summer chic - relaxed, stylish, and perfect for a day of errands or lunch with friends."
+      }
+    },
+    {
+      "image": "casual_193.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted, tailored",
+        "top_type": "Red sleeveless blouse",
+        "bottom_type": "High-waisted red shorts",
+        "color_palette": [
+          "Red",
+          "Gold",
+          "Tan"
+        ],
+        "footwear_type": "Gold strappy heels",
+        "accessories": [
+          "Gold belt",
+          "Gold bracelet"
+        ],
+        "style": "Monochromatic glam"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The fitted blouse and high-waisted shorts create a sleek, streamlined silhouette that highlights the waist.",
+        "color": "The monochromatic red look is bold and glamorous, while gold accents add a luxe touch.",
+        "footwear": "Strappy gold heels elongate the legs and elevate the shorts for a dressier vibe, perfect for a night out.",
+        "accessories": "The gold belt emphasizes the waist and ties in with the shoes and bracelet for a cohesive, polished look.",
+        "style": "This monochromatic outfit with glam gold accents is a head-turning choice for a fashionista looking to make a statement."
+      }
+    },
+    {
+      "image": "casual_194.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Edgy, slim fit",
+        "top_type": "Black leather moto jacket",
+        "bottom_type": "Blush chiffon skirt",
+        "color_palette": [
+          "Black",
+          "Blush",
+          "Tan"
+        ],
+        "footwear_type": "Tan suede ankle boots",
+        "accessories": [
+          "Black shoulder bag"
+        ],
+        "style": "Edgy feminine"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit of the moto jacket paired with the flowy skirt creates an interesting contrast and highlights the waist.",
+        "color": "The black jacket against the soft blush skirt is a lovely juxtaposition. Tan boots add an earthy element.",
+        "footwear": "Suede ankle boots in tan complement the feminine skirt while tying in with the edgy vibe of the jacket.",
+        "accessories": "A black bag is a practical choice that doesn't compete with the other elements, but a blush bag could also work nicely.",
+        "style": "This outfit combines edgy and feminine elements for a unique, fashion-forward look that's sure to turn heads."
+      }
+    },
+    {
+      "image": "casual_195.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Relaxed, flowy fit",
+        "top_type": "White off-the-shoulder blouse",
+        "bottom_type": "Coral pleated shorts",
+        "color_palette": [
+          "White",
+          "Coral",
+          "Turquoise"
+        ],
+        "footwear_type": "Turquoise peep-toe flats",
+        "accessories": [
+          "Turquoise statement necklace",
+          "Coral crossbody bag"
+        ],
+        "style": "Tropical resort chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The flowy off-the-shoulder blouse and relaxed fit of the shorts create a breezy, effortless silhouette perfect for a tropical getaway.",
+        "color": "The crisp white and vibrant coral are a fresh, summery combo. Turquoise accents add a fun pop of contrasting color.",
+        "footwear": "Turquoise flats are a comfortable and stylish choice that complement the color scheme and keep the look casual.",
+        "accessories": "The bold turquoise necklace makes a statement and ties in with the shoes. The coral bag adds a nice coordinating touch.",
+        "style": "This outfit screams tropical resort chic with its bright colors, flowy fabrics, and fun accessories. It's perfect for a beach vacation."
+      }
+    }
+  ]
+}

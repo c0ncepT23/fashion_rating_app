@@ -1,0 +1,70 @@
+{
+  "outfits": [
+    {
+      "image": "casual_146.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Slim fit shorts and looser leather jacket",
+        "top_type": "Black leather moto jacket",
+        "bottom_type": "Brown leather shorts",
+        "color_palette": [
+          "black",
+          "brown",
+          "orange"
+        ],
+        "footwear_type": "Brown leather platform heels",
+        "accessories": [
+          "Sunglasses"
+        ],
+        "style": "Edgy casual chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit shorts paired with the slightly oversized leather jacket create an interesting silhouette that balances edginess and femininity.",
+        "color": "The color coordination works well, with the black jacket contrasting nicely against the brown shorts and shoes. The pop of orange in the top adds a nice accent.",
+        "footwear": "The chunky brown leather heels complement the shorts and provide good visual weight to ground the outfit.",
+        "accessories": "The dark sunglasses enhance the cool, edgy vibe of the leather jacket and shorts combo.",
+        "style": "Overall, this look nicely merges casual pieces with an edgy rocker aesthetic for a stylish high-low mix that looks confident and on-trend."
+      }
+    },
+    {
+      "image": "casual_147.jpg",
+      "score": 93,
+      "labels": {
+        "fit": "Cropped denim jacket and flowy tulle midi skirt",
+        "top_type": "Light wash denim jacket",
+        "bottom_type": "Light pink tulle midi skirt",
+        "color_palette": [
+          "light blue",
+          "light pink",
+          "beige"
+        ],
+        "footwear_type": "Beige pointed-toe flats",
+        "accessories": [
+          "Tan leather handbag"
+        ],
+        "style": "Feminine, romantic casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 18,
+        "accessories": 15,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The cropped denim jacket and flowy tulle skirt create a beautiful, feminine silhouette. The fitted jacket balances out the full skirt.",
+        "color": "The soft, light color palette of baby blue, blush pink, and beige is perfect for a romantic spring look. The colors complement each other beautifully.",
+        "footwear": "The delicate beige flats are the perfect choice to complete this feminine outfit without competing with the statement skirt.",
+        "accessories": "The structured tan handbag adds a nice touch of polish to this otherwise soft look and ties in well with the beige flats.",
+        "style": "This outfit embodies a dreamy, romantic aesthetic while still maintaining a casual vibe with the denim jacket. It's perfect for a spring day out or a casual date."
+      }
+    }
+  ]
+}

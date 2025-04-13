@@ -1,0 +1,346 @@
+{
+  "outfits": [
+    {
+      "image": "casual_216.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted bodice with flared skirt",
+        "top_type": "Sleeveless blouse",
+        "bottom_type": "Pleated skirt",
+        "color_palette": [
+          "coral",
+          "gold",
+          "tan"
+        ],
+        "footwear_type": "Strappy wedge sandals",
+        "accessories": [
+          "Gold statement necklace",
+          "Gold belt"
+        ],
+        "style": "Feminine chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted bodice and flared skirt create a flattering silhouette that highlights the waist. Great fit for her body type.",
+        "color": "The coral, gold, and tan color palette is warm, vibrant and perfect for spring/summer. Colors complement her skin tone well.",
+        "footwear": "The strappy wedge sandals elongate the legs and pair nicely with the skirt length. Helps dress up the look.",
+        "accessories": "The gold statement necklace and belt add a touch of glamour and tie the look together cohesively.",
+        "style": "Overall this outfit has a chic, feminine vibe that's stylish yet still casual enough for daytime. Very on-trend and age appropriate."
+      }
+    },
+    {
+      "image": "casual_217.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose, flowy silhouette",
+        "top_type": "Chunky knit cardigan",
+        "bottom_type": "Pleated skirt",
+        "color_palette": [
+          "tan",
+          "cream",
+          "brown"
+        ],
+        "footwear_type": "Lace-up ankle boots",
+        "accessories": [
+          "Knit beanie",
+          "Leather satchel"
+        ],
+        "style": "Boho casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit of the cardigan and skirt create a relaxed boho vibe. However, the overall silhouette lacks some definition and shape.",
+        "color": "The neutral tan, cream and brown tones work well together for fall but could use a small pop of color to liven it up.",
+        "footwear": "The lace-up ankle boots fit the boho aesthetic but seem a bit heavy for the flowy skirt. A more delicate boho boot would be better.",
+        "accessories": "The knit beanie and leather satchel enhance the laid-back boho style. A long pendant necklace could also look nice.",
+        "style": "This has a cozy boho casual look that's cute for fall weekends. A few small tweaks in fit and proportions would improve it."
+      }
+    },
+    {
+      "image": "casual_218.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Fitted tank with loose shorts",
+        "top_type": "Graphic tank top", 
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "black",
+          "white",
+          "red",
+          "blue"
+        ],
+        "footwear_type": "Black wedge sneakers",
+        "accessories": [
+          "Studded belt",
+          "Long pendant necklace"
+        ],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted tank top shows off her figure while the loose denim shorts balance it out. Proportions work well together.",
+        "color": "The graphic black and white tank paired with the red shorts makes for a bold, eye-catching combination. Colors convey an edgy vibe.",
+        "footwear": "The black wedge sneakers add some height while still being comfortable and casual. Fits the overall aesthetic.",
+        "accessories": "The studded belt and long necklace enhance the edgy rocker style. Accessories make the outfit more interesting.",
+        "style": "This outfit has an edgy, youthful casual look. The graphic tee, colored shorts and accessories come together cohesively."
+      }
+    },
+    {
+      "image": "casual_219.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Loose tee with flared skirt",
+        "top_type": "Graphic t-shirt",
+        "bottom_type": "Flared mini skirt",
+        "color_palette": [
+          "white",
+          "black",
+          "royal blue"
+        ],
+        "footwear_type": "Black ankle-strap heels",
+        "accessories": [
+          "Wayfarer sunglasses",
+          "Coral clutch"
+        ],
+        "style": "Parisian chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose graphic tee paired with the flared skirt creates a stylish juxtaposition. Silhouette is relaxed yet still feminine and flattering.",
+        "color": "The black and white with a bold pop of royal blue is a classic color combo that really pops. Chic and eye-catching.",
+        "footwear": "The black ankle-strap heels dress up the look and elongate the legs. Perfectly styled for the skirt.",
+        "accessories": "The wayfarer sunglasses add a cool factor while the unexpected coral clutch provides a nice contrast to the blue.",
+        "style": "This outfit masters effortless Parisian street style. It's casual chic with a graphic edge. Very on-trend and fashion-forward."
+      }
+    },
+    {
+      "image": "casual_220.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Fitted collared shirt with flared skirt",
+        "top_type": "Polka-dot collared shirt",
+        "bottom_type": "Flared mini skirt",
+        "color_palette": [
+          "royal blue",
+          "white",
+          "tan"
+        ],
+        "footwear_type": "Tan ankle booties",
+        "accessories": [
+          "Tan belt",
+          "Gold watch"
+        ],
+        "style": "Preppy feminine"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted polka-dot shirt tucked into the flared skirt highlights her waist and creates a balanced silhouette. Very figure-flattering.",
+        "color": "The royal blue and white polka-dots paired with the tan accessories makes for a classic preppy color palette that pops.",
+        "footwear": "The tan ankle booties ground the look and work well with the skirt length. Helps make the outfit more casual and wearable.",
+        "accessories": "The tan belt defines the waist and ties in with the booties. The delicate gold watch adds a touch of shine.",
+        "style": "This look nails preppy feminine style with a retro nod. It's polished and put-together while still being cute and casual."
+      }
+    },
+    {
+      "image": "casual_221.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose layers",
+        "top_type": "Denim jacket",
+        "bottom_type": "Skinny jeans",
+        "color_palette": [
+          "light wash denim",
+          "white",
+          "tan"  
+        ],
+        "footwear_type": "Tan oxfords",
+        "accessories": [
+          "Tan crossbody bag",
+          "Knit scarf"
+        ],
+        "style": "Classic casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose denim jacket over the white tee and skinny jeans creates a relaxed, easygoing silhouette. However, the overall fit is a bit shapeless.",
+        "color": "The light wash denim paired with white and tan is a safe, neutral color palette. Could benefit from a richer pop of color.",
+        "footwear": "The tan oxfords are a comfortable, stylish casual shoe choice that work with the jeans. Helps pull the look together.",
+        "accessories": "The tan crossbody bag is functional and coordinates with the shoes. The printed scarf adds a nice layer of visual interest.",
+        "style": "Overall this is a simple, fuss-free casual outfit. While classic, it borders on being a bit bland and unmemorable."
+      }
+    },
+    {
+      "image": "casual_222.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose layers",
+        "top_type": "Mustard cardigan",
+        "bottom_type": "Floral romper",
+        "color_palette": [
+          "mustard yellow", 
+          "navy",
+          "white"
+        ],
+        "footwear_type": "Lace-up wedge sandals",
+        "accessories": [
+          "Floppy hat",
+          "Oversized tote"
+        ],
+        "style": "Boho chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 22, 
+        "footwear": 16,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The floral romper fits well and is balanced nicely by the loose cardigan. Creates an easy, relaxed silhouette.",
+        "color": "The navy floral print with the pop of mustard yellow is an unexpected combination that works. Incorporates fall tones in a fresh way.",
+        "footwear": "The lace-up wedge sandals add some height while still being comfortable. Keeps the look casual and bohemian.",
+        "accessories": "The floppy hat makes a statement and adds a chic touch. The oversized tote is practical and enhances the effortless vibe.",
+        "style": "This outfit embodies casual boho style with a trendy twist. The mixed prints and layered look is fashion-forward yet wearable."
+      }
+    },
+    {
+      "image": "casual_223.jpg",
+      "score": 74,
+      "labels": {
+        "fit": "Loose layers",
+        "top_type": "Olive utility jacket",
+        "bottom_type": "Pink mini skirt",
+        "color_palette": [
+          "olive green",
+          "pink",
+          "black"
+        ],
+        "footwear_type": "Black ankle booties",
+        "accessories": [
+          "Black crossbody bag",
+          "Knit scarf"
+        ],
+        "style": "Eclectic casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose utility jacket over the mini skirt creates an interesting juxtaposition, but the proportions feel a bit off.",
+        "color": "The olive green and pink is an unusual color combo that doesn't quite harmonize. Black grounds it but the palette still feels disjointed.",
+        "footwear": "The black booties coordinate with the jacket but seem a touch heavy for the short flirty skirt.",
+        "accessories": "The black crossbody is a practical choice but gets lost. The printed scarf adds some needed pattern.",
+        "style": "This look mixes girly and utilitarian pieces for an eclectic look. While creative, the individual pieces are competing a bit."
+      }
+    },
+    {
+      "image": "casual_224.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Oversized sweater with skinny jeans",
+        "top_type": "Chunky turtleneck sweater",
+        "bottom_type": "Dark wash skinny jeans",
+        "color_palette": [
+          "cream",
+          "dark denim",
+          "cognac brown"
+        ],
+        "footwear_type": "Cognac knee-high boots",
+        "accessories": [
+          "Cognac tote bag",
+          "Tortoiseshell sunglasses"
+        ],
+        "style": "Cozy chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized chunky sweater paired with the fitted skinny jeans creates a balanced, flattering silhouette. Looks cozy and chic.",
+        "color": "The cream sweater with dark denim and cognac brown accessories is a rich, sophisticated color story. Perfect for fall.",
+        "footwear": "The cognac knee-high boots elongate the legs and tie in beautifully with the sweater. Brings the whole look together.",
+        "accessories": "The matching cognac tote is super stylish and practical. The tortoiseshell sunnies are a glam finishing touch that suit her.",
+        "style": "This outfit is the epitome of cozy fall fashion. It's effortlessly chic, put-together and very of-the-moment. Flawless execution."
+      }
+    },
+    {
+      "image": "casual_225.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose layers",
+        "top_type": "Striped long-sleeve tee",
+        "bottom_type": "Black mini skirt",
+        "color_palette": [
+          "black",
+          "white",
+          "red",
+          "tan"
+        ],
+        "footwear_type": "Tan ankle booties",
+        "accessories": [
+          "Green satchel",
+          "Black sunglasses"
+        ],
+        "style": "French girl casual"
+      },
+      "score_breakdown": {
+        "fit": 16, 
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The striped tee half-tucked into the mini skirt gives a relaxed, undone vibe. Fits the French girl aesthetic but lacks some definition.",
+        "color": "The black and white stripes with a pop of red is classic and chic. The tan booties complement the palette.",
+        "footwear": "The tan suede ankle booties add a rustic touch that dresses down the skirt. Practical for walking but still stylish.",
+        "accessories": "The green satchel adds an unexpected pop of color that livens up the look. The black sunnies are a cool accent.",
+        "style": "This look channels effortless French girl style with the stripes, mini and undone hair. Quite classic and wearable."
+      }
+    }
+  ]
+}

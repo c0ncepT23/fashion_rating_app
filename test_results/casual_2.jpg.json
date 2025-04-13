@@ -1,5 +1,5 @@
 {
-  "score": 87,
+  "score": 90,
   "labels": {
     "fit": "loose_flowy",
     "pants_type": "slacks",
@@ -13,25 +13,25 @@
     ],
     "footwear_type": "footwear_not_visible",
     "accessories": [],
-    "style": "casual"
+    "style": "fashion_week_off_duty"
   },
   "score_breakdown": {
-    "fit": 22,
-    "color": 20,
-    "footwear": 20,
+    "fit": 21,
+    "color": 21,
+    "footwear": 18,
     "accessories": 14,
     "style": 15
   },
   "feedback": {
-    "fit": "The structured top pairs elegantly with the slacks. The overall silhouette the combination creates visual interest while maintaining harmony.",
-    "color": "Good use of black with silver accents. creating a pleasing visual harmony.",
+    "fit": "The top and chinos create a harmonious proportion. creating a nice balance between the upper and lower body.",
+    "color": "Nice color coordination with black and silver. maintaining consistency in color temperature.",
     "footwear": "Consider adding appropriate footwear to complete the look.",
-    "accessories": "The outfit is missing accessories. a coordinating bag to add functionality and style would enhance it.",
-    "style": "Successfully combines elements for a cohesive casual look. the relaxed elements blend with put-together pieces for an effortless look."
+    "accessories": "This outfit could benefit from some accessories. Consider adding a statement necklace or earrings to add visual interest.",
+    "style": "This outfit perfectly embodies fashion week off duty aesthetics. shows a confident understanding of proportion and subtle statement-making."
   },
   "clothing_items": [
     {
-      "type": "slacks",
+      "type": "chinos",
       "category": "bottom",
       "confidence": 0.5712370276451111,
       "box": [
@@ -52,49 +52,49 @@
       "clip_analysis": {
         "garment": {
           "best_match": {
-            "type": "slacks",
-            "confidence": 0.5572247505187988
+            "type": "chinos",
+            "confidence": 0.42106863856315613
           },
           "top_matches": [
             {
-              "type": "slacks",
-              "confidence": 0.5572247505187988
-            },
-            {
               "type": "chinos",
-              "confidence": 0.2055659294128418
-            },
-            {
-              "type": "wide leg jeans",
-              "confidence": 0.06206206604838371
-            },
-            {
-              "type": "straight leg jeans",
-              "confidence": 0.06151628866791725
+              "confidence": 0.42106863856315613
             },
             {
               "type": "pants",
-              "confidence": 0.056167732924222946
+              "confidence": 0.14592544734477997
+            },
+            {
+              "type": "trousers",
+              "confidence": 0.1438053697347641
+            },
+            {
+              "type": "slacks",
+              "confidence": 0.1279173046350479
+            },
+            {
+              "type": "wide leg jeans",
+              "confidence": 0.06923362612724304
             }
           ]
         },
         "style": {
           "best_match": {
-            "style": "preppy",
-            "confidence": 0.12085797637701035
+            "style": "classic",
+            "confidence": 0.14545685052871704
           },
           "top_matches": [
             {
-              "style": "preppy",
-              "confidence": 0.12085797637701035
+              "style": "classic",
+              "confidence": 0.14545685052871704
             },
             {
-              "style": "streetwear",
-              "confidence": 0.11030153930187225
+              "style": "contemporary",
+              "confidence": 0.12897753715515137
             },
             {
-              "style": "minimalist",
-              "confidence": 0.09162003546953201
+              "style": "vintage",
+              "confidence": 0.12364769726991653
             }
           ]
         }
@@ -130,8 +130,8 @@
       ]
     },
     {
-      "type": "wide leg jeans",
-      "category": "bottom",
+      "type": "slacks",
+      "category": "outerwear",
       "confidence": 0.36669105291366577,
       "box": [
         0,
@@ -151,49 +151,49 @@
       "clip_analysis": {
         "garment": {
           "best_match": {
-            "type": "wide leg jeans",
-            "confidence": 0.4358060359954834
+            "type": "slacks",
+            "confidence": 0.579218327999115
           },
           "top_matches": [
             {
-              "type": "wide leg jeans",
-              "confidence": 0.4358060359954834
-            },
-            {
               "type": "slacks",
-              "confidence": 0.15407544374465942
-            },
-            {
-              "type": "pants",
-              "confidence": 0.12801766395568848
-            },
-            {
-              "type": "trousers",
-              "confidence": 0.10645759105682373
+              "confidence": 0.579218327999115
             },
             {
               "type": "chinos",
-              "confidence": 0.07191571593284607
+              "confidence": 0.21167121827602386
+            },
+            {
+              "type": "trousers",
+              "confidence": 0.08291567862033844
+            },
+            {
+              "type": "pants",
+              "confidence": 0.07417728751897812
+            },
+            {
+              "type": "wide leg jeans",
+              "confidence": 0.023041898384690285
             }
           ]
         },
         "style": {
           "best_match": {
-            "style": "casual",
-            "confidence": 0.18006177246570587
+            "style": "streetwear",
+            "confidence": 0.17305442690849304
           },
           "top_matches": [
             {
-              "style": "casual",
-              "confidence": 0.18006177246570587
-            },
-            {
               "style": "streetwear",
-              "confidence": 0.13991272449493408
+              "confidence": 0.17305442690849304
             },
             {
-              "style": "preppy",
-              "confidence": 0.1045474261045456
+              "style": "classic",
+              "confidence": 0.10672765225172043
+            },
+            {
+              "style": "minimalist",
+              "confidence": 0.10502690821886063
             }
           ]
         }
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "type": "slacks",
+      "type": "chinos",
       "category": "bottom",
       "confidence": 0.31260010600090027,
       "box": [
@@ -250,49 +250,49 @@
       "clip_analysis": {
         "garment": {
           "best_match": {
-            "type": "slacks",
-            "confidence": 0.48950350284576416
+            "type": "chinos",
+            "confidence": 0.39124247431755066
           },
           "top_matches": [
             {
-              "type": "slacks",
-              "confidence": 0.48950350284576416
-            },
-            {
               "type": "chinos",
-              "confidence": 0.26140686869621277
+              "confidence": 0.39124247431755066
             },
             {
-              "type": "trousers",
-              "confidence": 0.1148897185921669
+              "type": "slacks",
+              "confidence": 0.15014909207820892
             },
             {
               "type": "pants",
-              "confidence": 0.06714020669460297
+              "confidence": 0.1478288620710373
+            },
+            {
+              "type": "trousers",
+              "confidence": 0.10783174633979797
             },
             {
               "type": "wide leg jeans",
-              "confidence": 0.025976156815886497
+              "confidence": 0.08540678024291992
             }
           ]
         },
         "style": {
           "best_match": {
-            "style": "formal",
-            "confidence": 0.13454270362854004
+            "style": "classic",
+            "confidence": 0.15154871344566345
           },
           "top_matches": [
             {
-              "style": "formal",
-              "confidence": 0.13454270362854004
+              "style": "classic",
+              "confidence": 0.15154871344566345
             },
             {
-              "style": "minimalist",
-              "confidence": 0.13032618165016174
+              "style": "contemporary",
+              "confidence": 0.11595731973648071
             },
             {
-              "style": "preppy",
-              "confidence": 0.11684457212686539
+              "style": "vintage",
+              "confidence": 0.099247507750988
             }
           ]
         }
@@ -502,35 +502,35 @@
     }
   },
   "style_result": {
-    "style": "casual",
-    "confidence": 0.20746887966804978,
-    "coherence": 0.20746887966804978,
-    "description": "Relaxed, everyday wear focused on comfort",
+    "style": "fashion_week_off_duty",
+    "confidence": 0.20361990950226244,
+    "coherence": 0.20361990950226244,
+    "description": "Effortless yet deliberate styling seen on fashion industry insiders",
     "top_styles": [
       [
-        "casual",
-        0.20746887966804978
-      ],
-      [
         "fashion_week_off_duty",
-        0.18672199170124482
+        0.20361990950226244
       ],
       [
         "edgy_chic",
-        0.14937759336099582
+        0.16289592760180993
+      ],
+      [
+        "casual",
+        0.13574660633484162
       ]
     ],
     "all_probabilities": {
-      "casual": 0.20746887966804978,
-      "formal": 0.12448132780082986,
-      "streetwear": 0.08298755186721991,
+      "casual": 0.13574660633484162,
+      "formal": 0.13574660633484162,
+      "streetwear": 0.09049773755656108,
       "bohemian": 0.0,
-      "minimalist": 0.12448132780082986,
-      "edgy_chic": 0.14937759336099582,
-      "preppy": 0.04149377593360996,
-      "sporty": 0.08298755186721991,
+      "minimalist": 0.13574660633484162,
+      "edgy_chic": 0.16289592760180993,
+      "preppy": 0.04524886877828054,
+      "sporty": 0.09049773755656108,
       "vintage": 0.0,
-      "fashion_week_off_duty": 0.18672199170124482
+      "fashion_week_off_duty": 0.20361990950226244
     },
     "method": "rule_based"
   }

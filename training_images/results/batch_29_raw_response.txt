@@ -1,0 +1,328 @@
+{
+  "outfits": [
+    {
+      "image": "casual_426.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Slim fit blazer, fitted graphic tee, slim denim shorts",
+        "top_type": "Blazer, graphic tee",
+        "bottom_type": "Denim shorts",
+        "color_palette": [
+          "Navy",
+          "White",
+          "Blue"
+        ],
+        "footwear_type": "Leather loafers",
+        "accessories": [
+          "Straw tote bag",
+          "Fedora hat"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit blazer pairs nicely with the fitted graphic tee and slim denim shorts for a polished casual look.",
+        "color": "The navy blazer, white tee, and blue denim create a classic and cohesive color palette.",
+        "footwear": "The leather loafers elevate the outfit and complement the preppy style.",
+        "accessories": "The straw tote and fedora add a stylish touch of summer flair.",
+        "style": "Overall, this outfit nails the preppy casual aesthetic - perfect for a summer day out."
+      }
+    },
+    {
+      "image": "casual_427.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose fit blouse, flared skirt",
+        "top_type": "Puff sleeve blouse",
+        "bottom_type": "Pleated midi skirt",
+        "color_palette": [
+          "White",
+          "Brown"
+        ],
+        "footwear_type": "Peep-toe heels",
+        "accessories": [
+          "Beret hat"
+        ],
+        "style": "Vintage inspired"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose blouse and flared skirt create a flowy, feminine silhouette.",
+        "color": "The white and brown color scheme is neutral and allows the silhouette to shine.",
+        "footwear": "The peep-toe heels pair well with the midi skirt length.",
+        "accessories": "The beret adds a cute vintage touch.",
+        "style": "This outfit channels vintage vibes with the blouse, skirt and beret combo. Charming and chic."
+      }
+    },
+    {
+      "image": "casual_428.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted tank, flared mini skirt",
+        "top_type": "Lace tank top",
+        "bottom_type": "Colorblock mini skirt",
+        "color_palette": [
+          "White",
+          "Green",
+          "Orange",
+          "Red"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [
+          "Pendant necklace",
+          "Tote bag"
+        ],
+        "style": "Flirty, colorful casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted lace tank and flared mini skirt show off the figure in a flirty way.",
+        "color": "The vibrant colorblocking in the skirt is fun and eye-catching, balanced by the white top.",
+        "footwear": "Wedge sandals are a comfy choice that elongate the legs.",
+        "accessories": "Simple pendant necklace and tote let the outfit shine.",
+        "style": "This look is youthful, flirty and perfect for a summer day. The colorblocking makes it modern and fresh."
+      }
+    },
+    {
+      "image": "casual_429.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose knit top, fitted shorts",
+        "top_type": "Knit sweater",
+        "bottom_type": "Rust colored shorts",
+        "color_palette": [
+          "Cream",
+          "Rust"
+        ],
+        "footwear_type": "Suede ankle boots",
+        "accessories": [],
+        "style": "Cozy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 14,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose knit sweater contrasts the fitted shorts. A more balanced fit in the sweater could improve this look.",
+        "color": "The cream and rust color palette feels a bit heavy for the shorts. Lighter colors could brighten it up.",
+        "footwear": "Ankle boots feel a little heavy for the shorts. Sandals may be better.",
+        "accessories": "Some accessories like a long necklace could add more interest.",
+        "style": "The style mixes cozy with summer pieces. Focusing on one season would make it more cohesive."
+      }
+    },
+    {
+      "image": "casual_430.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Tailored blazer, fitted shorts",
+        "top_type": "Blazer",
+        "bottom_type": "High-waisted shorts",
+        "color_palette": [
+          "Green",
+          "Beige",
+          "Black"
+        ],
+        "footwear_type": "Strappy sandals",
+        "accessories": [
+          "Shoulder bag",
+          "Sunglasses"
+        ],
+        "style": "Chic casual"
+      },
+      "score_breakdown": {
+        "fit": 24,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The tailored blazer elevates the casual shorts, making this a chic, polished look.",
+        "color": "The emerald green blazer pops against the neutral beige and black for a sophisticated color palette.",
+        "footwear": "The strappy flat sandals are a stylish and practical choice.",
+        "accessories": "The shoulder bag and sunglasses are chic additions that finish off the look perfectly.",
+        "style": "This outfit expertly mixes tailored and casual pieces for a fashionable take on casual wear."
+      }
+    },
+    {
+      "image": "casual_431.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose blouse, flared mini skirt",
+        "top_type": "Floral blouse",
+        "bottom_type": "Ruffled mini skirt",
+        "color_palette": [
+          "Purple",
+          "Pink",
+          "White"
+        ],
+        "footwear_type": "Yellow sneakers",
+        "accessories": [],
+        "style": "Feminine casual"
+      },
+      "score_breakdown": {
+        "fit": 22, 
+        "color": 22,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose blouse and flared skirt create a flowy, feminine silhouette.",
+        "color": "The purple floral print is pretty and pairs nicely with the white skirt.",
+        "footwear": "The unexpected pop of yellow in the sneakers adds a fun, casual twist.",
+        "accessories": "Some simple jewelry could elevate this look further.",
+        "style": "This outfit has a sweet, feminine vibe. The sneakers dress it down for a cute casual look."
+      }
+    },
+    {
+      "image": "casual_432.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose button-up, fitted shorts",
+        "top_type": "Navy button-up shirt",
+        "bottom_type": "Khaki shorts",
+        "color_palette": [
+          "Navy",
+          "Khaki",
+          "Brown"
+        ],
+        "footwear_type": "Brown wedges",
+        "accessories": [
+          "Tote bag"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The button-up shirt looks a bit oversized. A more fitted top would balance the fitted shorts better.",
+        "color": "The navy and khaki color scheme is classic and neutral.",
+        "footwear": "The brown wedges coordinate well with the outfit colors.",
+        "accessories": "A belt and some jewelry could take this basic look up a notch.",
+        "style": "This has a simple, preppy casual vibe. Some small tweaks in fit and accessories could really elevate it."
+      }
+    },
+    {
+      "image": "casual_433.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Loose lace top, slim pants",
+        "top_type": "Lace peplum top",
+        "bottom_type": "Olive skinny pants",
+        "color_palette": [
+          "Teal",
+          "Olive",
+          "Gold"
+        ],
+        "footwear_type": "Gold sandals",
+        "accessories": [
+          "Gold belt"
+        ],
+        "style": "Romantic casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose lace peplum top contrasts nicely with the slim pants for a balanced silhouette.",
+        "color": "The teal and olive color scheme is unexpected and works beautifully together. The gold accents add a perfect touch of glam.",
+        "footwear": "The gold sandals tie in with the belt and elevate the look.",
+        "accessories": "The gold belt adds a hint of shine. Some delicate gold jewelry would be lovely too.",
+        "style": "This outfit mixes romantic and casual elements for a fresh, stylish effect. The colors and details make it special."
+      }
+    },
+    {
+      "image": "casual_434.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose knit top, cargo shorts",
+        "top_type": "Crochet knit top",
+        "bottom_type": "Olive cargo shorts",
+        "color_palette": [
+          "White",
+          "Olive"
+        ],
+        "footwear_type": "Platform sandals",
+        "accessories": [],
+        "style": "Boho casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose crochet top pairs well with the relaxed fit of the cargo shorts.",
+        "color": "The white and olive create a neutral, earthy color palette.",
+        "footwear": "The platform sandals add some height and work with the boho aesthetic.",
+        "accessories": "Some boho accessories like layered necklaces or a floppy hat could really play up the style.",
+        "style": "This look has a laid-back, boho casual vibe. A few accessories could take it to the next level."
+      }
+    },
+    {
+      "image": "casual_435.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted tee, pleated shorts",
+        "top_type": "Sailor collar tee",
+        "bottom_type": "White pleated shorts",
+        "color_palette": [
+          "Navy",
+          "White"
+        ],
+        "footwear_type": "White sneakers",
+        "accessories": [
+          "Bow headband"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted tee tucked into the high-waisted pleated shorts creates a cute, put-together silhouette.",
+        "color": "You can't go wrong with a crisp navy and white color palette.",
+        "footwear": "The white sneakers continue the preppy, polished vibe.",
+        "accessories": "The bow headband is an adorable addition that suits the preppy style.",
+        "style": "This look nails the preppy aesthetic in a casual, youthful way. Perfect for summer."
+      }
+    }
+  ]
+}

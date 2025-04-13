@@ -1,0 +1,329 @@
+{
+  "outfits": [
+    {
+      "image": "casual_536.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose, flowy dress with fitted cardigan",
+        "top_type": "Pink cardigan",
+        "bottom_type": "Black flowy dress",
+        "color_palette": [
+          "Pink",
+          "Black"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [],
+        "style": "Casual feminine"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 15,
+        "accessories": 12,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The loose dress paired with the fitted cardigan creates a nice balanced silhouette. Consider belting the dress to define the waist more.",
+        "color": "The pink and black color combo is classic and feminine. Adding another pop of color could liven up the look.",
+        "footwear": "The brown wedges complement the outfit but a lighter, neutral sandal could further the breezy summer vibe.",
+        "accessories": "Some simple jewelry like a long pendant necklace or bangles could elevate this basic look.",
+        "style": "Overall this is a cute, girly casual look perfect for everyday. Small tweaks could take it to the next level."
+      }
+    },
+    {
+      "image": "casual_537.jpg",
+      "score": 85,
+      "labels": {
+        "fit": "Loose chambray shirtdress",
+        "top_type": "Chambray shirtdress",
+        "bottom_type": "Shirtdress",
+        "color_palette": [
+          "Light blue",
+          "Brown"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [
+          "Black necklace",
+          "Sunglasses"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 17,
+        "accessories": 15,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit of the chambray dress looks effortless and comfortable. The rolled sleeves add a casual touch.",
+        "color": "The light blue chambray pairs nicely with the cognac brown boots for an earthy palette. The black necklace adds a bit of contrast.",
+        "footwear": "The ankle boots ground the look and give it a slightly edgy vibe that works well with the casual dress.",
+        "accessories": "The long black necklace and sunglasses are simple additions that elevate the look. A crossbody bag could also work well.",
+        "style": "This outfit nails casual chic style - fashionable yet relaxed and perfect for many occasions."
+      }
+    },
+    {
+      "image": "casual_538.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose tee and shorts",
+        "top_type": "Graphic tee",
+        "bottom_type": "Mint green shorts",
+        "color_palette": [
+          "Mint green",
+          "Cream",
+          "Brown"
+        ],
+        "footwear_type": "Brown sandals",
+        "accessories": [],
+        "style": "Casual sporty"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 17,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the tee and shorts is appropriate for a casual, active look. Tucking in the front of the tee could polish it up a bit.",
+        "color": "The mint green shorts add a nice pop of color. Pairing them with more green tones could create a fresh color story.",
+        "footwear": "The brown sandals are practical and work with the neutral tones, but white sneakers could give a crisper, sportier vibe.",
+        "accessories": "A baseball cap, fabric headband or sporty watch could enhance the athletic aesthetic.",
+        "style": "This is a solid casual outfit for relaxing or light activity. A few small changes could really play up the sporty style."
+      }
+    },
+    {
+      "image": "casual_539.jpg",
+      "score": 87,
+      "labels": {
+        "fit": "Fitted tank and skater skirt",
+        "top_type": "White lace tank top",
+        "bottom_type": "Red skater skirt",
+        "color_palette": [
+          "Red",
+          "White",
+          "Black"
+        ],
+        "footwear_type": "Black knee-high socks and boots",
+        "accessories": [],
+        "style": "Flirty feminine"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 17,
+        "accessories": 15,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The fitted tank tucked into the flared skater skirt creates a flirty, feminine silhouette that highlights the waist.",
+        "color": "The bold red skirt makes a statement, balanced by the white lace tank. Classic color combo that reads youthful and fresh.",
+        "footwear": "The black knee socks and ankle boots add an unexpected edge, dressing down the flirty skirt in a cool way.",
+        "accessories": "A few dainty jewelry pieces like a charm bracelet or stud earrings could add a sweet, girly touch.",
+        "style": "This look nails the flirty skater skirt style, combining feminine pieces with a slight edge for a fun, stylish result."
+      }
+    },
+    {
+      "image": "casual_540.jpg",
+      "score": 75,
+      "labels": {
+        "fit": "Loose tank dress",
+        "top_type": "Mint green tank dress",
+        "bottom_type": "Tank dress",
+        "color_palette": [
+          "Mint green",
+          "Tan"
+        ],
+        "footwear_type": "Tan wedge sandals",
+        "accessories": [
+          "Sunglasses"
+        ],
+        "style": "Casual summer"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 15,
+        "footwear": 14,
+        "accessories": 13,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The loose fit of the tank dress looks casual and breezy for summer. Defining the waist with a thin belt could flatter the figure more.",
+        "color": "The soft mint green is a pretty, subtle color but can wash out fair skin tones. Choosing a bolder shade could pop more.",
+        "footwear": "The tan wedges are neutral and summery but blending in with the model's skin tone. A metallic or cognac sandal could anchor the look better.",
+        "accessories": "Sunglasses are a start but this simple look leaves lots of room for accessorizing with jewelry, a sunhat, tote bag, etc.",
+        "style": "This outfit is a good basic template for casual summer style but could use more personal touches and styling to really shine."
+      }
+    },
+    {
+      "image": "casual_541.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose cardigan, fitted tank and shorts",
+        "top_type": "Mint green cardigan and cream tank top",
+        "bottom_type": "Cream lace shorts",
+        "color_palette": [
+          "Mint green",
+          "Cream",
+          "Brown"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [
+          "Flower headband"
+        ],
+        "style": "Romantic bohemian"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 15,
+        "accessories": 14,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The drapey cardigan over the fitted tank and shorts creates a nice play on proportions. Rolling up the shorts a bit could elongate the leg line.",
+        "color": "The mint and cream combo is soft and pretty. Introducing another color like coral or yellow could add more interest.",
+        "footwear": "The brown wedges pick up the bohemian vibe and look comfortable for walking. A metallic flat sandal could dress it up for evening.",
+        "accessories": "The flower crown is a whimsical touch. Stacking some bangles or adding a fringed crossbody bag could really drive home the boho style.",
+        "style": "This look has a romantic, free-spirited aesthetic. Pushing the bohemian elements even further would make it feel more styled and intentional."
+      }
+    },
+    {
+      "image": "casual_542.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Loose tank dress",
+        "top_type": "Mustard yellow tank dress",
+        "bottom_type": "Tank dress",
+        "color_palette": [
+          "Mustard yellow",
+          "Turquoise",
+          "Red"
+        ],
+        "footwear_type": "Red ballet flats",
+        "accessories": [
+          "Turquoise statement necklace",
+          "Sunglasses"
+        ],
+        "style": "Retro feminine"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 17,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The swingy shape of this tank dress is flattering and looks cool and comfortable for summer. It highlights the upper body and flows away from the hips.",
+        "color": "The golden mustard yellow is an unexpected, retro-inspired choice that really wows. Pairing it with the bright turquoise necklace is genius.",
+        "footwear": "The red ballet flats add another pop of color that feels vintage-inspired, feminine and fun. They balance out the statement necklace.",
+        "accessories": "The bold bib necklace makes the outfit, injecting color and style. The sunglasses are practical and chic. No other accessories needed.",
+        "style": "This look perfectly embodies retro-inspired feminine style, from the 60s silhouette to the color combo. Flirty, fashionable and fun."
+      }
+    },
+    {
+      "image": "casual_543.jpg",
+      "score": 68,
+      "labels": {
+        "fit": "Loose blazer and skirt",
+        "top_type": "White tank top",
+        "bottom_type": "Tan skirt",
+        "color_palette": [
+          "Red",
+          "Tan",
+          "White",
+          "Black"
+        ],
+        "footwear_type": "Black peep-toe pumps",
+        "accessories": [
+          "Black belt",
+          "Black clutch"
+        ],
+        "style": "Business casual"
+      },
+      "score_breakdown": {
+        "fit": 15,
+        "color": 12,
+        "footwear": 14,
+        "accessories": 12,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The oversized blazer overwhelms the model's frame, as does the long, loose skirt. More tailored pieces would be more figure-flattering.",
+        "color": "The color palette feels a bit drab and dated. A crisp white blazer or bolder colored skirt could modernize it.",
+        "footwear": "The black pumps are a professional choice but look heavy for the season. Nude or metallic pumps could lighten the look.",
+        "accessories": "The black accessories get lost in the dark blazer. A pop of color or pattern in the belt or clutch could add some personality.",
+        "style": "While headed in the right direction for business casual, this outfit lacks polish and style. Better tailoring and color choices could really elevate it."
+      }
+    },
+    {
+      "image": "casual_544.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted tank top and skinny jeans",
+        "top_type": "Black tank top",
+        "bottom_type": "Black skinny jeans",
+        "color_palette": [
+          "Black",
+          "Red",
+          "Purple"
+        ],
+        "footwear_type": "Red peep-toe pumps",
+        "accessories": [
+          "Red scarf",
+          "Black handbag"
+        ],
+        "style": "Edgy chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 17,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The fitted tank and skinny jeans create a sleek, long silhouette that shows off the model's figure. The scarf adds volume up top for balance.",
+        "color": "The all-black palette is chic and allows the bright red accents to really pop. The purple undertones in the hair tie the look together.",
+        "footwear": "The red peep-toe pumps elongate the leg line and add a sexy, feminine touch. They make a statement against the black outfit.",
+        "accessories": "The bold red scarf makes the look, adding color and style. The black bag is practical and doesn't compete. No jewelry needed.",
+        "style": "This outfit nails edgy chic style - a monochrome base with pops of color, sleek lines and a bit of attitude. Very fashionable and put-together."
+      }
+    },
+    {
+      "image": "casual_545.jpg",
+      "score": 85,
+      "labels": {
+        "fit": "Loose tank dress",
+        "top_type": "Orange tank dress",
+        "bottom_type": "Tank dress",
+        "color_palette": [
+          "Orange",
+          "Black"
+        ],
+        "footwear_type": "Black and white cutout wedges",
+        "accessories": [
+          "Black and white polka dot bag"
+        ],
+        "style": "Quirky feminine"
+      },
+      "score_breakdown": {
+        "fit": 17,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 15,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The swingy shape of the tank dress is comfortable and emphasizes the upper body. Belting it could create more waist definition if desired.",
+        "color": "The vibrant orange color looks great with the model's dark hair and reads as fun and energetic for summer.",
+        "footwear": "The black and white cutout wedges add wonderful graphic interest and quirky style. They pair nicely with the simple dress.",
+        "accessories": "The polka dot bag ties in with the shoes and adds another whimsical element. A stack of bangles could be a nice addition.",
+        "style": "This look has a playful, feminine vibe with a bit of quirk. The shoes and bag show personal style that elevates the basic dress."
+      }
+    }
+  ]
+}

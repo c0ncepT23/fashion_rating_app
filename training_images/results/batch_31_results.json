@@ -1,0 +1,336 @@
+{
+  "outfits": [
+    {
+      "image": "casual_446.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Flowy, feminine silhouette",
+        "top_type": "Floral print tank top",
+        "bottom_type": "Peach tulle skirt",
+        "color_palette": [
+          "peach",
+          "white",
+          "green"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Brown leather belt",
+          "Sunglasses"
+        ],
+        "style": "Romantic casual"
+      },
+      "score_breakdown": {
+        "fit": 23,
+        "color": 22,
+        "footwear": 15,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The flowy skirt and fitted tank create a flattering, feminine silhouette that suits her frame well.",
+        "color": "The soft peach and floral print coordinate beautifully for a romantic spring/summer palette.",
+        "footwear": "The black ankle boots ground the look but a nude heel or sandal could further elevate the outfit's delicate vibe.",
+        "accessories": "The thin belt defines her waist and the sunglasses add a cool factor. Minimal jewelry was a smart choice.",
+        "style": "Overall, the outfit embodies an effortlessly chic romantic casual style perfect for a summer day out."
+      }
+    },
+    {
+      "image": "casual_447.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Relaxed, easy fit",
+        "top_type": "Bright yellow boyfriend blazer",
+        "bottom_type": "Turquoise high-waisted shorts",
+        "color_palette": [
+          "yellow",
+          "turquoise",
+          "white"
+        ],
+        "footwear_type": "Teal and tan platform sandals",
+        "accessories": [
+          "Brown leather tote bag"
+        ],
+        "style": "Colorful casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 21,
+        "footwear": 14,
+        "accessories": 13,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized blazer and loose shorts create a comfortable, relaxed fit that's on-trend.",
+        "color": "The bold color blocking of yellow, turquoise and white makes for a striking, eye-catching combo.",
+        "footwear": "The platform sandals pick up the shorts' color while lengthening her legs. A great choice for the outfit.",
+        "accessories": "The large brown tote is practical and ties in with the shoes, but the look could use another accessory like a statement necklace.",
+        "style": "This outfit nails casual chic style with the boyish blazer and shorts juxtaposed with feminine colors and platforms."
+      }
+    },
+    {
+      "image": "casual_448.jpg",
+      "score": 79,
+      "labels": {
+        "fit": "Loose, boxy fit",
+        "top_type": "Oversized white graphic tank",
+        "bottom_type": "Turquoise high-waisted shorts",
+        "color_palette": [
+          "white",
+          "black",
+          "turquoise"
+        ],
+        "footwear_type": "Brown and gold platform sandals",
+        "accessories": [
+          "Red leather handbag",
+          "Gold hoop earrings"
+        ],
+        "style": "Casual streetwear"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 19,
+        "footwear": 15,
+        "accessories": 13,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized tank and loose shorts create a relaxed, trendy streetwear vibe but the proportions look a bit off.",
+        "color": "The black and white graphic with a pop of turquoise is eye-catching but the bright red bag clashes slightly.",
+        "footwear": "The platform sandals elongate her legs and the brown and gold tones complement her warm skin tone nicely.",
+        "accessories": "The gold hoops work well with the shoes but the red bag seems out of place. A neutral bag would improve the cohesion.",
+        "style": "With some tweaks to proportions and accessories, this outfit could nail the casual streetwear aesthetic she's going for."
+      }
+    },
+    {
+      "image": "casual_449.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Relaxed, effortless fit",
+        "top_type": "Taupe sleeveless blouse",
+        "bottom_type": "Olive green chino shorts",
+        "color_palette": [
+          "taupe",
+          "olive green",
+          "tan"
+        ],
+        "footwear_type": "Brown leather flip flops",
+        "accessories": [
+          "Straw fedora hat",
+          "Black leather handbag"
+        ],
+        "style": "Casual summer chic"
+      },
+      "score_breakdown": {
+        "fit": 23,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 15,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose blouse tucked into belted shorts creates an effortlessly chic silhouette that flatters her figure.",
+        "color": "The neutral earth tones of taupe and olive look sophisticated together and suit her warm coloring perfectly.",
+        "footwear": "The brown leather flip flops are a comfy, practical choice that match the laid-back summer outfit.",
+        "accessories": "The straw fedora makes a chic statement and provides sun protection. The black bag adds some contrast.",
+        "style": "Overall, this outfit embodies casual summer style at its best - relaxed, neutral tones that still look put-together."
+      }
+    },
+    {
+      "image": "casual_450.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose layers, relaxed fit",
+        "top_type": "White tank top under red boyfriend blazer",
+        "bottom_type": "Light wash denim shorts",
+        "color_palette": [
+          "red",
+          "white",
+          "light blue"
+        ],
+        "footwear_type": "Nude pointed-toe pumps",
+        "accessories": [
+          "Black wayfarer sunglasses"
+        ],
+        "style": "Casual prep"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 21,
+        "footwear": 15,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized blazer over a fitted tank and cuffed denim shorts creates a nicely balanced, casual silhouette.",
+        "color": "The bright red blazer really pops against the neutral white and light blue for a classic color combo.",
+        "footwear": "The nude heels elongate her legs and elevate the look with a slightly dressier element that works well.",
+        "accessories": "The black wayfarer sunglasses are a cool, timeless choice but a necklace or bracelet could tie the look together even more.",
+        "style": "This outfit nails casual prep style, combining tailored and distressed pieces for a relaxed yet refined aesthetic."
+      }
+    },
+    {
+      "image": "casual_451.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose, blousy silhouette",
+        "top_type": "Sheer white button-down blouse",
+        "bottom_type": "Light wash distressed denim shorts",
+        "color_palette": [
+          "white",
+          "light blue"
+        ],
+        "footwear_type": "Tan strappy flat sandals",
+        "accessories": [
+          "Black leather crossbody bag"
+        ],
+        "style": "Boho casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 17,
+        "footwear": 14,
+        "accessories": 13,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized sheer blouse with rolled sleeves and loose shorts creates a boho vibe but looks a bit sloppy untucked.",
+        "color": "The white and light blue is fresh but a bit bland. This outfit could use a pop of color to liven it up.",
+        "footwear": "The strappy tan sandals are casual and comfortable, working with the overall aesthetic.",
+        "accessories": "The black crossbody bag is versatile but predictable. A bolder bag and some jewelry could take this look up a notch.",
+        "style": "While channeling a boho casual style, this outfit needs some tweaks to proportions and accessories to really shine."
+      }
+    },
+    {
+      "image": "casual_452.jpg",
+      "score": 87,
+      "labels": {
+        "fit": "Fitted on top, flared skirt",
+        "top_type": "White scoop neck t-shirt",
+        "bottom_type": "Black and white polka dot skirt",
+        "color_palette": [
+          "black",
+          "white",
+          "red"
+        ],
+        "footwear_type": "Red ballet flats",
+        "accessories": [
+          "Black leather shoulder bag"
+        ],
+        "style": "Vintage-inspired casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 21,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted white tee tucked into a flared polka dot skirt creates a classically feminine silhouette.",
+        "color": "You can't go wrong with a black and white palette, and the small pops of red add just the right amount of color.",
+        "footwear": "The red ballet flats tie in the red belt and bag perfectly, completing the vintage-inspired look.",
+        "accessories": "The black bag and belt break up the black and white pattern. Some retro sunnies would be a great addition.",
+        "style": "This outfit exemplifies a vintage-meets-modern casual style, combining classic pieces in a fresh, stylish way."
+      }
+    },
+    {
+      "image": "casual_453.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose layers, straight-leg pants",
+        "top_type": "White v-neck t-shirt under burgundy blazer",
+        "bottom_type": "Burgundy straight-leg trousers",
+        "color_palette": [
+          "burgundy",
+          "white",
+          "black"
+        ],
+        "footwear_type": "Black strappy heeled sandals",
+        "accessories": [
+          "Black leather handbag"
+        ],
+        "style": "Minimalist casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 14,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed-fit blazer over a simple tee with straight-leg trousers creates a long, lean line.",
+        "color": "The monochromatic burgundy suit with a white tee is a chic, minimalist combo that's very on-trend.",
+        "footwear": "The strappy black heels work okay but a sleek loafer or pointy-toe pump would really elevate this look.",
+        "accessories": "The basic black bag is fine but this outfit is begging for some understated gold jewelry to add polish.",
+        "style": "Overall, this look is channeling minimalist chic style, just needs some smarter shoe and accessory choices."
+      }
+    },
+    {
+      "image": "casual_454.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Relaxed layers, slim-fit shorts",
+        "top_type": "Mustard yellow short-sleeve blouse",
+        "bottom_type": "Light wash denim shorts",
+        "color_palette": [
+          "mustard yellow",
+          "light blue",
+          "brown"
+        ],
+        "footwear_type": "Brown suede ankle boots",
+        "accessories": [
+          "Brown leather crossbody bag",
+          "Gold bangle bracelets"
+        ],
+        "style": "Boho casual chic"
+      },
+      "score_breakdown": {
+        "fit": 23,
+        "color": 23,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The flowy blouse over slim denim shorts creates an effortlessly chic silhouette that flatters her figure.",
+        "color": "The mustard yellow top is an unexpected, fashionable choice that pops against the light blue denim.",
+        "footwear": "The brown suede ankle boots add a rustic touch that grounds the look and works perfectly with her boho style.",
+        "accessories": "The brown crossbody and gold bangles tie everything together and add interest to the look without overwhelming it.",
+        "style": "This is boho casual style done right, combining breezy separates in trendy colors with cool-girl accessories."
+      }
+    },
+    {
+      "image": "casual_455.jpg",
+      "score": 85,
+      "labels": {
+        "fit": "Fitted on top, loose shorts",
+        "top_type": "Red and white polka dot sleeveless blouse",
+        "bottom_type": "White linen shorts",
+        "color_palette": [
+          "red",
+          "white"
+        ],
+        "footwear_type": "Black peep-toe wedges",
+        "accessories": [
+          "Black leather shoulder bag"
+        ],
+        "style": "Vintage pin-up casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 21,
+        "footwear": 15,
+        "accessories": 13,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted polka dot top with a sweetheart neckline tucked into high-waisted shorts creates a pin-up worthy silhouette.",
+        "color": "You can never go wrong with a classic red and white color scheme for a vintage-inspired casual summer look.",
+        "footwear": "The black peep-toe wedges elongate her legs and add some height, but a red wedge would really make this pop.",
+        "accessories": "The black bag is cute but predictable. Some retro sunnies and a silk scarf in her hair would kick this up a notch.",
+        "style": "This outfit has all the elements of perfect pin-up casual style, with a couple small tweaks it could be a knockout."
+      }
+    }
+  ]
+}

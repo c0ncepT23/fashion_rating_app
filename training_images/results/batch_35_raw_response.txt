@@ -1,0 +1,334 @@
+{
+  "outfits": [
+    {
+      "image": "casual_486.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose, casual fit",
+        "top_type": "Sleeveless polka dot blouse with ruffled collar",
+        "bottom_type": "White denim shorts",
+        "color_palette": [
+          "black",
+          "white",
+          "red",
+          "blue"
+        ],
+        "footwear_type": "Red ballet flats",
+        "accessories": [
+          "Beaded necklace"
+        ],
+        "style": "Playful casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 15,
+        "accessories": 14,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The loose fit of the blouse and shorts creates a relaxed, casual look that suits the youthful style.",
+        "color": "The black and white polka dots pair nicely with the white shorts, while the red shoes add a fun pop of color.",
+        "footwear": "The red ballet flats complement the outfit but a sandal could also work for an even more casual vibe.",
+        "accessories": "The beaded necklace is a cute addition that doesn't overwhelm the printed top.",
+        "style": "Overall, this is a playful casual outfit that's age-appropriate and put-together for everyday wear."
+      }
+    },
+    {
+      "image": "casual_487.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Relaxed, slightly oversized",
+        "top_type": "Pink knit sweater",
+        "bottom_type": "Light wash denim shorts with cuffs",
+        "color_palette": [
+          "pink",
+          "light blue",
+          "white"  
+        ],
+        "footwear_type": "Pink sneakers",
+        "accessories": [],
+        "style": "Cute casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The slightly oversized sweater looks cozy and the cuffed shorts provide balance to the relaxed top.",
+        "color": "The light pink and blue color scheme is soft, feminine and perfect for a casual spring or summer look.",
+        "footwear": "The pink sneakers are a great choice to tie in with the sweater and keep the outfit casual and comfortable.",
+        "accessories": "No accessories are needed as the outfit is cohesive on its own. A simple necklace could be added if desired.",
+        "style": "This is a cute, easy casual look that's youthful and on-trend. It's a go-to outfit formula for weekend wear."
+      }
+    },
+    {
+      "image": "casual_488.jpg",
+      "score": 85,
+      "labels": {
+        "fit": "Relaxed, flowy",
+        "top_type": "Loose white t-shirt",
+        "bottom_type": "Light wash distressed denim shorts",
+        "color_palette": [
+          "white",
+          "light blue",
+          "tan"
+        ],
+        "footwear_type": "Tan wedge sandals",
+        "accessories": [
+          "Brown leather shoulder bag"
+        ],
+        "style": "Boho casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 17,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose t-shirt and relaxed fit of the shorts create an effortless, comfortable look.",
+        "color": "The neutral white and tan tones are accented nicely by the light wash denim for a casual, earthy color palette.",
+        "footwear": "The tan wedges elevate the look slightly while still keeping it daytime appropriate. They elongate the legs.",
+        "accessories": "The brown bag complements the boho casual style and provides a practical accessory to finish the outfit.",
+        "style": "Overall, this outfit has a boho casual vibe that's stylish yet unfussy. Great for weekend brunches or errands."
+      }
+    },
+    {
+      "image": "casual_489.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Flowy, feminine",
+        "top_type": "Floral print off-the-shoulder dress",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "white",
+          "pink",
+          "green"
+        ],
+        "footwear_type": "Brown strappy wedge sandals",
+        "accessories": [
+          "Floppy sun hat"
+        ],
+        "style": "Romantic bohemian"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 19,
+        "footwear": 18,
+        "accessories": 17,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The flowy silhouette of the off-shoulder dress is ultra feminine and perfect for hot summer days.",
+        "color": "The soft floral print in pink and green hues against the white base makes for a romantic color palette.",
+        "footwear": "The brown strappy wedges ground the airy dress and elongate the legs beautifully.",
+        "accessories": "The floppy sun hat adds a flirty, bohemian touch that's also practical for providing sun protection.",
+        "style": "This outfit exudes romantic bohemian charm and would be perfect for a summer wedding or garden party."
+      }
+    },
+    {
+      "image": "casual_490.jpg",
+      "score": 79,
+      "labels": {
+        "fit": "Loose, oversized",
+        "top_type": "White off-shoulder peasant top with ruffles",
+        "bottom_type": "Distressed light wash boyfriend jeans",
+        "color_palette": [
+          "white",
+          "light blue",
+          "pink"
+        ],
+        "footwear_type": "Hot pink lace-up heels",
+        "accessories": [
+          "Patterned tote bag"
+        ],
+        "style": "Boho chic"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 15,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized peasant top is balanced by the slimmer boyfriend jeans, but the overall fit is a bit shapeless.",
+        "color": "The white and light blue create a fresh palette, but the hot pink heels seem disconnected.",
+        "footwear": "The pink heels are a bold choice that competes with the top. Neutral wedges or flats would improve the look.",
+        "accessories": "The patterned tote adds a boho touch that works with the style of the outfit.",
+        "style": "This look is going for boho chic, but a few tweaks to the fit and shoe choice would really pull it together."
+      }
+    },
+    {
+      "image": "casual_491.jpg",
+      "score": 75,
+      "labels": {
+        "fit": "Loose, casual",
+        "top_type": "White graphic t-shirt",
+        "bottom_type": "Light wash denim shorts",
+        "color_palette": [
+          "white",
+          "light blue",
+          "black"
+        ],
+        "footwear_type": "Black combat boots",
+        "accessories": [
+          "Black leather bag"
+        ],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 15,
+        "footwear": 14,
+        "accessories": 15,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The loose fit of the tee and shorts is very casual and a bit sloppy. More fitted pieces would improve the silhouette.",
+        "color": "The basic black and white with light blue denim is fine but a bit bland. The outfit could use a pop of color.",
+        "footwear": "The combat boots with shorts are an edgy combo but look a little heavy for the rest of the outfit.",
+        "accessories": "The black bag works with the boots but overall the dark accessories weigh down the summery outfit.",
+        "style": "The outfit has potential for an edgy casual look but fit and proportions need tweaking for a more put-together vibe."
+      }
+    },
+    {
+      "image": "casual_492.jpg",
+      "score": 68,
+      "labels": {
+        "fit": "Loose, shapeless",
+        "top_type": "Coral short sleeve blouse",
+        "bottom_type": "Black mini skirt",
+        "color_palette": [
+          "coral",
+          "black",
+          "gold"
+        ],
+        "footwear_type": "Gold flat sandals",
+        "accessories": [
+          "Gold chain necklace"
+        ],
+        "style": "Mismatched casual"
+      },
+      "score_breakdown": {
+        "fit": 12,
+        "color": 14,
+        "footwear": 13,
+        "accessories": 14,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The blouse is too boxy and shapeless, especially paired with the short loose skirt. The proportions are off.",
+        "color": "The coral and black could work but the shades aren't complementary. The gold accessories clash a bit.",
+        "footwear": "The gold sandals get a bit lost and don't really tie in with the rest of the mostly casual outfit.",
+        "accessories": "The necklace is fine but doesn't add much to the look. Different accessories could better pull this together.",
+        "style": "The pieces are too mismatched and don't create a cohesive style. Rethinking the individual items would help."
+      }
+    },
+    {
+      "image": "casual_493.jpg",
+      "score": 87,
+      "labels": {
+        "fit": "Tailored, polished",
+        "top_type": "Red blazer",
+        "bottom_type": "Black mini skirt",
+        "color_palette": [
+          "red",
+          "black",
+          "white"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Black and white polka dot bow"
+        ],
+        "style": "Preppy chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 17,
+        "accessories": 17,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The tailored fit of the blazer gives a polished look, balanced by the short skirt showing some leg.",
+        "color": "The bold red, black and white color scheme is classic and eye-catching without being over the top.",
+        "footwear": "The black ankle boots ground the look and add some edge, dressing down the mini skirt.",
+        "accessories": "The cute polka dot bow adds a touch of whimsy and brings the color palette together nicely.",
+        "style": "Overall, this look nails preppy chic style - it's youthful and fun but still quite sophisticated."
+      }
+    },
+    {
+      "image": "casual_494.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted on top, flowy skirt",
+        "top_type": "White short sleeve blouse",
+        "bottom_type": "Floral print high-low skirt",
+        "color_palette": [
+          "white",
+          "blue",
+          "tan"
+        ],
+        "footwear_type": "Tan ankle strap wedges",
+        "accessories": [
+          "Straw clutch",
+          "Sunglasses"
+        ],
+        "style": "Feminine bohemian"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 19,
+        "footwear": 19,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The fitted white blouse creates a nice silhouette with the flowy, asymmetrical hem of the skirt.",
+        "color": "The crisp white top makes the blue floral print pop and the tan accessories warm up the palette beautifully.",
+        "footwear": "The tan ankle strap wedges elongate the legs and complement the boho style of the skirt.",
+        "accessories": "The straw clutch and sunglasses are the perfect functional accessories to complete the summery look.",
+        "style": "This outfit is the epitome of feminine bohemian style, perfect for a summer day event or garden party."
+      }
+    },
+    {
+      "image": "casual_495.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Fitted on top, flared skirt",
+        "top_type": "Striped tank top",
+        "bottom_type": "Black skater skirt",
+        "color_palette": [
+          "black",
+          "white",
+          "red"
+        ],
+        "footwear_type": "White sneakers",
+        "accessories": [
+          "Red hair bow"
+        ],
+        "style": "Retro casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted tank tucked into the skater skirt gives a nod to retro 50s style. Skirt could be an inch longer.",
+        "color": "The black and white stripes with solid black skirt is classic, but a red accessory would tie in the hair bow.",
+        "footwear": "The white sneakers work for a casual look but a simple black or red flat would elevate the outfit.",
+        "accessories": "The red bow is a cute pop of color but doesn't tie into anything else. Red lips or shoes could help.",
+        "style": "This outfit has a cute retro casual vibe, but a few small tweaks would make it more cohesive and polished."
+      }
+    }
+  ]
+}

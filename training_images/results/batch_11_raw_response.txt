@@ -1,0 +1,322 @@
+{
+  "outfits": [
+    {
+      "image": "casual_246.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose, flowy fit",
+        "top_type": "Oversized sweater",
+        "bottom_type": "High-waisted shorts",
+        "color_palette": [
+          "Pink",
+          "Black"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, oversized sweater pairs well with the fitted high-waisted shorts, creating a balanced silhouette.",
+        "color": "The soft pink and black color scheme is feminine and chic, but could benefit from an additional pop of color.",
+        "footwear": "The wedge sandals elongate the legs and dress up the casual outfit.",
+        "accessories": "Adding a few simple accessories like a delicate necklace or bracelet could elevate the look further.",
+        "style": "Overall, this outfit achieves a stylish casual chic vibe that is perfect for a variety of occasions."
+      }
+    },
+    {
+      "image": "casual_247.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted on top, loose on bottom",
+        "top_type": "Loose blouse",
+        "bottom_type": "High-waisted shorts",
+        "color_palette": [
+          "White",
+          "Red"
+        ],
+        "footwear_type": "Leopard print wedge booties",
+        "accessories": [],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose blouse tucked into the high-waisted shorts creates a flattering hourglass shape.",
+        "color": "The crisp white and bold red make a striking, eye-catching combination.",
+        "footwear": "The leopard print booties add a fun, trendy element and pair surprisingly well with the red shorts.",
+        "accessories": "While the outfit looks great as is, a long pendant necklace could be a nice addition.",
+        "style": "This outfit perfectly embodies casual chic style - polished and put-together, yet still relaxed and comfortable."
+      }
+    },
+    {
+      "image": "casual_248.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Loose layers",
+        "top_type": "Oversized sweater, long scarf",
+        "bottom_type": "Shorts",
+        "color_palette": [
+          "Rust orange",
+          "Gray",
+          "Black" 
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [
+          "Scarf",
+          "Sunglasses"
+        ],
+        "style": "Cozy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized sweater and long scarf create cozy, comfortable layers that are perfect for chilly weather.",
+        "color": "The rust orange, gray, and black color scheme is autumnal and stylish.",
+        "footwear": "The black ankle boots ground the look and add a slight edge.",
+        "accessories": "The printed scarf and sunglasses are the perfect finishing touches that tie the look together.",
+        "style": "This outfit nails cozy casual style - it looks effortless and cool while still being warm and snuggly."
+      }
+    },
+    {
+      "image": "casual_249.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose on top, fitted on bottom",
+        "top_type": "Fur collar sweater",
+        "bottom_type": "Skinny jeans",
+        "color_palette": [
+          "Mint green",
+          "Gray",
+          "White"
+        ],
+        "footwear_type": "Red ankle boots",
+        "accessories": [
+          "Printed bag"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose sweater and skinny jeans create a nice balance of proportions.",
+        "color": "The mint green, gray, and white make a fresh, pretty color palette, though the red boots add an unexpected pop.",
+        "footwear": "The red ankle boots are a bold choice that really makes the outfit stand out.",
+        "accessories": "The printed bag adds another fun element to the look.",
+        "style": "This outfit mixes casual and chic elements for a stylish everyday look with a bit of quirky personality."
+      }
+    },
+    {
+      "image": "casual_250.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose, flowy",
+        "top_type": "Ruffled blouse",
+        "bottom_type": "Pencil skirt",
+        "color_palette": [
+          "Yellow",
+          "White"
+        ],
+        "footwear_type": "Nude pumps",
+        "accessories": [
+          "Printed bag"
+        ],
+        "style": "Feminine, vintage-inspired"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, ruffled blouse contrasts nicely with the fitted pencil skirt for a feminine silhouette.",
+        "color": "The yellow and white color scheme is cheerful and summery, but could use more contrast.",
+        "footwear": "The nude pumps elongate the legs and complement the outfit without competing with it.",
+        "accessories": "The printed bag adds a cute vintage touch.",
+        "style": "This outfit has a sweet, vintage-inspired feel that would be perfect for a daytime event or brunch date."
+      }
+    },
+    {
+      "image": "casual_251.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose, flowy",
+        "top_type": "Cardigan",
+        "bottom_type": "Maxi skirt",
+        "color_palette": [
+          "Mint green",
+          "White",
+          "Brown"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [],
+        "style": "Bohemian casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose cardigan and flowy maxi skirt create an effortless, bohemian silhouette.",
+        "color": "The mint green, white, and brown color scheme is soft and natural.",
+        "footwear": "The brown wedge sandals complement the outfit nicely and add a bit of height.",
+        "accessories": "Some delicate layered necklaces or bangles could enhance the free-spirited vibe.",
+        "style": "This outfit embodies a relaxed, bohemian casual style that's perfect for weekends or vacation."
+      }
+    },
+    {
+      "image": "casual_252.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose, boxy",
+        "top_type": "Button-down shirt",
+        "bottom_type": "Shorts",
+        "color_palette": [
+          "White",
+          "Neon green"
+        ],
+        "footwear_type": "Lace-up wedges",
+        "accessories": [],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 14,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose, boxy fit of the shirt and shorts is relaxed but a bit shapeless.",
+        "color": "The white and neon green color combo is very bold and striking, but could be hard to pull off.",
+        "footwear": "The brown lace-up wedges add nice contrast and visual interest.",
+        "accessories": "A brown belt could help define the waist and pull the look together.",
+        "style": "This outfit has a preppy casual vibe, but the bold colors make it more fashion-forward and daring."
+      }
+    },
+    {
+      "image": "casual_253.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted",
+        "top_type": "Lace blouse",
+        "bottom_type": "High-waisted skirt",
+        "color_palette": [
+          "Dusty rose",
+          "Black"
+        ],
+        "footwear_type": "Lace-up heels",
+        "accessories": [],
+        "style": "Romantic, vintage-inspired"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 20,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted lace blouse and high-waisted skirt create a beautiful, feminine silhouette that highlights the waist.",
+        "color": "The dusty rose and black color scheme is romantic and sophisticated.",
+        "footwear": "The black lace-up heels add a slightly edgy touch that contrasts nicely with the sweet lace blouse.",
+        "accessories": "Some vintage-inspired jewelry, like drop earrings or a pendant necklace, could elevate the look even more.",
+        "style": "This outfit perfectly embodies a romantic, vintage-inspired style that feels classic and timeless."
+      }
+    },
+    {
+      "image": "casual_254.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose layers",
+        "top_type": "Printed cardigan",
+        "bottom_type": "Dress",
+        "color_palette": [
+          "Teal",
+          "Gray",
+          "White"
+        ],
+        "footwear_type": "Oxfords",
+        "accessories": [
+          "Bow",
+          "Bag"
+        ],
+        "style": "Quirky, vintage-inspired"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 18,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose printed cardigan over the dress creates an interesting layered look.",
+        "color": "The teal, gray and white color scheme is cool and understated, allowing the prints to take center stage.",
+        "footwear": "The brown oxford shoes are an unexpected choice that adds to the quirky, academic vibe.",
+        "accessories": "The bow headband and satchel-style bag are the perfect quirky finishing touches.",
+        "style": "This outfit has a delightfully quirky, vintage-inspired style that showcases the wearer's unique personality."
+      }
+    },
+    {
+      "image": "casual_255.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted",
+        "top_type": "Blazer",
+        "bottom_type": "Printed skirt",
+        "color_palette": [
+          "Yellow",
+          "Blue",
+          "White"
+        ],
+        "footwear_type": "Peep-toe heels",
+        "accessories": [
+          "Flower",
+          "Clutch"
+        ],
+        "style": "Playful, retro-inspired"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted blazer and skirt create a polished, feminine silhouette.",
+        "color": "The yellow, blue and white color scheme is cheerful and eye-catching, perfect for spring or summer.",
+        "footwear": "The nude peep-toe heels elongate the legs and complement the outfit beautifully.",
+        "accessories": "The flower hair accessory and printed clutch add the perfect playful, retro-inspired touches.",
+        "style": "This outfit has a fun, flirty retro vibe that feels fresh and modern at the same time - perfect for a special occasion."
+      }
+    }
+  ]
+}

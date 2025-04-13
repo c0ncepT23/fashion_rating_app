@@ -1,0 +1,321 @@
+{
+  "outfits": [
+    {
+      "image": "casual_466.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Fitted tiered ruffle dress",
+        "top_type": "Spaghetti strap dress",
+        "bottom_type": "Short ruffle skirt",
+        "color_palette": [
+          "red",
+          "white"
+        ],
+        "footwear_type": "Strappy sandals",
+        "accessories": [
+          "Sunglasses",
+          "Fedora hat"
+        ],
+        "style": "Flirty summer casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted bodice and tiered ruffle skirt create a flirty, feminine silhouette that flatters her figure.",
+        "color": "The red polka dot print is playful and perfect for summer. Pairing with black accessories keeps it grounded.",
+        "footwear": "The strappy black sandals elongate her legs and complement the casual summer vibe.",
+        "accessories": "The black fedora and sunglasses add a chic touch and tie in with the black footwear.",
+        "style": "Overall, this is a cute, flirty summer casual look that suits her youthful style. The ruffles add a girly flair."
+      }
+    },
+    {
+      "image": "casual_467.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Relaxed fit",
+        "top_type": "Short sleeve button-down shirt",
+        "bottom_type": "High-waisted shorts",
+        "color_palette": [
+          "black",
+          "pink"
+        ],
+        "footwear_type": "Sneakers",
+        "accessories": [],
+        "style": "Casual tomboy chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the button-down and shorts creates a laid-back, effortless look that suits her frame.",
+        "color": "The black top paired with light pink shorts is a simple but effective color combo. More contrast could improve the look.",
+        "footwear": "The white sneakers are a comfy, practical choice that go with the casual outfit.",
+        "accessories": "Some simple jewelry like stud earrings or a delicate necklace could elevate this basic look.",
+        "style": "This tomboy-inspired casual outfit has an easy cool-girl vibe. Cuffing the sleeves would add more style."
+      }
+    },
+    {
+      "image": "casual_468.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose, flowy romper",
+        "top_type": "Spaghetti strap romper",
+        "bottom_type": "Shorts",
+        "color_palette": [
+          "purple"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [
+          "Sunglasses",
+          "Straw tote bag"
+        ],
+        "style": "Boho beach chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, flowy silhouette of the romper looks effortless and keeps her cool in warm weather.",
+        "color": "The bold purple hue makes a statement and complements her warm skin tone beautifully.",
+        "footwear": "The neutral wedges elongate her legs and dress up the look while still being beach appropriate.",
+        "accessories": "The sunglasses and straw tote are stylish, practical additions that enhance the boho beach vibe.",
+        "style": "This outfit perfectly embodies carefree boho beach style. The romper is an ideal breezy choice."
+      }
+    },
+    {
+      "image": "casual_469.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Relaxed, slightly loose",
+        "top_type": "Sleeveless button-down",
+        "bottom_type": "Flowy shorts",
+        "color_palette": [
+          "lavender",
+          "beige"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [
+          "Straw bag"
+        ],
+        "style": "Casual feminine chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the top and shorts is comfortable while still appearing put-together.",
+        "color": "The soft lavender and beige create a lovely, feminine color palette that is light and fresh for summer.",
+        "footwear": "The wedge sandals add a touch of sophistication and lengthen her legs.",
+        "accessories": "The straw bag is a cute, textural detail that complements the breezy summer outfit.",
+        "style": "This look is a great example of casual feminine style, combining soft colors and flowy fabrics."
+      }
+    },
+    {
+      "image": "casual_470.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Slim, tailored",
+        "top_type": "Button-down blouse",
+        "bottom_type": "Slim cropped pants",
+        "color_palette": [
+          "lavender",
+          "black"
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [
+          "Satchel bag"
+        ],
+        "style": "Chic casual office wear"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The slim, tailored fit of the blouse and cropped pants create a polished, professional silhouette.",
+        "color": "The lavender blouse adds a lovely pop of color, while the black pants and accessories keep it office appropriate.",
+        "footwear": "The black ankle boots are a chic, modern choice that pair well with the cropped pant length.",
+        "accessories": "The structured black satchel completes the look, adding sophistication and practicality.",
+        "style": "This is a fantastic example of business casual done right - professional yet still modern and stylish."
+      }
+    },
+    {
+      "image": "casual_471.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Relaxed, slightly loose",
+        "top_type": "Sleeveless blouse",
+        "bottom_type": "Flowy skirt",
+        "color_palette": [
+          "mint green",
+          "white"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [],
+        "style": "Feminine summer casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the top and flowy skirt create an easy, breezy silhouette perfect for summer.",
+        "color": "The mint green and white form a fresh, crisp color combo that looks lovely with her skin tone.",
+        "footwear": "The nude wedge sandals elongate her legs and complement the airy feel of the outfit.",
+        "accessories": "Some delicate gold jewelry like a pendant necklace or bangle could add a nice finishing touch.",
+        "style": "This outfit embodies carefree, feminine summer style with its soft hues and flowy fabrics."
+      }
+    },
+    {
+      "image": "casual_472.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted bodice, flared skirt",
+        "top_type": "Sleeveless fit-and-flare dress",
+        "bottom_type": "Flared skirt",
+        "color_palette": [
+          "light blue",
+          "white"
+        ],
+        "footwear_type": "Ankle-strap heels",
+        "accessories": [],
+        "style": "Chic feminine daytime"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The fitted bodice and flared skirt create a universally flattering silhouette that highlights her waist.",
+        "color": "The pale blue is soft, feminine and perfect for spring/summer. The white trim adds a crisp contrast.",
+        "footwear": "The nude ankle-strap heels elongate her legs and pair well with the knee-length dress.",
+        "accessories": "The dress makes enough of a statement on its own. Simple jewelry like stud earrings would finish the look.",
+        "style": "This is a gorgeous, timeless look that could work for a variety of daytime occasions. It's chic and ladylike."
+      }
+    },
+    {
+      "image": "casual_473.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose, oversized",
+        "top_type": "Graphic tee",
+        "bottom_type": "Skinny jeans",
+        "color_palette": [
+          "white",
+          "blue"
+        ],
+        "footwear_type": "Ballet flats",
+        "accessories": [
+          "Tote bag"
+        ],
+        "style": "Casual weekend"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized graphic tee looks a bit sloppy untucked. Partial or full tuck would improve the proportions.",
+        "color": "You can't go wrong with a classic white tee and jeans combo. The blue tote adds a nice pop.",
+        "footwear": "The nude flats get a bit lost. Sneakers or sandals in a contrasting color could be more interesting.",
+        "accessories": "The blue tote is a great choice to break up the neutral outfit. Sunglasses would also be practical.",
+        "style": "This is a decent casual weekend look but could use some small tweaks to go from basic to stylish."
+      }
+    },
+    {
+      "image": "casual_474.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Fitted tank, loose shorts",
+        "top_type": "Racerback tank",
+        "bottom_type": "Drawstring shorts",
+        "color_palette": [
+          "yellow",
+          "green"
+        ],
+        "footwear_type": "Gladiator sandals",
+        "accessories": [
+          "Straw hat",
+          "Shoulder bag"
+        ],
+        "style": "Casual summer vacation"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted tank shows off her shape while the loose shorts are breezy and comfortable for hot weather.",
+        "color": "The bright yellow top and olive green shorts are a fun, unexpected combo that screams summer.",
+        "footwear": "The flat gladiator sandals are a practical warm weather choice but could be more exciting.",
+        "accessories": "The straw hat is cute and shields her face from the sun. The bag is functional for vacation.",
+        "style": "This outfit has potential but the individual pieces are a bit plain. Printed shorts would take it up a notch."
+      }
+    },
+    {
+      "image": "casual_475.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Slim, tailored",
+        "top_type": "Chambray button-down",
+        "bottom_type": "Pencil skirt",
+        "color_palette": [
+          "red",
+          "blue",
+          "white"
+        ],
+        "footwear_type": "Ankle-strap heels",
+        "accessories": [
+          "Straw basket bag"
+        ],
+        "style": "Preppy casual chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The slim fit of the chambray shirt tucked into the pencil skirt creates a polished silhouette.",
+        "color": "The contrast of the bright red skirt with the light blue shirt is striking. The white heels balance it.",
+        "footwear": "The white ankle-strap heels freshen up the look and elongate her legs beautifully.",
+        "accessories": "The straw basket bag adds great texture and a more casual vibe to an otherwise dressy outfit.",
+        "style": "This is a fantastic example of preppy casual chic. It's colorful, tailored and perfect for summer."
+      }
+    }
+  ]
+}

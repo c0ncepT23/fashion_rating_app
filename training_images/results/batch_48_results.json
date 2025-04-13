@@ -1,0 +1,331 @@
+{
+  "outfits": [
+    {
+      "image": "casual_616.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted sheath dress",
+        "top_type": "Sleeveless floral print dress",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "blue",
+          "green",
+          "white"
+        ],
+        "footwear_type": "Teal wedge sandals",
+        "accessories": [],
+        "style": "Feminine casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 20,
+        "accessories": 8,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted sheath dress flatters her figure nicely. The length is appropriate for a casual summer look.",
+        "color": "The vibrant blue and green floral print pops against the white background. Teal shoes complement the colors in the dress well.",
+        "footwear": "The teal wedge sandals elongate her legs and tie in with the colors of the dress. A great choice for this outfit.",
+        "accessories": "She has opted for a minimalist look with no visible accessories, letting the dress be the focal point.",
+        "style": "Overall this is a lovely, feminine casual outfit that is perfect for a summer day. The floral dress is flirty and fun."
+      }
+    },
+    {
+      "image": "casual_617.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose fitting mini dress",
+        "top_type": "Sleeveless blue dress with cutouts",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "royal blue",
+          "black"
+        ],
+        "footwear_type": "Black peep-toe pumps",
+        "accessories": [
+          "Black shoulder bag",
+          "Gold bracelet"
+        ],
+        "style": "Sexy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the mini dress drapes well on her frame. The cutouts add some visual interest.",
+        "color": "The royal blue color is striking and looks great with her dark hair. Black accessories allow the blue to take center stage.",
+        "footwear": "The black peep-toe pumps are a classic choice that elongate her legs, but a strappy sandal could also work well.",
+        "accessories": "The black shoulder bag and gold bracelet are subtle touches that complement the look without overwhelming it.",
+        "style": "This outfit has a sexy, flirty vibe that works well for a night out or party. The short hemline and cutouts show some skin."
+      }
+    },
+    {
+      "image": "casual_618.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose fitting mini dress",
+        "top_type": "Sleeveless polka dot dress",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "peach",
+          "red",
+          "white"
+        ],
+        "footwear_type": "Brown strappy wedge sandals",
+        "accessories": [
+          "White tote bag"
+        ],
+        "style": "Cute casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit of the mini dress is comfortable and easy to wear. It suits her petite frame.",
+        "color": "The peach polka dot print against the white background is sweet and summery. The red belt adds a nice pop of contrasting color.",
+        "footwear": "The brown strappy wedges work okay with the outfit but a different shoe color like white or red could tie in better.",
+        "accessories": "The white tote bag is practical and matches the white in the dress. Some additional jewelry could elevate the look.",
+        "style": "Overall this is a cute, youthful casual look. The polka dot print and loose silhouette give a playful, easygoing vibe."
+      }
+    },
+    {
+      "image": "casual_619.jpg",
+      "score": 72,
+      "labels": {
+        "fit": "Loose fitting shift dress",
+        "top_type": "Short sleeve red dress",
+        "bottom_type": "White leggings",
+        "color_palette": [
+          "red",
+          "white",
+          "black"
+        ],
+        "footwear_type": "Red ballet flats",
+        "accessories": [
+          "Black belt"
+        ],
+        "style": "Quirky casual"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The boxy fit of the dress is not the most flattering for her figure. A more fitted silhouette could improve the overall look.",
+        "color": "The bright red is a bold, eye-catching color. However, the white leggings break up the line of the leg in an awkward way.",
+        "footwear": "The red flats match the dress but seem a bit casual. A dressier shoe could elevate the outfit.",
+        "accessories": "The black belt helps define the waist but competes with the black hair. A different color belt may have been better.",
+        "style": "The combination of dress and leggings gives a quirky, offbeat vibe. It's an unusual pairing that makes a statement."
+      }
+    },
+    {
+      "image": "casual_620.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Relaxed fit tank top and skirt",
+        "top_type": "Mint green tank top",
+        "bottom_type": "White lace skirt",
+        "color_palette": [
+          "mint green",
+          "white",
+          "pink"
+        ],
+        "footwear_type": "Pink wedge sandals",
+        "accessories": [
+          "Black shoulder bag"
+        ],
+        "style": "Romantic casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 24,
+        "footwear": 20,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the tank and skirt is perfect for a casual summer day. It looks comfortable and effortless.",
+        "color": "The pastel color palette of mint green, white and soft pink is fresh and feminine. The colors complement each other beautifully.",
+        "footwear": "The pink wedge sandals add a lovely pop of color and elongate her legs. They tie the look together nicely.",
+        "accessories": "The black bag is a practical choice but a white or mint bag could have blended with the outfit more seamlessly.",
+        "style": "This outfit has a romantic, feminine feel with the lace skirt and soft colors. It's a pretty, girly look for summer."
+      }
+    },
+    {
+      "image": "casual_621.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose fitting blouse and pencil skirt",
+        "top_type": "Mustard yellow short sleeve blouse",
+        "bottom_type": "Black pencil skirt",
+        "color_palette": [
+          "mustard yellow",
+          "black"
+        ],
+        "footwear_type": "Black and white wedge sandals",
+        "accessories": [
+          "Floral scarf"
+        ],
+        "style": "Vintage inspired casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose blouse balances the fitted pencil skirt, creating a nice silhouette. The half-tucked style is effortlessly chic.",
+        "color": "The mustard yellow and black is a striking color combo. The warm yellow contrasts nicely against her dark hair.",
+        "footwear": "The black and white patterned wedges add some visual interest and height. A solid shoe could also work.",
+        "accessories": "The floral scarf is a beautiful accent that ties in well with the vintage vibe. It adds a romantic touch.",
+        "style": "This look has a retro, vintage-inspired feel with the mustard color, pencil skirt and scarf. It's a stylish casual outfit."
+      }
+    },
+    {
+      "image": "casual_622.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Flowy maxi dress",
+        "top_type": "Sleeveless teal dress with slit",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "teal",
+          "gold"
+        ],
+        "footwear_type": "Black peep-toe heels",
+        "accessories": [
+          "Gold statement necklace"
+        ],
+        "style": "Bohemian elegant casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The flowy maxi dress drapes beautifully and is perfect for her tall, slender figure. The side slit adds movement and shows some leg.",
+        "color": "The rich teal color is stunning and looks amazing with her skin tone. The gold accents add a luxe touch.",
+        "footwear": "The black heels are a safe choice and elongate the leg line. A strappy gold sandal could also look great.",
+        "accessories": "The gold statement necklace is the perfect glam accent to the simple dress. It elevates the look.",
+        "style": "This outfit has an elegant bohemian vibe, combining the flowy maxi with glam touches. It's effortlessly sophisticated."
+      }
+    },
+    {
+      "image": "casual_623.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Fitted sleeveless top and shorts",
+        "top_type": "Royal blue sleeveless blouse",
+        "bottom_type": "Orange shorts",
+        "color_palette": [
+          "royal blue",
+          "orange",
+          "black",
+          "white"
+        ],
+        "footwear_type": "Black and white pumps",
+        "accessories": [
+          "Black clutch"
+        ],
+        "style": "Color-blocked casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted sleeveless top shows off her arms while the shorts highlight her legs. The proportions are balanced.",
+        "color": "The royal blue and orange color-blocking is very bold and makes a statement. The black and white accents ground it.",
+        "footwear": "The black and white patterned pumps tie in with the outfit but a solid color may have streamlined the look better.",
+        "accessories": "The black clutch is simple and doesn't compete with the bold outfit. A fun orange bag could also work.",
+        "style": "This look is all about the color story. The vibrant color-blocking gives a artistic, modern vibe to the casual separates."
+      }
+    },
+    {
+      "image": "casual_624.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose fitting sleeveless top and shorts",
+        "top_type": "Red sleeveless blouse with bow",
+        "bottom_type": "White shorts",
+        "color_palette": [
+          "red",
+          "white",
+          "tan"
+        ],
+        "footwear_type": "Tan wedge sandals",
+        "accessories": [
+          "Tan shoulder bag"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 14,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose fit of the top and shorts is casual and relaxed. A more tailored short may have balanced the volume on top better.",
+        "color": "The red and white is a classic preppy color combo. The tan accessories are a neutral pairing.",
+        "footwear": "The tan wedges are casual and wearable but don't really elevate the look. A dressier sandal could do so.",
+        "accessories": "The tan bag blends in and doesn't add much to the outfit. A contrasting color or interesting shape could be an improvement.",
+        "style": "The outfit has a preppy, all-American vibe with the red sleeveless blouse and white shorts. The bow detail adds a sweet touch."
+      }
+    },
+    {
+      "image": "casual_625.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose fitting sleeveless dress",
+        "top_type": "Red sleeveless mini dress",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "red",
+          "gold"
+        ],
+        "footwear_type": "Nude platform sandals",
+        "accessories": [
+          "Gold chain belt",
+          "Straw clutch"
+        ],
+        "style": "Flirty casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the mini dress is flowy and forgiving. It drapes well but doesn't showcase her figure.",
+        "color": "The bright red is bold and commands attention. The gold accents add a hint of shine.",
+        "footwear": "The nude platform sandals elongate the leg line and are a practical height. They don't compete with the dress.",
+        "accessories": "The gold chain belt defines the waist and adds some needed structure. The straw clutch is a cute summer touch.",
+        "style": "This look is flirty and fun for a casual summer day or night. The short hemline and bare arms show some skin."
+      }
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "outfits": [
+    {
+      "image": "casual_206.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Relaxed, casual fit",
+        "top_type": "Mint green tank top",
+        "bottom_type": "Khaki shorts",
+        "color_palette": [
+          "mint green",
+          "khaki",
+          "brown"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [
+          "Printed headband",
+          "Brown belt"
+        ],
+        "style": "Casual summer look"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the tank and shorts suits the casual summer vibe. Proportions are balanced.",
+        "color": "Mint and khaki create a fresh, natural color palette. Brown accessories tie it together.",
+        "footwear": "Wedge sandals are a great choice for a put-together casual look with some height.",
+        "accessories": "The printed headband adds a boho touch. Brown belt coordinates with the shoes.",
+        "style": "Overall an easy, breezy summer outfit. Casual but still polished and intentional."
+      }
+    },
+    {
+      "image": "casual_207.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted top, loose shorts",
+        "top_type": "Striped button-down shirt",
+        "bottom_type": "Blush high-waisted shorts",
+        "color_palette": [
+          "white",
+          "black",
+          "blush"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [
+          "Brown belt",
+          "Pendant necklace"
+        ],
+        "style": "Preppy casual chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted striped shirt tucked into high-waisted shorts creates a flattering silhouette.",
+        "color": "Black and white stripes pair nicely with the soft blush shorts. Cohesive and chic.",
+        "footwear": "Ankle boots ground the look and give it a slight edge. Practical yet stylish.",
+        "accessories": "Minimal accessories let the outfit shine. Belt and necklace are understated.",
+        "style": "Preppy elements mixed with trendy pieces for an overall polished casual look."
+      }
+    },
+    {
+      "image": "casual_208.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose, flowy fit",
+        "top_type": "Tan polka dot blouse",
+        "bottom_type": "Mustard yellow leggings",
+        "color_palette": [
+          "tan",
+          "mustard yellow",
+          "brown"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [],
+        "style": "Retro-inspired casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, flowy blouse over leggings creates a relaxed, bohemian silhouette.",
+        "color": "Tan and mustard yellow are an unexpected but interesting vintage-inspired combo.",
+        "footwear": "Ankle boots work with the outfit but don't add much interest. A different shoe choice could elevate the look.",
+        "accessories": "Lack of accessories makes the outfit feel a bit plain. A belt, necklace or hat could help.",
+        "style": "Has a cool retro vibe but needs some styling tweaks to really sing. A good start though."
+      }
+    },
+    {
+      "image": "casual_209.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Oversized top, mini skirt",
+        "top_type": "Pale yellow sweatshirt",
+        "bottom_type": "Red pleated mini skirt",
+        "color_palette": [
+          "pale yellow",
+          "red",
+          "black"
+        ],
+        "footwear_type": "Black oxford flats",
+        "accessories": [
+          "Black belt"
+        ],
+        "style": "Schoolgirl inspired casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized sweatshirt with mini skirt creates a playful, youthful proportion.",
+        "color": "Pale yellow and bright red is a fun, primary color combo with retro flair.",  
+        "footwear": "Black oxford flats add a preppy touch that suits the schoolgirl style.",
+        "accessories": "The black belt defines the waist and breaks up the look. Simple but effective.",
+        "style": "Channels a schoolgirl aesthetic in a casual, modern way. Cute and easy to wear."
+      }
+    },
+    {
+      "image": "casual_210.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Relaxed, flowy fit",
+        "top_type": "White sleeveless blouse",
+        "bottom_type": "Coral ruffled mini skirt",
+        "color_palette": [
+          "white",
+          "coral",
+          "tan"
+        ],
+        "footwear_type": "Tan ankle strap wedges",
+        "accessories": [
+          "Tan crossbody bag"
+        ],
+        "style": "Feminine, flirty casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The flowy blouse and ruffled skirt create a romantic, feminine silhouette.",
+        "color": "White and coral are a fresh, summery combination. Tan accessories complement the palette.",
+        "footwear": "Ankle strap wedges elongate the legs while being comfortable. Perfect for this look.",
+        "accessories": "The tan crossbody bag is functional and coordinates well with the shoes.",
+        "style": "Achieves a sweet, flirty vibe while still being casual and easy to wear. Well styled."
+      }
+    },
+    {
+      "image": "casual_211.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Fitted top, A-line skirt",
+        "top_type": "White short sleeve blouse",
+        "bottom_type": "Red pleated midi skirt",
+        "color_palette": [
+          "white",
+          "red",
+          "tan"
+        ],
+        "footwear_type": "Tan ankle strap flats",
+        "accessories": [
+          "Tan satchel bag",
+          "Thin brown belt"  
+        ],
+        "style": "Vintage-inspired ladylike"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted blouse tucked into a high-waisted pleated skirt is classic and flattering.",
+        "color": "Bright red skirt makes a statement, balanced by the white top. Tan accessories neutral.",
+        "footwear": "Dainty ankle strap flats are a feminine choice that elongates the leg line.",
+        "accessories": "Structured satchel and thin belt are ladylike touches that elevate the look.",
+        "style": "Channels vintage style in a wearable way. Modest but still chic and polished."
+      }
+    },
+    {
+      "image": "casual_212.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Relaxed button-down, fitted shorts",
+        "top_type": "Navy button-down shirt",
+        "bottom_type": "Khaki shorts",
+        "color_palette": [
+          "navy",
+          "khaki",
+          "white"  
+        ],
+        "footwear_type": "White sneakers",
+        "accessories": [
+          "Brown belt",
+          "Sunglasses"
+        ],
+        "style": "Classic preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed button-down half-tucked into fitted shorts is effortlessly cool.",
+        "color": "Navy and khaki is a timeless preppy combo. White sneakers keep it fresh.",
+        "footwear": "You can't go wrong with classic white sneakers - comfy and goes with everything.",
+        "accessories": "Tortoiseshell sunnies and a brown belt are preppy essentials that complete the look.",
+        "style": "Epitomizes classic preppy casual style. Foolproof combo that always looks put-together."
+      }
+    },
+    {
+      "image": "casual_213.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Loose layers, maxi dress",
+        "top_type": "Black leather jacket",
+        "bottom_type": "Coral tiered maxi dress",
+        "color_palette": [
+          "black",
+          "coral",
+          "tan"
+        ],  
+        "footwear_type": "Strappy tan heels",
+        "accessories": [
+          "Brown tote bag"
+        ],
+        "style": "Boho glam casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16  
+      },
+      "feedback": {
+        "fit": "The loose maxi dress with leather jacket creates an effortlessly cool layered look.",
+        "color": "Coral and black is an unexpected but chic color contrast. Tan accessories warm it up.",
+        "footwear": "Strappy heels dress up the look while still being casual. Elongates the frame.",
+        "accessories": "The brown tote is practical and complements the boho aesthetic.",
+        "style": "Mixes boho and glam elements for a unique take on casual style. Flowy but fashionable."
+      }
+    },
+    {
+      "image": "casual_214.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Fitted blazer, loose pants",
+        "top_type": "Mustard yellow blazer",
+        "bottom_type": "Black jogger pants",
+        "color_palette": [
+          "mustard yellow", 
+          "black",
+          "white"
+        ],
+        "footwear_type": "Nude strappy heels",
+        "accessories": [
+          "Brown satchel purse"
+        ],
+        "style": "Casual workwear chic"  
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted blazer brings structure while the joggers keep things casual and comfy.",
+        "color": "Mustard yellow blazer really pops against the black and white. Bold but wearable.",
+        "footwear": "Nude heels are a safe choice but a different shoe could take this to the next level.",
+        "accessories": "The brown satchel is professional but doesn't add much interest to the look.",
+        "style": "Makes workwear casual in a modern way. Just needs some styling tweaks to fully wow."
+      }
+    },
+    {
+      "image": "casual_215.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Oversized layers",
+        "top_type": "Denim jacket",
+        "bottom_type": "Printed wrap maxi skirt",
+        "color_palette": [
+          "denim blue",
+          "maroon",
+          "black"
+        ],
+        "footwear_type": "Black lace-up boots",
+        "accessories": [
+          "Brown crossbody bag",
+          "Sunglasses"
+        ],  
+        "style": "Boho rocker casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized denim jacket over a flowy maxi skirt creates a cool, effortless silhouette.",
+        "color": "Classic denim blue pairs unexpectedly well with the maroon print. Black grounds it.",
+        "footwear": "Lace-up boots add an edgy touch that balances the femininity of the skirt.",
+        "accessories": "Round sunglasses and a brown crossbody complete the boho rocker aesthetic.",
+        "style": "Mixes boho and edgy elements in an effortlessly chic way. Casual but still stylish."
+      }
+    }
+  ]
+}

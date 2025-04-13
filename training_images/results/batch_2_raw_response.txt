@@ -1,0 +1,335 @@
+{
+  "outfits": [
+    {
+      "image": "casual_156.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Relaxed, casual fit",
+        "top_type": "Colorful striped button-down shirt",
+        "bottom_type": "Denim mini skirt",
+        "color_palette": [
+          "blue",
+          "white",
+          "red",
+          "yellow"
+        ],
+        "footwear_type": "Teal sneakers",
+        "accessories": [
+          "Straw hat"
+        ],
+        "style": "Colorful casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 22,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the shirt and skirt create a laid-back summer vibe.",
+        "color": "The vibrant stripes pair nicely with the denim skirt for a fun, colorful look.",
+        "footwear": "The teal sneakers add an unexpected pop of color that works well.",
+        "accessories": "The straw hat is a cute, functional accessory for a sunny day.",
+        "style": "Overall, this is a great colorful casual outfit for summer."
+      }
+    },
+    {
+      "image": "casual_157.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Slim, tailored fit",
+        "top_type": "Striped t-shirt",
+        "bottom_type": "Cuffed boyfriend jeans",
+        "color_palette": [
+          "black",
+          "white",
+          "blue"
+        ],
+        "footwear_type": "Green loafers",
+        "accessories": [
+          "Pink blazer"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit of the t-shirt tucked into the boyfriend jeans looks polished.",
+        "color": "The black and white stripes are a classic combo that goes with everything.",
+        "footwear": "The green loafers are a great preppy touch that elevate the look.",
+        "accessories": "The pink blazer adds a nice pop of color and pulls the outfit together.",
+        "style": "This preppy casual look is stylish and put-together."
+      }
+    },
+    {
+      "image": "casual_158.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose, flowy fit",
+        "top_type": "White sleeveless blouse",
+        "bottom_type": "Red mini skirt",
+        "color_palette": [
+          "white",
+          "red",
+          "black"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Black floppy hat"
+        ],
+        "style": "Boho chic"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, flowy blouse and skirt create an effortless boho vibe.",
+        "color": "The contrast of the white top and red skirt is bold and eye-catching.",
+        "footwear": "The black ankle boots ground the outfit but seem a bit heavy for the flowy pieces.",
+        "accessories": "The black hat works with the boots but competes with the hair for attention.",
+        "style": "This outfit has potential but the proportions and accessories could be better balanced."
+      }
+    },
+    {
+      "image": "casual_159.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Relaxed, comfortable fit",
+        "top_type": "Gray tank top",
+        "bottom_type": "Khaki drawstring pants",
+        "color_palette": [
+          "gray",
+          "tan",
+          "white"
+        ],
+        "footwear_type": "White sneakers",
+        "accessories": [
+          "Printed tote bag"
+        ],
+        "style": "Casual sporty"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the tank and drawstring pants looks comfortable and effortless.",
+        "color": "The neutral gray and tan color palette is easy to wear and versatile.",
+        "footwear": "The white sneakers are a perfect casual choice that go with everything.",
+        "accessories": "The printed tote adds some personality and ties in the white from the shoes.",
+        "style": "This casual sporty look is simple but stylish and great for everyday wear."
+      }
+    },
+    {
+      "image": "casual_160.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Tailored, polished fit",
+        "top_type": "Gray t-shirt",
+        "bottom_type": "Khaki chinos",
+        "color_palette": [
+          "gray",
+          "tan",
+          "navy"
+        ],
+        "footwear_type": "Brown leather loafers",
+        "accessories": [
+          "Navy blazer",
+          "Brown belt"
+        ],
+        "style": "Smart casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 18,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The tailored fit of the chinos and blazer elevate the basic tee for a polished look.",
+        "color": "The gray, tan and navy color scheme is classic and professional.",
+        "footwear": "The brown leather loafers are a good choice but a slightly darker shade would be ideal.",
+        "accessories": "The navy blazer and brown belt pull the smart casual look together perfectly.",
+        "style": "This is a great example of a smart casual outfit, polished but still comfortable."
+      }
+    },
+    {
+      "image": "casual_161.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Fitted on top, flowy skirt",
+        "top_type": "Gray short sleeve t-shirt",
+        "bottom_type": "Tan pleated midi skirt",
+        "color_palette": [
+          "gray",
+          "tan",
+          "brown"
+        ],
+        "footwear_type": "Brown platform sandals",
+        "accessories": [
+          "Brown leather handbag"
+        ],
+        "style": "Feminine casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted tee balances the volume of the flowy skirt but the proportions seem slightly off.",
+        "color": "The gray and tan color palette is neutral and easy to wear but a bit bland.",
+        "footwear": "The brown platform sandals work well with the flowy midi skirt.",
+        "accessories": "The brown bag coordinates with the shoes but the outfit could use another accessory for interest.",
+        "style": "Overall this feminine casual look is pretty but a bit plain. Some colorful accessories could elevate it."
+      }
+    },
+    {
+      "image": "casual_162.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Slim, tailored fit",
+        "top_type": "Hot pink blazer",
+        "bottom_type": "Green skinny jeans",
+        "color_palette": [
+          "pink",
+          "green",
+          "white"
+        ],
+        "footwear_type": "Black and white sneakers",
+        "accessories": [
+          "Printed scarf"
+        ],
+        "style": "Bold casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The slim, tailored fit of the blazer and skinny jeans creates a sleek silhouette.",
+        "color": "The bold combination of hot pink and green is unexpected and fashion-forward.",
+        "footwear": "The black and white sneakers add a sporty touch that balances the dressier pieces.",
+        "accessories": "The printed scarf ties in the colors and adds a nice styling detail.",
+        "style": "This bold casual chic look takes basic pieces and makes them into a statement outfit."
+      }
+    },
+    {
+      "image": "casual_163.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Relaxed, flowy fit",
+        "top_type": "Orange cardigan",
+        "bottom_type": "Polka dot dress",
+        "color_palette": [
+          "orange",
+          "teal",
+          "white"
+        ],
+        "footwear_type": "Black ankle strap heels",
+        "accessories": [],
+        "style": "Retro feminine"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 20
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the cardigan over the flowy dress creates a feminine silhouette.",
+        "color": "The combination of orange and teal is retro-inspired and fun.",
+        "footwear": "The black ankle strap heels work okay but a colorful option could be better.",
+        "accessories": "The outfit is missing an opportunity to add accessories to complete the look.",
+        "style": "This retro feminine style is charming and eye-catching with the color and print mixing."
+      }
+    },
+    {
+      "image": "casual_164.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Relaxed, slightly oversized",
+        "top_type": "White short sleeve sweater",
+        "bottom_type": "Black skinny jeans",
+        "color_palette": [
+          "white",
+          "black",
+          "tan"
+        ],
+        "footwear_type": "Leopard print heels",
+        "accessories": [
+          "Tan leather handbag"
+        ],
+        "style": "Chic casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 20,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The slightly oversized sweater looks chic and effortless with the skinny jeans.",
+        "color": "The black and white palette is simple but works as a backdrop for the leopard print.",
+        "footwear": "The leopard print heels are a fabulous statement piece that makes the outfit.",
+        "accessories": "The tan bag is a good neutral choice to pair with the animal print.",
+        "style": "This is a great example of elevated casual wear, simple pieces with a trendy twist."
+      }
+    },
+    {
+      "image": "casual_165.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Fitted top, flowy shorts",
+        "top_type": "Red and white striped tank",
+        "bottom_type": "Denim shorts",
+        "color_palette": [
+          "red",
+          "white",
+          "blue"
+        ],
+        "footwear_type": "Leopard print flats",
+        "accessories": [
+          "Black hat",
+          "Red clutch"
+        ],
+        "style": "Casual summer chic"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted tank top balances the looser fit of the denim shorts.",
+        "color": "The red, white and blue color scheme is classic for summer.",
+        "footwear": "The leopard print flats are a fun, unexpected pattern that livens up the outfit.",
+        "accessories": "The black hat and red clutch bookend the outfit nicely and tie in the colors.",
+        "style": "This casual summer look is elevated by the styling and accessories."
+      }
+    }
+  ]
+}

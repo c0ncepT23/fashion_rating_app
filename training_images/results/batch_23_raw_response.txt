@@ -1,0 +1,337 @@
+{
+  "outfits": [
+    {
+      "image": "casual_366.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Relaxed, casual fit",
+        "top_type": "Striped tank top",
+        "bottom_type": "Denim shorts",
+        "color_palette": [
+          "orange",
+          "white",
+          "blue"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [],
+        "style": "Casual summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the tank top and shorts creates a laid-back summer vibe that suits the casual setting.",
+        "color": "The orange and white stripes pair well with the blue denim shorts for a classic summer color combo.",
+        "footwear": "The brown ankle boots add a slightly unexpected touch to the outfit and dress it up a bit.",
+        "accessories": "The outfit could be elevated with the addition of a few simple accessories like sunglasses or a pendant necklace.",
+        "style": "Overall, this is a solid casual summer look that is easy to wear for a variety of occasions."
+      }
+    },
+    {
+      "image": "casual_367.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted, bodycon silhouette",
+        "top_type": "Sleeveless black crop top",
+        "bottom_type": "High-waisted red maxi skirt",
+        "color_palette": [
+          "black",
+          "red",
+          "tan"
+        ],
+        "footwear_type": "Strappy nude heels",
+        "accessories": [
+          "Gold necklace",
+          "Gold bracelet"
+        ],
+        "style": "Sexy evening look"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted crop top and high-waisted skirt create an hourglass silhouette that flatters her figure.",
+        "color": "The black top and red skirt make for a bold, striking color contrast. Nude heels elongate the legs.",
+        "footwear": "The strappy nude heels are a great choice to complement the outfit without competing with it.",
+        "accessories": "The gold jewelry adds a touch of glamour that elevates the look for evening.",
+        "style": "This sexy evening outfit is sure to turn heads with its figure-hugging fit and bold color scheme."
+      }
+    },
+    {
+      "image": "casual_368.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose, boxy fit",
+        "top_type": "Beige blazer",
+        "bottom_type": "Light blue pleated mini skirt",
+        "color_palette": [
+          "beige",
+          "white",
+          "light blue"
+        ],
+        "footwear_type": "Brown oxford shoes",
+        "accessories": [
+          "Pearl necklace"
+        ],
+        "style": "Preppy chic"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 14,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The boxy fit of the blazer overwhelms her petite frame a bit. A more tailored cut would be more flattering.",
+        "color": "The light, pastel color palette is soft and feminine, giving preppy vibes.",
+        "footwear": "The brown oxfords look a tad clunky with the dainty skirt. Loafers or ballet flats may have been a better choice.",
+        "accessories": "The pearl necklace is a nice preppy touch, but a few more understated accessories could complete the look.",
+        "style": "With some minor tweaks to fit and shoe choice, this preppy outfit has potential but doesn't quite hit the mark."
+      }
+    },
+    {
+      "image": "casual_369.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted on top, flowy skirt",
+        "top_type": "White tank top",
+        "bottom_type": "Turquoise pleated midi skirt",
+        "color_palette": [
+          "white",
+          "turquoise",
+          "tan"
+        ],
+        "footwear_type": "Tan wedge sandals",
+        "accessories": [
+          "Long beaded necklace"
+        ],
+        "style": "Feminine, flirty summer look"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted tank top balances nicely with the flowy, pleated skirt for a figure-flattering silhouette.",
+        "color": "The crisp white top makes the turquoise skirt really pop for a fresh, summery color palette.",
+        "footwear": "The tan wedge sandals are the perfect shoe to dress up the look while still being comfortable.",
+        "accessories": "The long beaded necklace adds great visual interest and coordinates well with the outfit.",
+        "style": "This is a knockout feminine summer look that is both flirty and polished. The colors and fit are spot on."
+      }
+    },
+    {
+      "image": "casual_370.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose, flowy fit",
+        "top_type": "Black graphic tee",
+        "bottom_type": "Polka dot mini skirt",
+        "color_palette": [
+          "black",
+          "white",
+          "green",
+          "brown"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [
+          "Brown leather satchel",
+          "Black bowler hat"
+        ],
+        "style": "Quirky, vintage-inspired look"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 18,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the tee and flowy skirt create a relaxed, slightly bohemian vibe.",
+        "color": "The black, white and green color scheme has a cool, retro feel but remains balanced.",
+        "footwear": "The brown ankle boots ground the look and the color works well with the outfit.",
+        "accessories": "The bowler hat and satchel add a quirky, vintage-inspired twist that makes the look unique.",
+        "style": "While not for everyone, this outfit has an eclectic, artistic style that is eye-catching and memorable."
+      }
+    },
+    {
+      "image": "casual_371.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Fitted top, loose shorts",
+        "top_type": "Red and white gingham shirt",
+        "bottom_type": "Black high-waisted shorts",
+        "color_palette": [
+          "red",
+          "white",
+          "black"
+        ],
+        "footwear_type": "Black patent oxford flats",
+        "accessories": [
+          "Black bow headband"
+        ],
+        "style": "Retro pin-up inspired look"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted gingham shirt tucked into high-waisted shorts accentuates her waist, but the shorts are a bit too loose and long to be flattering.",
+        "color": "The red gingham with black and white accents makes for a classic, retro-inspired color combo.",
+        "footwear": "The black oxford flats fit the vintage vibe but seem a little heavy for shorts. A strappy black sandal could lighten the look.",
+        "accessories": "The black bow headband tops off the pin-up style outfit in a cute way.",
+        "style": "With a few tweaks, like more fitted shorts, this retro look has potential but isn't quite there yet."
+      }
+    },
+    {
+      "image": "casual_372.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Tailored, slim fit",
+        "top_type": "Blue denim jacket",
+        "bottom_type": "White mini skirt",
+        "color_palette": [
+          "blue",
+          "white",
+          "black",
+          "brown"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [
+          "Brown leather crossbody bag"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The tailored denim jacket and slim-fitting mini skirt create a polished silhouette.",
+        "color": "The blue denim jacket paired with a white skirt is a crisp, classic combo.",
+        "footwear": "The brown ankle boots are the perfect choice to make the look a bit edgy while still staying casual.",
+        "accessories": "The brown crossbody bag is functional and stylish, complementing the boots.",
+        "style": "This casual chic outfit nails the balance between put-together and relaxed. Great transitional look."
+      }
+    },
+    {
+      "image": "casual_373.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose, oversized cardigan, fitted bottom",
+        "top_type": "Blue and white striped cardigan",
+        "bottom_type": "White mini skirt",
+        "color_palette": [
+          "blue",
+          "white",
+          "black"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Black leather satchel"
+        ],
+        "style": "Parisian chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized cardigan over a fitted mini skirt creates an effortlessly chic silhouette.",
+        "color": "The blue and white stripes are classic and pair well with the black accents for a French-inspired palette.",
+        "footwear": "The black ankle boots toughen up the look and ground the flowy cardigan.",
+        "accessories": "The black satchel is timeless and practical, ideal for a busy day out and about.",
+        "style": "This outfit has an easy, Parisian-chic sensibility that looks straight out of a French street style blog."
+      }
+    },
+    {
+      "image": "casual_374.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose, flowy dress",
+        "top_type": "Polka dot shirtdress",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "navy",
+          "white",
+          "brown"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [
+          "Brown leather belt",
+          "Brown leather satchel"
+        ],
+        "style": "Vintage-inspired day dress"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit of the shirtdress is comfortable and easy to wear, but could use some definition at the waist.",
+        "color": "The navy and white polka dot print is classic and pairs nicely with the cognac brown accessories.",
+        "footwear": "The brown ankle boots are a practical choice but seem a bit heavy for the lightweight dress.",
+        "accessories": "The brown belt and satchel coordinate well and add a necessary touch of structure.",
+        "style": "Overall this is a cute vintage-inspired day dress, but belting it would elevate the look further."
+      }
+    },
+    {
+      "image": "casual_375.jpg",
+      "score": 74,
+      "labels": {
+        "fit": "Loose, boxy fit",
+        "top_type": "Red blazer",
+        "bottom_type": "Light wash denim shorts",
+        "color_palette": [
+          "red",
+          "light blue",
+          "black"
+        ],
+        "footwear_type": "Black lace-up heels",
+        "accessories": [
+          "Black bowler hat"
+        ],
+        "style": "Eclectic mix of preppy and edgy"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 16,
+        "footwear": 12,
+        "accessories": 14,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The boxy fit of the blazer paired with the loose denim shorts overwhelms her petite frame and lacks definition.",
+        "color": "The bright red blazer makes a bold statement against the light wash denim, but the black accessories don't quite coordinate.",
+        "footwear": "The black lace-up heels seem very heavy and awkward with the casual shorts.",
+        "accessories": "The black hat is a bit abrupt against the red and blue and competes with rather than complements the outfit.",
+        "style": "The juxtaposition of the preppy blazer and edgy shorts is interesting in theory, but the execution misses the mark here."
+      }
+    }
+  ]
+}

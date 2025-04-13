@@ -1,0 +1,345 @@
+{
+  "outfits": [
+    {
+      "image": "casual_176.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Slim fit",
+        "top_type": "Polka dot blouse",
+        "bottom_type": "Bright pink pants",
+        "color_palette": [
+          "Black",
+          "White", 
+          "Hot pink"
+        ],
+        "footwear_type": "Black platform sandals",
+        "accessories": [
+          "Black handbag",
+          "Necklace"
+        ],
+        "style": "Chic casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit blouse and pants create a sleek, polished silhouette that flatters her figure.",
+        "color": "The bold contrast of the black and white polka dot top with the bright pink pants makes a stylish, eye-catching statement.",
+        "footwear": "The black platform sandals complement the outfit nicely and add some height.",
+        "accessories": "The black handbag and delicate necklace are chic touches that complete the look without being overpowering.",
+        "style": "Overall, this is a fashionable and well-coordinated casual chic ensemble that is perfect for a variety of occasions."
+      }
+    },
+    {
+      "image": "casual_177.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Relaxed fit",
+        "top_type": "Bright pink sweater",
+        "bottom_type": "Distressed denim shorts",
+        "color_palette": [
+          "Hot pink",
+          "Light blue denim"
+        ],
+        "footwear_type": "Floral print high heels",
+        "accessories": [
+          "Black tote bag",
+          "Sunglasses",
+          "Necklace"  
+        ],
+        "style": "Bold casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the sweater and shorts keeps the look casual and comfortable.",
+        "color": "The vibrant pink sweater makes a bold statement and pairs well with the light wash denim.",
+        "footwear": "The floral print heels add a fun, feminine touch and dress up the casual shorts.",
+        "accessories": "The black tote, sunglasses and necklace are stylish accessories that enhance the outfit.",
+        "style": "This is a eye-catching casual look that combines bright colors and prints for a bold, trendy vibe."
+      }
+    },
+    {
+      "image": "casual_178.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Tailored",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Black shorts",
+        "color_palette": [
+          "Black",
+          "White",
+          "Tan",
+          "Olive green"  
+        ],
+        "footwear_type": "Olive green knee-high boots",
+        "accessories": [
+          "Tan leather handbag",
+          "Gold watch"
+        ],
+        "style": "Polished casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The tailored fit of the button-down shirt and shorts creates a polished, put-together look.",
+        "color": "The classic black and white color scheme is chic and versatile. The olive green boots add an unexpected pop of color.",
+        "footwear": "The knee-high boots make a fashion-forward statement and elevate the shorts for a stylish fall look.",
+        "accessories": "The tan leather bag and gold watch are sophisticated accessories that complement the outfit beautifully.",
+        "style": "Overall, this is a very chic and polished casual outfit. The tailored pieces and sleek accessories give it an elevated, fashionable feel."
+      }
+    },
+    {
+      "image": "casual_179.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Slim fit",
+        "top_type": "White t-shirt",
+        "bottom_type": "Dark wash skinny jeans",
+        "color_palette": [
+          "White",
+          "Dark blue denim",
+          "Tan",
+          "Black"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Tan blazer",
+          "Black leather bag"
+        ],  
+        "style": "Smart casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit t-shirt and skinny jeans create a sleek, modern silhouette.",
+        "color": "The neutral color palette of white, tan, and dark blue denim is classic and versatile.",
+        "footwear": "The black ankle boots are a stylish choice that work well with the skinny jeans.",
+        "accessories": "The tan blazer dresses up the casual tee and jeans, while the black bag adds a polished touch.",
+        "style": "This smart casual look is a great example of how to dress up a basic t-shirt and jeans with chic layers and accessories."
+      }
+    },
+    {
+      "image": "casual_180.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Relaxed fit", 
+        "top_type": "Gray v-neck t-shirt",
+        "bottom_type": "Cuffed boyfriend jeans",
+        "color_palette": [
+          "Gray",
+          "Light blue denim",
+          "Tan",
+          "Pink"
+        ],
+        "footwear_type": "Tan lace-up flats",
+        "accessories": [],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the v-neck tee and boyfriend jeans creates an effortlessly cool, laid-back vibe.",
+        "color": "The soft gray tee and light wash denim are fresh and casual. The tan flats add a nice neutral accent.",
+        "footwear": "The lace-up flats are a comfortable and stylish choice that pull the look together nicely.",
+        "accessories": "This look is accessory-free, allowing the simplicity of the outfit to shine. A delicate necklace could be added for a touch of polish.",
+        "style": "Overall, this is a great go-to casual outfit. It's simple but chic, and perfect for running errands or a low-key outing."
+      }
+    },
+    {
+      "image": "casual_181.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Orange off-the-shoulder top",
+        "bottom_type": "Floral print skirt",
+        "color_palette": [
+          "Orange",
+          "White",
+          "Pink",
+          "Green"
+        ],
+        "footwear_type": "Pink ankle-strap heels",
+        "accessories": [
+          "Beige handbag",
+          "Sunhat"
+        ],
+        "style": "Feminine casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the off-shoulder top balances the more fitted skirt, creating a relaxed, flowy silhouette.",
+        "color": "The vibrant orange top makes a bold statement, while the floral skirt adds a pretty, feminine touch. The colors complement each other beautifully.",
+        "footwear": "The pink ankle-strap heels pick up on the pink tones in the skirt and add a flirty, dressed-up element.",
+        "accessories": "The neutral beige handbag doesn't compete with the bright colors, and the sunhat is a chic, summery accent.",
+        "style": "This outfit has a lovely feminine flair, with the off-shoulder top, floral skirt and heels. It's perfect for a summer day out."
+      }
+    },
+    {
+      "image": "casual_182.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Tailored",
+        "top_type": "White blazer",
+        "bottom_type": "Blue sheath dress",
+        "color_palette": [
+          "White",
+          "Royal blue",
+          "Beige"
+        ],
+        "footwear_type": "Beige peep-toe heels",
+        "accessories": [
+          "Orange clutch",
+          "Sunglasses"
+        ],
+        "style": "Sophisticated casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22, 
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The tailored fit of the blazer and sheath dress creates a polished, figure-flattering silhouette.",
+        "color": "The crisp white blazer pops against the royal blue dress for a chic, high-contrast look. The beige heels are a nice neutral pairing.",
+        "footwear": "The beige peep-toe heels elongate the legs and complement the sophisticated outfit.",
+        "accessories": "The orange clutch adds a great pop of complementary color, and the sunglasses are a chic finishing touch.",
+        "style": "This is a very elegant and refined casual look. The tailored dress and blazer combination is classic, with the bright accessories adding some fresh modernity."
+      }
+    },
+    {
+      "image": "casual_183.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Tailored",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Olive green paperbag pants",
+        "color_palette": [
+          "White",
+          "Olive green", 
+          "Brown"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [
+          "Brown leather satchel",
+          "Sunglasses"
+        ],
+        "style": "Chic casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The tailored fit of the crisp white shirt paired with the high-waisted pants creates a very polished, chic silhouette.",
+        "color": "The olive green pants are an unexpected neutral that pairs wonderfully with the white shirt. The brown accessories add rich, complementary tones.",
+        "footwear": "The brown ankle boots ground the look and work well with the cropped length of the pants.",
+        "accessories": "The brown leather satchel is a stylish, practical choice, and the sunglasses add a cool, modern edge.",
+        "style": "This outfit is the epitome of casual chic. The tailored pieces and earthy color scheme are sophisticated, while the overall look is still relaxed and effortless."
+      }
+    },
+    {
+      "image": "casual_184.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Slim fit",
+        "top_type": "Dark wash denim jacket",
+        "bottom_type": "High-waisted floral skirt",
+        "color_palette": [
+          "Dark blue denim",
+          "White",
+          "Yellow",
+          "Green"
+        ],
+        "footwear_type": "Brown platform sandals",
+        "accessories": [
+          "Fedora hat"  
+        ],
+        "style": "Boho casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit denim jacket and fitted skirt create a figure-flattering silhouette.",
+        "color": "The dark wash denim pairs nicely with the white based floral skirt. The pops of yellow and green in the skirt add a lovely, cheerful vibe.",
+        "footwear": "The brown platform sandals complement the boho feel of the outfit and elongate the legs.",
+        "accessories": "The fedora hat is the perfect accessory to top off this casual boho look. Some delicate layered necklaces could also work well.",
+        "style": "This outfit has a fun, free-spirited boho flair. The denim jacket dresses down the feminine skirt for a relaxed, casual look."
+      }
+    },
+    {
+      "image": "casual_185.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Tailored",
+        "top_type": "Yellow button-down cardigan",
+        "bottom_type": "Hot pink pleated skirt",
+        "color_palette": [
+          "Yellow",
+          "Hot pink",
+          "Brown"
+        ],
+        "footwear_type": "Brown t-strap heels",
+        "accessories": [
+          "Brown belt",
+          "Bracelets"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The tailored fit of the cardigan and pleated skirt create a polished, put-together silhouette.",
+        "color": "The cheery yellow cardigan and bold pink skirt are a fun, eye-catching color combination. The brown accessories ground the bright colors.",
+        "footwear": "The brown t-strap heels are a chic, vintage-inspired choice that dress up the look.",
+        "accessories": "The brown belt defines the waist and pulls the look together. The bracelets add a nice hint of shine.",
+        "style": "This outfit has a preppy, slightly retro feel with the bright color palette and pleated skirt. It's a stylish casual look that would be great for brunch or shopping."
+      }
+    }
+  ]
+}

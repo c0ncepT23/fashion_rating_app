@@ -1,0 +1,335 @@
+{
+  "outfits": [
+    {
+      "image": "casual_236.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Loose, flowy silhouette",
+        "top_type": "Sheer pink button-down blouse",
+        "bottom_type": "Khaki high-waisted shorts",
+        "color_palette": [
+          "Pink",
+          "Khaki",
+          "White"
+        ],
+        "footwear_type": "White platform sandals",
+        "accessories": [
+          "Red bandana necktie"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, flowy blouse paired with fitted high-waisted shorts creates a balanced, flattering silhouette.",
+        "color": "The soft pink, khaki, and white color palette is fresh and feminine. The pop of red adds a nice accent.",
+        "footwear": "The white platform sandals elongate the legs and complement the casual chic vibe.",
+        "accessories": "The red bandana necktie is a cute, trendy accessory that adds visual interest.",
+        "style": "Overall, this outfit nails the casual chic look. It's stylish and put-together, yet relaxed and comfortable."
+      }
+    },
+    {
+      "image": "casual_237.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Flared, A-line silhouette",
+        "top_type": "Polka dot sleeveless crop top",
+        "bottom_type": "Rust colored flared mini skirt",
+        "color_palette": [
+          "Teal",
+          "White",
+          "Rust"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [
+          "Straw boater hat"
+        ],
+        "style": "Retro-inspired casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The cropped top shows a sliver of midriff, balanced by the high-waisted flared skirt for a flattering retro-inspired silhouette.",
+        "color": "The teal and white polka dots pop against the earthy rust skirt. The color combination has a nice 60s mod feel.",
+        "footwear": "The black ankle boots ground the look and add a bit of edge, but a daintier shoe could also work well.",
+        "accessories": "The straw boater hat enhances the outfit's retro charm and ties in with the color palette.",
+        "style": "This outfit channels 60s mod style in a wearable, modern way. It's eye-catching and stylish."
+      }
+    },
+    {
+      "image": "casual_238.jpg",
+      "score": 89,
+      "labels": {
+        "fit": "Relaxed, cozy layers",
+        "top_type": "Cream cable knit sweater",
+        "bottom_type": "Magenta skinny jeans",
+        "color_palette": [
+          "Cream",
+          "Magenta",
+          "Brown"
+        ],
+        "footwear_type": "Brown suede ankle boots",
+        "accessories": [
+          "Floral print scarf"
+        ],
+        "style": "Casual weekend"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 22,
+        "footwear": 20,
+        "accessories": 14,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The chunky sweater and skinny jeans create a cozy, relaxed fit that's perfect for weekends.",
+        "color": "The cream and magenta color combo is unexpected and fun. The floral scarf ties it together beautifully.",
+        "footwear": "The brown suede ankle boots are the perfect choice to complete this casual, slightly bohemian look.",
+        "accessories": "The floral print scarf adds color, texture and visual interest to the solid sweater.",
+        "style": "This outfit is comfy, casual weekend style at its best. It looks effortlessly chic and pulled together."
+      }
+    },
+    {
+      "image": "casual_239.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Slim, tailored silhouette",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Dark wash high-waisted skinny jeans",
+        "color_palette": [
+          "White",
+          "Dark denim",
+          "Red"
+        ],
+        "footwear_type": "Black pointed-toe pumps",
+        "accessories": [
+          "Red beret",
+          "Leopard print scarf"
+        ],
+        "style": "French chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit of the shirt tucked into high-waisted jeans creates a sleek, polished silhouette.",
+        "color": "You can't go wrong with a classic palette of white, dark denim and black. The red beret is a perfect pop of color.",
+        "footwear": "The black pointed-toe pumps elongate the leg line and add a sophisticated touch.",
+        "accessories": "The red beret and leopard print scarf add tons of personality and that certain 'je ne sais quoi'.",
+        "style": "This outfit exemplifies effortless French girl chic. It's timeless, classy and incredibly stylish."
+      }
+    },
+    {
+      "image": "casual_240.jpg",
+      "score": 85,
+      "labels": {
+        "fit": "Flowy maxi silhouette",
+        "top_type": "Striped 3/4 sleeve t-shirt",
+        "bottom_type": "Coral pleated maxi skirt",
+        "color_palette": [
+          "Navy",
+          "White",
+          "Coral"
+        ],
+        "footwear_type": "Gold flat sandals",
+        "accessories": [
+          "Yellow satchel handbag"
+        ],
+        "style": "Casual feminine"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The fitted striped tee balances the volume of the flowy pleated maxi skirt for an easy, breezy silhouette.",
+        "color": "The navy stripes pair beautifully with the coral skirt. The yellow bag adds a sunny pop to the color palette.",
+        "footwear": "The gold flat sandals are a comfortable, practical choice that still looks polished.",
+        "accessories": "The yellow satchel adds a fun color contrast and breaks up the line of the maxi skirt.",
+        "style": "This outfit is perfect for a casual summer day. It's feminine, comfortable and effortlessly stylish."
+      }
+    },
+    {
+      "image": "casual_241.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Relaxed layers",
+        "top_type": "Gray cable knit sweater",
+        "bottom_type": "Light wash denim shorts",
+        "color_palette": [
+          "Gray",
+          "Light denim",
+          "Blush pink"
+        ],
+        "footwear_type": "Brown strappy wedge sandals",
+        "accessories": [
+          "Blush pink leather tote bag"
+        ],
+        "style": "Casual cool"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 20,
+        "accessories": 18,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The slouchy sweater over fitted denim shorts creates an effortlessly cool, relaxed fit.",
+        "color": "The soft gray, light denim and blush pink make a lovely, feminine color palette that's still neutral.",
+        "footwear": "The brown strappy wedges dress up the casual shorts and sweater combo. They elongate the legs beautifully.",
+        "accessories": "The blush pink tote is super chic and functional. It complements the color scheme perfectly.",
+        "style": "This outfit strikes the perfect balance of casual and put-together. It looks comfortable, modern and effortlessly stylish."
+      }
+    },
+    {
+      "image": "casual_242.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose layers",
+        "top_type": "Cream oversized cardigan",
+        "bottom_type": "Pink floral print skirt",
+        "color_palette": [
+          "Cream",
+          "Pink",
+          "Brown"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [
+          "Brown leather satchel bag"
+        ],
+        "style": "Bohemian casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized cardigan and flowy skirt create a relaxed, bohemian silhouette. The proportions balance well.",
+        "color": "The cream, pink and brown color scheme is soft, feminine and a bit earthy, perfect for the bohemian vibe.",
+        "footwear": "The brown ankle boots add a slightly rugged touch that grounds the flowy pieces.",
+        "accessories": "The brown leather satchel complements the boots and adds to the outfit's earthy bohemian feel.",
+        "style": "This outfit nails casual bohemian style. It looks free-spirited, artistic and comfortable."
+      }
+    },
+    {
+      "image": "casual_243.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose layers",
+        "top_type": "Gray long cardigan",
+        "bottom_type": "Dark wash denim shorts",
+        "color_palette": [
+          "Gray",
+          "Dark denim",
+          "Brown"
+        ],
+        "footwear_type": "Brown suede ankle boots",
+        "accessories": [
+          "Black floppy hat"
+        ],
+        "style": "Casual boho"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The long cardigan over denim shorts creates a relaxed, slightly oversized silhouette that works well for the boho vibe.",
+        "color": "The gray, dark denim and brown color palette is neutral and versatile. It allows the silhouette to be the focus.",
+        "footwear": "The brown suede ankle boots add a bohemian touch and toughen up the look a bit.",
+        "accessories": "The black floppy hat is a cute boho accessory that adds a laid-back feel.",
+        "style": "This outfit is a great take on casual boho style. It's relaxed, comfortable and stylishly undone."
+      }
+    },
+    {
+      "image": "casual_244.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted layers",
+        "top_type": "Blue gingham button-down shirt",
+        "bottom_type": "Purple pleated mini skirt",
+        "color_palette": [
+          "Blue",
+          "White",
+          "Purple"
+        ],
+        "footwear_type": "Brown strappy heeled sandals",
+        "accessories": [
+          "Brown leather satchel handbag"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted gingham shirt tucked into the mini skirt creates a polished, preppy silhouette.",
+        "color": "The blue gingham and purple color combo is unexpected and fun. The white and brown neutrals balance it out.",
+        "footwear": "The brown strappy heels dress up the look and elongate the legs, which is great with a shorter skirt.",
+        "accessories": "The brown satchel is classic and functional. It works well with the preppy outfit.",
+        "style": "This outfit is a cute take on preppy style. It's polished and put-together, but still youthful and casual."
+      }
+    },
+    {
+      "image": "casual_245.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Relaxed, bohemian layers",
+        "top_type": "Green crochet crop top",
+        "bottom_type": "Blue floral print maxi skirt",
+        "color_palette": [
+          "Green",
+          "Blue",
+          "White"
+        ],
+        "footwear_type": "White strappy flat sandals",
+        "accessories": [
+          "Brown leather crossbody bag"
+        ],
+        "style": "Bohemian casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The cropped crochet top shows a peek of midriff, balanced by the high-waisted flowy maxi skirt. It's a great boho silhouette.",
+        "color": "The green, blue and white color palette is fresh and a bit tropical. The colors complement each other beautifully.",
+        "footwear": "The white strappy flats are a comfortable choice that elongates the leg line under the maxi skirt.",
+        "accessories": "The brown crossbody bag is functional and adds a nice earthy contrast to the outfit.",
+        "style": "This outfit perfectly captures that free-spirited, artistic bohemian vibe. It's stylish, comfortable and effortlessly cool."
+      }
+    }
+  ]
+}

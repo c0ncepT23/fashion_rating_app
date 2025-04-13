@@ -1,0 +1,326 @@
+{
+  "outfits": [
+    {
+      "image": "casual_336.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted leather jacket, flared mini skirt",
+        "top_type": "Collared blouse",
+        "bottom_type": "Flared mini skirt",
+        "color_palette": [
+          "black",
+          "white",
+          "red"
+        ],
+        "footwear_type": "Studded ankle boots",
+        "accessories": [],
+        "style": "Edgy preppy"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 22,
+        "accessories": 8,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted leather jacket and flared mini skirt create an edgy yet feminine silhouette that flatters her figure.",
+        "color": "The black, white and red color scheme is bold and striking. It makes a strong style statement.",
+        "footwear": "The studded ankle boots perfectly complement the edgy vibe of the outfit.",
+        "accessories": "Some additional punk-inspired accessories like a choker necklace or studded bracelet could further elevate the look.",
+        "style": "Overall, this outfit nails the edgy preppy aesthetic by combining classic pieces with rebellious details."
+      }
+    },
+    {
+      "image": "casual_337.jpg", 
+      "score": 82,
+      "labels": {
+        "fit": "Loose-fitting shirt dress",
+        "top_type": "Collared button-down shirt",
+        "bottom_type": "Flared skirt",
+        "color_palette": [
+          "purple",
+          "white"
+        ],
+        "footwear_type": "White pumps",
+        "accessories": [
+          "Yellow clutch"
+        ],
+        "style": "Quirky preppy"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose-fitting shirt dress provides a relaxed, effortless vibe that suits her youthful style.",
+        "color": "The purple floral print against the white background is eye-catching and perfect for spring/summer.",
+        "footwear": "The white pumps keep the look light and feminine, balancing the oversized silhouette.",
+        "accessories": "The pop of yellow from the clutch adds a fun, unexpected twist that enhances the quirky feel.",
+        "style": "This outfit puts a playful spin on preppy style with the oversized fit and bold color combo."
+      }
+    },
+    {
+      "image": "casual_338.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Slim-fit collared shirt, A-line mini skirt",
+        "top_type": "Collared button-down shirt",  
+        "bottom_type": "A-line mini skirt",
+        "color_palette": [
+          "white",
+          "blue",
+          "grey"  
+        ],
+        "footwear_type": "Black and white oxfords",
+        "accessories": [
+          "Grey satchel bag"
+        ],
+        "style": "Preppy chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22, 
+        "footwear": 22,
+        "accessories": 10,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim-fit shirt tucked into the A-line mini skirt creates a polished, put-together silhouette.",
+        "color": "The crisp white shirt with the royal blue skirt is a classic preppy color combo. The grey satchel complements the palette nicely.",
+        "footwear": "The black and white oxfords are the perfect choice to complete the scholarly aesthetic.",
+        "accessories": "The grey satchel is a practical, stylish accessory that ties in with the color scheme.",
+        "style": "This is a flawless execution of the preppy style, from the collared shirt to the oxford shoes. Timeless and chic."
+      }
+    },
+    {
+      "image": "casual_339.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Cropped tank top, flared mini skirt",
+        "top_type": "Cropped tank top",
+        "bottom_type": "Floral mini skirt",
+        "color_palette": [
+          "pink",
+          "white",
+          "green"
+        ],  
+        "footwear_type": "Red wedge sandals",
+        "accessories": [
+          "Turquoise tote bag"
+        ],
+        "style": "Girly casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 16, 
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The cropped tank and short skirt show some skin for a flirty summer look. However, the proportions could be improved with either a longer top or higher-waisted skirt.",
+        "color": "The pink top and floral skirt are cute and feminine, but the bright red shoes and turquoise bag feel a bit disconnected.",
+        "footwear": "The red wedges add a nice pop of color, but a more neutral shoe would be more versatile.",
+        "accessories": "The oversized tote works for a casual summer outfit, but doesn't elevate the look.",
+        "style": "This outfit has potential but needs some editing for a more cohesive, intentional style. Simplifying the color palette would help."
+      }
+    },
+    {
+      "image": "casual_340.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Fitted tee, pleated mini skirt",
+        "top_type": "Graphic t-shirt",
+        "bottom_type": "Polka dot mini skirt",
+        "color_palette": [
+          "white",
+          "navy",
+          "red"
+        ],
+        "footwear_type": "Red ankle-strap heels",
+        "accessories": [
+          "Cream satchel bag"
+        ],
+        "style": "Pin-up inspired"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 20,
+        "accessories": 8,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted tee and pleated mini skirt hug her curves and create a flirty, feminine silhouette.",
+        "color": "The navy polka dots against the white skirt are classic and chic. The pops of red add vibrancy.",
+        "footwear": "The red ankle-strap heels perfectly match her bold lip and complement the retro vibe.",
+        "accessories": "A cream satchel is practical but feels a bit casual for the overall look. A structured handbag would be more cohesive.",
+        "style": "With the polka dots, red lips and heels, this outfit has a lovely vintage pin-up style inspiration."
+      }
+    },
+    {
+      "image": "casual_341.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted tank top, full skirt",
+        "top_type": "Striped tank top",
+        "bottom_type": "Striped full skirt",
+        "color_palette": [
+          "blue",
+          "white"  
+        ],
+        "footwear_type": "White pumps",
+        "accessories": [
+          "Turquoise handbag"
+        ],
+        "style": "Retro chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 22,
+        "accessories": 10,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted tank top highlights her waist, while the full skirt skims over her hips for a universally flattering silhouette.",
+        "color": "The light blue and white stripes are fresh and crisp - perfect for a summer day.",
+        "footwear": "The white pumps elongate her legs and complement the breezy, feminine outfit.",
+        "accessories": "The pop of turquoise from the handbag adds just the right amount of contrast to the blue and white palette.",
+        "style": "This look is a modern take on 1950s style with the nipped in waist and full skirt. Elegant and chic."
+      }
+    },
+    {
+      "image": "casual_342.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted blazer, pleated mini skirt",
+        "top_type": "Blazer",
+        "bottom_type": "Pleated mini skirt",
+        "color_palette": [
+          "red",
+          "navy",
+          "white"
+        ],
+        "footwear_type": "Navy oxfords",
+        "accessories": [],
+        "style": "Preppy with a twist"  
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 22,
+        "accessories": 10,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted blazer and pleated mini skirt create a polished, leggy silhouette that shows off her figure.",
+        "color": "The bold combination of red, white and blue is striking and perfect for a patriotic summer look.",
+        "footwear": "The navy oxfords ground the outfit and add a menswear-inspired touch that balances the short skirt.",
+        "accessories": "She keeps the accessories minimal, allowing the strong color combo to be the focus. A navy or red bag could be a nice addition.",
+        "style": "This outfit takes classic preppy pieces - a blazer, pleated skirt, oxfords - but makes it modern and fresh with the bold color scheme and leggy proportions."
+      }
+    },
+    {
+      "image": "casual_343.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Loose button-down shirt, wide-leg pants",
+        "top_type": "White button-down shirt",
+        "bottom_type": "Navy wide-leg pants",
+        "color_palette": [
+          "white", 
+          "navy",
+          "pink"
+        ],
+        "footwear_type": "Pink heeled sandals",
+        "accessories": [
+          "Brown leather handbag"
+        ],
+        "style": "Relaxed chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 20,
+        "accessories": 10,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose shirt and flowy wide-leg pants create an effortless, relaxed silhouette. Tucking or tying the shirt at the waist would add more shape.",
+        "color": "The crisp white shirt against the navy pants is a classic, foolproof combo. The pink heels add a lovely feminine pop.",
+        "footwear": "The pink strappy sandals elevate the look with their delicate, feminine style that contrasts nicely with the menswear-inspired pants.",
+        "accessories": "The brown leather bag is a practical, versatile choice that works well with the outfit's color palette.",
+        "style": "This look is an example of relaxed chic style, combining borrowed-from-the-boys pieces with feminine touches for an effortless, stylish outfit."
+      }
+    },
+    {
+      "image": "casual_344.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose tank top, pleated mini skirt",
+        "top_type": "Striped tank top",
+        "bottom_type": "Pleated mini skirt",
+        "color_palette": [
+          "grey",
+          "white",
+          "navy"  
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [
+          "Pendant necklace",
+          "Leather handbag"
+        ],
+        "style": "Casual feminine"
+      },
+      "score_breakdown": {
+        "fit": 16, 
+        "color": 18,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose tank top paired with the short pleated skirt lacks shape and proportion. A more fitted top or tucking it in would improve the silhouette.",
+        "color": "The grey and white stripes are neutral and versatile, but overall the color palette feels a bit bland and could use a pop of color.",
+        "footwear": "The nude wedge sandals are a practical choice that elongates her legs, but a brighter or metallic sandal could liven up the look.",
+        "accessories": "The long pendant necklace and leather bag are nice additions that suit the casual style.",
+        "style": "While this outfit has potential, it needs some small tweaks to take it from basic to stylish, like adjusting the fit and adding more visual interest through color or accessories."
+      }
+    },
+    {
+      "image": "casual_345.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose sweater, flared mini skirt",
+        "top_type": "Knit sweater",
+        "bottom_type": "Flared mini skirt",
+        "color_palette": [
+          "beige",
+          "pink"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [],
+        "style": "Cozy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 20,
+        "accessories": 10,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The oversized sweater with the short flared skirt has a cute, flirty vibe but risks looking unbalanced. Tucking in the front of the sweater would define her waist.",
+        "color": "The soft beige and pink is a pretty, feminine color combo, but overall the outfit lacks contrast and looks a bit washed out.",
+        "footwear": "The brown ankle boots are a great choice for early fall and complement the cozy style.",
+        "accessories": "Some gold jewelry like hoop earrings or layered necklaces would add a touch of polish and glamour to elevate the look.",
+        "style": "This outfit has a sweet, cozy casual vibe that's perfect for a laid-back fall weekend. A few small styling tweaks would take it to the next level."
+      }
+    }
+  ]
+}

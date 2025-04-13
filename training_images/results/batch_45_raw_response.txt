@@ -1,0 +1,329 @@
+{
+  "outfits": [
+    {
+      "image": "casual_586.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose, flowy fit",
+        "top_type": "Oversized white button-down shirt",
+        "bottom_type": "Dark denim shorts",
+        "color_palette": [
+          "White",
+          "Dark blue",
+          "Tan"
+        ],
+        "footwear_type": "Tan ankle boots",
+        "accessories": [],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, oversized fit of the shirt pairs well with the fitted denim shorts for a balanced silhouette.",
+        "color": "The neutral white and dark blue color scheme is classic and versatile, but could benefit from a pop of color.",
+        "footwear": "The ankle boots add a slightly edgy vibe and work with the casual outfit.",
+        "accessories": "Some simple jewelry like a pendant necklace or bracelet could elevate the look further.",
+        "style": "Overall, this is a solid casual chic outfit that is easy to wear for various occasions."
+      }
+    },
+    {
+      "image": "casual_587.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Loose, boxy coat with fitted dress",
+        "top_type": "Bright green collarless coat",
+        "bottom_type": "Fitted yellow mini dress",
+        "color_palette": [
+          "Bright green",
+          "Bright yellow",
+          "Red"
+        ],
+        "footwear_type": "Red clogs",
+        "accessories": [
+          "Red handbag"
+        ],
+        "style": "Colorful mod"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The boxy cut of the coat contrasts nicely with the fitted mini dress for an interesting silhouette.",
+        "color": "The bright green, yellow and red create a bold, eye-catching color palette that feels cheerful and confident.",
+        "footwear": "The red clogs perfectly match the handbag and add to the mod 60s vibe.",
+        "accessories": "The matching red handbag ties the look together cohesively.",
+        "style": "This is a fun, colorful take on retro 60s mod style that makes a strong fashion statement."
+      }
+    },
+    {
+      "image": "casual_588.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted top with full skirt",
+        "top_type": "Lime green tank top",
+        "bottom_type": "Red polka dot full skirt",
+        "color_palette": [
+          "Lime green", 
+          "Red",
+          "White",
+          "Black"
+        ],
+        "footwear_type": "Black pumps",
+        "accessories": [
+          "Colorful balloons"
+        ],
+        "style": "Retro pin-up"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The fitted tank top tucked into the high-waisted full skirt creates a classic feminine pin-up silhouette.",
+        "color": "The lime green and red make a bold, complementary color pairing, while the white polka dots add a cute retro touch.",
+        "footwear": "The black pumps are a safe, neutral choice that doesn't compete with the outfit.",
+        "accessories": "The bunch of colorful balloons are a whimsical prop that enhance the playful retro vibe.",
+        "style": "This look perfectly captures the flirty, feminine aesthetic of vintage pin-up style."
+      }
+    },
+    {
+      "image": "casual_589.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Fitted tee with high-waisted shorts",
+        "top_type": "Red graphic t-shirt",
+        "bottom_type": "Dark denim high-waisted shorts",
+        "color_palette": [
+          "Red",
+          "White",
+          "Dark blue"
+        ],
+        "footwear_type": "Red and white sneakers",
+        "accessories": [
+          "Floral print handbag",
+          "Sunglasses"
+        ],
+        "style": "Casual retro"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted tee and high-waisted shorts create a casual, slightly retro silhouette.",
+        "color": "The red, white and blue is a classic color combo, but the shades don't seem to mesh perfectly.",
+        "footwear": "The red sneakers match the shirt but seem a bit heavy for the shorts.",
+        "accessories": "The floral handbag clashes a bit with the graphic tee. A solid color may have worked better.",
+        "style": "The outfit has potential as a casual retro look, but a few tweaks to the color and accessory choices would improve the overall cohesion."
+      }
+    },
+    {
+      "image": "casual_590.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose tee with mini skirt",
+        "top_type": "White graphic t-shirt",
+        "bottom_type": "Red mini skirt",
+        "color_palette": [
+          "White",
+          "Red",
+          "Tan"  
+        ],
+        "footwear_type": "Tan wedge sandals",
+        "accessories": [],
+        "style": "Casual summer"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose-fitting tee half-tucked into the mini skirt creates a relaxed, effortless silhouette.",
+        "color": "The white, red and tan form a fresh, summery color palette.",
+        "footwear": "The tan wedge sandals elongate the legs and dress up the casual outfit a bit.",
+        "accessories": "The look is quite simple and could be elevated with the addition of some jewelry or a hat.",
+        "style": "Overall, this is a cute, unfussy summer outfit that can easily go from day to night."
+      }
+    },
+    {
+      "image": "casual_591.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted tank top with A-line skirt",
+        "top_type": "Fitted denim tank top",
+        "bottom_type": "Bright yellow A-line mini skirt",
+        "color_palette": [
+          "Light blue",
+          "Bright yellow",
+          "Tan"
+        ],
+        "footwear_type": "Tan ankle-strap heels",
+        "accessories": [],
+        "style": "Chic color-blocking"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 20
+      },
+      "feedback": {
+        "fit": "The fitted denim tank tucked into the A-line mini skirt creates a balanced, feminine silhouette.",
+        "color": "The light blue denim against the bright yellow skirt makes for a bold, stylish color-blocked look.",
+        "footwear": "The tan ankle-strap heels complement the outfit perfectly and elongate the legs.",
+        "accessories": "The outfit makes a statement on its own, but a long pendant necklace could be a nice accent.",
+        "style": "This is a confidently chic look that combines on-trend color-blocking with a classic feminine silhouette."
+      }
+    },
+    {
+      "image": "casual_592.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose pants with fitted top",
+        "top_type": "Coral tank top",
+        "bottom_type": "Loose patterned pants",
+        "color_palette": [
+          "Coral",
+          "Blue",
+          "White"
+        ],
+        "footwear_type": "Blue and coral sneakers",
+        "accessories": [],
+        "style": "Casual eclectic"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose patterned pants paired with the fitted tank create a relaxed, slightly bohemian silhouette.",
+        "color": "The coral top works with the blues in the pants, but the overall look is quite busy.",
+        "footwear": "The sneakers match the outfit but look a bit heavy and clunky here.",
+        "accessories": "The busy pattern of the pants doesn't leave much room for accessories, but the look feels a bit unfinished.",
+        "style": "The outfit has an eclectic, artistic vibe but needs some editing for a more put-together feel."
+      }
+    },
+    {
+      "image": "casual_593.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Fitted blazer with mini skirt",
+        "top_type": "Black fitted blazer",
+        "bottom_type": "Pink mini skirt",
+        "color_palette": [
+          "Black",
+          "Pink",
+          "Gray"
+        ],
+        "footwear_type": "Black lace-up platform boots",
+        "accessories": [
+          "Silver statement necklace",
+          "White handbag"
+        ],
+        "style": "Edgy feminine"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted blazer and mini skirt create a leggy, feminine silhouette with an edgy twist.",
+        "color": "The black and pink color scheme is flirty and fun, while still being grounded by the black.",
+        "footwear": "The chunky black platform boots add a punk-inspired edge that balances the short skirt.",
+        "accessories": "The silver statement necklace and white bag add nice contrasting touches.",
+        "style": "This look combines girly and edgy elements for a flirtatious going-out outfit with attitude."
+      }
+    },
+    {
+      "image": "casual_594.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted top with ruffled mini skirt",
+        "top_type": "Gray short-sleeve sweater",
+        "bottom_type": "Black ruffled mini skirt",
+        "color_palette": [
+          "Gray",
+          "Black",
+          "Red"  
+        ],
+        "footwear_type": "Red platform pumps",
+        "accessories": [
+          "Black belt",
+          "Bow headband"
+        ],
+        "style": "Retro-inspired chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The fitted sweater tucked into the ruffled mini skirt highlights the waist and creates a flirty, feminine silhouette.",
+        "color": "The gray and black palette is chic, while the pop of red adds vibrancy.",
+        "footwear": "The red platform pumps elongate the legs and add a bold accent color.",
+        "accessories": "The black belt emphasizes the waist, and the bow headband adds a cute retro touch.",
+        "style": "This outfit has a chic, slightly retro-inspired aesthetic that feels current and put-together."
+      }
+    },
+    {
+      "image": "casual_595.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose dress with belt",
+        "top_type": "Black short-sleeve mini dress",
+        "bottom_type": "Ruffled skirt on dress",
+        "color_palette": [
+          "Black",
+          "Silver"
+        ],
+        "footwear_type": "Red platform pumps",
+        "accessories": [
+          "Silver belt"
+        ],
+        "style": "Casual party"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose fit of the dress is made more flattering with the addition of the belt to cinch the waist.",
+        "color": "The all black is chic but a bit plain. The silver belt adds some welcome shine.",
+        "footwear": "The red pumps are an unexpected pop of color that livens up the look.",
+        "accessories": "The silver belt adds definition at the waist. Some silver jewelry could tie the look together even more.",
+        "style": "This is a easy party look that is elevated by small styling details like the belt and red shoes."
+      }
+    }
+  ]
+}

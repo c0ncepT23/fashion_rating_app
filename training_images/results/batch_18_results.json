@@ -1,0 +1,330 @@
+{
+  "outfits": [
+    {
+      "image": "casual_316.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose, casual fit",
+        "top_type": "Graphic t-shirt",
+        "bottom_type": "Denim shorts",
+        "color_palette": [
+          "white",
+          "green",
+          "black"
+        ],
+        "footwear_type": "Platform sneakers",
+        "accessories": [
+          "Sunglasses"
+        ],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, casual fit works well for a laid-back summer look. Slightly more fitted shorts could elevate the outfit.",
+        "color": "The neutral colors are easy to wear, but incorporating a pop of color could make the outfit more interesting.",
+        "footwear": "The platform sneakers add an edgy touch and pair well with the casual vibe.",
+        "accessories": "The sunglasses are a nice accessory, but additional jewelry or a belt could further enhance the look.",
+        "style": "Overall, this is a decent casual outfit that could be improved with minor tweaks to fit and color."
+      }
+    },
+    {
+      "image": "casual_317.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Slim, tailored fit",
+        "top_type": "Blazer",
+        "bottom_type": "Shorts",
+        "color_palette": [
+          "red",
+          "blue",
+          "black"
+        ],
+        "footwear_type": "Strappy heels",
+        "accessories": [
+          "Necklace"
+        ],
+        "style": "Bold, colorblocked"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 20,
+        "accessories": 10,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim, tailored fit of the blazer and shorts creates a polished and put-together look.",
+        "color": "The bold red, blue, and black color combination is eye-catching and makes a strong statement.",
+        "footwear": "The strappy heels dress up the outfit and elongate the legs, working well with the shorts.",
+        "accessories": "The necklace is a nice touch, but bolder jewelry could really make the outfit pop.",
+        "style": "This colorblocked outfit is stylish and memorable. The tailored pieces keep it looking chic."
+      }
+    },
+    {
+      "image": "casual_318.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose, relaxed fit",
+        "top_type": "Cardigan",
+        "bottom_type": "Leggings",
+        "color_palette": [
+          "beige",
+          "brown"
+        ],
+        "footwear_type": "Wedges",
+        "accessories": [],
+        "style": "Casual, earthy"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 14,
+        "footwear": 18,
+        "accessories": 8,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The loose, relaxed fit is comfortable but borders on sloppy. More tailored pieces would improve the look.",
+        "color": "The neutral beige and brown tones are easy to wear but a bit bland. Adding a contrasting color would help.",
+        "footwear": "The wedges are a good choice to dress up the casual outfit and add some height.",
+        "accessories": "This outfit is crying out for accessories. A scarf, belt, jewelry or a bag would make a big difference.",
+        "style": "The earthy style is laid-back but unremarkable. Elevated pieces and accessories are needed."
+      }
+    },
+    {
+      "image": "casual_319.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted on top, flared skirt",
+        "top_type": "Sleeveless top",
+        "bottom_type": "Pleated skirt",
+        "color_palette": [
+          "navy",
+          "red",
+          "white"
+        ],
+        "footwear_type": "Pumps",
+        "accessories": [],
+        "style": "Retro-inspired, feminine"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 10,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The fitted top and flared skirt create a flattering, feminine silhouette that highlights the waist.",
+        "color": "The navy, red and white color scheme is classic and eye-catching. The contrast works well.",
+        "footwear": "The red pumps perfectly match the top and add a nice pop of color to the navy skirt.",
+        "accessories": "While the outfit looks great, a few carefully chosen accessories could really elevate the look.",
+        "style": "The retro-inspired style is charming and ladylike. It's a timeless look with a modern twist."
+      }
+    },
+    {
+      "image": "casual_320.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Fitted top, slim pants",
+        "top_type": "T-shirt",
+        "bottom_type": "Skinny jeans",
+        "color_palette": [
+          "gray",
+          "blue",
+          "black"
+        ],
+        "footwear_type": "Pumps",
+        "accessories": [
+          "Handbag",
+          "Belt"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 16,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted t-shirt and slim jeans create a sleek, put-together silhouette that flatters the figure.",
+        "color": "The gray, blue and black color palette is subdued but works well together. The outfit could benefit from a brighter accent color.",
+        "footwear": "The black pumps dress up the casual jeans and t-shirt, making the outfit appropriate for multiple occasions.",
+        "accessories": "The handbag and belt are stylish additions that elevate the basic pieces and pull the look together nicely.",
+        "style": "This is a great example of casual chic style - basic pieces combined in a polished, intentional way."
+      }
+    },
+    {
+      "image": "casual_321.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose, boxy fit",
+        "top_type": "Button-down shirt",
+        "bottom_type": "Shorts",
+        "color_palette": [
+          "white",
+          "navy",
+          "green",
+          "brown"
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [
+          "Hat"
+        ],
+        "style": "Preppy, equestrian-inspired"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, boxy fit of the shirt is unflattering and makes the outfit look sloppy. A more tailored top would work better.",
+        "color": "The white, navy, green and brown color scheme has a nice preppy feel but the shades don't complement each other that well.",
+        "footwear": "The ankle boots work with the equestrian vibe but seem a bit heavy for the shorts. Loafers or oxfords would be a better choice.",
+        "accessories": "The hat adds to the preppy style but doesn't do much to elevate the outfit. Different accessories could improve the look.",
+        "style": "While the preppy, equestrian style is apparent, the execution falls short due to the poor fit and lackluster color and accessory choices."
+      }
+    },
+    {
+      "image": "casual_322.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Oversized, slouchy fit",
+        "top_type": "Sweater",
+        "bottom_type": "Shorts",
+        "color_palette": [
+          "black",
+          "white",
+          "brown"
+        ],
+        "footwear_type": "Sandals",
+        "accessories": [
+          "Necklace",
+          "Bracelets"
+        ],
+        "style": "Boho chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The oversized, slouchy fit of the sweater contrasts nicely with the fitted shorts, creating an effortlessly chic look.",
+        "color": "The black, white and brown color scheme is neutral and easy to wear. The proportions of each color are balanced well.",
+        "footwear": "The strappy brown sandals complement the shorts and add a bohemian touch that works with the overall style.",
+        "accessories": "The layered necklaces and stacked bracelets are the perfect finishing touches, adding interest and a free-spirited vibe.",
+        "style": "This outfit perfectly embodies the boho chic aesthetic - it's relaxed and carefree but still stylish and intentional."
+      }
+    },
+    {
+      "image": "casual_323.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose top, slim pants",
+        "top_type": "Blouse",
+        "bottom_type": "Cropped pants",
+        "color_palette": [
+          "white",
+          "gray",
+          "brown"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [
+          "Belt"
+        ],
+        "style": "Minimalist, sophisticated"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose blouse and slim cropped pants create a nice juxtaposition. The untucked blouse looks a bit messy though.",
+        "color": "The white, gray and brown color palette is subtle and sophisticated but borders on boring. A pop of color would be welcome.",
+        "footwear": "The wedge sandals are a good choice for dressing up the pants, but a sleeker shoe could further elevate the look.",
+        "accessories": "The belt is a nice addition to define the waist, but overall the outfit is crying out for a few more polished accessories.",
+        "style": "The minimalist style is apparent and the outfit has potential, but it needs some tweaks to go from average to exceptional."
+      }
+    },
+    {
+      "image": "casual_324.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Slim, tailored fit",
+        "top_type": "Blouse",
+        "bottom_type": "Pleated pants",
+        "color_palette": [
+          "white",
+          "gray",
+          "purple"
+        ],
+        "footwear_type": "Heeled sandals",
+        "accessories": [],
+        "style": "Vintage-inspired, feminine"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 8,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The slim, tailored fit of the blouse and pleated pants is very flattering and creates an elegant silhouette.",
+        "color": "The white, gray and purple color scheme is understated but interesting. The purple shoes add a beautiful accent.",
+        "footwear": "The purple heeled sandals are an unexpected and stylish choice that really makes the outfit pop.",
+        "accessories": "The lack of accessories is a missed opportunity. Even simple jewelry could take this look to the next level.",
+        "style": "The vintage-inspired, feminine style is lovely and well-executed. With accessories, this outfit would be a knockout."
+      }
+    },
+    {
+      "image": "casual_325.jpg",
+      "score": 74,
+      "labels": {
+        "fit": "Oversized fit",
+        "top_type": "Blazer",
+        "bottom_type": "Shorts",
+        "color_palette": [
+          "black",
+          "white",
+          "red",
+          "blue",
+          "yellow"
+        ],
+        "footwear_type": "Heeled sandals",
+        "accessories": [],
+        "style": "Eclectic, artsy"
+      },
+      "score_breakdown": {
+        "fit": 12,
+        "color": 18,
+        "footwear": 14,
+        "accessories": 8,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized fit of the blazer overwhelms the shorts and looks disproportionate on the model's frame.",
+        "color": "The multicolored pattern is certainly eye-catching and makes a statement. However, the colors look a bit clashy and chaotic.",
+        "footwear": "The purple heeled sandals are a bit incongruous with the rest of the outfit. A simpler shoe would work better.",
+        "accessories": "Some carefully chosen accessories could help pull this eclectic look together, but there are none to speak of.",
+        "style": "The artsy, eclectic style is apparent but not particularly well-executed here. The pieces are fighting with each other rather than working harmoniously."
+      }
+    }
+  ]
+}

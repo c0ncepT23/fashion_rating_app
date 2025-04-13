@@ -1,0 +1,331 @@
+{
+  "outfits": [
+    {
+      "image": "casual_326.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Relaxed, casual fit",
+        "top_type": "Sleeveless blouse with polka dot print",
+        "bottom_type": "Flowy teal skirt",
+        "color_palette": [
+          "teal",
+          "white",
+          "black"
+        ],
+        "footwear_type": "Black flats",
+        "accessories": [
+          "Beige satchel bag"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 22,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the blouse and skirt create an effortless, casual look that is still put-together.",
+        "color": "The teal and white color combination is fresh and summery. The black shoes ground the outfit.",
+        "footwear": "The simple black flats are a good choice to keep the focus on the outfit.",
+        "accessories": "The neutral beige bag doesn't compete with the outfit and adds a nice textural element.",
+        "style": "Overall, this is a great casual chic look that is easy to wear but still stylish."
+      }
+    },
+    {
+      "image": "casual_327.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Loose, flowy fit",
+        "top_type": "Dusty pink long-sleeve blouse",
+        "bottom_type": "Pleated gray midi skirt",
+        "color_palette": [
+          "pink",
+          "gray",
+          "red"
+        ],
+        "footwear_type": "Red pumps",
+        "accessories": [
+          "Red handbag"
+        ],
+        "style": "Feminine, romantic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose, flowy fit of both pieces creates a soft, romantic silhouette.",
+        "color": "The dusty pink and gray make an elegant, feminine color pairing. The red accessories add a nice pop.",
+        "footwear": "The red pumps tie in with the bag and add a bold touch to the soft colors.",
+        "accessories": "The red bag matches the shoes but competes a bit with the outfit. A neutral bag may have balanced it better.",
+        "style": "This outfit has a very feminine, romantic vibe that would be great for a nice dinner or event."
+      }
+    },
+    {
+      "image": "casual_328.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Relaxed, slightly oversized",
+        "top_type": "Chunky knit sweater",
+        "bottom_type": "Slim red pants",
+        "color_palette": [
+          "oatmeal",
+          "red",
+          "brown"
+        ],
+        "footwear_type": "Brown lace-up ankle boots",
+        "accessories": [],
+        "style": "Cozy casual"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 22,
+        "accessories": 8,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the sweater balances nicely with the slim fit of the pants.",
+        "color": "The neutral oatmeal sweater is a great pairing with the bold red pants. The brown boots complement both colors.",
+        "footwear": "The brown ankle boots are the perfect choice to complete this fall-ready look.",
+        "accessories": "The outfit doesn't include any accessories, but a simple necklace could be added if desired.",
+        "style": "This outfit is the epitome of cozy casual style. It looks comfortable but still very fashionable."
+      }
+    },
+    {
+      "image": "casual_329.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose, drapey fit",
+        "top_type": "Oversized gray t-shirt",
+        "bottom_type": "Light wash skinny jeans",
+        "color_palette": [
+          "gray",
+          "light blue",
+          "tan"
+        ],
+        "footwear_type": "Tan ankle boots",
+        "accessories": [
+          "Sunglasses"
+        ],
+        "style": "Casual, minimalist"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 10,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The oversized tee and skinny jeans create a relaxed look, but the proportions could be improved for a more flattering silhouette.",
+        "color": "The gray and light blue is a safe combination but doesn't provide much contrast or visual interest.",
+        "footwear": "The tan ankle boots work well with the jeans and add a slightly dressier element to the casual outfit.",
+        "accessories": "The sunglasses are a nice practical accessory for the minimalist look.",
+        "style": "While comfortable, the overall style is a bit plain. Swapping the tee for one with a graphic or in a bolder color could elevate the look."
+      }
+    },
+    {
+      "image": "casual_330.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose, boxy fit",
+        "top_type": "Printed short sleeve blouse",
+        "bottom_type": "Dark gray high-waisted shorts",
+        "color_palette": [
+          "white",
+          "black",
+          "gray"
+        ],
+        "footwear_type": "Taupe ankle strap flats",
+        "accessories": [
+          "Clutch bag",
+          "Sunglasses"
+        ],
+        "style": "Casual summer look"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The loose fit of the blouse paired with the high-waisted shorts creates a nice balanced silhouette.",
+        "color": "The black and white print of the top contrasts nicely against the dark gray shorts for a crisp, graphic look.",
+        "footwear": "The taupe flats are a great neutral choice to complement the black and white outfit.",
+        "accessories": "The clutch and sunglasses are simple, practical additions that suit the overall casual aesthetic.",
+        "style": "This outfit is perfect for a casual summer day. It looks put-together and stylish while still being easy to wear."
+      }
+    },
+    {
+      "image": "casual_331.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Fitted on top, flowy skirt",
+        "top_type": "Cropped denim jacket",
+        "bottom_type": "Red pleated midi skirt",
+        "color_palette": [
+          "blue",
+          "red",
+          "black"
+        ],
+        "footwear_type": "Black low-top sneakers",
+        "accessories": [],
+        "style": "Casual retro"
+      },
+      "score_breakdown": {
+        "fit": 24,
+        "color": 24,
+        "footwear": 22,
+        "accessories": 8,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted denim jacket and flowy skirt create a beautiful, flattering silhouette that highlights the waist.",
+        "color": "The combination of the classic blue denim with the bold red skirt makes for a striking, retro-inspired color palette.",
+        "footwear": "The black sneakers add a modern, casual element that dresses down the feminine skirt perfectly.",
+        "accessories": "The outfit is accessory-free, allowing the strong color combo and silhouette to be the focus.",
+        "style": "This is a fantastic casual look with a retro flair. It's eye-catching and fashionable but still wearable for many occasions."
+      }
+    },
+    {
+      "image": "casual_332.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Bodycon, fitted",
+        "top_type": "Sleeveless red sheath dress",
+        "bottom_type": "N/A",
+        "color_palette": [
+          "red",
+          "tan"
+        ],
+        "footwear_type": "Tan platform pumps",
+        "accessories": [],
+        "style": "Chic, minimal"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 24,
+        "footwear": 22,
+        "accessories": 8,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The fitted sheath dress shows off the figure beautifully without being too revealing.",
+        "color": "The monochromatic red look is bold and striking. The tan shoes break it up and complement the red nicely.",
+        "footwear": "The tan platform pumps elongate the legs and dress up the simple sheath.",
+        "accessories": "No accessories are needed with such a strong solid color dress. The simplicity works well.",
+        "style": "This outfit is minimalist but very chic and impactful. It would transition easily from day to night."
+      }
+    },
+    {
+      "image": "casual_333.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Relaxed, slightly boxy",
+        "top_type": "Striped short sleeve blouse",
+        "bottom_type": "Lace-up olive green shorts",
+        "color_palette": [
+          "olive green",
+          "white",
+          "black",
+          "tan"
+        ],
+        "footwear_type": "Tan lace-up sandals",
+        "accessories": [
+          "Black shoulder bag",
+          "Gold chain necklace"
+        ],
+        "style": "Casual summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 20,
+        "accessories": 12,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slightly boxy fit of the top balances the fitted lace-up shorts for a relaxed but still shapely silhouette.",
+        "color": "The olive green shorts pair beautifully with the black and white striped blouse. The tan sandals tie it all together.",
+        "footwear": "The lace-up tan sandals are a great choice to complement the lace-up detail on the shorts.",
+        "accessories": "The black bag and gold necklace are stylish additions that elevate the look without being fussy.",
+        "style": "This is a great go-to casual summer look. It's comfortable and unfussy but still very cute and put-together."
+      }
+    },
+    {
+      "image": "casual_334.jpg",
+      "score": 86,
+      "labels": {
+        "fit": "Relaxed, boxy fit",
+        "top_type": "Floral print short sleeve blouse",
+        "bottom_type": "Mint green cropped pants",
+        "color_palette": [
+          "mint green",
+          "yellow",
+          "white",
+          "black"
+        ],
+        "footwear_type": "Black and white saddle shoes",
+        "accessories": [
+          "Yellow clutch bag"
+        ],
+        "style": "Vintage-inspired casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 20,
+        "accessories": 12,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The boxy cropped silhouette gives a relaxed, retro vibe that suits the print mixing.",
+        "color": "The mint green pants look great with the yellow and white floral print top. The colors are fresh and fun.",
+        "footwear": "The black and white saddle shoes add to the vintage feel and don't compete with the prints.",
+        "accessories": "The yellow bag is a perfect match for the colors in the floral blouse.",
+        "style": "This outfit has a quirky, vintage-inspired aesthetic. The print mixing and cropped silhouette is playful and eye-catching."
+      }
+    },
+    {
+      "image": "casual_335.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose, slightly oversized",
+        "top_type": "Cream colored blazer",
+        "bottom_type": "Dark wash skinny jeans",
+        "color_palette": [
+          "cream",
+          "blue",
+          "brown"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [
+          "Black shoulder bag"
+        ],
+        "style": "Polished casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 12
+      },
+      "feedback": {
+        "fit": "The oversized fit of the blazer dwarfs the model's frame a bit. A more tailored fit would be more flattering.",
+        "color": "The cream and dark blue denim is a nice combination. The brown boots complement the blazer well.",
+        "footwear": "The ankle boots are a good choice, but a dressier shoe could also work with the blazer for a more elevated look.",
+        "accessories": "The black bag is simple and functional, if a bit generic. A bag in a contrasting color or texture could add more interest.",
+        "style": "The outfit is a good example of polished casual wear, but fit adjustments and bolder accessories could take it to the next level."
+      }
+    }
+  ]
+}

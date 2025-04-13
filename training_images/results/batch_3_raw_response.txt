@@ -1,0 +1,332 @@
+{
+  "outfits": [
+    {
+      "image": "casual_166.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose, relaxed fit",
+        "top_type": "Sleeveless blouse",
+        "bottom_type": "Flowy shorts",
+        "color_palette": [
+          "Pale yellow",
+          "Coral",
+          "White"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [
+          "Straw hat",
+          "Shoulder bag"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 15,
+        "accessories": 14,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The loose, relaxed fit is comfortable and breezy for summer. Consider tucking in the blouse slightly to define your waist more.",
+        "color": "The pale yellow and coral color combination is soft and feminine. Adding a contrasting accessory color could make it pop more.",
+        "footwear": "The wedge sandals elongate your legs nicely. A metallic or nude shade could also work well.",
+        "accessories": "The straw hat and shoulder bag suit the casual chic vibe. A bold statement necklace or earrings could elevate the look.",
+        "style": "Overall this is a cute, put-together casual summer outfit. Small tweaks could take it from good to great."
+      }
+    },
+    {
+      "image": "casual_167.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Slim, fitted",
+        "top_type": "Chunky knit sweater",
+        "bottom_type": "Distressed denim shorts",
+        "color_palette": [
+          "Beige",
+          "Light blue",
+          "Brown"
+        ],
+        "footwear_type": "Lace-up boots",
+        "accessories": [
+          "Knit beanie",
+          "Fringe bag"
+        ],
+        "style": "Boho grunge"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The slim fit of the sweater and shorts creates an elongated silhouette that flatters your figure.",
+        "color": "The neutral beige and brown tones are balanced nicely by the light blue denim. The color palette has an earthy feel.",
+        "footwear": "The lace-up boots add an edgy, grungy element that contrasts well with the chunky knit. They also make your legs look great.",
+        "accessories": "The knit beanie and fringe bag enhance the boho vibe. Some layered necklaces could be a nice addition.",
+        "style": "This outfit strikes a good balance between boho and grunge styles. It's casual but still very fashionable and intentional."
+      }
+    },
+    {
+      "image": "casual_168.jpg",
+      "score": 85,
+      "labels": {
+        "fit": "Tailored, polished",
+        "top_type": "Structured blazer",
+        "bottom_type": "Fitted mini skirt",
+        "color_palette": [
+          "White",
+          "Bright orange",
+          "Royal blue"
+        ],
+        "footwear_type": "Ankle boots",
+        "accessories": [],
+        "style": "Colorblock chic"
+      },
+      "score_breakdown": {
+        "fit": 22,
+        "color": 20,
+        "footwear": 15,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The tailored fit of the blazer and skirt create a very polished, put-together look that highlights your figure beautifully.",  
+        "color": "The bright orange, royal blue and white colorblocking is bold and eye-catching. The colors complement each other well.",
+        "footwear": "The black ankle boots ground the outfit without competing with the colorful garments. A colorful shoe could also be fun.",
+        "accessories": "This look could be elevated with the addition of some modern, artistic jewelry pieces and perhaps a sleek clutch.",
+        "style": "The colorblock styling feels very contemporary and fashion-forward. It's a great way to make a statement with solid separates."
+      }
+    },
+    {
+      "image": "casual_169.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Relaxed, easy fit",
+        "top_type": "Lace crop top",
+        "bottom_type": "High-waisted shorts",
+        "color_palette": [
+          "Coral",
+          "Tan"  
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [
+          "Pendant necklace",
+          "Fringe bag"
+        ],
+        "style": "Boho casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit is easy and effortless. Defining the waist a bit more, either with the crop top or belting the shorts, would flatter your shape.",
+        "color": "The coral and tan color scheme is pretty but a bit bland. Adding a third contrasting color would give the outfit more life.",
+        "footwear": "The wedge sandals work with the boho aesthetic. A metallic or embellished sandal could dress this up a notch.",
+        "accessories": "The pendant necklace and fringe bag suit the boho style. Some armful of bangles or a floppy hat would complete the look.",
+        "style": "This outfit captures casual boho style but could use a few small tweaks to really make it shine and feel more intentional."
+      }
+    },
+    {
+      "image": "casual_170.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Flowy, asymmetrical",
+        "top_type": "Cropped tank",
+        "bottom_type": "Colorblock skirt",
+        "color_palette": [
+          "Lime green",
+          "Cobalt blue",
+          "White"
+        ],
+        "footwear_type": "Strappy sandals",
+        "accessories": [],
+        "style": "Modern colorblock"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 22,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The cropped tank and high-waisted skirt create a lengthening effect on your torso. The flowy asymmetrical skirt drapes beautifully.",
+        "color": "The lime green, cobalt blue and white colorblocking is unique and eye-catching. The bright colors are perfect for summer.",
+        "footwear": "The strappy black sandals add a delicate, feminine touch without competing with the bold skirt. Great choice.",
+        "accessories": "A few modern, artistic accessories like geometric earrings or a cuff bracelet could elevate this even more.",
+        "style": "The colorblock styling feels fresh, youthful and fashion-forward. It's a confident and stylish summer look."
+      }
+    },
+    {
+      "image": "casual_171.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Boxy, oversized",
+        "top_type": "Graphic tee",
+        "bottom_type": "Harem pants",
+        "color_palette": [
+          "Red",
+          "White",
+          "Blue"  
+        ],
+        "footwear_type": "Platform sandals",
+        "accessories": [
+          "Envelope clutch",
+          "Bangle bracelets"
+        ],
+        "style": "Casual glam"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized tee and flowy harem pants create a relaxed, effortless silhouette. Tucking or knotting the tee could define your shape more.",
+        "color": "The bold red, white and blue color scheme has a nice nautical vibe. The bright red pants are a great statement piece.",
+        "footwear": "The chunky platform sandals give you some height and make the voluminous pants work well. A sleek ankle boot could also work.",
+        "accessories": "The metallic envelope clutch and bangle bracelets dress up the casual separates. A long pendant necklace would look great too.",
+        "style": "This look mixes casual pieces with glam accessories for an elevated take on relaxed style. It's comfortable but still very stylish."
+      }
+    },
+    {
+      "image": "casual_172.jpg",
+      "score": 87,
+      "labels": {
+        "fit": "Fitted, cropped",
+        "top_type": "Puff sleeve blouse",
+        "bottom_type": "Belted paperbag shorts",
+        "color_palette": [
+          "Bright yellow",
+          "Orange",
+          "White"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [
+          "Straw visor",
+          "Woven tote bag"
+        ],
+        "style": "Tropical resort wear"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 16,
+        "accessories": 16,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The fitted puff sleeve blouse highlights your shoulders and arms. The belted paperbag waist accentuates your figure beautifully.",
+        "color": "The bright yellow and orange hues scream summer fun. Pairing them with crisp white keeps the look fresh and light.",
+        "footwear": "The neutral wedge sandals elongate your legs and don't compete with the vibrant outfit. Strappy sandals could also work well.",
+        "accessories": "The straw visor and woven tote are perfect beachy accessories. Some colorful statement earrings would be a fun addition.",
+        "style": "This outfit has tropical resort wear written all over it. It's colorful, breezy and makes you look like you're on a fabulous vacation."
+      }
+    },
+    {
+      "image": "casual_173.jpg",
+      "score": 79,
+      "labels": {
+        "fit": "Loose, oversized",
+        "top_type": "Chunky knit sweater",
+        "bottom_type": "Denim cutoff shorts",
+        "color_palette": [
+          "Mustard yellow",
+          "Light blue"
+        ],
+        "footwear_type": "Lace-up sneakers",
+        "accessories": [],
+        "style": "Casual sporty"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 17,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The oversized sweater looks cozy but swallows your figure. Tucking it in slightly or belting it would create better proportions.",
+        "color": "The mustard yellow and light blue is an interesting color combo. Adding a third color, like olive green, could make it more dynamic.",
+        "footwear": "The purple sneakers add an unexpected pop of color and a sporty vibe. They're a fun, casual choice that's still fashionable.",
+        "accessories": "Some casual accessories like a baseball cap, crossbody bag, or layered necklaces could take this basic outfit up a notch.", 
+        "style": "The outfit has a casual, sporty feel but is a bit plain. Tweaking the fit and adding accessories would make it more stylish."
+      }
+    },
+    {
+      "image": "casual_174.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Flowy, midi length",
+        "top_type": "Sleeveless blouse",
+        "bottom_type": "Pleated midi skirt",
+        "color_palette": [
+          "Red",
+          "Orange",
+          "White"  
+        ],
+        "footwear_type": "Espadrille flats",
+        "accessories": [
+          "Sun hat"
+        ],
+        "style": "Parisian chic"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The sleeveless blouse and flowy pleated skirt create an elegant, feminine silhouette. The midi length is very flattering.",
+        "color": "The red, orange and white color scheme is striking and chic. The warm tones complement your skin and hair beautifully.", 
+        "footwear": "The neutral espadrille flats are a comfortable, stylish choice that grounds the airy skirt. Ankle-wrap flats would also be cute.",
+        "accessories": "The sun hat adds a touch of French Riviera glamour. A woven handbag and some delicate jewelry would complete the look.",
+        "style": "This outfit exudes Parisian chic style with the flowy midi skirt and classic color palette. It's timeless and sophisticated."
+      }
+    },
+    {
+      "image": "casual_175.jpg",
+      "score": 83,
+      "labels": {
+        "fit": "Relaxed, flowy",
+        "top_type": "Button-down shirt",
+        "bottom_type": "Pleated midi skirt",
+        "color_palette": [
+          "Olive green",
+          "Burgundy",
+          "White"
+        ],
+        "footwear_type": "Ballet flats",
+        "accessories": [
+          "Knit beret",
+          "Crossbody bag"
+        ],
+        "style": "Academic chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 15,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the button-down and flowy skirt is comfortable and modest. Tucking in the shirt would polish it up a bit.",
+        "color": "The olive green, burgundy and white color scheme has a classic, academic vibe. The deep tones are perfect for fall.",
+        "footwear": "The white ballet flats keep the look delicate and feminine. Loafers or ankle boots could give it a more substantial base.",
+        "accessories": "The beret is a chic touch that suits the scholarly aesthetic. A leather satchel and watch would also be nice additions.",
+        "style": "This outfit has a studious, academic feel with the pleated skirt, button-down and beret. It's a smart, refined casual look."
+      }
+    }
+  ]
+}

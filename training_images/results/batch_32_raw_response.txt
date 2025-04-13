@@ -1,0 +1,320 @@
+{
+  "outfits": [
+    {
+      "image": "casual_456.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Loose, flowy silhouette",
+        "top_type": "Sleeveless pleated tunic",
+        "bottom_type": "None visible",
+        "color_palette": [
+          "Fuchsia"
+        ],
+        "footwear_type": "Strappy flat sandals",
+        "accessories": [],
+        "style": "Casual summer dress"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose, flowy silhouette of the dress is comfortable and breezy for summer. However, the fit could be improved with some waist definition to flatter the figure more.",
+        "color": "The bright fuchsia color is bold and fun for summer, but can be tricky to accessorize. Neutral accessories would pair well.",
+        "footwear": "The strappy flat sandals are a good casual choice for this dress. Wedges could also dress it up a bit.",
+        "accessories": "The outfit could benefit from a few simple accessories like a pendant necklace or bangle bracelets to add interest.",
+        "style": "Overall this is a cute casual summer look that's easy to throw on. A few small tweaks could elevate it further."
+      }
+    },
+    {
+      "image": "casual_457.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Relaxed, slightly loose",
+        "top_type": "Sleeveless collared tunic",
+        "bottom_type": "None visible",
+        "color_palette": [
+          "Lime green"
+        ],
+        "footwear_type": "Black ankle boots",
+        "accessories": [],
+        "style": "Casual chic day dress"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the tunic dress is comfortable and easy to wear. The length is good for a casual look.",
+        "color": "The bright lime green color is fresh and modern. It pairs nicely with the black boots for some contrast.",
+        "footwear": "The black ankle boots give an edgy vibe to the feminine dress. Heeled sandals could dress it up for evening.",
+        "accessories": "Some black and silver jewelry, like hoop earrings or a cuff bracelet, would complete the look nicely.",
+        "style": "This outfit has a nice high-low contrast between the flirty dress and tough ankle boots. It's stylish for daytime events."
+      }
+    },
+    {
+      "image": "casual_458.jpg",
+      "score": 85,
+      "labels": {
+        "fit": "Fit-and-flare, full skirt",
+        "top_type": "Sleeveless collared blouse",
+        "bottom_type": "Tulle skirt",
+        "color_palette": [
+          "Black",
+          "Hot pink"
+        ],
+        "footwear_type": "Strappy pink heels",
+        "accessories": [
+          "Pendant necklace"
+        ],
+        "style": "Girly party outfit"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The fitted sleeveless top balances nicely with the full tulle skirt for a flattering, feminine silhouette.",
+        "color": "The black top and hot pink skirt are a classic color combo. The bright skirt makes a fun statement.",
+        "footwear": "The strappy pink heels perfectly match the skirt and elongate the legs. Great choice to complete the look.",
+        "accessories": "The pendant necklace adds a delicate touch. Some sparkly earrings would also work well with this outfit.",
+        "style": "This is a cute, girly look that's perfect for parties or special occasions. It's youthful and flirty."
+      }
+    },
+    {
+      "image": "casual_459.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Relaxed, casual",
+        "top_type": "Denim jacket",
+        "bottom_type": "Floral print shorts",
+        "color_palette": [
+          "Light wash denim",
+          "White",
+          "Yellow"
+        ],
+        "footwear_type": "Brown ankle boots",
+        "accessories": [
+          "Floppy hat",
+          "Tote bag"
+        ],
+        "style": "Boho summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the denim jacket and flowy shorts is perfect for a casual summer day. Very comfortable and effortless.",
+        "color": "The light wash denim pairs beautifully with the white and yellow floral print for a fresh, seasonal color palette.",
+        "footwear": "The brown ankle boots ground the look and add a slightly rugged touch that works well with the denim jacket.",
+        "accessories": "Great job accessorizing with the floppy hat and tote bag. They add a boho flair that suits the outfit.",
+        "style": "This is a quintessential summer outfit with the denim, floral shorts and hat. It's trendy and stylish for casual wear."
+      }
+    },
+    {
+      "image": "casual_460.jpg",
+      "score": 87,
+      "labels": {
+        "fit": "Loose plaid shirt, fitted shorts",
+        "top_type": "Plaid button-down shirt",
+        "bottom_type": "Khaki shorts",
+        "color_palette": [
+          "Red",
+          "Navy",
+          "Tan"
+        ],
+        "footwear_type": "Black wedge sandals",
+        "accessories": [
+          "Black handbag"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 15,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The oversized plaid shirt contrasts well with the slim-fitting shorts. Cuffing the sleeves and tying the shirt at the waist gives good proportion.",
+        "color": "The red and navy plaid with khaki shorts is a classic preppy color combo. The black accessories add a modern edge.",
+        "footwear": "The black wedge sandals elongate the legs and dress up the shorts a bit. They're a versatile summer shoe.",
+        "accessories": "The black handbag is simple and functional. A long pendant necklace could also be added to fill in the neckline of the shirt.",
+        "style": "This look nails the preppy style in a modern, casual way. It's perfect for summer and easy to recreate."
+      }
+    },
+    {
+      "image": "casual_461.jpg",
+      "score": 75,
+      "labels": {
+        "fit": "Oversized",
+        "top_type": "Leather motorcycle jacket",
+        "bottom_type": "None visible",
+        "color_palette": [
+          "Black",
+          "Cream"
+        ],
+        "footwear_type": "Black lace-up boots",
+        "accessories": [
+          "Knit beanie hat"
+        ],
+        "style": "Edgy rocker look"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 15
+      },
+      "feedback": {
+        "fit": "The oversized leather jacket creates an edgy silhouette but swallows up the frame a bit. A more cropped, fitted jacket would balance the proportions better.",
+        "color": "The black and cream color scheme is classic and works for an edgy look. Adding a pop of color, like with the hat, could liven it up.",
+        "footwear": "The black lace-up boots are a good match for the tough motorcycle jacket. They complete the rocker aesthetic.",
+        "accessories": "The knit beanie is a nice casual touch to make the look more wearable. Some layered chain necklaces could also amp up the edge factor.",
+        "style": "This outfit captures an edgy, rocker-inspired style, but the oversized fit throws off the proportions somewhat. A few tweaks could make it feel more intentional and flattering."
+      }
+    },
+    {
+      "image": "casual_462.jpg",
+      "score": 88,
+      "labels": {
+        "fit": "Fitted crop top, loose shorts",
+        "top_type": "Sleeveless crop top",
+        "bottom_type": "Floral print shorts",
+        "color_palette": [
+          "Light blue",
+          "White",
+          "Pink floral"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [
+          "Brown leather handbag"
+        ],
+        "style": "Cute summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The fitted crop top shows just a sliver of skin when paired with the high-waisted floral shorts. This balanced proportion is flirty but still modest.",
+        "color": "The light blue top is a pretty pastel that complements the pink floral print nicely. The white background of the shorts keeps the look light and fresh.",
+        "footwear": "The brown wedge sandals are a great neutral shoe to pair with the floral shorts. They elongate the legs and dress up the look a touch.",
+        "accessories": "The brown leather handbag is a nice coordinating accessory that doesn't compete with the floral print. Some delicate jewelry like a bracelet or earrings could also be added.",
+        "style": "This is a quintessential cute summer look that's both stylish and easy to wear. The crop top and floral shorts are a winning warm weather combo."
+      }
+    },
+    {
+      "image": "casual_463.jpg",
+      "score": 80,
+      "labels": {
+        "fit": "Loose, boxy",
+        "top_type": "Red short sleeve t-shirt",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "Red",
+          "Medium wash denim"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [],
+        "style": "Casual summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 18,
+        "accessories": 12,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The loose, boxy fit of the tee and cuffed denim shorts is casual and comfortable, but not the most flattering silhouette. A more fitted or tucked-in tee would give better shape.",
+        "color": "The bright red tee adds a nice pop of color to the medium wash denim shorts. It's a classic, all-American color combo for summer.",
+        "footwear": "The brown wedge sandals work well with the cuffed denim shorts and add some leg-lengthening height. They're a versatile summer shoe.",
+        "accessories": "The outfit is quite plain and could really use some accessories to give it more personality, like a statement necklace, hat, or patterned belt.",
+        "style": "Overall this is a decent casual summer look, but it's a bit basic and could use some styling tweaks to make it more interesting and flattering. The individual pieces are good staples to have though."
+      }
+    },
+    {
+      "image": "casual_464.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Slim, tailored",
+        "top_type": "Striped tank top",
+        "bottom_type": "High-waisted denim shorts",
+        "color_palette": [
+          "White",
+          "Navy stripes",
+          "Medium wash denim" 
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [
+          "Brown leather satchel"
+        ],
+        "style": "Parisian chic summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 18,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The slim fit of the striped tank tucked into the high-waisted denim shorts creates a polished, flattering silhouette. The proportions are spot on.",
+        "color": "The classic navy and white stripes pair perfectly with medium wash denim for a timeless summer palette. The brown leather accessories add rich neutral tones.",
+        "footwear": "The brown wedge sandals elongate the legs and complement the shorts nicely. They're chic and comfortable for lots of walking.",
+        "accessories": "The brown leather satchel is the perfect size and style for exploring the city. The outfit could also handle a neck scarf for a pop of color.",
+        "style": "This look epitomizes effortless Parisian chic. It's the ideal blend of casual and pulled-together, with classic pieces that are easy to mix and match. Well done!"
+      }
+    },
+    {
+      "image": "casual_465.jpg",
+      "score": 85,
+      "labels": {
+        "fit": "Relaxed, casual",
+        "top_type": "Striped tank top",
+        "bottom_type": "Cuffed denim shorts",
+        "color_palette": [
+          "White",
+          "Teal stripes",
+          "Light wash denim"
+        ],
+        "footwear_type": "Black slide sandals",
+        "accessories": [],
+        "style": "Casual summer outfit"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 14,
+        "style": 19
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the striped tank and cuffed denim shorts is casual and comfortable for summer. Tucking in the front of the tank gives a bit more shape.",
+        "color": "The teal and white stripes add a nice splash of color to the light wash denim. It's a fun, beachy color scheme that's easy to wear.",
+        "footwear": "The black slide sandals are simple and functional for a casual look. White sneakers could also work to lean into the sporty vibe.",
+        "accessories": "The outfit is fairly plain and could benefit from some accessories to elevate it, like layered necklaces, a tote bag, or sunglasses.",
+        "style": "Overall this is a solid casual summer outfit that's easy to throw on. The stripes add some interest to basic denim shorts. A few accessorizing tweaks could take it to the next level."
+      }
+    }
+  ]
+}

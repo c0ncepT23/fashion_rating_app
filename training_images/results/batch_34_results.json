@@ -1,0 +1,331 @@
+{
+  "outfits": [
+    {
+      "image": "casual_476.jpg",
+      "score": 82,
+      "labels": {
+        "fit": "Slim fit",
+        "top_type": "Graphic t-shirt",
+        "bottom_type": "Polka dot mini skirt",
+        "color_palette": [
+          "Black",
+          "White",
+          "Purple"
+        ],
+        "footwear_type": "Lace-up ankle boots",
+        "accessories": [],
+        "style": "Edgy casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 18,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The slim fit t-shirt and mini skirt create a youthful, trendy silhouette that flatters her figure.",
+        "color": "The black, white and purple color scheme has an edgy vibe but could use another pop of color for more visual interest.",
+        "footwear": "The lace-up ankle boots complement the outfit's edgy style and elongate her legs.",
+        "accessories": "Some bold jewelry like a chunky necklace or stacked bracelets could elevate the look further.",
+        "style": "Overall it's a cute, edgy casual look that suits her youthful style. A few small tweaks could take it to the next level."
+      }
+    },
+    {
+      "image": "casual_477.jpg",
+      "score": 78,
+      "labels": {
+        "fit": "Relaxed fit",
+        "top_type": "Striped long sleeve tee",
+        "bottom_type": "Distressed skinny jeans",
+        "color_palette": [
+          "Black",
+          "White",
+          "Denim blue"
+        ],
+        "footwear_type": "Red ankle boots",
+        "accessories": [
+          "Leather satchel",
+          "Beret"
+        ],
+        "style": "French inspired casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 16,
+        "footwear": 18,
+        "accessories": 14,
+        "style": 14
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the striped tee and skinny jeans is comfortable and laid-back, but could be more figure-flattering.",
+        "color": "The black, white and denim blue palette is classic, but the outfit lacks a vibrant focal point.",
+        "footwear": "The pop of red from the ankle boots adds a nice touch of contrast and pulls the look together.",
+        "accessories": "The leather satchel and beret give a nod to French girl style, but the beret looks a bit costumey.",
+        "style": "It's a decent attempt at casual French-inspired style, but fit and proportions could be improved for more polish."
+      }
+    },
+    {
+      "image": "casual_478.jpg",
+      "score": 90,
+      "labels": {
+        "fit": "Fitted",
+        "top_type": "Cream long sleeve tee",
+        "bottom_type": "Red chino shorts",
+        "color_palette": [
+          "Cream",
+          "Red",
+          "White"
+        ],
+        "footwear_type": "White sneakers",
+        "accessories": [
+          "Sunglasses",
+          "Shoulder bag"
+        ],
+        "style": "Preppy casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The fitted tee and shorts hug her curves in all the right places, creating a polished, put-together silhouette.",
+        "color": "The cream, red and white color combo is fresh and crisp - perfect for summer. The red shorts make a bold statement.",
+        "footwear": "You can't go wrong with classic white sneakers - they ground the look and keep it casual.",
+        "accessories": "The sunglasses and shoulder bag are practical additions that enhance the outfit's easy, breezy vibe.",
+        "style": "This is preppy casual done right - it's simple but intentional, well-fitting and very flattering. No notes!"
+      }
+    },
+    {
+      "image": "casual_479.jpg",
+      "score": 84,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Patterned blouse",
+        "bottom_type": "Denim shorts",
+        "color_palette": [
+          "Orange",
+          "Blue",
+          "White"
+        ],
+        "footwear_type": "Yellow sandals",
+        "accessories": [
+          "Printed tote bag"
+        ],
+        "style": "Boho casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The loose fitting blouse and relaxed denim shorts give the outfit an effortless boho feel, but the blouse may be slightly oversized on her petite frame.",
+        "color": "The orange and blue color scheme is fun and eye-catching. The pattern mixing between the blouse and bag adds bohemian flair.",
+        "footwear": "The bright yellow sandals are an unexpected choice that work well with the outfit's free-spirited vibe.",
+        "accessories": "The printed tote bag ties in nicely with the blouse and completes the carefree, artistic look.",
+        "style": "This outfit captures the essence of boho style with its bright colors, prints and flowy silhouette. Slightly more fitted pieces would refine the overall effect."
+      }
+    },
+    {
+      "image": "casual_480.jpg",
+      "score": 76,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Black blazer",
+        "bottom_type": "Coral mini dress",
+        "color_palette": [
+          "Black",
+          "Coral",
+          "Tan"
+        ],
+        "footwear_type": "Taupe platform heels",
+        "accessories": [],
+        "style": "Night out"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 16,
+        "footwear": 16,
+        "accessories": 12,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The oversized blazer overwhelms her petite figure and disrupts her proportions, making her legs look very short.",
+        "color": "The coral and black is a striking, night-appropriate combo, but the colors don't harmonize that well.",
+        "footwear": "The taupe platform heels elongate her legs, which helps balance out the blazer, but a sleeker shoe would be more flattering.",
+        "accessories": "The look feels incomplete without any accessories. A clutch and some jewelry would go a long way.",
+        "style": "The outfit has potential as a flirty going out look, but fit issues are holding it back. A cropped, fitted jacket and some styling tweaks would improve it."
+      }
+    },
+    {
+      "image": "casual_481.jpg",
+      "score": 92,
+      "labels": {
+        "fit": "Relaxed fit",
+        "top_type": "Lace blouse",
+        "bottom_type": "White skinny jeans",
+        "color_palette": [
+          "Blush pink",
+          "White",
+          "Tan"
+        ],
+        "footwear_type": "Nude flats",
+        "accessories": [
+          "Leather tote bag"
+        ],
+        "style": "Feminine casual"
+      },
+      "score_breakdown": {
+        "fit": 20,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the lace blouse paired with skinny jeans creates a balanced, flattering silhouette that highlights her figure without being too tight.",
+        "color": "The soft blush pink and white color palette is romantic and feminine. The tan bag adds a nice neutral touch.",
+        "footwear": "The nude flats elongate her legs and complement the feminine aesthetic of the outfit.",
+        "accessories": "The leather tote is a practical, stylish accessory that doesn't compete with the delicate lace blouse.",
+        "style": "This outfit perfectly embodies feminine style with its lace details, soft colors and fitted yet relaxed silhouette. Flawless execution!"
+      }
+    },
+    {
+      "image": "casual_482.jpg",
+      "score": 87,
+      "labels": {
+        "fit": "Fitted",
+        "top_type": "Printed blouse",
+        "bottom_type": "White skinny jeans",
+        "color_palette": [
+          "Blue",
+          "White"
+        ],
+        "footwear_type": "Wedge sandals",
+        "accessories": [
+          "Tote bag",
+          "Sunglasses"
+        ],
+        "style": "Casual chic"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 18,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The fitted blouse and skinny jeans hug her curves and create an attractive, put-together silhouette.",
+        "color": "You can't go wrong with a classic blue and white color scheme. The printed blouse adds some visual interest.",
+        "footwear": "The wedge sandals dress up the look a bit while still being casual and comfortable for daytime.",
+        "accessories": "The tote bag and sunglasses are practical, stylish additions for a polished weekend look.",
+        "style": "This outfit strikes the perfect balance between casual and chic. The fitted pieces and elevated accessories make it ideal for brunches or casual days out."
+      }
+    },
+    {
+      "image": "casual_483.jpg",
+      "score": 79,
+      "labels": {
+        "fit": "Relaxed fit",
+        "top_type": "Denim jacket",
+        "bottom_type": "Black maxi dress",
+        "color_palette": [
+          "Black",
+          "Denim blue"
+        ],
+        "footwear_type": "Gladiator sandals",
+        "accessories": [
+          "Shoulder bag"
+        ],
+        "style": "Boho casual"
+      },
+      "score_breakdown": {
+        "fit": 16,
+        "color": 14,
+        "footwear": 16,
+        "accessories": 15,
+        "style": 18
+      },
+      "feedback": {
+        "fit": "The relaxed fit of the denim jacket and flowy maxi dress suits her tall figure and gives off an effortlessly cool vibe.",
+        "color": "The black and denim blue color palette is easy to wear but on the dark side for summer. The outfit could use a lighter shade or pop of color.",
+        "footwear": "The gladiator sandals work with the boho style and make the long dress more casual and walkable.",
+        "accessories": "The shoulder bag is cute and functional. Some additional boho accessories like layered necklaces would be welcome.",
+        "style": "This look channels boho style through the maxi dress, denim jacket and gladiator sandals. With a few small tweaks, it could be an easygoing summer uniform."
+      }
+    },
+    {
+      "image": "casual_484.jpg",
+      "score": 74,
+      "labels": {
+        "fit": "Loose fit",
+        "top_type": "Printed tunic dress",
+        "bottom_type": "Black leggings",
+        "color_palette": [
+          "Green",
+          "White",
+          "Black"
+        ],
+        "footwear_type": "Black flats",
+        "accessories": [
+          "Black shoulder bag"
+        ],
+        "style": "Casual weekend"
+      },
+      "score_breakdown": {
+        "fit": 14,
+        "color": 16,
+        "footwear": 14,
+        "accessories": 14,
+        "style": 16
+      },
+      "feedback": {
+        "fit": "The tunic dress looks oversized and frumpy on her, obscuring her shape. A more fitted silhouette would be much more flattering.",
+        "color": "The green and white print is fun, but paired with black leggings and flats, the overall effect is drab and heavy, especially for summer.",
+        "footwear": "The black flats get lost in the outfit and weigh it down. A lighter, more summery shoe would improve the look.",
+        "accessories": "The black bag blends in and doesn't add much. A contrasting bag in a lighter neutral would break up the dark colors.",
+        "style": "While comfy and practical, the overall outfit lacks polish. Rethinking the fit, colors and styling would take this from frumpy to weekend chic."
+      }
+    },
+    {
+      "image": "casual_485.jpg",
+      "score": 89,
+      "labels": {
+        "fit": "Fitted",
+        "top_type": "Red sleeveless blouse",
+        "bottom_type": "White shorts",
+        "color_palette": [
+          "Red",
+          "White",
+          "Tan"
+        ],
+        "footwear_type": "Brown wedge sandals",
+        "accessories": [
+          "Straw tote bag"
+        ],
+        "style": "Summer casual"
+      },
+      "score_breakdown": {
+        "fit": 18,
+        "color": 20,
+        "footwear": 18,
+        "accessories": 16,
+        "style": 17
+      },
+      "feedback": {
+        "fit": "The fitted red blouse and white shorts show off her figure nicely and create a crisp, put-together silhouette perfect for summer.",
+        "color": "You can't beat red, white and tan for a classic summer color palette. The vibrant red blouse makes a striking focal point against the white shorts.",
+        "footwear": "The brown wedge sandals elongate her legs and dress up the shorts a bit, making this ideal for many summer occasions.",
+        "accessories": "The straw tote is a quintessential summer accessory that adds a casual, beachy touch.",
+        "style": "This look is summer casual perfection. The fitted, colorful pieces, breezy shorts and seasonally appropriate accessories nail the aesthetic."
+      }
+    }
+  ]
+}
