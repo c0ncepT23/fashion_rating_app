@@ -6,7 +6,7 @@ from glob import glob
 import time
 
 # Initialize Claude client
-api_key = "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"  # Replace with your actual API key
+api_key = "ANTHROPIC_API_KEY"  # Replace with your actual API key
 client = anthropic.Anthropic(api_key=api_key)
 
 # Your image directory
