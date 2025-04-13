@@ -22,3 +22,6 @@ open-fashion-clip/
 weights/
 model_weights/
 **/weights/
+
+# Large data files
+models/scoring/training_data.json
