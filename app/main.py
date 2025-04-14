@@ -3,7 +3,9 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 from app.api.endpoints import router as api_router
+from app.api.mobile_routes import router as mobile_router
 from app.config import settings
+from fastapi.staticfiles import StaticFiles
 
 def create_application() -> FastAPI:
     """Create and configure the FastAPI application"""
@@ -27,10 +29,14 @@ def create_application() -> FastAPI:
     
     # Include API router
     application.include_router(api_router, prefix=settings.API_PREFIX)
+    application.include_router(mobile_router, prefix=settings.API_PREFIX)
     
     return application
 
 app = create_application()
+
+# After creating your app:
+app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 
 @app.get("/")
 async def root():

@@ -15,6 +15,7 @@ class EnhancedColorAnalyzer:
     """
     Enhanced color analyzer using DeepLabV3+ for segmentation, 
     ResNet18 for feature extraction, and improved color analysis
+    (Modified to work with CLIP-only approach without bounding boxes)
     """
     
     def __init__(self):
@@ -113,9 +114,14 @@ class EnhancedColorAnalyzer:
         }
         return color_dict
 
-    async def analyze_outfit_colors(self, image: Image.Image, clothing_items: List[Dict]) -> Dict[str, Any]:
+    async def analyze_outfit_colors(
+            self, 
+            image: Image.Image, 
+            clothing_items: List[Dict[str, Any]]
+        ) -> Dict[str, Any]:
         """
         Analyze colors using improved segmentation, ResNet features, and color detection
+        (Modified for CLIP-only approach)
         
         Args:
             image: PIL Image
@@ -127,6 +133,10 @@ class EnhancedColorAnalyzer:
         # Convert to tensor for segmentation and feature extraction
         img_tensor = self._preprocess_image(image)
         
+        # Convert PIL image to numpy for OpenCV operations
+        cv_image = np.array(image)
+        cv_image = cv_image[:, :, ::-1].copy()  # RGB to BGR
+        
         # Perform segmentation to isolate clothing
         segmentation_mask = self._segment_image(img_tensor)
         
@@ -137,10 +147,6 @@ class EnhancedColorAnalyzer:
                                       (segmentation_mask.shape[1], segmentation_mask.shape[0]), 
                                       interpolation=cv2.INTER_LINEAR)
         
-        # Convert PIL image to cv2
-        cv_image = np.array(image)
-        cv_image = cv_image[:, :, ::-1].copy()  # RGB to BGR
-        
         # Combine segmentation mask with attention map
         combined_weight_map = segmentation_mask.astype(float) * attention_map_resized
         
@@ -149,14 +155,14 @@ class EnhancedColorAnalyzer:
             combined_weight_map = combined_weight_map / combined_weight_map.max()
         
         # Extract colors using weighted clustering
-        colors = self._extract_weighted_colors(cv_image, combined_weight_map)
+        global_colors = self._extract_weighted_colors(cv_image, combined_weight_map)
         
         # Get named colors
-        named_colors = []
-        for color in colors:
+        global_named_colors = []
+        for color in global_colors:
             color_name = self.closest_color_name(color)
             hex_color = '#{:02x}{:02x}{:02x}'.format(color[2], color[1], color[0])  # BGR to RGB
-            named_colors.append({
+            global_named_colors.append({
                 'name': color_name,
                 'rgb': (color[2], color[1], color[0]),  # BGR to RGB
                 'hex': hex_color
@@ -164,61 +170,86 @@ class EnhancedColorAnalyzer:
         
         # Analyze color harmony
         harmony_result = self._analyze_color_harmony(
-            [(c['rgb'][0], c['rgb'][1], c['rgb'][2]) for c in named_colors]
+            [(c['rgb'][0], c['rgb'][1], c['rgb'][2]) for c in global_named_colors]
         )
         
         # Determine seasonal palette
-        seasonal_palette = self._detect_seasonal_palette([c['name'] for c in named_colors])
+        seasonal_palette = self._detect_seasonal_palette([c['name'] for c in global_named_colors])
         
         # Apply the harmony and seasonal info to the first color
-        if named_colors:
-            named_colors[0]['harmony_type'] = harmony_result['type']
-            named_colors[0]['harmony_score'] = harmony_result['score']
-            named_colors[0]['seasonal_palette'] = seasonal_palette
+        if global_named_colors:
+            global_named_colors[0]['harmony_type'] = harmony_result['type']
+            global_named_colors[0]['harmony_score'] = harmony_result['score']
+            global_named_colors[0]['seasonal_palette'] = seasonal_palette
         
-        # Create result
-        result = {
-            'color_palette': named_colors,
-            'harmony': harmony_result,
-            'seasonal_palette': seasonal_palette,
-            'item_colors': {}
-        }
+        # For CLIP-only approach where we don't have precise bounding boxes,
+        # we'll analyze color for each item based on category positions
+        item_colors = {}
         
-        # Add individual item colors
         for i, item in enumerate(clothing_items):
-            # Create a mask for this item
-            item_mask = np.zeros(segmentation_mask.shape, dtype=np.uint8)
-            x1, y1, x2, y2 = item['box']
-            x1, y1, x2, y2 = max(0, x1), max(0, y1), min(segmentation_mask.shape[1], x2), min(segmentation_mask.shape[0], y2)
-            item_mask[y1:y2, x1:x2] = 1
-            
-            # Combine with segmentation mask and attention map
-            item_weight_map = item_mask.astype(float) * attention_map_resized
-            if np.max(item_weight_map) > 0:
-                item_weight_map = item_weight_map / np.max(item_weight_map)
-            
-            # Extract colors for this item
-            item_colors = self._extract_weighted_colors(cv_image, item_weight_map, n_colors=3)
-            
-            # Convert to named colors
-            item_named_colors = []
-            for color in item_colors:
-                color_name = self.closest_color_name(color)
-                hex_color = '#{:02x}{:02x}{:02x}'.format(color[2], color[1], color[0])
-                item_named_colors.append({
-                    'name': color_name,
-                    'rgb': (color[2], color[1], color[0]),
-                    'hex': hex_color
-                })
-            
-            # Store in result and update the item
-            result['item_colors'][i] = item_named_colors
-            
-            # Update the item's dominant color
-            if item_named_colors:
-                item['dominant_color'] = item_named_colors[0]['name']
-                item['colors'] = item_named_colors
+            if "position" in item:
+                # Create a mask based on the item's position
+                # This is an approximation since we don't have exact bounding boxes
+                pos = item["position"]
+                center_x = int(pos["center_x"] * cv_image.shape[1])
+                center_y = int(pos["center_y"] * cv_image.shape[0])
+                width = int(pos["width"] * cv_image.shape[1])
+                height = int(pos["height"] * cv_image.shape[0])
+                
+                # Create coordinates for a box around this position
+                x1 = max(0, center_x - width // 2)
+                y1 = max(0, center_y - height // 2)
+                x2 = min(cv_image.shape[1], center_x + width // 2)
+                y2 = min(cv_image.shape[0], center_y + height // 2)
+                
+                # Create a mask for this region
+                item_mask = np.zeros(segmentation_mask.shape, dtype=np.uint8)
+                item_mask[y1:y2, x1:x2] = 1
+                
+                # Combine with segmentation mask
+                item_mask = item_mask & (segmentation_mask > 0)
+                
+                # Extract colors for this item
+                item_weight_map = item_mask.astype(float) * attention_map_resized
+                if np.max(item_weight_map) > 0:
+                    item_weight_map = item_weight_map / np.max(item_weight_map)
+                
+                # Extract colors for this item
+                item_colors_bgr = self._extract_weighted_colors(cv_image, item_weight_map, n_colors=3)
+                
+                # Convert to named colors
+                item_named_colors = []
+                for color in item_colors_bgr:
+                    color_name = self.closest_color_name(color)
+                    hex_color = '#{:02x}{:02x}{:02x}'.format(color[2], color[1], color[0])
+                    item_named_colors.append({
+                        'name': color_name,
+                        'rgb': (color[2], color[1], color[0]),
+                        'hex': hex_color
+                    })
+                
+                # Store in result and update the item
+                item_colors[i] = item_named_colors
+                
+                # Update the item's dominant color
+                if item_named_colors:
+                    item["dominant_color"] = item_named_colors[0]['name']
+                    item["colors"] = item_named_colors
+            else:
+                # For items without position information, use global colors
+                item_colors[i] = global_named_colors[:3]
+                if global_named_colors:
+                    item["dominant_color"] = global_named_colors[0]['name']
+                    item["colors"] = global_named_colors[:3]
         
+        # Create the color analysis result
+        result = {
+            "color_palette": global_named_colors,
+            "harmony": harmony_result,
+            "seasonal_palette": seasonal_palette,
+            "item_colors": item_colors
+        }
+    
         return result
     
     def _preprocess_image(self, pil_image: Image.Image) -> torch.Tensor:
@@ -276,12 +307,6 @@ class EnhancedColorAnalyzer:
         # Convert feature maps to spatial attention
         # Take mean across channels to get attention map
         attention = feature_maps.mean(dim=1).squeeze().cpu().numpy()
-        
-        # Resize attention map to match original image
-        #attention_resized = cv2.resize(attention, (image.width, image.height))
-        
-        # Normalize to 0-1 range
-        #attention_normalized = (attention_resized - attention_resized.min()) / (attention_resized.max() - attention_resized.min() + 1e-8)
         
         return attention
     

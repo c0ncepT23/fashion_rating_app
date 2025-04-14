@@ -4,6 +4,7 @@ from typing import List, Dict, Any
 def detect_potential_dress(clothing_items: List[Dict], color_analysis: Dict[str, Any]) -> bool:
     """
     Detect when upper and lower garments are likely the same piece (i.e., a dress)
+    (Modified for CLIP-only approach)
     
     Args:
         clothing_items: List of detected clothing items
@@ -12,9 +13,20 @@ def detect_potential_dress(clothing_items: List[Dict], color_analysis: Dict[str,
     Returns:
         bool: True if a dress is likely present
     """
+    # Direct check - see if any item is categorized as a dress
+    dress_items = [item for item in clothing_items if item.get("category") == "dress"]
+    if dress_items:
+        return True
+    
+    # Check if "dress" appears in any item type
+    for item in clothing_items:
+        item_type = item.get("type", "").lower()
+        if "dress" in item_type or "gown" in item_type:
+            return True
+    
     # Find top and bottom items
-    top_items = [item for item in clothing_items if item["category"] in ["top", "outerwear"]]
-    bottom_items = [item for item in clothing_items if item["category"] == "bottom"]
+    top_items = [item for item in clothing_items if item.get("category") in ["top", "outerwear"]]
+    bottom_items = [item for item in clothing_items if item.get("category") == "bottom"]
     
     # If we have both top and bottom items
     if top_items and bottom_items:
@@ -54,22 +66,22 @@ def detect_potential_dress(clothing_items: List[Dict], color_analysis: Dict[str,
                     # If they're close to each other
                     if abs(top_bottom - bottom_top) < 0.1:  # Threshold for adjacency
                         return True
-                        
-                # If we don't have position data, check box overlap
-                elif "box" in top_items[0] and "box" in bottom_items[0]:
-                    top_box = top_items[0]["box"]
-                    bottom_box = bottom_items[0]["box"]
-                    
-                    # If the top item's bottom is close to the bottom item's top
-                    if abs(top_box[3] - bottom_box[1]) < 50:  # Pixel threshold
-                        return True
     
-    # Also check CLIP predictions for dress types
+    # Check CLIP analysis results if available
     for item in clothing_items:
         if "clip_analysis" in item and "garment" in item["clip_analysis"]:
-            for match in item["clip_analysis"]["garment"]["top_matches"]:
-                if "dress" in match["type"].lower() and match["confidence"] > 0.3:
-                    return True
+            # Check best_match first
+            if "best_match" in item["clip_analysis"]["garment"]:
+                best_match = item["clip_analysis"]["garment"]["best_match"]
+                if "type" in best_match and "dress" in best_match["type"].lower():
+                    if best_match.get("confidence", 0) > 0.3:
+                        return True
+            
+            # Check top_matches if available
+            if "top_matches" in item["clip_analysis"]["garment"]:
+                for match in item["clip_analysis"]["garment"]["top_matches"]:
+                    if "dress" in match["type"].lower() and match["confidence"] > 0.3:
+                        return True
     
     # No dress detected
     return False
@@ -88,14 +100,22 @@ def get_dress_type_from_items(clothing_items: List[Dict], color_analysis: Dict[s
     # Default dress type
     dress_type = "dress"
     
+    # Check for dress items directly
+    dress_items = [item for item in clothing_items if item.get("category") == "dress"]
+    if dress_items:
+        dress_item = dress_items[0]
+        if "type" in dress_item:
+            dress_type = dress_item["type"]
+    
     # Try to get color from color analysis
     if color_analysis and "color_palette" in color_analysis and color_analysis["color_palette"]:
         main_color = color_analysis["color_palette"][0]["name"]
-        dress_type = f"{main_color}_dress"
+        dress_type = f"{main_color}_{dress_type}"
     
     # Check for specific dress features
     has_sleeve = False
     is_short = False
+    is_floral = False
     
     for item in clothing_items:
         if "type" in item:
@@ -104,9 +124,13 @@ def get_dress_type_from_items(clothing_items: List[Dict], color_analysis: Dict[s
                 has_sleeve = True
             if "short" in item_type or "mini" in item_type:
                 is_short = True
+            if "floral" in item_type or ("has_pattern" in item and item["has_pattern"]):
+                is_floral = True
     
     # Add style details to dress description
-    if has_sleeve:
+    if is_floral:
+        dress_type = "floral_" + dress_type
+    elif has_sleeve:
         if "short" in dress_type or is_short:
             dress_type = "short_sleeve_" + dress_type
         else:

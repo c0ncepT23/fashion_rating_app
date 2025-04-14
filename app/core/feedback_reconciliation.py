@@ -1,5 +1,6 @@
 # app/core/feedback_reconciliation.py
-from typing import Dict, List, Any
+from typing import Dict, List, Tuple, Any
+import re
 from app.utils.garment_detection import detect_potential_dress, get_dress_type_from_items
 
 class FeedbackReconciler:
@@ -60,6 +61,9 @@ class FeedbackReconciler:
         # 4. Reconcile feedback text with labels
         self._reconcile_feedback_text(labels, feedback)
         
+        # 5. Reconcile style feedback
+        self._reconcile_style_feedback(labels, feedback)
+        
         # Return the reconciled result
         return reconciled
     
@@ -84,7 +88,7 @@ class FeedbackReconciler:
             
             # Update labels to correctly identify as a dress
             labels["top_type"] = dress_type
-            labels["pants_type"] = "unknown_bottom"  # No separate bottom for dresses
+            labels["pants_type"] = "none"  # No separate bottom for dresses
             
             # Also update feedback to reflect the dress
             for key in feedback:
@@ -189,6 +193,21 @@ class FeedbackReconciler:
         """
         Ensure feedback text matches labels by replacing inconsistent terms
         """
+        # Check if this is a dress
+        is_dress = (
+            "dress" in labels.get("top_type", "").lower() or
+            "tunic" in labels.get("top_type", "").lower() or
+            labels.get("pants_type", "") == "none"
+        )
+        
+        if is_dress:
+            # Replace any mentions of "top and bottom" with "dress"
+            for component in feedback:
+                feedback[component] = feedback[component].replace("top and bottom", "dress")
+                feedback[component] = feedback[component].replace("top works well with the bottom", "dress creates a cohesive look")
+                feedback[component] = feedback[component].replace("proportion", "silhouette")
+                feedback[component] = feedback[component].replace("proportions", "silhouette")
+                
         # Check fit feedback
         fit_feedback = feedback.get("fit", "")
         pants_type = labels.get("pants_type", "")
@@ -204,6 +223,22 @@ class FeedbackReconciler:
             for incorrect, correct in self.feedback_replacements.items():
                 if incorrect in section_feedback.lower() and correct in pants_type.lower():
                     feedback[section] = section_feedback.lower().replace(incorrect, correct)
+    
+    def _reconcile_style_feedback(self, labels: Dict[str, Any], feedback: Dict[str, str]):
+        """
+        Ensure style feedback matches detected style
+        """
+        style = labels.get("style", "").replace("_", " ")
+        
+        # If the feedback mentions a different style than what was detected
+        if style and "style" in feedback:
+            style_pattern = r'of ([a-zA-Z_\s]+) style'
+            match = re.search(style_pattern, feedback["style"])
+            if match and match.group(1).lower() != style.lower():
+                # Replace the incorrect style with the detected one
+                feedback["style"] = feedback["style"].replace(
+                    match.group(1), style
+                )
 
 
 def reconcile_fashion_analysis(result: Dict[str, Any], clothing_items: List[Dict] = None, color_analysis: Dict[str, Any] = None) -> Dict[str, Any]:

@@ -5,76 +5,87 @@ import numpy as np
 import asyncio
 import torch
 import os
-from ultralytics import YOLO
 import cv2
 
 from app.config import settings
-from app.utils.constants import CLOTHING_CATEGORIES
-from app.utils.image_processing import pil_to_cv2, cv2_to_pil
+from app.models.fashion_clip_classifier import FashionCLIPClassifier
+from segment_anything import SamPredictor
 
 class ItemDetector:
     """
-    Detector for clothing items in images using YOLOv8m
+    SAM+CLIP detector for clothing items in images (no YOLOv8)
     """
     
-    def __init__(self, model_path=None):
+    def __init__(self, fashion_clip=None, sam_predictor=None):
         """
-        Initialize the clothing item detector with YOLOv8m model
+        Initialize the clothing item detector with SAM and FashionCLIP
         
         Args:
-            model_path: Path to the trained YOLOv8m model weights
+            fashion_clip: Optional existing FashionCLIP instance
+            sam_predictor: Optional existing SAM predictor instance
         """
-        # Load model weights
-        if model_path is None:
-            model_path = os.path.join(settings.MODEL_DIR, 'yolov8m_deepfashion2.pt')
+        # Use provided FashionCLIP instance or create a new one
+        self.fashion_clip = fashion_clip or FashionCLIPClassifier(
+            weights_path=os.path.join(settings.MODEL_DIR, 'openfashionclip.pt')
+        )
         
-        if not os.path.exists(model_path):
-            raise FileNotFoundError(f"YOLOv8m model weights not found at {model_path}")
+        # Store SAM predictor
+        self.sam_predictor = sam_predictor
         
-        # Load the YOLO model
-        self.model = YOLO(model_path)
-        
-        # Set confidence threshold
-        self.conf_threshold = 0.25
-        
-        # Map DeepFashion2 class indices to names (adjust based on your training)
-        # This mapping should match your YOLOv8m training on DeepFashion2
-        self.class_mapping = {
-            0: "short sleeve top",
-            1: "long sleeve top",
-            2: "short sleeve outwear",
-            3: "long sleeve outwear",
-            4: "vest",
-            5: "sling",
-            6: "shorts",
-            7: "trousers",
-            8: "skirt",
-            9: "short sleeve dress",
-            10: "long sleeve dress",
-            11: "vest dress",
-            12: "sling dress"
-        }
-        
-        # Category mapping - maps DeepFashion2 classes to our app categories
+        # Define predefined clothing categories
         self.category_mapping = {
-            "short sleeve top": "top",
-            "long sleeve top": "top",
-            "short sleeve outwear": "outerwear",
-            "long sleeve outwear": "outerwear",
-            "vest": "outerwear",
-            "sling": "top",
-            "shorts": "bottom",
+            # Tops
+            "shirt": "top",
+            "blouse": "top",
+            "t-shirt": "top", 
+            "top": "top",
+            "tank top": "top",
+            "crop top": "top",
+            "hoodie": "top",
+            "sweater": "top",
+            "cardigan": "top",
+            "tank": "top",
+            "tee": "top",
+            "tunic": "top",
+            
+            # Bottoms
+            "jeans": "bottom",
+            "pants": "bottom",
             "trousers": "bottom",
+            "slacks": "bottom", 
+            "shorts": "bottom",
             "skirt": "bottom",
-            "short sleeve dress": "dress",
-            "long sleeve dress": "dress",
-            "vest dress": "dress",
-            "sling dress": "dress"
+            "mini skirt": "bottom",
+            "midi skirt": "bottom",
+            "maxi skirt": "bottom",
+            "leggings": "bottom",
+            
+            # Dresses
+            "dress": "dress",
+            "mini dress": "dress",
+            "midi dress": "dress", 
+            "maxi dress": "dress",
+            "gown": "dress",
+            "sun dress": "dress",
+            "slip dress": "dress",
+            
+            # Outerwear
+            "jacket": "outerwear",
+            "blazer": "outerwear",
+            "coat": "outerwear",
+            
+            # Others (add more as needed)
+            "jumpsuit": "jumpsuit",
+            "romper": "jumpsuit"
         }
-    
+        
+    def apply_mask(self, image, mask):
+        """Apply a binary mask to an image"""
+        return cv2.bitwise_and(image, image, mask=mask.astype(np.uint8)*255)
+        
     async def detect(self, image: Image.Image) -> List[Dict[str, Any]]:
         """
-        Detect clothing items in an image using YOLOv8m
+        Detect clothing items using SAM for segmentation and CLIP for classification
         
         Args:
             image: PIL Image object
@@ -82,124 +93,368 @@ class ItemDetector:
         Returns:
             list: Detected clothing items with metadata
         """
-        # Convert PIL image to OpenCV format
-        cv_image = pil_to_cv2(image)
+        # Convert PIL image to OpenCV format for SAM
+        cv_image = np.array(image)
+        cv_image = cv_image[:, :, ::-1].copy()  # RGB to BGR
         
-        # In a real async setting, we would run inference in a thread pool
-        # For demonstration, we use a simple await with a dummy coroutine
+        # Placeholder for async behavior compatibility
         await asyncio.sleep(0)
         
-        # Run inference with YOLOv8
-        results = self.model(cv_image, conf=self.conf_threshold)
+        # Check if SAM predictor is available
+        if self.sam_predictor is None:
+            # Run CLIP on the whole image as fallback
+            return self._analyze_whole_image(image)
         
-        # Process results
+        # Set the image in SAM predictor
+        self.sam_predictor.set_image(cv_image)
+        
+        # Use SAM to segment the person in the image
+        # First, we'll try automatic segmentation with a center point
+        h, w = cv_image.shape[:2]
+        center_point = np.array([[w//2, h//2]])  # Center of the image
+        input_label = np.array([1])  # Foreground
+        
+        masks, scores, _ = self.sam_predictor.predict(
+            point_coords=center_point,
+            point_labels=input_label,
+            multimask_output=True
+        )
+        
+        # Take the highest scoring mask
+        best_mask_idx = np.argmax(scores)
+        person_mask = masks[best_mask_idx]
+        
+        # Apply the mask to get just the person
+        masked_image = self.apply_mask(cv_image, person_mask)
+        
+        # Convert back to PIL for CLIP
+        masked_pil = Image.fromarray(masked_image[:, :, ::-1])  # BGR to RGB
+        
+        # Now segment into body regions (upper, lower, full)
+        upper_mask = np.zeros_like(person_mask)
+        lower_mask = np.zeros_like(person_mask)
+        
+        # Simple division by height for upper and lower body
+        upper_mask = person_mask.copy()
+        upper_mask[h//2:, :] = 0  # Keep only top half
+        
+        lower_mask = person_mask.copy()
+        lower_mask[:h//2, :] = 0  # Keep only bottom half
+        
+        # Create masked images for each region
+        upper_masked = self.apply_mask(cv_image, upper_mask)
+        lower_masked = self.apply_mask(cv_image, lower_mask)
+        
+        # Convert to PIL
+        upper_pil = Image.fromarray(upper_masked[:, :, ::-1])
+        lower_pil = Image.fromarray(lower_masked[:, :, ::-1])
+        
+        # Analyze each region with CLIP
+        full_result = self.fashion_clip.classify_garment(masked_pil)
+        upper_result = self.fashion_clip.classify_garment(upper_pil)
+        lower_result = self.fashion_clip.classify_garment(lower_pil)
+        
+        # Check if full body detection is a dress or jumpsuit
+        full_type = full_result["garment"]["best_match"]["type"]
+        full_confidence = full_result["garment"]["best_match"]["confidence"]
+        
+        is_dress = any(dress_term in full_type.lower() for dress_term in ["dress", "gown", "tunic"])
+        is_jumpsuit = any(jump_term in full_type.lower() for jump_term in ["jumpsuit", "romper", "overall"])
+        
         clothing_items = []
         
-        # Get image dimensions
-        img_height, img_width = cv_image.shape[:2]
-        
-        # Check if any detections exist
-        if len(results) > 0 and hasattr(results[0], 'boxes'):
-            for i, detection in enumerate(results[0].boxes):
-                # Extract bounding box
-                box = detection.xyxy[0].cpu().numpy()  # x1, y1, x2, y2 format
-                x1, y1, x2, y2 = map(int, box)
+        # If we detected a dress or jumpsuit with good confidence, prioritize that
+        if (is_dress or is_jumpsuit) and full_confidence > 0.45:
+            # Create dress/jumpsuit item
+            category = "dress" if is_dress else "jumpsuit"
+            
+            # Calculate box coordinates from mask
+            y_indices, x_indices = np.where(person_mask)
+            if len(y_indices) > 0 and len(x_indices) > 0:
+                x1, x2 = np.min(x_indices), np.max(x_indices)
+                y1, y2 = np.min(y_indices), np.max(y_indices)
                 
-                # Get class id and confidence
-                cls_id = int(detection.cls[0].item())
-                confidence = detection.conf[0].item()
-                
-                # Map class id to name
-                class_name = self.class_mapping.get(cls_id, f"unknown_{cls_id}")
-                
-                # Determine category
-                category = self.category_mapping.get(class_name, "unknown")
-                
-                # Calculate item position in image (for spatial relationships)
-                center_x = (x1 + x2) / 2 / img_width
-                center_y = (y1 + y2) / 2 / img_height
-                width = (x2 - x1)
-                height = (y2 - y1)
+                # Convert to relative positions
+                center_x = (x1 + x2) / 2 / w
+                center_y = (y1 + y2) / 2 / h
+                width = (x2 - x1) / w
+                height = (y2 - y1) / h
                 area = width * height
+            else:
+                # Default position if mask is empty
+                center_x, center_y = 0.5, 0.5
+                width, height = 0.6, 0.8
+                area = width * height
+            
+            # Create the item
+            item = {
+                "type": full_type,
+                "category": category,
+                "confidence": float(full_confidence),
+                "position": {
+                    "center_x": float(center_x),
+                    "center_y": float(center_y),
+                    "width": float(width),
+                    "height": float(height),
+                    "area": float(area)
+                },
+                "clip_analysis": full_result,
+                "fit": self._determine_fit(full_type),
+                "sam_mask": person_mask  # Save mask for color analysis
+            }
+            
+            clothing_items.append(item)
+        else:
+            # Add top from upper body analysis
+            upper_type = upper_result["garment"]["best_match"]["type"]
+            upper_confidence = upper_result["garment"]["best_match"]["confidence"]
+            
+            if upper_confidence > 0.3:
+                # Calculate box coordinates from upper mask
+                y_indices, x_indices = np.where(upper_mask)
+                if len(y_indices) > 0 and len(x_indices) > 0:
+                    x1, x2 = np.min(x_indices), np.max(x_indices)
+                    y1, y2 = np.min(y_indices), np.max(y_indices)
+                    
+                    # Convert to relative positions
+                    center_x = (x1 + x2) / 2 / w
+                    center_y = (y1 + y2) / 2 / h
+                    width = (x2 - x1) / w
+                    height = (y2 - y1) / h
+                    area = width * height
+                else:
+                    # Default position if mask is empty
+                    center_x, center_y = 0.5, 0.3
+                    width, height = 0.6, 0.3
+                    area = width * height
                 
-                # Create item dictionary
+                # Create the top item
+                category = self._determine_category(upper_type)
                 item = {
-                    "type": class_name,
+                    "type": upper_type,
                     "category": category,
-                    "confidence": float(confidence),
-                    "box": [int(x1), int(y1), int(x2), int(y2)],
+                    "confidence": float(upper_confidence),
                     "position": {
                         "center_x": float(center_x),
                         "center_y": float(center_y),
-                        "width": float(width / img_width),
-                        "height": float(height / img_height),
-                        "area": float(area / (img_width * img_height))
-                    }
+                        "width": float(width),
+                        "height": float(height),
+                        "area": float(area)
+                    },
+                    "clip_analysis": upper_result,
+                    "fit": self._determine_fit(upper_type),
+                    "sam_mask": upper_mask  # Save mask for color analysis
                 }
                 
-                # Extract crop for further analysis
-                if 0 <= x1 < x2 <= img_width and 0 <= y1 < y2 <= img_height:
-                    item_crop = cv_image[y1:y2, x1:x2]
-                    # Convert back to PIL for consistent API
-                    item["crop"] = cv2_to_pil(item_crop)
+                clothing_items.append(item)
+            
+            # Add bottom from lower body analysis
+            lower_type = lower_result["garment"]["best_match"]["type"]
+            lower_confidence = lower_result["garment"]["best_match"]["confidence"]
+            
+            if lower_confidence > 0.3:
+                # Calculate box coordinates from lower mask
+                y_indices, x_indices = np.where(lower_mask)
+                if len(y_indices) > 0 and len(x_indices) > 0:
+                    x1, x2 = np.min(x_indices), np.max(x_indices)
+                    y1, y2 = np.min(y_indices), np.max(y_indices)
+                    
+                    # Convert to relative positions
+                    center_x = (x1 + x2) / 2 / w
+                    center_y = (y1 + y2) / 2 / h
+                    width = (x2 - x1) / w
+                    height = (y2 - y1) / h
+                    area = width * height
+                else:
+                    # Default position if mask is empty
+                    center_x, center_y = 0.5, 0.7
+                    width, height = 0.5, 0.4
+                    area = width * height
                 
-                # Add the item to our list
+                # Create the bottom item
+                category = self._determine_category(lower_type)
+                item = {
+                    "type": lower_type,
+                    "category": category,
+                    "confidence": float(lower_confidence),
+                    "position": {
+                        "center_x": float(center_x),
+                        "center_y": float(center_y),
+                        "width": float(width),
+                        "height": float(height),
+                        "area": float(area)
+                    },
+                    "clip_analysis": lower_result,
+                    "fit": self._determine_fit(lower_type),
+                    "sam_mask": lower_mask  # Save mask for color analysis
+                }
+                
                 clothing_items.append(item)
         
-        # Add post-processing for better fashion analysis
-        enhanced_items = self._enhance_detections(clothing_items, image)
+        # If we failed to detect any clothing items, fall back to analyzing the whole image
+        if not clothing_items:
+            clothing_items = self._analyze_whole_image(image)
         
-        return enhanced_items
+        return clothing_items
     
-    def _enhance_detections(self, clothing_items: List[Dict], image: Image.Image) -> List[Dict]:
+    def _analyze_whole_image(self, image: Image.Image) -> List[Dict[str, Any]]:
+        """Analyze whole image as fallback when SAM segmentation fails"""
+        # Run CLIP on the whole image
+        clip_result = self.fashion_clip.classify_garment(image)
+        
+        # Extract garment type and confidence
+        garment_type = clip_result["garment"]["best_match"]["type"]
+        confidence = clip_result["garment"]["best_match"]["confidence"]
+        
+        # Determine garment category based on type
+        category = self._determine_category(garment_type)
+        
+        # Create item dictionary
+        item = {
+            "type": garment_type,
+            "category": category,
+            "confidence": float(confidence),
+            "position": {
+                "center_x": 0.5,
+                "center_y": 0.5,
+                "width": 0.6,
+                "height": 0.7,
+                "area": 0.42
+            },
+            "clip_analysis": clip_result,
+            "fit": self._determine_fit(garment_type)
+        }
+        
+        return [item]
+    
+    def _determine_category(self, garment_type: str) -> str:
+        """Determine the category of a garment type"""
+        # Try direct mapping first
+        if garment_type in self.category_mapping:
+            return self.category_mapping[garment_type]
+        
+        # Check for partial matches
+        for key, category in self.category_mapping.items():
+            if key in garment_type.lower():
+                return category
+        
+        # Default to "unknown" if no match found
+        return "unknown"
+    
+    def _determine_fit(self, garment_type: str) -> str:
+        """Determine the fit type based on garment type"""
+        garment_lower = garment_type.lower()
+        
+        # Check for specific fits from garment type
+        if "wide" in garment_lower or "flowy" in garment_lower:
+            return "loose_flowy"
+        elif "skinny" in garment_lower or "slim" in garment_lower or "fitted" in garment_lower:
+            return "fitted_slim" 
+        elif "baggy" in garment_lower or "oversized" in garment_lower:
+            return "loose_flowy"
+        elif "structured" in garment_lower or "tailored" in garment_lower:
+            return "structured_contemporary"
+        
+        # Default fits based on category
+        category = self._determine_category(garment_type)
+        if category == "dress":
+            return "elegant_formal" if "gown" in garment_lower or "formal" in garment_lower else "relaxed_casual"
+        elif category == "outerwear":
+            return "structured_contemporary"
+        elif category == "top":
+            return "relaxed_casual"
+        elif category == "bottom":
+            if "skirt" in garment_lower:
+                return "loose_flowy" if "maxi" in garment_lower else "balanced_silhouette"
+            else:
+                return "balanced_silhouette"
+        
+        # Default
+        return "balanced_silhouette"
+    
+    def determine_top_type(self, clothing_items: List[Dict]) -> str:
         """
-        Enhance detections with additional fashion-specific attributes
+        Determine the top type from detected items
         
         Args:
             clothing_items: List of detected clothing items
-            image: Original PIL image
             
         Returns:
-            list: Enhanced clothing items
+            str: Description of top type
         """
-        # Add additional attributes for fashion analysis
-        for item in clothing_items:
-            # Determine fit type based on category
-            if item["category"] == "top":
-                if "sleeve" in item["type"] and "long" in item["type"]:
-                    item["fit"] = "structured" if item["confidence"] > 0.8 else "relaxed"
-                else:
-                    item["fit"] = "casual"
-            
-            elif item["category"] == "bottom":
-                if "trouser" in item["type"]:
-                    # Analyze width to determine if wide-leg, skinny, etc.
-                    width_ratio = item["position"]["width"] / item["position"]["height"]
-                    if width_ratio > 0.6:
-                        item["fit"] = "wide_leg"
-                    elif width_ratio < 0.4:
-                        item["fit"] = "skinny"
-                    else:
-                        item["fit"] = "regular"
-                elif "shorts" in item["type"]:
-                    item["fit"] = "relaxed"
-                elif "skirt" in item["type"]:
-                    item["fit"] = "flowy" if item["position"]["width"] > 0.3 else "fitted"
-            
-            elif item["category"] == "outerwear":
-                item["fit"] = "structured" if "long" in item["type"] else "casual"
-            
-            elif item["category"] == "dress":
-                item["fit"] = "elegant" if "long" in item["type"] else "casual"
-                
-            # Extract dominant color (simplified - will be replaced by color analyzer)
-            item["dominant_color"] = "unknown"  # Placeholder
-            
-            # Mark as accessory if in certain categories
-            if item["category"] == "accessory":
-                item["impact_score"] = 0.8  # Placeholder impact score
+        # Filter for top and outerwear items
+        top_items = [item for item in clothing_items if item["category"] in ["top", "outerwear"]]
         
-        return clothing_items
+        # Also check for dresses
+        dress_items = [item for item in clothing_items if item["category"] == "dress"]
+        if dress_items:
+            # Prioritize dress over top
+            return dress_items[0]["type"].replace("_", " ")
+        
+        if not top_items:
+            return "unknown_top"
+        
+        # If there are multiple tops (layering), describe the combination
+        if len(top_items) > 1:
+            # Sort by confidence
+            top_items.sort(key=lambda x: x["confidence"], reverse=True)
+            
+            # Get the top two items
+            primary = top_items[0]["type"].replace("_", " ")
+            secondary = top_items[1]["type"].replace("_", " ")
+            
+            return f"{primary}_with_{secondary}"
+        else:
+            # Single top item
+            return top_items[0]["type"].replace("_", " ")
+    
+    def determine_pants_type(self, clothing_items: List[Dict]) -> str:
+        """
+        Determine the pants/bottoms type
+        
+        Args:
+            clothing_items: List of detected clothing items
+            
+        Returns:
+            str: Pants/bottoms type description
+        """
+        # Check for dresses first
+        dress_items = [item for item in clothing_items if item["category"] == "dress"]
+        if dress_items:
+            # No separate bottom for dresses
+            return "none"
+            
+        # Filter for bottom items
+        bottom_items = [item for item in clothing_items if item["category"] == "bottom"]
+        
+        if not bottom_items:
+            return "unknown_bottom"
+        
+        # Sort by confidence and take the highest
+        bottom = max(bottom_items, key=lambda x: x["confidence"])
+        
+        # Format the bottom type
+        bottom_type = bottom["type"].replace("_", " ")
+        
+        # Add fit information if available
+        if "fit" in bottom:
+            if bottom["fit"] == "loose_flowy":
+                if "jean" in bottom_type:
+                    return "wide_leg_jeans"
+                elif "trouser" in bottom_type or "pant" in bottom_type:
+                    return "wide_leg_trousers"
+                elif "skirt" in bottom_type:
+                    return "flowy_skirt"
+            elif bottom["fit"] == "fitted_slim":
+                if "jean" in bottom_type:
+                    return "skinny_jeans"
+                elif "trouser" in bottom_type or "pant" in bottom_type:
+                    return "slim_trousers"
+                elif "skirt" in bottom_type:
+                    return "fitted_skirt"
+        
+        # Return the type as is if no special handling
+        return bottom_type
     
     def determine_fit_type(self, clothing_items: List[Dict]) -> str:
         """
@@ -212,98 +467,18 @@ class ItemDetector:
             str: Fit type description
         """
         if not clothing_items:
-            return "unknown"
+            return "balanced_silhouette"  # Default when no items detected
         
         # Count fit types
         fit_counts = {}
         for item in clothing_items:
-            fit = item.get("fit", "unknown")
+            fit = item.get("fit", "balanced_silhouette")
             fit_counts[fit] = fit_counts.get(fit, 0) + 1
         
         # Find most common fit
-        most_common_fit = max(fit_counts, key=fit_counts.get) if fit_counts else "unknown"
+        most_common_fit = max(fit_counts, key=fit_counts.get) if fit_counts else "balanced_silhouette"
         
-        # Map to more descriptive fit types
-        fit_mapping = {
-            "structured": "structured_contemporary",
-            "casual": "relaxed_casual",
-            "elegant": "elegant_formal",
-            "wide_leg": "loose_flowy",
-            "skinny": "fitted_slim",
-            "regular": "balanced_silhouette",
-            "relaxed": "relaxed_casual",
-            "flowy": "loose_flowy",
-            "fitted": "fitted_slim"
-        }
-        
-        return fit_mapping.get(most_common_fit, "balanced_silhouette")
-    
-    def determine_pants_type(self, clothing_items: List[Dict]) -> str:
-        """
-        Determine the pants/bottoms type
-        
-        Args:
-            clothing_items: List of detected clothing items
-            
-        Returns:
-            str: Pants/bottoms type description
-        """
-        bottom_items = [item for item in clothing_items if item["category"] == "bottom"]
-        
-        if not bottom_items:
-            return "unknown_bottom"
-        
-        # Sort by confidence and take the highest
-        bottom = max(bottom_items, key=lambda x: x["confidence"])
-        
-        # Determine pants type based on detected class
-        if "trouser" in bottom["type"]:
-            # Check fit attribute to determine style
-            if bottom.get("fit") == "wide_leg":
-                return "wide_leg_trousers"
-            elif bottom.get("fit") == "skinny":
-                return "skinny_trousers"
-            else:
-                return "straight_leg_trousers"
-        elif "shorts" in bottom["type"]:
-            return "casual_shorts"
-        elif "skirt" in bottom["type"]:
-            if bottom.get("fit") == "flowy":
-                return "flowing_skirt"
-            else:
-                return "fitted_skirt"
-        else:
-            return f"{bottom['type']}"
-    
-    def determine_top_type(self, clothing_items: List[Dict]) -> str:
-        """
-        Determine the top type
-        
-        Args:
-            clothing_items: List of detected clothing items
-            
-        Returns:
-            str: Top type description
-        """
-        top_items = [item for item in clothing_items if item["category"] in ["top", "outerwear"]]
-        
-        if not top_items:
-            return "unknown_top"
-        
-        # If there are multiple tops (layering), describe the combination
-        if len(top_items) > 1:
-            # Sort by position (y-coordinate) to determine layering
-            top_items.sort(key=lambda x: x["position"]["center_y"])
-            
-            # Get the innermost and outermost layers
-            inner_layer = top_items[0]["type"].replace("_", " ")
-            outer_layer = top_items[-1]["type"].replace("_", " ")
-            
-            return f"{inner_layer}_with_{outer_layer}"
-        else:
-            # Single top item
-            top_type = top_items[0]["type"].replace("_", " ")
-            return top_type
+        return most_common_fit
     
     def determine_footwear_type(self, clothing_items: List[Dict]) -> str:
         """
@@ -315,33 +490,13 @@ class ItemDetector:
         Returns:
             str: Footwear type description
         """
-        # Note: DeepFashion2 doesn't have detailed footwear classes
-        # We may need a specialized footwear detector or use a placeholder
-        footwear_items = [item for item in clothing_items if item["category"] == "footwear"]
-        
-        if not footwear_items:
-            return "footwear_not_visible"
-        
-        # Get the most confident footwear detection
-        footwear = max(footwear_items, key=lambda x: x["confidence"])
-        
-        # Combine type with placeholder attributes (these would come from specialized models)
-        footwear_styles = ["casual", "formal", "athletic", "boots", "sandals", "loafers", "heels"]
-        footwear_colors = ["black", "brown", "white", "tan", "multi_colored"]
-        
-        # Use hash of detection box for deterministic but varying description
-        box_hash = hash(str(footwear["box"]))
-        style_idx = box_hash % len(footwear_styles)
-        color_idx = (box_hash // 10) % len(footwear_colors)
-        
-        style = footwear_styles[style_idx]
-        color = footwear_colors[color_idx]
-        
-        return f"{color}_{style}"
+        # This can be enhanced with SAM segmentation to detect shoes
+        # For now, returning placeholder
+        return "footwear_not_visible"
     
     def determine_accessories(self, clothing_items: List[Dict]) -> List[str]:
         """
-        Determine the accessories
+        Determine accessories
         
         Args:
             clothing_items: List of detected clothing items
@@ -349,27 +504,6 @@ class ItemDetector:
         Returns:
             list: List of accessory descriptions
         """
-        # DeepFashion2 doesn't have comprehensive accessory classes
-        # This would be enhanced with a specialized accessory detector
-        accessory_items = [item for item in clothing_items if item["category"] == "accessory"]
-        
-        if not accessory_items:
-            return []
-        
-        accessories = []
-        for acc in accessory_items:
-            # Get basic type
-            acc_type = acc["type"].replace("_", " ")
-            accessories.append(acc_type)
-        
-        # Add placeholder accessories for demonstration
-        if len(accessories) < 2 and len(clothing_items) > 3:
-            possible_accessories = ["sunglasses", "watch", "necklace", "earrings", "bracelet", "belt"]
-            # Use hash of all items for deterministic but varying accessories
-            item_hash = hash(str([item["box"] for item in clothing_items]))
-            for i in range(min(2, len(possible_accessories))):
-                acc = possible_accessories[(item_hash + i) % len(possible_accessories)]
-                if acc not in accessories:
-                    accessories.append(acc)
-        
-        return accessories[:3]  # Limit to top 3
+        # This can be enhanced with SAM segmentation to detect accessories
+        # For now, returning empty list
+        return []
