@@ -25,3 +25,22 @@ model_weights/
 
 # Large data files
 models/scoring/training_data.json
+
+# Add these to your existing .gitignore
+__pycache__/
+*.pyc
+Dockerfile
+app/core/__pycache__/
+app/models/__pycache__/
+test_results/
+model_logs/
+fashion_analysis.log
+uploads/
+tests/
+fashion-rating-pwa/
+cors.json
+visualize_model_outputs.py
+app/core/old_pipleine.py
+app/models/old_enhanced_color_analyzer.py
+app/models/old_item_detector.py
+app/utils/old_garment_detection.py
